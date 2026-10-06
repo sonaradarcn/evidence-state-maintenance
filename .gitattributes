@@ -1,0 +1,2 @@
+# Keep files byte-identical on checkout (SHA256SUMS covers JSON and other data files).
+* -text
