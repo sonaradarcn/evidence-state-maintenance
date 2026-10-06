@@ -1,0 +1,53 @@
+{
+ "name": "fhv_tripdata_2020-06.parquet",
+ "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/fhv_tripdata_2020-06.parquet",
+ "http": {
+  "status": "200",
+  "content_length": 10657161,
+  "last_modified": "Mon, 18 Jul 2022 19:25:14 GMT",
+  "etag": "\"5880390cb6f0a7384afbd8ee01272f2d\"",
+  "bz_upload_ts": null,
+  "bz_sha1": null
+ },
+ "available": true,
+ "raw_sha256": "60d17fd03ed3d8307b86a0659ec5e60884303429761ec736c48b055c44cbf932",
+ "logical_path": "trip-data/fhv_tripdata_2020-06.parquet",
+ "sha256": "ec269f27f8cc563de90193b9e0933a9efe2a18c74caaaee7f5f0ca7596cec245",
+ "size": 257383,
+ "n_rows_raw": 1011867,
+ "n_rows_sub": 15730,
+ "codec": "gzip",
+ "raw_created_by": "parquet-cpp-arrow version 7.0.0",
+ "raw_row_groups": 1,
+ "schema_equal": true,
+ "schema": [
+  [
+   "dispatching_base_num",
+   "string"
+  ],
+  [
+   "pickup_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "dropOff_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "PUlocationID",
+   "double"
+  ],
+  [
+   "DOlocationID",
+   "double"
+  ],
+  [
+   "SR_Flag",
+   "null"
+  ],
+  [
+   "Affiliated_base_number",
+   "string"
+  ]
+ ]
+}

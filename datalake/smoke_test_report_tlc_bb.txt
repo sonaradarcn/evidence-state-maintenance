@@ -1,0 +1,500 @@
+=== lake tlc: 290 window snapshots (HISTORY 60, FUTURE 229), s0=tlc-0153
+--- snapshot tlc-0093 (2021-02-15T12:01:00Z, arrive): 98 files
+[ok] ls({"path": "."}) 0ms 56ch touched=[]
+    docs/  (4 files)
+    misc/  (1 files)
+    trip-data/  (93 files)
+[ok] ls({"path": "trip-data"}) 0ms 2860ch touched=[]
+    fhv_tripdata_2019-01.parquet
+    fhv_tripdata_2019-02.parquet
+    fhv_tripdata_2019-03.parquet
+    fhv_tripdata_2019-04.parquet
+    fhv_tripdata_2019-05.parquet
+    fhv_tripdata_2019-06.parquet
+    fhv_tripdata_2019-07.parquet
+    fhv_tripdata_2019-08.parquet
+    fhv_tripdata_2019-09.parquet
+    fhv_tripdata_2019-10.parquet
+    fhv_tripda
+[ok] find({"glob": "fhvhv_*"}) 1ms 901ch touched=['trip-data/fhvhv_tripdata_2019-02.parquet', 'trip-data/fhvhv_tripdata_2019-03.parquet', 'trip-data/fhvhv_tripdata_2019-04.parquet']
+    trip-data/fhvhv_tripdata_2019-02.parquet
+    trip-data/fhvhv_tripdata_2019-03.parquet
+    trip-data/fhvhv_tripdata_2019-04.parquet
+    trip-data/fhvhv_tripdata_2019-05.parquet
+    trip-data/fhvhv_tripdata_2019-06.parquet
+    trip-data/fhvhv_tripdata_2019-07.parquet
+    trip-data/fhvhv_tripdata_2019-08.parquet
+    trip-data/fhv
+[ok] file_schema({"file": "trip-data/yellow_tripdata_2020-12.parquet"}) 31ms 509ch touched=['trip-data/yellow_tripdata_2020-12.parquet']
+    # trip-data/yellow_tripdata_2020-12.parquet: 19 columns, parquet (arrow types)
+    VendorID: int64
+    tpep_pickup_datetime: timestamp[us]
+    tpep_dropoff_datetime: timestamp[us]
+    passenger_count: double
+    trip_distance: double
+    RatecodeID: double
+    store_and_fwd_flag: string
+    PULocationID: int64
+    DOLocationID: int64
+    
+[ok] head({"file": "trip-data/yellow_tripdata_2020-12.parquet", "n": 3}) 28ms 630ch touched=['trip-data/yellow_tripdata_2020-12.parquet']
+    "VendorID","tpep_pickup_datetime","tpep_dropoff_datetime","passenger_count","trip_distance","RatecodeID","store_and_fwd_flag","PULocationID","DOLocationID","payment_type","fare_amount","extra","mta_tax","tip_amount","tolls_amount","improvement_surcharge","total_amount","congestion_surcharge","airpor
+[ok] file_rowcount({"file": "trip-data/yellow_tripdata_2020-12.parquet"}) 0ms 5ch touched=['trip-data/yellow_tripdata_2020-12.parquet']
+    23013
+[ok] file_stats({"file": "trip-data/yellow_tripdata_2020-12.parquet", "column": "fare_amount"}) 3ms 89ch touched=['trip-data/yellow_tripdata_2020-12.parquet']
+    column fare_amount (23013 rows, from parquet metadata): min=-120.0 max=240.0 null_count=0
+[ok] file_stats({"file": "misc/taxi_zone_lookup.csv", "column": "LocationID"}) 42ms 92ch touched=['misc/taxi_zone_lookup.csv']
+    column LocationID (265 rows, computed by scanning this one file): min=1 max=265 null_count=0
+[ok] sql({"query": "SELECT PULocationID, count(*) n FROM 'trip-data/yellow_tripdata_2020-12.parquet' GROUP BY 1 ORDER B) 7ms 40ch touched=['trip-data/yellow_tripdata_2020-12.parquet']
+    PULocationID	n
+    236	1242
+    237	1230
+    161	829
+[ok] sql({"query": "SELECT count(*) FROM read_parquet('trip-data/yellow_tripdata_*.parquet')"}) 2ms 92ch touched=['trip-data/yellow_tripdata_2019-01.parquet', 'trip-data/yellow_tripdata_2019-02.parquet', 'trip-data/yellow_tripdata_2019-03.parquet']
+    error: scan budget exceeded (24 files / 1707146 rows; limit 3 files / 1200000 rows per call)
+[ok] sql({"query": "COPY (SELECT 1) TO 'x.csv'"}) 0ms 84ch touched=[]
+    error: statement type / function not allowed (read-only SELECT over lake files only)
+[ok] read_text({"file": "docs/data_dictionary_trip_records_fhv.txt", "start": 1, "end": 15}) 1ms 794ch touched=['docs/data_dictionary_trip_records_fhv.txt']
+    1: Data Dictionary – FHV Trip Records    October 18, 2018    Page 1 of 1 
+    2: This data dictionary describes FHV trip data. Each row represents a single trip in an FHV.   
+    3:  
+    4: For a dictionary describing yellow and green taxi data, or a map of the TLC Taxi Zones, please visit 
+    5: http://www.nyc.g
+[ok] read_text({"file": "misc/taxi_zone_lookup.csv", "start": 260, "end": 266}) 1ms 310ch touched=['misc/taxi_zone_lookup.csv']
+    260: 259,"Bronx","Woodlawn/Wakefield","Boro Zone"
+    261: 260,"Queens","Woodside","Boro Zone"
+    262: 261,"Manhattan","World Trade Center","Yellow Zone"
+    263: 262,"Manhattan","Yorkville East","Yellow Zone"
+    264: 263,"Manhattan","Yorkville West","Yellow Zone"
+    265: 264,"Unknown","NV","N/A"
+    266: 265,"Unknown",
+[ok] grep({"pattern": "(?i)airport", "path": "."}) 4ms 200ch touched=['misc/taxi_zone_lookup.csv']
+    misc/taxi_zone_lookup.csv:2:1,"EWR","Newark Airport","EWR"
+    misc/taxi_zone_lookup.csv:133:132,"Queens","JFK Airport","Airports"
+    misc/taxi_zone_lookup.csv:139:138,"Queens","LaGuardia Airport","Airports"
+[ok] schema_diff({"file_a": "trip-data/yellow_tripdata_2019-01.parquet", "file_b": "trip-data/yellow_tripdata_2020-12.parquet"}) 3ms 41ch touched=['trip-data/yellow_tripdata_2019-01.parquet', 'trip-data/yellow_tripdata_2020-12.parquet']
+    type changed: airport_fee: null -> double
+--- snapshot tlc-0153 (2022-05-15T12:00:00Z, arrive): 157 files
+[ok] ls({"path": "."}) 0ms 57ch touched=[]
+    docs/  (4 files)
+    misc/  (1 files)
+    trip-data/  (152 files)
+[ok] ls({"path": "trip-data"}) 0ms 4026ch touched=[]
+    fhv_tripdata_2019-01.parquet
+    fhv_tripdata_2019-02.parquet
+    fhv_tripdata_2019-03.parquet
+    fhv_tripdata_2019-04.parquet
+    fhv_tripdata_2019-05.parquet
+    fhv_tripdata_2019-06.parquet
+    fhv_tripdata_2019-07.parquet
+    fhv_tripdata_2019-08.parquet
+    fhv_tripdata_2019-09.parquet
+    fhv_tripdata_2019-10.parquet
+    fhv_tripda
+[ok] find({"glob": "fhvhv_*"}) 1ms 1516ch touched=['trip-data/fhvhv_tripdata_2019-02.parquet', 'trip-data/fhvhv_tripdata_2019-03.parquet', 'trip-data/fhvhv_tripdata_2019-04.parquet']
+    trip-data/fhvhv_tripdata_2019-02.parquet
+    trip-data/fhvhv_tripdata_2019-03.parquet
+    trip-data/fhvhv_tripdata_2019-04.parquet
+    trip-data/fhvhv_tripdata_2019-05.parquet
+    trip-data/fhvhv_tripdata_2019-06.parquet
+    trip-data/fhvhv_tripdata_2019-07.parquet
+    trip-data/fhvhv_tripdata_2019-08.parquet
+    trip-data/fhv
+[ok] file_schema({"file": "trip-data/yellow_tripdata_2022-03.parquet"}) 3ms 509ch touched=['trip-data/yellow_tripdata_2022-03.parquet']
+    # trip-data/yellow_tripdata_2022-03.parquet: 19 columns, parquet (arrow types)
+    VendorID: int64
+    tpep_pickup_datetime: timestamp[us]
+    tpep_dropoff_datetime: timestamp[us]
+    passenger_count: double
+    trip_distance: double
+    RatecodeID: double
+    store_and_fwd_flag: string
+    PULocationID: int64
+    DOLocationID: int64
+    
+[ok] head({"file": "trip-data/yellow_tripdata_2022-03.parquet", "n": 3}) 11ms 639ch touched=['trip-data/yellow_tripdata_2022-03.parquet']
+    "VendorID","tpep_pickup_datetime","tpep_dropoff_datetime","passenger_count","trip_distance","RatecodeID","store_and_fwd_flag","PULocationID","DOLocationID","payment_type","fare_amount","extra","mta_tax","tip_amount","tolls_amount","improvement_surcharge","total_amount","congestion_surcharge","airpor
+[ok] file_rowcount({"file": "trip-data/yellow_tripdata_2022-03.parquet"}) 0ms 5ch touched=['trip-data/yellow_tripdata_2022-03.parquet']
+    56664
+[ok] file_stats({"file": "trip-data/yellow_tripdata_2022-03.parquet", "column": "fare_amount"}) 2ms 88ch touched=['trip-data/yellow_tripdata_2022-03.parquet']
+    column fare_amount (56664 rows, from parquet metadata): min=-75.0 max=746.5 null_count=0
+[ok] file_stats({"file": "misc/taxi_zone_lookup.csv", "column": "LocationID"}) 15ms 92ch touched=['misc/taxi_zone_lookup.csv']
+    column LocationID (265 rows, computed by scanning this one file): min=1 max=265 null_count=0
+[ok] sql({"query": "SELECT PULocationID, count(*) n FROM 'trip-data/yellow_tripdata_2022-03.parquet' GROUP BY 1 ORDER B) 6ms 41ch touched=['trip-data/yellow_tripdata_2022-03.parquet']
+    PULocationID	n
+    237	2645
+    161	2382
+    132	2343
+[ok] sql({"query": "SELECT count(*) FROM read_parquet('trip-data/yellow_tripdata_*.parquet')"}) 2ms 92ch touched=['trip-data/yellow_tripdata_2019-01.parquet', 'trip-data/yellow_tripdata_2019-02.parquet', 'trip-data/yellow_tripdata_2019-03.parquet']
+    error: scan budget exceeded (39 files / 2331184 rows; limit 3 files / 1200000 rows per call)
+[ok] sql({"query": "COPY (SELECT 1) TO 'x.csv'"}) 0ms 84ch touched=[]
+    error: statement type / function not allowed (read-only SELECT over lake files only)
+[ok] read_text({"file": "docs/data_dictionary_trip_records_fhv.txt", "start": 1, "end": 15}) 0ms 794ch touched=['docs/data_dictionary_trip_records_fhv.txt']
+    1: Data Dictionary – FHV Trip Records    October 18, 2018    Page 1 of 1 
+    2: This data dictionary describes FHV trip data. Each row represents a single trip in an FHV.   
+    3:  
+    4: For a dictionary describing yellow and green taxi data, or a map of the TLC Taxi Zones, please visit 
+    5: http://www.nyc.g
+[ok] read_text({"file": "misc/taxi_zone_lookup.csv", "start": 260, "end": 266}) 0ms 310ch touched=['misc/taxi_zone_lookup.csv']
+    260: 259,"Bronx","Woodlawn/Wakefield","Boro Zone"
+    261: 260,"Queens","Woodside","Boro Zone"
+    262: 261,"Manhattan","World Trade Center","Yellow Zone"
+    263: 262,"Manhattan","Yorkville East","Yellow Zone"
+    264: 263,"Manhattan","Yorkville West","Yellow Zone"
+    265: 264,"Unknown","NV","N/A"
+    266: 265,"Unknown",
+[ok] grep({"pattern": "(?i)airport", "path": "."}) 2ms 200ch touched=['misc/taxi_zone_lookup.csv']
+    misc/taxi_zone_lookup.csv:2:1,"EWR","Newark Airport","EWR"
+    misc/taxi_zone_lookup.csv:133:132,"Queens","JFK Airport","Airports"
+    misc/taxi_zone_lookup.csv:139:138,"Queens","LaGuardia Airport","Airports"
+[ok] schema_diff({"file_a": "trip-data/yellow_tripdata_2019-01.parquet", "file_b": "trip-data/yellow_tripdata_2022-03.parquet"}) 0ms 41ch touched=['trip-data/yellow_tripdata_2019-01.parquet', 'trip-data/yellow_tripdata_2022-03.parquet']
+    type changed: airport_fee: null -> double
+--- snapshot tlc-0382 (2026-10-15T12:03:00Z, arrive): 373 files
+[ok] ls({"path": "."}) 0ms 62ch touched=[]
+    docs/  (4 files)
+    reference/  (1 files)
+    trip-data/  (368 files)
+[ok] ls({"path": "trip-data"}) 1ms 4027ch touched=[]
+    fhv_tripdata_2019-01.parquet
+    fhv_tripdata_2019-02.parquet
+    fhv_tripdata_2019-03.parquet
+    fhv_tripdata_2019-04.parquet
+    fhv_tripdata_2019-05.parquet
+    fhv_tripdata_2019-06.parquet
+    fhv_tripdata_2019-07.parquet
+    fhv_tripdata_2019-08.parquet
+    fhv_tripdata_2019-09.parquet
+    fhv_tripdata_2019-10.parquet
+    fhv_tripda
+[ok] find({"glob": "fhvhv_*"}) 2ms 3689ch touched=['trip-data/fhvhv_tripdata_2019-02.parquet', 'trip-data/fhvhv_tripdata_2019-03.parquet', 'trip-data/fhvhv_tripdata_2019-04.parquet']
+    trip-data/fhvhv_tripdata_2019-02.parquet
+    trip-data/fhvhv_tripdata_2019-03.parquet
+    trip-data/fhvhv_tripdata_2019-04.parquet
+    trip-data/fhvhv_tripdata_2019-05.parquet
+    trip-data/fhvhv_tripdata_2019-06.parquet
+    trip-data/fhvhv_tripdata_2019-07.parquet
+    trip-data/fhvhv_tripdata_2019-08.parquet
+    trip-data/fhv
+[ok] file_schema({"file": "trip-data/yellow_tripdata_2026-08.parquet"}) 1ms 569ch touched=['trip-data/yellow_tripdata_2026-08.parquet']
+    # trip-data/yellow_tripdata_2026-08.parquet: 21 columns, parquet (arrow types)
+    VendorID: int32
+    tpep_pickup_datetime: timestamp[us]
+    tpep_dropoff_datetime: timestamp[us]
+    passenger_count: int64
+    trip_distance: double
+    RatecodeID: int64
+    store_and_fwd_flag: large_string
+    PULocationID: int32
+    DOLocationID: in
+[ok] head({"file": "trip-data/yellow_tripdata_2026-08.parquet", "n": 3}) 4ms 693ch touched=['trip-data/yellow_tripdata_2026-08.parquet']
+    "VendorID","tpep_pickup_datetime","tpep_dropoff_datetime","passenger_count","trip_distance","RatecodeID","store_and_fwd_flag","PULocationID","DOLocationID","payment_type","fare_amount","extra","mta_tax","tip_amount","tolls_amount","improvement_surcharge","total_amount","congestion_surcharge","Airpor
+[ok] file_rowcount({"file": "trip-data/yellow_tripdata_2026-08.parquet"}) 0ms 5ch touched=['trip-data/yellow_tripdata_2026-08.parquet']
+    52480
+[ok] file_stats({"file": "trip-data/yellow_tripdata_2026-08.parquet", "column": "fare_amount"}) 1ms 89ch touched=['trip-data/yellow_tripdata_2026-08.parquet']
+    column fare_amount (52480 rows, from parquet metadata): min=-300.0 max=995.0 null_count=0
+[ok] file_stats({"file": "reference/taxi_zone_lookup.csv", "column": "LocationID"}) 24ms 92ch touched=['reference/taxi_zone_lookup.csv']
+    column LocationID (265 rows, computed by scanning this one file): min=1 max=265 null_count=0
+[ok] sql({"query": "SELECT PULocationID, count(*) n FROM 'trip-data/yellow_tripdata_2026-08.parquet' GROUP BY 1 ORDER B) 5ms 41ch touched=['trip-data/yellow_tripdata_2026-08.parquet']
+    PULocationID	n
+    132	2414
+    161	2193
+    237	1951
+[ok] sql({"query": "SELECT count(*) FROM read_parquet('trip-data/yellow_tripdata_*.parquet')"}) 5ms 92ch touched=['trip-data/yellow_tripdata_2019-01.parquet', 'trip-data/yellow_tripdata_2019-02.parquet', 'trip-data/yellow_tripdata_2019-03.parquet']
+    error: scan budget exceeded (93 files / 5276755 rows; limit 3 files / 1200000 rows per call)
+[ok] sql({"query": "COPY (SELECT 1) TO 'x.csv'"}) 0ms 84ch touched=[]
+    error: statement type / function not allowed (read-only SELECT over lake files only)
+[ok] read_text({"file": "docs/data_dictionary_trip_records_fhv.txt", "start": 1, "end": 15}) 0ms 795ch touched=['docs/data_dictionary_trip_records_fhv.txt']
+    1: Data Dictionary – FHV Trip Records    March 18, 2025   Page 1 of 1 
+    2: This data dictionary describes for hire vehicles (FHV) trip data. Each row represents a single trip in an 
+    3: FHV.   
+    4:  
+    5: As of 2019 high volume FHV companies (e.g., Uber, Lyft, Juno and Via) are split out into a separate 
+[ok] read_text({"file": "reference/taxi_zone_lookup.csv", "start": 260, "end": 266}) 0ms 319ch touched=['reference/taxi_zone_lookup.csv']
+    260: 259,"Bronx","Woodlawn/Wakefield","Boro Zone"
+    261: 260,"Queens","Woodside","Boro Zone"
+    262: 261,"Manhattan","World Trade Center","Yellow Zone"
+    263: 262,"Manhattan","Yorkville East","Yellow Zone"
+    264: 263,"Manhattan","Yorkville West","Yellow Zone"
+    265: 264,"Unknown","N/A","N/A"
+    266: 265,"N/A","Ou
+[ok] grep({"pattern": "(?i)airport", "path": "."}) 4ms 459ch touched=['docs/data_dictionary_trip_records_hvfhs.txt', 'docs/data_dictionary_trip_records_yellow.txt', 'reference/taxi_zone_lookup.csv']
+    docs/data_dictionary_trip_records_hvfhs.txt:40:airport_fee
+    docs/data_dictionary_trip_records_hvfhs.txt:42:Kennedy airports.
+    docs/data_dictionary_trip_records_yellow.txt:62:airport_fee For pick up only at LaGuardia and John F. Kennedy Airports.
+    reference/taxi_zone_lookup.csv:2:1,"EWR","Newark Airport
+[ok] schema_diff({"file_a": "trip-data/yellow_tripdata_2019-01.parquet", "file_b": "trip-data/yellow_tripdata_2026-08.parquet"}) 0ms 406ch touched=['trip-data/yellow_tripdata_2019-01.parquet', 'trip-data/yellow_tripdata_2026-08.parquet']
+    renamed (case only): airport_fee -> Airport_fee  [null -> double]
+    added: cbd_congestion_fee: double
+    added: request_source: large_string
+    type changed: VendorID: int64 -> int32
+    type changed: passenger_count: double -> int64
+    type changed: RatecodeID: double -> int64
+    type changed: store_and_fwd_flag: st
+--- 30 random oracle values recomputed by a single DuckDB full-scan statement (lake tlc)
+[ok] tlc:D4:72 D4 {"ds": "fhvhv", "year": "2021", "agg": "sum", "concept": "congestion_surcharge"} @ tlc-0222 stored='2837634.50' direct='2837634.50' (0.1s)
+[ok] tlc:D8:175 D8 {"ds": "green", "sub": "n_months_with_column", "column": "fare_amount"} @ tlc-0191 stored='47' direct='47' (0.1s)
+[ok] tlc:D1:0 D1 {"ds": "fhvhv", "column": "shared_request_flag"} @ tlc-0327 stored='large_string' direct='large_string' (0.0s)
+[ok] tlc:D1:21 D1 {"ds": "fhvhv", "column": "PULocationID"} @ tlc-0347 stored='int32' direct='int32' (0.0s)
+[ok] tlc:D4:71 D4 {"ds": "green", "year": "2020", "agg": "sum", "concept": "total_charged"} @ tlc-0299 stored='547616.23' direct='547616.23' (0.0s)
+[ok] tlc:D7:142 D7 {"ds": "yellow", "period": "2019", "check": "zero_frac", "column": "tolls_amount"} @ tlc-0354 stored='0.94074' direct='0.94074' (0.0s)
+[ok] tlc:D2:41 D2 {"ds": "green", "concept": "tolls"} @ tlc-0200 stored='tolls_amount' direct='tolls_amount' (0.0s)
+[ok] tlc:D3:53 D3 {"ds": "green", "month": "2022-01", "agg": "sum", "concept": "distance"} @ tlc-0222 stored='8870.62' direct='8870.62' (0.0s)
+[ok] tlc:D6:111 D6 {"ds": "green", "period": "all", "sub": "count_borough", "value": "Queens"} @ tlc-0120 stored='36844' direct='36844' (0.1s)
+[ok] tlc:D7:143 D7 {"ds": "fhvhv", "period": "2022", "check": "zero_frac", "column": "congestion_surcharge"} @ tlc-0365 stored='0.60325' direct='0.60325' (0.0s)
+[ok] tlc:D6:130 D6 {"ds": "yellow", "period": "all", "sub": "count_borough", "value": "Unknown"} @ tlc-0147 stored='22494' direct='22494' (0.2s)
+[ok] tlc:D5:98 D5 {"ds": "green", "period": "2021", "sub": "topk", "side": "pu", "k": 1} @ tlc-0093 stored='NONE' direct='NONE' (0.0s)
+[ok] tlc:D3:44 D3 {"ds": "green", "month": "2020-11", "agg": "mean", "concept": "total_charged"} @ tlc-0271 stored='23.8569' direct='23.8569' (0.0s)
+[ok] tlc:D6:112 D6 {"ds": "yellow", "period": "2022-03", "sub": "count_borough", "value": "Unknown"} @ tlc-0187 stored='755' direct='755' (0.0s)
+[ok] tlc:D4:67 D4 {"ds": "green", "year": "2019", "agg": "sum", "concept": "total_charged"} @ tlc-0288 stored='1806651.12' direct='1806651.12' (0.0s)
+[ok] tlc:D5:93 D5 {"ds": "fhvhv", "period": "all", "sub": "topk", "side": "do", "k": 1} @ tlc-0187 stored='265' direct='265' (0.2s)
+[ok] tlc:D6:125 D6 {"ds": "yellow", "period": "2022-02", "sub": "count_borough", "value": "Unknown"} @ tlc-0174 stored='560' direct='560' (0.0s)
+[ok] tlc:D8:175 D8 {"ds": "green", "sub": "n_months_with_column", "column": "fare_amount"} @ tlc-0123 stored='31' direct='31' (0.1s)
+[ok] tlc:D3:50 D3 {"ds": "yellow", "month": "2021-06", "agg": "mean", "concept": "tip"} @ tlc-0318 stored='2.3150' direct='2.3150' (0.0s)
+[ok] tlc:D8:171 D8 {"ds": "yellow", "sub": "n_months_with_column", "column": "airport_fee"} @ tlc-0312 stored='49' direct='49' (0.1s)
+[ok] tlc:D4:68 D4 {"ds": "green", "year": "2020", "agg": "sum", "concept": "base_fare"} @ tlc-0270 stored='461966.42' direct='461966.42' (0.0s)
+[ok] tlc:D1:5 D1 {"ds": "green", "column": "PULocationID"} @ tlc-0215 stored='int32' direct='int32' (0.0s)
+[ok] tlc:D5:98 D5 {"ds": "green", "period": "2021", "sub": "topk", "side": "pu", "k": 1} @ tlc-0206 stored='74' direct='74' (0.0s)
+[ok] tlc:D3:58 D3 {"ds": "yellow", "month": "2022-01", "agg": "count"} @ tlc-0183 stored='38504' direct='38504' (0.0s)
+[ok] tlc:D8:162 D8 {"ds": "green", "sub": "n_months_with_column", "column": "VendorID"} @ tlc-0290 stored='70' direct='70' (0.1s)
+[ok] tlc:D2:40 D2 {"ds": "yellow", "concept": "tolls"} @ tlc-0308 stored='tolls_amount' direct='tolls_amount' (0.0s)
+[ok] tlc:D3:50 D3 {"ds": "yellow", "month": "2021-06", "agg": "mean", "concept": "tip"} @ tlc-0238 stored='2.3150' direct='2.3150' (0.0s)
+[ok] tlc:D3:58 D3 {"ds": "yellow", "month": "2022-01", "agg": "count"} @ tlc-0272 stored='38504' direct='38504' (0.0s)
+[ok] tlc:D6:129 D6 {"ds": "fhvhv", "period": "2021-11", "sub": "count_borough", "value": "Unknown"} @ tlc-0222 stored='13' direct='13' (0.1s)
+[ok] tlc:D7:144 D7 {"ds": "green", "period": "2021-11", "check": "zero_frac", "column": "fare_amount"} @ tlc-0198 stored='0.00062' direct='0.00062' (0.0s)
+=== lake bb: 166 window snapshots (HISTORY 60, FUTURE 105), s0=bb-0070
+--- snapshot bb-0010 (2014-02-01T00:00:00Z, arrive): 297 files
+[ok] ls({"path": "."}) 0ms 25ch touched=[]
+    drive_stats/  (297 files)
+[ok] ls({"path": "drive_stats"}) 0ms 36ch touched=[]
+    2013/  (266 files)
+    2014/  (31 files)
+[ok] find({"glob": "2014-01-*.csv"}) 2ms 991ch touched=['drive_stats/2014/2014-01-01.csv', 'drive_stats/2014/2014-01-02.csv', 'drive_stats/2014/2014-01-03.csv']
+    drive_stats/2014/2014-01-01.csv
+    drive_stats/2014/2014-01-02.csv
+    drive_stats/2014/2014-01-03.csv
+    drive_stats/2014/2014-01-04.csv
+    drive_stats/2014/2014-01-05.csv
+    drive_stats/2014/2014-01-06.csv
+    drive_stats/2014/2014-01-07.csv
+    drive_stats/2014/2014-01-08.csv
+    drive_stats/2014/2014-01-09.csv
+    drive_stats/
+[ok] file_schema({"file": "drive_stats/2014/2014-01-31.csv"}) 105ms 2215ch touched=['drive_stats/2014/2014-01-31.csv']
+    # drive_stats/2014/2014-01-31.csv: 85 columns, csv (types inferred by DuckDB over the whole file)
+    date: DATE
+    serial_number: VARCHAR
+    model: VARCHAR
+    capacity_bytes: BIGINT
+    failure: BIGINT
+    smart_1_normalized: BIGINT
+    smart_1_raw: BIGINT
+    smart_2_normalized: VARCHAR
+    smart_2_raw: VARCHAR
+    smart_3_normalized
+[ok] head({"file": "drive_stats/2014/2014-01-31.csv", "n": 2}) 1ms 1710ch touched=['drive_stats/2014/2014-01-31.csv']
+    date,serial_number,model,capacity_bytes,failure,smart_1_normalized,smart_1_raw,smart_2_normalized,smart_2_raw,smart_3_normalized,smart_3_raw,smart_4_normalized,smart_4_raw,smart_5_normalized,smart_5_raw,smart_7_normalized,smart_7_raw,smart_8_normalized,smart_8_raw,smart_9_normalized,smart_9_raw,smar
+[ok] file_rowcount({"file": "drive_stats/2014/2014-01-31.csv"}) 0ms 3ch touched=['drive_stats/2014/2014-01-31.csv']
+    420
+[ok] file_stats({"file": "drive_stats/2014/2014-01-31.csv", "column": "capacity_bytes"}) 106ms 118ch touched=['drive_stats/2014/2014-01-31.csv']
+    column capacity_bytes (420 rows, computed by scanning this one file): min=1000204886016 max=4000787030016 null_count=0
+[ok] sql({"query": "SELECT model, count(*) n FROM 'drive_stats/2014/2014-01-31.csv' GROUP BY 1 ORDER BY n DESC LIMIT 3") 169ms 76ch touched=['drive_stats/2014/2014-01-31.csv']
+    model	n
+    ST4000DM000	91
+    Hitachi HDS5C3030ALA630	69
+    Hitachi HDS722020ALA330	64
+[ok] sql({"query": "SELECT count(*) FROM read_csv('drive_stats/*/*.csv')"}) 14ms 91ch touched=['drive_stats/2013/2013-04-10.csv', 'drive_stats/2013/2013-04-11.csv', 'drive_stats/2013/2013-04-12.csv']
+    error: scan budget exceeded (297 files / 89614 rows; limit 10 files / 120000 rows per call)
+[ok] schema_diff({"file_a": "drive_stats/2013/2013-04-10.csv", "file_b": "drive_stats/2014/2014-01-31.csv"}) 158ms 2166ch touched=['drive_stats/2013/2013-04-10.csv', 'drive_stats/2014/2014-01-31.csv']
+    type changed: smart_1_normalized: VARCHAR -> BIGINT
+    type changed: smart_3_normalized: VARCHAR -> BIGINT
+    type changed: smart_3_raw: VARCHAR -> BIGINT
+    type changed: smart_4_normalized: VARCHAR -> BIGINT
+    type changed: smart_4_raw: VARCHAR -> BIGINT
+    type changed: smart_5_normalized: VARCHAR -> BIGINT
+    ty
+[ok] grep({"pattern": "(?i)s.?m.?a.?r.?t", "path": "."}) 3ms 12ch touched=[]
+    (no matches)
+--- snapshot bb-0070 (2018-10-01T00:00:00Z, arrive): 2000 files
+[ok] ls({"path": "."}) 2ms 43ch touched=[]
+    docs/  (1 files)
+    drive_stats/  (1999 files)
+[ok] ls({"path": "drive_stats"}) 3ms 342ch touched=[]
+    2013/  (266 files)
+    2014/  (365 files)
+    2015/  (365 files)
+    data_Q1_2016/  (91 files)
+    data_Q1_2017/  (90 files)
+    data_Q1_2018/  (90 files)
+    data_Q2_2016/  (91 files)
+    data_Q2_2017/  (91 files)
+    data_Q2_2018/  (91 files)
+    data_Q3_2016/  (92 files)
+    data_Q3_2017/  (92 files)
+    data_Q3_2018/  (92 files)
+    data_Q4_2
+[ok] find({"glob": "2018-09-*.csv"}) 7ms 1199ch touched=['drive_stats/data_Q3_2018/2018-09-01.csv', 'drive_stats/data_Q3_2018/2018-09-02.csv', 'drive_stats/data_Q3_2018/2018-09-03.csv']
+    drive_stats/data_Q3_2018/2018-09-01.csv
+    drive_stats/data_Q3_2018/2018-09-02.csv
+    drive_stats/data_Q3_2018/2018-09-03.csv
+    drive_stats/data_Q3_2018/2018-09-04.csv
+    drive_stats/data_Q3_2018/2018-09-05.csv
+    drive_stats/data_Q3_2018/2018-09-06.csv
+    drive_stats/data_Q3_2018/2018-09-07.csv
+    drive_stats/data_Q3_
+[ok] file_schema({"file": "drive_stats/data_Q3_2018/2018-09-30.csv"}) 400ms 2828ch touched=['drive_stats/data_Q3_2018/2018-09-30.csv']
+    # drive_stats/data_Q3_2018/2018-09-30.csv: 109 columns, csv (types inferred by DuckDB over the whole file)
+    date: DATE
+    serial_number: VARCHAR
+    model: VARCHAR
+    capacity_bytes: BIGINT
+    failure: BIGINT
+    smart_1_normalized: BIGINT
+    smart_1_raw: BIGINT
+    smart_2_normalized: BIGINT
+    smart_2_raw: BIGINT
+    smart_3_nor
+[ok] head({"file": "drive_stats/data_Q3_2018/2018-09-30.csv", "n": 2}) 2ms 2366ch touched=['drive_stats/data_Q3_2018/2018-09-30.csv']
+    date,serial_number,model,capacity_bytes,failure,smart_1_normalized,smart_1_raw,smart_2_normalized,smart_2_raw,smart_3_normalized,smart_3_raw,smart_4_normalized,smart_4_raw,smart_5_normalized,smart_5_raw,smart_7_normalized,smart_7_raw,smart_8_normalized,smart_8_raw,smart_9_normalized,smart_9_raw,smar
+[ok] file_rowcount({"file": "drive_stats/data_Q3_2018/2018-09-30.csv"}) 0ms 4ch touched=['drive_stats/data_Q3_2018/2018-09-30.csv']
+    1534
+[ok] file_stats({"file": "drive_stats/data_Q3_2018/2018-09-30.csv", "column": "capacity_bytes"}) 451ms 119ch touched=['drive_stats/data_Q3_2018/2018-09-30.csv']
+    column capacity_bytes (1534 rows, computed by scanning this one file): min=160041885696 max=12000138625024 null_count=0
+[ok] sql({"query": "SELECT model, count(*) n FROM 'drive_stats/data_Q3_2018/2018-09-30.csv' GROUP BY 1 ORDER BY n DESC ) 501ms 66ch touched=['drive_stats/data_Q3_2018/2018-09-30.csv']
+    model	n
+    ST12000NM0007	402
+    ST4000DM000	380
+    HGST HMS5C4040BLE640	214
+[ok] sql({"query": "SELECT count(*) FROM read_csv('drive_stats/*/*.csv')"}) 63ms 94ch touched=['drive_stats/2013/2013-04-10.csv', 'drive_stats/2013/2013-04-11.csv', 'drive_stats/2013/2013-04-12.csv']
+    error: scan budget exceeded (1999 files / 1823124 rows; limit 10 files / 120000 rows per call)
+[ok] schema_diff({"file_a": "drive_stats/2013/2013-04-10.csv", "file_b": "drive_stats/data_Q3_2018/2018-09-30.csv"}) 0ms 3752ch touched=['drive_stats/2013/2013-04-10.csv', 'drive_stats/data_Q3_2018/2018-09-30.csv']
+    added: smart_22_normalized: BIGINT
+    added: smart_22_raw: BIGINT
+    added: smart_23_normalized: VARCHAR
+    added: smart_23_raw: VARCHAR
+    added: smart_24_normalized: VARCHAR
+    added: smart_24_raw: VARCHAR
+    added: smart_177_normalized: VARCHAR
+    added: smart_177_raw: VARCHAR
+    added: smart_179_normalized: VARCHAR
+    add
+[ok] grep({"pattern": "(?i)s.?m.?a.?r.?t", "path": "."}) 10ms 2203ch touched=['docs/hard-drive-test-data.txt']
+    docs/hard-drive-test-data.txt:83:What SMART Stats Tell Us About Hard Drives
+    docs/hard-drive-test-data.txt:103:Hard Drive SMART Stats
+    docs/hard-drive-test-data.txt:116:Each day in the Backblaze data center, we take a snapshot of each operational hard drive. This snapshot includes basic drive informat
+[ok] read_text({"file": "docs/hard-drive-test-data.txt", "start": 1, "end": 10}) 0ms 443ch touched=['docs/hard-drive-test-data.txt']
+    1: Welcome to the Backblaze
+    2: 
+    3: Hard Drive Data and Stats
+    4: 
+    5: Since 2013, Backblaze has published statistics and insights based on the hard drives in our data center. You'll find links to those reports below. We also publish the data underlying these reports, so that anyone can reproduce them.
+--- snapshot bb-0175 (2026-07-01T00:00:00Z, arrive): 4831 files
+[ok] ls({"path": "."}) 5ms 43ch touched=[]
+    docs/  (1 files)
+    drive_stats/  (4830 files)
+[ok] ls({"path": "drive_stats"}) 4ms 1149ch touched=[]
+    2013/  (266 files)
+    2014/  (365 files)
+    2015/  (365 files)
+    data_Q1_2016/  (91 files)
+    data_Q1_2017/  (90 files)
+    data_Q1_2018/  (90 files)
+    data_Q1_2019/  (90 files)
+    data_Q1_2020/  (91 files)
+    data_Q1_2021/  (90 files)
+    data_Q1_2022/  (90 files)
+    data_Q1_2023/  (90 files)
+    data_Q1_2024/  (91 files)
+    data_Q1_2
+[ok] find({"glob": "2026-06-*.csv"}) 16ms 1199ch touched=['drive_stats/data_Q2_2026/2026-06-01.csv', 'drive_stats/data_Q2_2026/2026-06-02.csv', 'drive_stats/data_Q2_2026/2026-06-03.csv']
+    drive_stats/data_Q2_2026/2026-06-01.csv
+    drive_stats/data_Q2_2026/2026-06-02.csv
+    drive_stats/data_Q2_2026/2026-06-03.csv
+    drive_stats/data_Q2_2026/2026-06-04.csv
+    drive_stats/data_Q2_2026/2026-06-05.csv
+    drive_stats/data_Q2_2026/2026-06-06.csv
+    drive_stats/data_Q2_2026/2026-06-07.csv
+    drive_stats/data_Q2_
+[ok] file_schema({"file": "drive_stats/data_Q2_2026/2026-06-30.csv"}) 314ms 4027ch touched=['drive_stats/data_Q2_2026/2026-06-30.csv']
+    # drive_stats/data_Q2_2026/2026-06-30.csv: 197 columns, csv (types inferred by DuckDB over the whole file)
+    date: DATE
+    serial_number: VARCHAR
+    model: VARCHAR
+    capacity_bytes: BIGINT
+    failure: BIGINT
+    datacenter: VARCHAR
+    cluster_id: VARCHAR
+    vault_id: BIGINT
+    pod_id: VARCHAR
+    pod_slot_num: VARCHAR
+    is_legacy_
+[ok] head({"file": "drive_stats/data_Q2_2026/2026-06-30.csv", "n": 2}) 7ms 4025ch touched=['drive_stats/data_Q2_2026/2026-06-30.csv']
+    date,serial_number,model,capacity_bytes,failure,datacenter,cluster_id,vault_id,pod_id,pod_slot_num,is_legacy_format,smart_1_normalized,smart_1_raw,smart_2_normalized,smart_2_raw,smart_3_normalized,smart_3_raw,smart_4_normalized,smart_4_raw,smart_5_normalized,smart_5_raw,smart_7_normalized,smart_7_ra
+[ok] file_rowcount({"file": "drive_stats/data_Q2_2026/2026-06-30.csv"}) 0ms 4ch touched=['drive_stats/data_Q2_2026/2026-06-30.csv']
+    5515
+[ok] file_stats({"file": "drive_stats/data_Q2_2026/2026-06-30.csv", "column": "capacity_bytes"}) 494ms 119ch touched=['drive_stats/data_Q2_2026/2026-06-30.csv']
+    column capacity_bytes (5515 rows, computed by scanning this one file): min=240057409536 max=26000658268160 null_count=0
+[ok] sql({"query": "SELECT model, count(*) n FROM 'drive_stats/data_Q2_2026/2026-06-30.csv' GROUP BY 1 ORDER BY n DESC ) 505ms 79ch touched=['drive_stats/data_Q2_2026/2026-06-30.csv']
+    model	n
+    WDC WUH722222ALE6L4	757
+    TOSHIBA MG08ACA16TA	627
+    TOSHIBA MG07ACA14TA	550
+[ok] sql({"query": "SELECT count(*) FROM read_csv('drive_stats/*/*.csv')"}) 156ms 95ch touched=['drive_stats/2013/2013-04-10.csv', 'drive_stats/2013/2013-04-11.csv', 'drive_stats/2013/2013-04-12.csv']
+    error: scan budget exceeded (4830 files / 11401095 rows; limit 10 files / 120000 rows per call)
+[ok] schema_diff({"file_a": "drive_stats/2013/2013-04-10.csv", "file_b": "drive_stats/data_Q2_2026/2026-06-30.csv"}) 1ms 4027ch touched=['drive_stats/2013/2013-04-10.csv', 'drive_stats/data_Q2_2026/2026-06-30.csv']
+    added: datacenter: VARCHAR
+    added: cluster_id: VARCHAR
+    added: vault_id: BIGINT
+    added: pod_id: VARCHAR
+    added: pod_slot_num: VARCHAR
+    added: is_legacy_format: BOOLEAN
+    added: smart_16_normalized: BIGINT
+    added: smart_16_raw: BIGINT
+    added: smart_17_normalized: BIGINT
+    added: smart_17_raw: BIGINT
+    added: smar
+[ok] grep({"pattern": "(?i)s.?m.?a.?r.?t", "path": "."}) 46ms 1133ch touched=['docs/hard-drive-test-data.txt']
+    docs/hard-drive-test-data.txt:210:Every day at Backblaze data center, we take a snapshot of each operational drive. This snapshot includes basic drive information along with the S.M.A.R.T. statistics reported by that drive. The daily 
+    docs/hard-drive-test-data.txt:213:The Drive Stats schema is compr
+[ok] read_text({"file": "docs/hard-drive-test-data.txt", "start": 1, "end": 10}) 0ms 137ch touched=['docs/hard-drive-test-data.txt']
+    1: PartnersSupport
+    2: 
+    3: English
+    4: 
+    5: English
+    6: FrançaisSign In
+    7: 
+    8: Products
+    9: B2 Overdrive
+    10: Highest-throughput object storage
+--- 30 random oracle values recomputed by a single DuckDB full-scan statement (lake bb)
+[ok] bb:D4:75 D4 {"year": "2018", "agg": "n_models"} @ bb-0149 stored='28' direct='28' (18.8s)
+[ok] bb:D6:121 D6 {"model": "HGST HMS5C4040ALE640", "cohort_month": "2015-10", "sub": "present_latest_day"} @ bb-0078 stored='19' direct='19' (2.5s)
+[ok] bb:D5:95 D5 {"period": "2015", "sub": "top_model_failures", "k": 3} @ bb-0026 stored='ST4000DM000, ST31500541AS' direct='ST4000DM000, ST31500541AS' (4.4s)
+[ok] bb:D7:136 D7 {"period": "all", "check": "null_frac", "column": "smart_240_raw"} @ bb-0097 stored='0.32247' direct='0.32247' (244.3s)
+[ok] bb:D3:48 D3 {"month": "2017-03", "agg": "drive_days"} @ bb-0157 stored='38995' direct='38995' (1.7s)
+[ok] bb:D1:15 D1 {"column": "smart_235_normalized"} @ bb-0019 stored='NONE' direct='NONE' (0.2s)
+[ok] bb:D4:74 D4 {"year": "all", "agg": "mean_capacity_tb"} @ bb-0036 stored='3.4037' direct='3.4037' (37.8s)
+[ok] bb:D6:118 D6 {"model": "HGST HMS5C4040BLE640", "cohort_month": "2016-07", "sub": "present_latest_day"} @ bb-0174 stored='0' direct='0' (3.3s)
+[ok] bb:D5:83 D5 {"period": "all", "sub": "top_model_failures", "k": 3} @ bb-0025 stored='ST3000DM001, ST4000DM000, ST31500541AS' direct='ST3000DM001, ST4000DM000, ST31500541AS' (24.4s)
+[ok] bb:D8:167 D8 {"sub": "n_files_with_column", "column": "smart_199_raw"} @ bb-0172 stored='4739' direct='4739' (3.2s)
+[ok] bb:D3:47 D3 {"month": "2017-03", "agg": "mean_capacity_tb"} @ bb-0094 stored='4.4819' direct='4.4819' (1.8s)
+[ok] bb:D1:11 D1 {"column": "smart_181_raw"} @ bb-0010 stored='NONE' direct='NONE' (0.2s)
+[ok] bb:D4:66 D4 {"year": "2018", "agg": "latest_date_in_year"} @ bb-0113 stored='2018-12-31' direct='2018-12-31' (23.0s)
+[ok] bb:D6:110 D6 {"model": "ST31500541AS", "cohort_month": "2015-01", "sub": "failed_to_date"} @ bb-0128 stored='1' direct='1' (138.4s)
+[ok] bb:D6:113 D6 {"model": "ST12000NM0007", "cohort_month": "2018-04", "sub": "present_latest_day"} @ bb-0144 stored='0' direct='0' (4.5s)
+[ok] bb:D1:14 D1 {"column": "smart_24_normalized"} @ bb-0175 stored='BIGINT' direct='BIGINT' (0.4s)
+[ok] bb:D5:86 D5 {"period": "2015", "sub": "top_model_failures", "k": 1} @ bb-0157 stored='ST4000DM000' direct='ST4000DM000' (16.4s)
+[ok] bb:D3:46 D3 {"month": "2014-06", "agg": "n_drives"} @ bb-0085 stored='554' direct='554' (1.3s)
+[ok] bb:D4:64 D4 {"year": "2013", "agg": "n_models"} @ bb-0105 stored='17' direct='17' (10.9s)
+[ok] bb:D1:14 D1 {"column": "smart_24_normalized"} @ bb-0017 stored='NONE' direct='NONE' (0.2s)
+[ok] bb:D6:116 D6 {"model": "ST4000DM000", "cohort_month": "2015-04", "sub": "present_latest_day"} @ bb-0096 stored='31' direct='31' (3.1s)
+[ok] bb:D2:28 D2 {"concept": "drive_model"} @ bb-0079 stored='model' direct='model' (0.7s)
+[ok] bb:D6:113 D6 {"model": "ST12000NM0007", "cohort_month": "2018-04", "sub": "present_latest_day"} @ bb-0033 stored='NONE' direct='NONE' (0.0s)
+[ok] bb:D3:52 D3 {"month": "2017-11", "agg": "drive_days"} @ bb-0086 stored='39651' direct='39651' (1.4s)
+[ok] bb:D5:99 D5 {"period": "2013", "sub": "top_model_failures", "k": 3} @ bb-0114 stored='ST3000DM001, ST31500341AS, Hitachi HDS5C3030ALA630' direct='ST3000DM001, ST31500341AS, Hitachi HDS5C3030ALA630' (9.9s)
+[ok] bb:D3:36 D3 {"month": "2014-04", "agg": "failures"} @ bb-0116 stored='4' direct='4' (1.2s)
+[ok] bb:D1:3 D1 {"column": "smart_179_raw"} @ bb-0074 stored='VARCHAR' direct='VARCHAR' (0.6s)
+[ok] bb:D2:27 D2 {"concept": "reallocated_sectors"} @ bb-0099 stored='smart_5_raw' direct='smart_5_raw' (0.2s)
+[ok] bb:D4:66 D4 {"year": "2018", "agg": "latest_date_in_year"} @ bb-0137 stored='2018-12-31' direct='2018-12-31' (22.8s)
+[ok] bb:D3:44 D3 {"month": "2014-08", "agg": "mean_capacity_tb"} @ bb-0125 stored='3.2618' direct='3.2618' (1.8s)
+TOTAL FAILURES: 0

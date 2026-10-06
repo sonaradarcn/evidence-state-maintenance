@@ -1,0 +1,125 @@
+{
+ "name": "fhvhv_tripdata_2025-02.parquet",
+ "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv_tripdata_2025-02.parquet",
+ "http": {
+  "status": "200",
+  "content_length": 461632254,
+  "last_modified": "Wed, 23 Apr 2025 16:15:47 GMT",
+  "etag": "\"6ad601bae7260d0da1101f1f16cb981b-89\"",
+  "bz_upload_ts": null,
+  "bz_sha1": null
+ },
+ "available": true,
+ "raw_sha256": "2077477d4d841b8ec40a3839b629f08f45f6802ca016adc1e01d6d8cffd2cf23",
+ "logical_path": "trip-data/fhvhv_tripdata_2025-02.parquet",
+ "sha256": "14a9bea7c35634d5a95f44030e5013d19cb8e2564445ba5bdbe4de71aa65be5e",
+ "size": 12455418,
+ "n_rows_raw": 19339461,
+ "n_rows_sub": 302956,
+ "codec": "zstd",
+ "raw_created_by": "parquet-cpp-arrow version 16.1.0",
+ "raw_row_groups": 19,
+ "schema_equal": true,
+ "schema": [
+  [
+   "hvfhs_license_num",
+   "large_string"
+  ],
+  [
+   "dispatching_base_num",
+   "large_string"
+  ],
+  [
+   "originating_base_num",
+   "large_string"
+  ],
+  [
+   "request_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "on_scene_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "pickup_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "dropoff_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "PULocationID",
+   "int32"
+  ],
+  [
+   "DOLocationID",
+   "int32"
+  ],
+  [
+   "trip_miles",
+   "double"
+  ],
+  [
+   "trip_time",
+   "int64"
+  ],
+  [
+   "base_passenger_fare",
+   "double"
+  ],
+  [
+   "tolls",
+   "double"
+  ],
+  [
+   "bcf",
+   "double"
+  ],
+  [
+   "sales_tax",
+   "double"
+  ],
+  [
+   "congestion_surcharge",
+   "double"
+  ],
+  [
+   "airport_fee",
+   "double"
+  ],
+  [
+   "tips",
+   "double"
+  ],
+  [
+   "driver_pay",
+   "double"
+  ],
+  [
+   "shared_request_flag",
+   "large_string"
+  ],
+  [
+   "shared_match_flag",
+   "large_string"
+  ],
+  [
+   "access_a_ride_flag",
+   "large_string"
+  ],
+  [
+   "wav_request_flag",
+   "large_string"
+  ],
+  [
+   "wav_match_flag",
+   "large_string"
+  ],
+  [
+   "cbd_congestion_fee",
+   "double"
+  ]
+ ]
+}

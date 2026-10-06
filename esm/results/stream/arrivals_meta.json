@@ -1,0 +1,338 @@
+{
+ "boltons": {
+  "source": "proxy",
+  "trace_asset": "pallets/flask",
+  "rate_heldout_per_day": 0.11498761289618419,
+  "rate_proxy_per_day": 0.21276598102459895,
+  "abs_log_rate_ratio": 0.6153684724662711,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2015-06-06",
+   "2020-07-29"
+  ],
+  "n_issues": 1162,
+  "issues_per_commit": 2.905,
+  "window": [
+   "2015-06-06",
+   "2020-07-29"
+  ],
+  "days": 1879.9997916666666,
+  "cv_interarrival": 1.1102233079961423,
+  "frac_within_24h_after_commit": 0.12478485370051635,
+  "commits_with_task_before_next_commit": 0.40648379052369077
+ },
+ "jinja": {
+  "source": "own",
+  "trace_asset": "pallets/jinja",
+  "rate_heldout_per_day": 0.15980001915380784,
+  "trace_issue_last": 1749809584.0,
+  "window_end": 1749933298.0,
+  "note": "issues after the trace fetch (2026-10-01) are missing",
+  "n_issues": 569,
+  "issues_per_commit": 1.4225,
+  "window": [
+   "2018-08-07",
+   "2025-06-14"
+  ],
+  "days": 2503.1286111111112,
+  "cv_interarrival": 1.2702302697267345,
+  "frac_within_24h_after_commit": 0.17223198594024605,
+  "commits_with_task_before_next_commit": 0.3516209476309227
+ },
+ "werkzeug": {
+  "source": "proxy",
+  "trace_asset": "pallets/click",
+  "rate_heldout_per_day": 0.223626480623584,
+  "rate_proxy_per_day": 0.21440066085033324,
+  "abs_log_rate_ratio": 0.04213065130174849,
+  "calendar_aligned": false,
+  "proxy_window": [
+   "2021-08-14",
+   "2026-09-23"
+  ],
+  "n_issues": 594,
+  "issues_per_commit": 1.485,
+  "window": [
+   "2021-08-14",
+   "2026-09-23"
+  ],
+  "days": 1865.6658912037037,
+  "cv_interarrival": 1.0889347287449618,
+  "frac_within_24h_after_commit": 0.17676767676767677,
+  "commits_with_task_before_next_commit": 0.3491271820448878
+ },
+ "isort": {
+  "source": "proxy",
+  "trace_asset": "mwaskom/seaborn",
+  "rate_heldout_per_day": 0.22590688672437786,
+  "rate_proxy_per_day": 0.21057008578848296,
+  "abs_log_rate_ratio": 0.07030436190918181,
+  "calendar_aligned": false,
+  "proxy_window": [
+   "2021-04-23",
+   "2026-07-06"
+  ],
+  "n_issues": 820,
+  "issues_per_commit": 2.05,
+  "window": [
+   "2021-04-23",
+   "2026-07-06"
+  ],
+  "days": 1899.6050578703703,
+  "cv_interarrival": 1.5142520069668455,
+  "frac_within_24h_after_commit": 0.1878048780487805,
+  "commits_with_task_before_next_commit": 0.4089775561097257
+ },
+ "mkdocs": {
+  "source": "proxy",
+  "trace_asset": "tmux/tmux",
+  "rate_heldout_per_day": 0.24754985631543053,
+  "rate_proxy_per_day": 0.3462650158134704,
+  "abs_log_rate_ratio": 0.33559242215073354,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2021-05-17",
+   "2024-07-15"
+  ],
+  "n_issues": 1065,
+  "issues_per_commit": 2.6625,
+  "window": [
+   "2021-05-17",
+   "2024-07-15"
+  ],
+  "days": 1155.184560185185,
+  "cv_interarrival": 1.0774106828289602,
+  "frac_within_24h_after_commit": 0.2516431924882629,
+  "commits_with_task_before_next_commit": 0.5586034912718204
+ },
+ "rich": {
+  "source": "proxy",
+  "trace_asset": "psf/requests",
+  "rate_heldout_per_day": 0.268900700324486,
+  "rate_proxy_per_day": 0.16453556060271984,
+  "abs_log_rate_ratio": 0.49121544695642144,
+  "calendar_aligned": false,
+  "proxy_window": [
+   "2020-01-25",
+   "2026-09-21"
+  ],
+  "n_issues": 1129,
+  "issues_per_commit": 2.8225,
+  "window": [
+   "2020-01-25",
+   "2026-09-21"
+  ],
+  "days": 2431.0854050925927,
+  "cv_interarrival": 1.228406469218853,
+  "frac_within_24h_after_commit": 0.11426040744021258,
+  "commits_with_task_before_next_commit": 0.47381546134663344
+ },
+ "httpx": {
+  "source": "own",
+  "trace_asset": "encode/httpx",
+  "rate_heldout_per_day": 0.28054006104766027,
+  "trace_issue_last": 1766096639.0,
+  "window_end": 1771843242.0,
+  "note": "issues after the trace fetch (2026-10-01) are missing",
+  "n_issues": 258,
+  "issues_per_commit": 0.645,
+  "window": [
+   "2022-03-30",
+   "2026-02-23"
+  ],
+  "days": 1425.8213194444445,
+  "cv_interarrival": 1.0469303944567823,
+  "frac_within_24h_after_commit": 0.21705426356589147,
+  "commits_with_task_before_next_commit": 0.3167082294264339
+ },
+ "marshmallow": {
+  "source": "proxy",
+  "trace_asset": "BurntSushi/ripgrep",
+  "rate_heldout_per_day": 0.30250728647795405,
+  "rate_proxy_per_day": 0.4190765894722577,
+  "abs_log_rate_ratio": 0.325948329609897,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2023-02-10",
+   "2025-09-21"
+  ],
+  "n_issues": 310,
+  "issues_per_commit": 0.775,
+  "window": [
+   "2023-02-10",
+   "2025-09-21"
+  ],
+  "days": 954.4794675925926,
+  "cv_interarrival": 1.0436517605977433,
+  "frac_within_24h_after_commit": 0.11612903225806452,
+  "commits_with_task_before_next_commit": 0.16209476309226933
+ },
+ "poetry-core": {
+  "source": "proxy",
+  "trace_asset": "sharkdp/bat",
+  "rate_heldout_per_day": 0.3216602882964099,
+  "rate_proxy_per_day": 0.45847854584402065,
+  "abs_log_rate_ratio": 0.3544175152054932,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2023-04-14",
+   "2025-09-02"
+  ],
+  "n_issues": 322,
+  "issues_per_commit": 0.805,
+  "window": [
+   "2023-04-14",
+   "2025-09-02"
+  ],
+  "days": 872.4508564814815,
+  "cv_interarrival": 1.0432768428000903,
+  "frac_within_24h_after_commit": 0.18944099378881987,
+  "commits_with_task_before_next_commit": 0.2593516209476309
+ },
+ "pygments": {
+  "source": "proxy",
+  "trace_asset": "pytorch/vision",
+  "rate_heldout_per_day": 0.38778885220155,
+  "rate_proxy_per_day": 0.5059310534551731,
+  "abs_log_rate_ratio": 0.2659394058713651,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2023-11-23",
+   "2026-01-22"
+  ],
+  "n_issues": 546,
+  "issues_per_commit": 1.365,
+  "window": [
+   "2023-11-23",
+   "2026-01-22"
+  ],
+  "days": 790.6215625,
+  "cv_interarrival": 1.3481934858126086,
+  "frac_within_24h_after_commit": 0.3553113553113553,
+  "commits_with_task_before_next_commit": 0.44389027431421446
+ },
+ "kombu": {
+  "source": "proxy",
+  "trace_asset": "laravel/framework",
+  "rate_heldout_per_day": 0.4872801344024639,
+  "rate_proxy_per_day": 0.590887064760641,
+  "abs_log_rate_ratio": 0.19278572502014701,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2024-05-30",
+   "2026-04-07"
+  ],
+  "n_issues": 1255,
+  "issues_per_commit": 3.1375,
+  "window": [
+   "2024-05-30",
+   "2026-04-07"
+  ],
+  "days": 676.9483101851852,
+  "cv_interarrival": 1.243891631519082,
+  "frac_within_24h_after_commit": 0.2804780876494024,
+  "commits_with_task_before_next_commit": 0.4239401496259352
+ },
+ "pyparsing": {
+  "source": "proxy",
+  "trace_asset": "ipython/ipython",
+  "rate_heldout_per_day": 0.532867452582429,
+  "rate_proxy_per_day": 0.6979240938482535,
+  "abs_log_rate_ratio": 0.26983763737516997,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2024-08-30",
+   "2026-03-26"
+  ],
+  "n_issues": 220,
+  "issues_per_commit": 0.55,
+  "window": [
+   "2024-08-30",
+   "2026-03-26"
+  ],
+  "days": 573.1282291666666,
+  "cv_interarrival": 1.1112480566403895,
+  "frac_within_24h_after_commit": 0.31363636363636366,
+  "commits_with_task_before_next_commit": 0.2518703241895262
+ },
+ "black": {
+  "source": "own",
+  "trace_asset": "psf/black",
+  "rate_heldout_per_day": 0.6551362931819837,
+  "trace_issue_last": 1790035481.0,
+  "window_end": 1790870127.0,
+  "note": "issues after the trace fetch (2026-10-01) are missing",
+  "n_issues": 162,
+  "issues_per_commit": 0.405,
+  "window": [
+   "2025-01-29",
+   "2026-10-01"
+  ],
+  "days": 610.5599768518518,
+  "cv_interarrival": 1.0814001112204035,
+  "frac_within_24h_after_commit": 0.32098765432098764,
+  "commits_with_task_before_next_commit": 0.2144638403990025
+ },
+ "networkx": {
+  "source": "own",
+  "trace_asset": "networkx/networkx",
+  "rate_heldout_per_day": 0.9204996224779616,
+  "trace_issue_last": 1790445299.0,
+  "window_end": 1790904009.0,
+  "note": "issues after the trace fetch (2026-10-01) are missing",
+  "n_issues": 116,
+  "issues_per_commit": 0.29,
+  "window": [
+   "2025-07-24",
+   "2026-10-02"
+  ],
+  "days": 434.54662037037036,
+  "cv_interarrival": 1.2663393536702858,
+  "frac_within_24h_after_commit": 0.5172413793103449,
+  "commits_with_task_before_next_commit": 0.18453865336658354
+ },
+ "typer": {
+  "source": "proxy",
+  "trace_asset": "gohugoio/hugo",
+  "rate_heldout_per_day": 1.9705548024062662,
+  "rate_proxy_per_day": 1.9734777383031472,
+  "abs_log_rate_ratio": 0.0014822070567810765,
+  "calendar_aligned": true,
+  "proxy_window": [
+   "2026-02-16",
+   "2026-09-07"
+  ],
+  "n_issues": 224,
+  "issues_per_commit": 0.56,
+  "window": [
+   "2026-02-16",
+   "2026-09-07"
+  ],
+  "days": 202.68787037037038,
+  "cv_interarrival": 1.138163638829083,
+  "frac_within_24h_after_commit": 0.7276785714285714,
+  "commits_with_task_before_next_commit": 0.2942643391521197
+ },
+ "scrapy": {
+  "source": "proxy",
+  "trace_asset": "fastapi/fastapi",
+  "rate_heldout_per_day": 3.8219121636999294,
+  "rate_proxy_per_day": 3.7755571131670806,
+  "abs_log_rate_ratio": 0.012202912331411455,
+  "calendar_aligned": false,
+  "proxy_window": [
+   "2026-06-16",
+   "2026-09-30"
+  ],
+  "n_issues": 19,
+  "issues_per_commit": 0.0475,
+  "window": [
+   "2026-06-16",
+   "2026-09-30"
+  ],
+  "days": 105.94462962962963,
+  "cv_interarrival": 0.8725207830246087,
+  "frac_within_24h_after_commit": 0.47368421052631576,
+  "commits_with_task_before_next_commit": 0.02743142144638404
+ }
+}

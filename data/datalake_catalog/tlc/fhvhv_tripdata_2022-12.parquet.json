@@ -1,0 +1,121 @@
+{
+ "name": "fhvhv_tripdata_2022-12.parquet",
+ "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv_tripdata_2022-12.parquet",
+ "http": {
+  "status": "200",
+  "content_length": 503674188,
+  "last_modified": "Mon, 20 Mar 2023 20:46:51 GMT",
+  "etag": "\"579259918626e0b227c910b43d5a0e57-30\"",
+  "bz_upload_ts": null,
+  "bz_sha1": null
+ },
+ "available": true,
+ "raw_sha256": "09c09c54e844db8efdefbd6d5a5c5a3f71ab43b9128edec0535fda6098c22398",
+ "logical_path": "trip-data/fhvhv_tripdata_2022-12.parquet",
+ "sha256": "0e939cedd88e16132a7b3ca0b866391fca4d879b447fdc68bf6ae8b220ab7ede",
+ "size": 10167380,
+ "n_rows_raw": 19665847,
+ "n_rows_sub": 307125,
+ "codec": "gzip",
+ "raw_created_by": "parquet-cpp-arrow version 8.0.0",
+ "raw_row_groups": 1,
+ "schema_equal": true,
+ "schema": [
+  [
+   "hvfhs_license_num",
+   "string"
+  ],
+  [
+   "dispatching_base_num",
+   "string"
+  ],
+  [
+   "originating_base_num",
+   "string"
+  ],
+  [
+   "request_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "on_scene_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "pickup_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "dropoff_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "PULocationID",
+   "int64"
+  ],
+  [
+   "DOLocationID",
+   "int64"
+  ],
+  [
+   "trip_miles",
+   "double"
+  ],
+  [
+   "trip_time",
+   "int64"
+  ],
+  [
+   "base_passenger_fare",
+   "double"
+  ],
+  [
+   "tolls",
+   "double"
+  ],
+  [
+   "bcf",
+   "double"
+  ],
+  [
+   "sales_tax",
+   "double"
+  ],
+  [
+   "congestion_surcharge",
+   "double"
+  ],
+  [
+   "airport_fee",
+   "double"
+  ],
+  [
+   "tips",
+   "double"
+  ],
+  [
+   "driver_pay",
+   "double"
+  ],
+  [
+   "shared_request_flag",
+   "string"
+  ],
+  [
+   "shared_match_flag",
+   "string"
+  ],
+  [
+   "access_a_ride_flag",
+   "string"
+  ],
+  [
+   "wav_request_flag",
+   "string"
+  ],
+  [
+   "wav_match_flag",
+   "string"
+  ]
+ ]
+}

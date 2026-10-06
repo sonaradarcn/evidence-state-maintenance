@@ -1,0 +1,14 @@
+python -B -m esm.scripts.dl_s0 --kind dl_tlc --workers 1 --q27 11595
+python -B -m esm.scripts.dl_subsets --kind dl_tlc --n 20
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair --schedules every --workers 2 --q27 11595 --order random:7 --save-every 3 --deadline "2026-10-05 05:00" --priority esm_data_datalake/dl_tlc/sub_S.json
+python -B -m esm.scripts.derive_grid --kind dl_tlc --facts esm_data_datalake\dl_tlc\sub_S.json --grid 25,50,75,100,125,150,175,200,225 --workers 1 --q27 11595
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair --schedules every --workers 2 --q27 11595 --order random:7 --save-every 3 --deadline "2026-10-05 05:00" --priority esm_data_datalake\dl_tlc\sub_S.json
+python -B -m esm.scripts.derive_grid --kind dl_tlc --facts esm_data_datalake\dl_tlc\sub_S.json --grid 25,50,75,100,125,150,175,200,225 --workers 1 --q27 11595
+python -B -m esm.scripts.heldout_certs --kind dl_tlc --facts esm_data_datalake\dl_tlc\sub_S.json --kinds certzs --workers 1 --q27 11595
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair,ALWAYS,REPLAY,FILEHASH,MANIFEST,CERT-ZS,LLMDIFF,TTL25,TTL50,TTL100,NEVER,ESM-norepair-noanchor --schedules every25 --facts esm_data_datalake\dl_tlc\sub_S.json --workers 2 --q27 11595
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies TTL25,TTL50,TTL100,CERT-ZS@oracle --schedules every --facts esm_data_datalake\dl_tlc\sub_S.json --workers 2 --q27 11595
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies DETECT-anchor-hier --schedules every --workers 3 --q27 11595
+python -c "pass"
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair-9B --schedules every --facts esm_data_datalake\dl_tlc\sub_S.json --workers 2 --q27 11595 --q9 11597
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair --schedules every5,every20,bursty --facts esm_data_datalake\dl_tlc\sub_S.json --workers 2 --q27 11595
+python -B -m esm.scripts.run_sim --kind dlsyn_tlc --policies DETECT-anchor-hier --schedules every --facts esm_data_datalake\dlsyn_tlc\sub_SYN.json --workers 2 --q27 11595

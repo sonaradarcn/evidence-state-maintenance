@@ -1,0 +1,2 @@
+python -B -m esm.scripts.poll --max 40000 --every 60 --lines esm_data_datalake\queue_B.done 4
+python -B -m esm.scripts.derive_grid --kind dl_tlc --facts esm_data_datalake\dl_tlc\sub_S.json --grid 225,200,175,150,125 --workers 1 --q27 11596

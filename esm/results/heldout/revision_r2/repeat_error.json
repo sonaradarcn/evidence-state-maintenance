@@ -1,0 +1,604 @@
+{
+ "store": {
+  "raw": 6210,
+  "unique": 6134,
+  "pos": 4715,
+  "main_pos": 1569,
+  "s160_share": 0.711558854718982,
+  "arms": {
+   "REPLAY|every": 1612,
+   "CERT-ZS|every": 736,
+   "ESM-norepair-noanchor|every": 402,
+   "ALWAYS|every50": 1280,
+   "ASTHASH|every50": 854,
+   "CERT-ZS|every50": 377,
+   "FILEHASH|every50": 873,
+   "REPLAY|every50": 627,
+   "TTL50|every": 1280,
+   "TTL50|every50": 1280,
+   "LLMDIFF|every": 331,
+   "TTL100|every": 640,
+   "TTL100|every50": 640,
+   "CERT-v0|every": 307,
+   "ESM-norepair-9Bderiver|every": 211,
+   "ESM-norepair-9B|every": 426,
+   "ESM-norepair-n2|every": 278,
+   "ESM-norepair-trunc|every": 210,
+   "ESM-norepair-unsurefresh|every": 168,
+   "ESM-norepair|every": 1569,
+   "ESM-verify|every": 117,
+   "ESM|every": 84,
+   "ESM-norepair|every5": 190,
+   "ESM-norepair|every20": 158,
+   "CERT-v0|every50": 188,
+   "CITE|every50": 261,
+   "ESM-norepair|every50": 148,
+   "LLMDIFF|every50": 206,
+   "ESM-norepair|bursty": 126,
+   "TTL200|every": 320,
+   "TTL200|every50": 320
+  }
+ },
+ "A": {
+  "label": "A. item6 / Fig. 4d as published: every later derivation of the fact (all pairs i < j), pooled unique store",
+  "pairs_wrong_unch": 7390,
+  "p_right_after_wrong": 0.10730717185385656,
+  "pairs_right_unch": 28919,
+  "p_right_after_right": 0.9533524672360731,
+  "facts": 113,
+  "repos": 14,
+  "fact_mean": 0.20213980966048833,
+  "top1_share": 0.1591339648173207,
+  "top1": "jinja:T2:n1",
+  "top5_share": 0.5722598105548038,
+  "median_pairs_per_fact": 3.0,
+  "same_answer_share": 0.8757780784844384,
+  "per_repo": {
+   "boltons": [
+    0.0,
+    2
+   ],
+   "httpx": [
+    0.4473684210526316,
+    38
+   ],
+   "isort": [
+    0.17849223946784923,
+    902
+   ],
+   "jinja": [
+    0.007866582756450597,
+    3178
+   ],
+   "kombu": [
+    0.23333333333333334,
+    150
+   ],
+   "marshmallow": [
+    0.07671601615074024,
+    743
+   ],
+   "mkdocs": [
+    0.7486910994764397,
+    191
+   ],
+   "networkx": [
+    0.32432432432432434,
+    74
+   ],
+   "poetry-core": [
+    0.02735562310030395,
+    329
+   ],
+   "pygments": [
+    0.3239130434782609,
+    460
+   ],
+   "pyparsing": [
+    0.018518518518518517,
+    162
+   ],
+   "scrapy": [
+    0.03278688524590164,
+    61
+   ],
+   "typer": [
+    0.828125,
+    64
+   ],
+   "werkzeug": [
+    0.111003861003861,
+    1036
+   ]
+  },
+  "jinja_share": 0.4300405953991881,
+  "without_jinja": [
+   0.18233618233618235,
+   4212
+  ],
+  "repo_ci": [
+   0.04613684460657512,
+   0.25810198324136163
+  ],
+  "fact_mean_ci": [
+   0.14239932516335413,
+   0.2701163816483498
+  ]
+ },
+ "B": {
+  "label": "B. pooled unique store, next derivation only, truth equal at both commits",
+  "pairs_wrong_unch": 663,
+  "p_right_after_wrong": 0.09502262443438914,
+  "pairs_right_unch": 3198,
+  "p_right_after_right": 0.9793621013133208,
+  "facts": 112,
+  "repos": 14,
+  "fact_mean": 0.17732722666933193,
+  "top1_share": 0.07239819004524888,
+  "top1": "jinja:T2:n1",
+  "top5_share": 0.2986425339366516,
+  "median_pairs_per_fact": 2.0,
+  "same_answer_share": 0.8627450980392157,
+  "per_repo": {
+   "boltons": [
+    0.0,
+    2
+   ],
+   "httpx": [
+    0.2857142857142857,
+    7
+   ],
+   "isort": [
+    0.13513513513513514,
+    37
+   ],
+   "jinja": [
+    0.026717557251908396,
+    262
+   ],
+   "kombu": [
+    0.12,
+    25
+   ],
+   "marshmallow": [
+    0.14754098360655737,
+    61
+   ],
+   "mkdocs": [
+    0.4166666666666667,
+    12
+   ],
+   "networkx": [
+    0.0625,
+    16
+   ],
+   "poetry-core": [
+    0.022727272727272728,
+    44
+   ],
+   "pygments": [
+    0.2916666666666667,
+    48
+   ],
+   "pyparsing": [
+    0.02702702702702703,
+    37
+   ],
+   "scrapy": [
+    0.07142857142857142,
+    14
+   ],
+   "typer": [
+    0.42857142857142855,
+    7
+   ],
+   "werkzeug": [
+    0.12087912087912088,
+    91
+   ]
+  },
+  "jinja_share": 0.3951734539969834,
+  "without_jinja": [
+   0.1396508728179551,
+   401
+  ],
+  "repo_ci": [
+   0.0530559935480288,
+   0.18182304847187072
+  ],
+  "fact_mean_ci": [
+   0.11852531331972121,
+   0.23701766332934085
+  ]
+ },
+ "C": {
+  "label": "C. pooled unique store, next derivation only, truth constant in between",
+  "pairs_wrong_unch": 663,
+  "p_right_after_wrong": 0.09502262443438914,
+  "pairs_right_unch": 3195,
+  "p_right_after_right": 0.9793427230046948,
+  "facts": 112,
+  "repos": 14,
+  "fact_mean": 0.17732722666933193,
+  "top1_share": 0.07239819004524888,
+  "top1": "jinja:T2:n1",
+  "top5_share": 0.2986425339366516,
+  "median_pairs_per_fact": 2.0,
+  "same_answer_share": 0.8627450980392157,
+  "per_repo": {
+   "boltons": [
+    0.0,
+    2
+   ],
+   "httpx": [
+    0.2857142857142857,
+    7
+   ],
+   "isort": [
+    0.13513513513513514,
+    37
+   ],
+   "jinja": [
+    0.026717557251908396,
+    262
+   ],
+   "kombu": [
+    0.12,
+    25
+   ],
+   "marshmallow": [
+    0.14754098360655737,
+    61
+   ],
+   "mkdocs": [
+    0.4166666666666667,
+    12
+   ],
+   "networkx": [
+    0.0625,
+    16
+   ],
+   "poetry-core": [
+    0.022727272727272728,
+    44
+   ],
+   "pygments": [
+    0.2916666666666667,
+    48
+   ],
+   "pyparsing": [
+    0.02702702702702703,
+    37
+   ],
+   "scrapy": [
+    0.07142857142857142,
+    14
+   ],
+   "typer": [
+    0.42857142857142855,
+    7
+   ],
+   "werkzeug": [
+    0.12087912087912088,
+    91
+   ]
+  },
+  "jinja_share": 0.3951734539969834,
+  "without_jinja": [
+   0.1396508728179551,
+   401
+  ],
+  "repo_ci": [
+   0.0530559935480288,
+   0.18182304847187072
+  ],
+  "fact_mean_ci": [
+   0.11852531331972121,
+   0.23701766332934085
+  ]
+ },
+ "D": {
+  "label": "D. main run only (s0 + ESM re-derivations, ALL), next derivation, truth equal at both",
+  "pairs_wrong_unch": 211,
+  "p_right_after_wrong": 0.10900473933649289,
+  "pairs_right_unch": 513,
+  "p_right_after_right": 0.9629629629629629,
+  "facts": 87,
+  "repos": 11,
+  "fact_mean": 0.16008939974457215,
+  "top1_share": 0.08530805687203792,
+  "top1": "pyparsing:T5:n21",
+  "top5_share": 0.2132701421800948,
+  "median_pairs_per_fact": 2.0,
+  "same_answer_share": 0.7677725118483413,
+  "per_repo": {
+   "httpx": [
+    1.0,
+    1
+   ],
+   "jinja": [
+    0.056910569105691054,
+    123
+   ],
+   "kombu": [
+    0.2,
+    5
+   ],
+   "marshmallow": [
+    1.0,
+    3
+   ],
+   "mkdocs": [
+    0.0,
+    1
+   ],
+   "networkx": [
+    0.0,
+    6
+   ],
+   "poetry-core": [
+    0.0,
+    5
+   ],
+   "pygments": [
+    0.5,
+    2
+   ],
+   "pyparsing": [
+    0.0,
+    19
+   ],
+   "scrapy": [
+    0.2,
+    5
+   ],
+   "werkzeug": [
+    0.21951219512195122,
+    41
+   ]
+  },
+  "jinja_share": 0.5829383886255924,
+  "without_jinja": [
+   0.18181818181818182,
+   88
+  ],
+  "repo_ci": [
+   0.05648924014473434,
+   0.2820754716981131
+  ],
+  "fact_mean_ci": [
+   0.09259099616858237,
+   0.2340437420178799
+  ]
+ },
+ "E": {
+  "label": "E. main run only, next derivation, truth constant in between",
+  "pairs_wrong_unch": 211,
+  "p_right_after_wrong": 0.10900473933649289,
+  "pairs_right_unch": 511,
+  "p_right_after_right": 0.9628180039138943,
+  "facts": 87,
+  "repos": 11,
+  "fact_mean": 0.16008939974457215,
+  "top1_share": 0.08530805687203792,
+  "top1": "pyparsing:T5:n21",
+  "top5_share": 0.2132701421800948,
+  "median_pairs_per_fact": 2.0,
+  "same_answer_share": 0.7677725118483413,
+  "per_repo": {
+   "httpx": [
+    1.0,
+    1
+   ],
+   "jinja": [
+    0.056910569105691054,
+    123
+   ],
+   "kombu": [
+    0.2,
+    5
+   ],
+   "marshmallow": [
+    1.0,
+    3
+   ],
+   "mkdocs": [
+    0.0,
+    1
+   ],
+   "networkx": [
+    0.0,
+    6
+   ],
+   "poetry-core": [
+    0.0,
+    5
+   ],
+   "pygments": [
+    0.5,
+    2
+   ],
+   "pyparsing": [
+    0.0,
+    19
+   ],
+   "scrapy": [
+    0.2,
+    5
+   ],
+   "werkzeug": [
+    0.21951219512195122,
+    41
+   ]
+  },
+  "jinja_share": 0.5829383886255924,
+  "without_jinja": [
+   0.18181818181818182,
+   88
+  ],
+  "repo_ci": [
+   0.05648924014473434,
+   0.2820754716981131
+  ],
+  "fact_mean_ci": [
+   0.09259099616858237,
+   0.2340437420178799
+  ]
+ },
+ "F": {
+  "label": "F. pooled store, S160 facts only, next derivation, truth constant",
+  "pairs_wrong_unch": 474,
+  "p_right_after_wrong": 0.08438818565400844,
+  "pairs_right_unch": 2723,
+  "p_right_after_right": 0.982372383400661,
+  "facts": 37,
+  "repos": 14,
+  "fact_mean": 0.16034788132938918,
+  "top1_share": 0.10126582278481013,
+  "top1": "jinja:T2:n1",
+  "top5_share": 0.4177215189873418,
+  "median_pairs_per_fact": 10.0,
+  "same_answer_share": 0.9113924050632911,
+  "per_repo": {
+   "boltons": [
+    0.0,
+    2
+   ],
+   "httpx": [
+    0.16666666666666666,
+    6
+   ],
+   "isort": [
+    0.13513513513513514,
+    37
+   ],
+   "jinja": [
+    0.0,
+    151
+   ],
+   "kombu": [
+    0.1,
+    20
+   ],
+   "marshmallow": [
+    0.10344827586206896,
+    58
+   ],
+   "mkdocs": [
+    0.4166666666666667,
+    12
+   ],
+   "networkx": [
+    0.1,
+    10
+   ],
+   "poetry-core": [
+    0.023809523809523808,
+    42
+   ],
+   "pygments": [
+    0.2765957446808511,
+    47
+   ],
+   "pyparsing": [
+    0.05555555555555555,
+    18
+   ],
+   "scrapy": [
+    0.0,
+    10
+   ],
+   "typer": [
+    0.42857142857142855,
+    7
+   ],
+   "werkzeug": [
+    0.037037037037037035,
+    54
+   ]
+  },
+  "jinja_share": 0.31856540084388185,
+  "without_jinja": [
+   0.1238390092879257,
+   323
+  ],
+  "repo_ci": [
+   0.034479468281126614,
+   0.17366643772893742
+  ],
+  "fact_mean_ci": [
+   0.08387518854090689,
+   0.24285251481375228
+  ]
+ },
+ "G": {
+  "label": "G. pooled store, facts outside S160, next derivation, truth constant",
+  "pairs_wrong_unch": 189,
+  "p_right_after_wrong": 0.12169312169312169,
+  "pairs_right_unch": 472,
+  "p_right_after_right": 0.961864406779661,
+  "facts": 75,
+  "repos": 10,
+  "fact_mean": 0.1857037037037037,
+  "top1_share": 0.09523809523809523,
+  "top1": "pyparsing:T5:n21",
+  "top5_share": 0.2328042328042328,
+  "median_pairs_per_fact": 2.0,
+  "same_answer_share": 0.7407407407407407,
+  "per_repo": {
+   "httpx": [
+    1.0,
+    1
+   ],
+   "jinja": [
+    0.06306306306306306,
+    111
+   ],
+   "kombu": [
+    0.2,
+    5
+   ],
+   "marshmallow": [
+    1.0,
+    3
+   ],
+   "networkx": [
+    0.0,
+    6
+   ],
+   "poetry-core": [
+    0.0,
+    2
+   ],
+   "pygments": [
+    1.0,
+    1
+   ],
+   "pyparsing": [
+    0.0,
+    19
+   ],
+   "scrapy": [
+    0.25,
+    4
+   ],
+   "werkzeug": [
+    0.24324324324324326,
+    37
+   ]
+  },
+  "jinja_share": 0.5873015873015873,
+  "without_jinja": [
+   0.20512820512820512,
+   78
+  ],
+  "repo_ci": [
+   0.06416568212908842,
+   0.3040388888888887
+  ],
+  "fact_mean_ci": [
+   0.10680555555555556,
+   0.27089444444444444
+  ]
+ }
+}

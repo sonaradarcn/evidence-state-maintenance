@@ -1,0 +1,57 @@
+{
+ "static_unremapped_eq_benchmark": [
+  96,
+  96
+ ],
+ "behaviour_exec_eq_benchmark": [
+  24,
+  24
+ ],
+ "mismatch": [],
+ "remapped_differs_from_benchmark": [
+  [
+   "kombu:T3:13",
+   250,
+   "self, delivery_tag",
+   "NONE"
+  ],
+  [
+   "kombu:T3:13",
+   400,
+   "self, delivery_tag",
+   "NONE"
+  ],
+  [
+   "jinja:T7:41",
+   250,
+   "Helper",
+   "NONE"
+  ],
+  [
+   "jinja:T7:41",
+   400,
+   "Helper",
+   "NONE"
+  ]
+ ],
+ "windows_ok": {
+  "black": true,
+  "boltons": true,
+  "httpx": true,
+  "isort": true,
+  "jinja": true,
+  "kombu": true,
+  "marshmallow": true,
+  "mkdocs": true,
+  "networkx": true,
+  "poetry-core": true,
+  "pygments": true,
+  "pyparsing": true,
+  "rich": true,
+  "scrapy": true,
+  "typer": true,
+  "werkzeug": true
+ },
+ "n_tasks": 120,
+ "secs": 51
+}

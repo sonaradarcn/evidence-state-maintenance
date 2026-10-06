@@ -1,0 +1,4757 @@
+{
+ "lake": "tlc",
+ "s0": "tlc-0153",
+ "s0_time": "2022-05-15T12:00:00Z",
+ "head": "tlc-0382",
+ "n_history": 60,
+ "n_future": 229,
+ "stats": {
+  "D1": {
+   "n_candidates": 70,
+   "pool": 70,
+   "pool_frac_changing": 0.429,
+   "pool_frac_invalid_pairs": 0.338,
+   "enrichment_extra_scanned": 0,
+   "natural_n": 11,
+   "natural_frac_changing": 0.455,
+   "enriched_n": 11,
+   "enriched_frac_changing": 1.0,
+   "enriched_fill_n": 0
+  },
+  "D2": {
+   "n_candidates": 46,
+   "pool": 46,
+   "pool_frac_changing": 0.022,
+   "pool_frac_invalid_pairs": 0.017,
+   "enrichment_extra_scanned": 0,
+   "natural_n": 11,
+   "natural_frac_changing": 0.0,
+   "enriched_n": 11,
+   "enriched_frac_changing": 0.091,
+   "enriched_fill_n": 10
+  },
+  "D3": {
+   "n_candidates": 1673,
+   "pool": 150,
+   "pool_frac_changing": 0.047,
+   "pool_frac_invalid_pairs": 0.03,
+   "enrichment_extra_scanned": 577,
+   "natural_n": 11,
+   "natural_frac_changing": 0.0,
+   "enriched_n": 11,
+   "enriched_frac_changing": 1.0,
+   "enriched_fill_n": 0
+  },
+  "D4": {
+   "n_candidates": 135,
+   "pool": 133,
+   "pool_frac_changing": 0.564,
+   "pool_frac_invalid_pairs": 0.504,
+   "enrichment_extra_scanned": 0,
+   "natural_n": 11,
+   "natural_frac_changing": 0.545,
+   "enriched_n": 11,
+   "enriched_frac_changing": 1.0,
+   "enriched_fill_n": 0
+  },
+  "D5": {
+   "n_candidates": 191,
+   "pool": 150,
+   "pool_frac_changing": 0.087,
+   "pool_frac_invalid_pairs": 0.076,
+   "enrichment_extra_scanned": 41,
+   "natural_n": 11,
+   "natural_frac_changing": 0.0,
+   "enriched_n": 11,
+   "enriched_frac_changing": 1.0,
+   "enriched_fill_n": 0
+  },
+  "D6": {
+   "n_candidates": 572,
+   "pool": 150,
+   "pool_frac_changing": 0.293,
+   "pool_frac_invalid_pairs": 0.224,
+   "enrichment_extra_scanned": 0,
+   "natural_n": 11,
+   "natural_frac_changing": 0.364,
+   "enriched_n": 11,
+   "enriched_frac_changing": 1.0,
+   "enriched_fill_n": 0
+  },
+  "D7": {
+   "n_candidates": 1276,
+   "pool": 150,
+   "pool_frac_changing": 0.107,
+   "pool_frac_invalid_pairs": 0.103,
+   "enrichment_extra_scanned": 158,
+   "natural_n": 11,
+   "natural_frac_changing": 0.182,
+   "enriched_n": 11,
+   "enriched_frac_changing": 1.0,
+   "enriched_fill_n": 0
+  },
+  "D8": {
+   "n_candidates": 192,
+   "pool": 150,
+   "pool_frac_changing": 0.42,
+   "pool_frac_invalid_pairs": 0.416,
+   "enrichment_extra_scanned": 0,
+   "natural_n": 11,
+   "natural_frac_changing": 0.545,
+   "enriched_n": 11,
+   "enriched_frac_changing": 1.0,
+   "enriched_fill_n": 0
+  }
+ },
+ "facts": [
+  {
+   "id": "tlc:D1:0",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "column": "shared_request_flag"
+   },
+   "K_oracle": "string",
+   "n_future_changed": 179,
+   "first_change_future_idx": 50,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `shared_request_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:1",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "column": "tolls"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `tolls` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:2",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "column": "DOLocationID"
+   },
+   "K_oracle": "int64",
+   "n_future_changed": 179,
+   "first_change_future_idx": 50,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `DOLocationID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:3",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "column": "driver_pay"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `driver_pay` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:4",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "column": "total_amount"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `total_amount` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:5",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "column": "PULocationID"
+   },
+   "K_oracle": "int64",
+   "n_future_changed": 181,
+   "first_change_future_idx": 48,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `PULocationID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:6",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "column": "bcf"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `bcf` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:7",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "column": "airport_fee"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `airport_fee` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:8",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "column": "VendorID"
+   },
+   "K_oracle": "int64",
+   "n_future_changed": 181,
+   "first_change_future_idx": 48,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `VendorID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:9",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "column": "trip_distance"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `trip_distance` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:10",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "column": "RatecodeID"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 182,
+   "first_change_future_idx": 47,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `RatecodeID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:11",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "column": "DOLocationID"
+   },
+   "K_oracle": "int64",
+   "n_future_changed": 182,
+   "first_change_future_idx": 47,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `DOLocationID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:12",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "column": "store_and_fwd_flag"
+   },
+   "K_oracle": "string",
+   "n_future_changed": 182,
+   "first_change_future_idx": 47,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:13",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "column": "originating_base_num"
+   },
+   "K_oracle": "string",
+   "n_future_changed": 179,
+   "first_change_future_idx": 50,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `originating_base_num` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:14",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "column": "VendorID"
+   },
+   "K_oracle": "int64",
+   "n_future_changed": 182,
+   "first_change_future_idx": 47,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `VendorID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:15",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "column": "wav_match_flag"
+   },
+   "K_oracle": "string",
+   "n_future_changed": 179,
+   "first_change_future_idx": 50,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `wav_match_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:16",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "column": "payment_type"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 181,
+   "first_change_future_idx": 48,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `payment_type` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:17",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "column": "hvfhs_license_num"
+   },
+   "K_oracle": "string",
+   "n_future_changed": 179,
+   "first_change_future_idx": 50,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `hvfhs_license_num` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:18",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "column": "DOLocationID"
+   },
+   "K_oracle": "int64",
+   "n_future_changed": 181,
+   "first_change_future_idx": 48,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `DOLocationID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:19",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "column": "RatecodeID"
+   },
+   "K_oracle": "double",
+   "n_future_changed": 181,
+   "first_change_future_idx": 48,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `RatecodeID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:20",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "column": "store_and_fwd_flag"
+   },
+   "K_oracle": "string",
+   "n_future_changed": 181,
+   "first_change_future_idx": 48,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D1:21",
+   "lake": "tlc",
+   "type": "D1",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "column": "PULocationID"
+   },
+   "K_oracle": "int64",
+   "n_future_changed": 179,
+   "first_change_future_idx": 50,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file in the lake, what is the Arrow/Parquet data type of column `PULocationID` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:22",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "concept": "pickup_zone"
+   },
+   "K_oracle": "PUlocationID",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent FHV trip file, what is the exact (case-sensitive) name of the column that holds the TLC taxi zone ID of the pick-up location? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:23",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "shared_flag"
+   },
+   "K_oracle": "shared_request_flag",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the flag for a shared / pooled ride request? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:24",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "concept": "pickup_time"
+   },
+   "K_oracle": "tpep_pickup_datetime",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the pickup date and time? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:25",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "dropoff_zone"
+   },
+   "K_oracle": "DOLocationID",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the TLC taxi zone ID of the drop-off location? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:26",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "pickup_time"
+   },
+   "K_oracle": "pickup_datetime",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the pickup date and time? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:27",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "congestion_surcharge",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the NYS congestion surcharge? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:28",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "base_fare"
+   },
+   "K_oracle": "base_passenger_fare",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the base fare (time-and-distance fare, before taxes, tolls, tips and surcharges)? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:29",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "concept": "base_fare"
+   },
+   "K_oracle": "fare_amount",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the base fare (time-and-distance fare, before taxes, tolls, tips and surcharges)? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:30",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "concept": "provider"
+   },
+   "K_oracle": "VendorID",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file, what is the exact (case-sensitive) name of the column that holds the code of the provider / vendor / HVFHS licensee that supplied the record? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:31",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "concept": "total_charged"
+   },
+   "K_oracle": "total_amount",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file, what is the exact (case-sensitive) name of the column that holds the total amount charged to passengers (excluding cash tips)? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:32",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "concept": "dropoff_time"
+   },
+   "K_oracle": "tpep_dropoff_datetime",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the drop-off date and time? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:33",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "concept": "airport_fee"
+   },
+   "K_oracle": "airport_fee",
+   "n_future_changed": 182,
+   "first_change_future_idx": 47,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the airport fee charged for pick-ups at LaGuardia / JFK? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:34",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "tolls"
+   },
+   "K_oracle": "tolls",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the tolls paid? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:35",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "green",
+    "concept": "passenger_count"
+   },
+   "K_oracle": "passenger_count",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file, what is the exact (case-sensitive) name of the column that holds the number of passengers? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:36",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "dropoff_time"
+   },
+   "K_oracle": "dropoff_datetime",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the drop-off date and time? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:37",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "dispatch_base"
+   },
+   "K_oracle": "dispatching_base_num",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the TLC base license number of the dispatching base? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:38",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "fhvhv",
+    "concept": "provider"
+   },
+   "K_oracle": "hvfhs_license_num",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent High Volume FHV (fhvhv) trip file, what is the exact (case-sensitive) name of the column that holds the code of the provider / vendor / HVFHS licensee that supplied the record? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:39",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "green",
+    "concept": "base_fare"
+   },
+   "K_oracle": "fare_amount",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file, what is the exact (case-sensitive) name of the column that holds the base fare (time-and-distance fare, before taxes, tolls, tips and surcharges)? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:40",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "yellow",
+    "concept": "tolls"
+   },
+   "K_oracle": "tolls_amount",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the tolls paid? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:41",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "green",
+    "concept": "tolls"
+   },
+   "K_oracle": "tolls_amount",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file, what is the exact (case-sensitive) name of the column that holds the tolls paid? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:42",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "green",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "congestion_surcharge",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent Green taxi trip file, what is the exact (case-sensitive) name of the column that holds the NYS congestion surcharge? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D2:43",
+   "lake": "tlc",
+   "type": "D2",
+   "subset": "enriched_fill",
+   "args": {
+    "ds": "fhv",
+    "concept": "shared_flag"
+   },
+   "K_oracle": "SR_Flag",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the most recent FHV trip file, what is the exact (case-sensitive) name of the column that holds the flag for a shared / pooled ride request? Answer NONE if no column holds it.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:44",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "month": "2020-11",
+    "agg": "mean",
+    "concept": "total_charged"
+   },
+   "K_oracle": "23.8569",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the Green taxi partition for month 2020-11, what is the mean over non-null rows of the total amount charged to passengers (excluding cash tips) (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2020-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:45",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "month": "2020-10",
+    "agg": "sum",
+    "concept": "tip"
+   },
+   "K_oracle": "2841.25",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the Green taxi partition for month 2020-10, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2020-10.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:46",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "month": "2021-06",
+    "agg": "count"
+   },
+   "K_oracle": "44296",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "How many rows does the Yellow taxi partition for month 2021-06 contain (all files of that month)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-06.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:47",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "month": "2021-06",
+    "agg": "mean",
+    "concept": "tip"
+   },
+   "K_oracle": "1.0138",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "In the Green taxi partition for month 2021-06, what is the mean over non-null rows of the tip amount (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-06.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:48",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "month": "2019-06",
+    "agg": "mean",
+    "concept": "base_fare"
+   },
+   "K_oracle": "18.5449",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the High Volume FHV (fhvhv) partition for month 2019-06, what is the mean over non-null rows of the base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-06.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:49",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "month": "2021-09",
+    "agg": "sum",
+    "concept": "tip"
+   },
+   "K_oracle": "114955.34",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "In the Yellow taxi partition for month 2021-09, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-09.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:50",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "month": "2021-06",
+    "agg": "mean",
+    "concept": "tip"
+   },
+   "K_oracle": "2.3150",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "In the Yellow taxi partition for month 2021-06, what is the mean over non-null rows of the tip amount (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-06.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:51",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "month": "2019-08",
+    "agg": "mean",
+    "concept": "distance"
+   },
+   "K_oracle": "3.1621",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "In the Yellow taxi partition for month 2019-08, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-08.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:52",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "month": "2021-10",
+    "agg": "mean",
+    "concept": "distance"
+   },
+   "K_oracle": "3.2221",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "In the Yellow taxi partition for month 2021-10, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-10.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:53",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "month": "2022-01",
+    "agg": "sum",
+    "concept": "distance"
+   },
+   "K_oracle": "8870.62",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "In the Green taxi partition for month 2022-01, what is the sum of the trip distance in miles (each value rounded to cents first); answer with 2 decimals?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-01.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:54",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "month": "2021-11",
+    "agg": "mean",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "2.3198",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "In the Yellow taxi partition for month 2021-11, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:55",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "month": "2022-01",
+    "agg": "sum",
+    "concept": "tip"
+   },
+   "K_oracle": "89574.66",
+   "n_future_changed": 204,
+   "first_change_future_idx": 25,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "In the Yellow taxi partition for month 2022-01, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:56",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "month": "2022-01",
+    "agg": "mean",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "2.2796",
+   "n_future_changed": 204,
+   "first_change_future_idx": 25,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "In the Yellow taxi partition for month 2022-01, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:57",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "month": "2020-05",
+    "agg": "mean",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "2.0558",
+   "n_future_changed": 65,
+   "first_change_future_idx": 164,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the Yellow taxi partition for month 2020-05, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2020-05.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:58",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "month": "2022-01",
+    "agg": "count"
+   },
+   "K_oracle": "37281",
+   "n_future_changed": 204,
+   "first_change_future_idx": 25,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "How many rows does the Yellow taxi partition for month 2022-01 contain (all files of that month)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:59",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "month": "2020-12",
+    "agg": "count"
+   },
+   "K_oracle": "17896",
+   "n_future_changed": 123,
+   "first_change_future_idx": 106,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "How many rows does the FHV partition for month 2020-12 contain (all files of that month)?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2020-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:60",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "month": "2021-11",
+    "agg": "mean",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "0.5854",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:61",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "month": "2020-05",
+    "agg": "mean",
+    "concept": "tip"
+   },
+   "K_oracle": "1.3803",
+   "n_future_changed": 65,
+   "first_change_future_idx": 164,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "In the Yellow taxi partition for month 2020-05, what is the mean over non-null rows of the tip amount (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2020-05.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:62",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "month": "2022-01",
+    "agg": "sum",
+    "concept": "total_charged"
+   },
+   "K_oracle": "710757.52",
+   "n_future_changed": 204,
+   "first_change_future_idx": 25,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "In the Yellow taxi partition for month 2022-01, what is the sum of the total amount charged to passengers (excluding cash tips) (each value rounded to cents first); answer with 2 decimals?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:63",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "month": "2021-06",
+    "agg": "mean",
+    "concept": "tolls"
+   },
+   "K_oracle": "0.9133",
+   "n_future_changed": 178,
+   "first_change_future_idx": 51,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "In the High Volume FHV (fhvhv) partition for month 2021-06, what is the mean over non-null rows of the tolls paid (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2021-06.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:64",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "month": "2021-11",
+    "agg": "sum",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "618.75",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "In the Green taxi partition for month 2021-11, what is the sum of the NYS congestion surcharge (each value rounded to cents first); answer with 2 decimals?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D3:65",
+   "lake": "tlc",
+   "type": "D3",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "month": "2021-11",
+    "agg": "mean",
+    "concept": "distance"
+   },
+   "K_oracle": "65.1742",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:66",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "year": "2021",
+    "agg": "sum",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "1053177.50",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 13,
+   "question": "What is the total NYS congestion surcharge summed over all monthly files of 2021 present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-01.parquet",
+    "trip-data/yellow_tripdata_2021-02.parquet",
+    "trip-data/yellow_tripdata_2021-03.parquet",
+    "trip-data/yellow_tripdata_2021-04.parquet",
+    "trip-data/yellow_tripdata_2021-05.parquet",
+    "trip-data/yellow_tripdata_2021-06.parquet",
+    "trip-data/yellow_tripdata_2021-07.parquet",
+    "trip-data/yellow_tripdata_2021-08.parquet",
+    "trip-data/yellow_tripdata_2021-09.parquet",
+    "trip-data/yellow_tripdata_2021-10.parquet",
+    "trip-data/yellow_tripdata_2021-11.parquet",
+    "trip-data/yellow_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:67",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "year": "2019",
+    "agg": "sum",
+    "concept": "total_charged"
+   },
+   "K_oracle": "1806651.12",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "What is the total total amount charged to passengers (excluding cash tips) summed over all monthly files of 2019 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:68",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "year": "2020",
+    "agg": "sum",
+    "concept": "base_fare"
+   },
+   "K_oracle": "461966.42",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "What is the total base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) summed over all monthly files of 2020 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "trip-data/green_tripdata_2020-09.parquet",
+    "trip-data/green_tripdata_2020-10.parquet",
+    "trip-data/green_tripdata_2020-11.parquet",
+    "trip-data/green_tripdata_2020-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:69",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "year": "all",
+    "agg": "max_pickup"
+   },
+   "K_oracle": "2022-02-28 23:59:49",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 15,
+   "question": "What is the latest pickup timestamp over all monthly files present so far of High Volume FHV (fhvhv) data (YYYY-MM-DD HH:MM:SS)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:70",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "year": "all",
+    "agg": "sum",
+    "concept": "distance"
+   },
+   "K_oracle": "2806565.95",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 14,
+   "question": "What is the total trip distance in miles summed over all monthly files present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:71",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "year": "2020",
+    "agg": "sum",
+    "concept": "total_charged"
+   },
+   "K_oracle": "547616.23",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "What is the total total amount charged to passengers (excluding cash tips) summed over all monthly files of 2020 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "trip-data/green_tripdata_2020-09.parquet",
+    "trip-data/green_tripdata_2020-10.parquet",
+    "trip-data/green_tripdata_2020-11.parquet",
+    "trip-data/green_tripdata_2020-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:72",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "year": "2021",
+    "agg": "sum",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "2829626.50",
+   "n_future_changed": 178,
+   "first_change_future_idx": 51,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 12,
+   "question": "What is the total NYS congestion surcharge summed over all monthly files of 2021 present so far of High Volume FHV (fhvhv) data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2021-01.parquet",
+    "trip-data/fhvhv_tripdata_2021-02.parquet",
+    "trip-data/fhvhv_tripdata_2021-03.parquet",
+    "trip-data/fhvhv_tripdata_2021-04.parquet",
+    "trip-data/fhvhv_tripdata_2021-05.parquet",
+    "trip-data/fhvhv_tripdata_2021-06.parquet",
+    "trip-data/fhvhv_tripdata_2021-07.parquet",
+    "trip-data/fhvhv_tripdata_2021-08.parquet",
+    "trip-data/fhvhv_tripdata_2021-09.parquet",
+    "trip-data/fhvhv_tripdata_2021-10.parquet",
+    "trip-data/fhvhv_tripdata_2021-11.parquet",
+    "trip-data/fhvhv_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:73",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "year": "2022",
+    "agg": "sum",
+    "concept": "base_fare"
+   },
+   "K_oracle": "9776730.37",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 11,
+   "history_value_changes": 2,
+   "question": "What is the total base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) summed over all monthly files of 2022 present so far of High Volume FHV (fhvhv) data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-01.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:74",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "year": "all",
+    "agg": "count"
+   },
+   "K_oracle": "144204",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 14,
+   "question": "How many Green taxi trip rows are there in total over all monthly files present so far?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:75",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "year": "2021",
+    "agg": "sum",
+    "concept": "base_fare"
+   },
+   "K_oracle": "59671815.53",
+   "n_future_changed": 178,
+   "first_change_future_idx": 51,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 12,
+   "question": "What is the total base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) summed over all monthly files of 2021 present so far of High Volume FHV (fhvhv) data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2021-01.parquet",
+    "trip-data/fhvhv_tripdata_2021-02.parquet",
+    "trip-data/fhvhv_tripdata_2021-03.parquet",
+    "trip-data/fhvhv_tripdata_2021-04.parquet",
+    "trip-data/fhvhv_tripdata_2021-05.parquet",
+    "trip-data/fhvhv_tripdata_2021-06.parquet",
+    "trip-data/fhvhv_tripdata_2021-07.parquet",
+    "trip-data/fhvhv_tripdata_2021-08.parquet",
+    "trip-data/fhvhv_tripdata_2021-09.parquet",
+    "trip-data/fhvhv_tripdata_2021-10.parquet",
+    "trip-data/fhvhv_tripdata_2021-11.parquet",
+    "trip-data/fhvhv_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:76",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "year": "2020",
+    "agg": "sum",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "1971028.75",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What is the total NYS congestion surcharge summed over all monthly files of 2020 present so far of High Volume FHV (fhvhv) data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "trip-data/fhvhv_tripdata_2020-10.parquet",
+    "trip-data/fhvhv_tripdata_2020-11.parquet",
+    "trip-data/fhvhv_tripdata_2020-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:77",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "year": "2022",
+    "agg": "max_pickup"
+   },
+   "K_oracle": "2022-03-31 23:59:31",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 10,
+   "history_value_changes": 3,
+   "question": "What is the latest pickup timestamp over all monthly files of 2022 present so far of Yellow taxi data (YYYY-MM-DD HH:MM:SS)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet",
+    "trip-data/yellow_tripdata_2022-02.parquet",
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:78",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "year": "2021",
+    "agg": "sum",
+    "concept": "distance"
+   },
+   "K_oracle": "2121837.16",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 12,
+   "question": "What is the total trip distance in miles summed over all monthly files of 2021 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-01.parquet",
+    "trip-data/green_tripdata_2021-02.parquet",
+    "trip-data/green_tripdata_2021-03.parquet",
+    "trip-data/green_tripdata_2021-04.parquet",
+    "trip-data/green_tripdata_2021-05.parquet",
+    "trip-data/green_tripdata_2021-06.parquet",
+    "trip-data/green_tripdata_2021-07.parquet",
+    "trip-data/green_tripdata_2021-08.parquet",
+    "trip-data/green_tripdata_2021-09.parquet",
+    "trip-data/green_tripdata_2021-10.parquet",
+    "trip-data/green_tripdata_2021-11.parquet",
+    "trip-data/green_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:79",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "year": "2021",
+    "agg": "count"
+   },
+   "K_oracle": "16483",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 12,
+   "question": "How many Green taxi trip rows are there in total over all monthly files of 2021 present so far?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-01.parquet",
+    "trip-data/green_tripdata_2021-02.parquet",
+    "trip-data/green_tripdata_2021-03.parquet",
+    "trip-data/green_tripdata_2021-04.parquet",
+    "trip-data/green_tripdata_2021-05.parquet",
+    "trip-data/green_tripdata_2021-06.parquet",
+    "trip-data/green_tripdata_2021-07.parquet",
+    "trip-data/green_tripdata_2021-08.parquet",
+    "trip-data/green_tripdata_2021-09.parquet",
+    "trip-data/green_tripdata_2021-10.parquet",
+    "trip-data/green_tripdata_2021-11.parquet",
+    "trip-data/green_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:80",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "year": "2020",
+    "agg": "count"
+   },
+   "K_oracle": "385759",
+   "n_future_changed": 65,
+   "first_change_future_idx": 164,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "How many Yellow taxi trip rows are there in total over all monthly files of 2020 present so far?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "trip-data/yellow_tripdata_2020-09.parquet",
+    "trip-data/yellow_tripdata_2020-10.parquet",
+    "trip-data/yellow_tripdata_2020-11.parquet",
+    "trip-data/yellow_tripdata_2020-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:81",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "year": "all",
+    "agg": "sum",
+    "concept": "airport_fee"
+   },
+   "K_oracle": "39436.25",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 13,
+   "question": "What is the total airport fee charged for pick-ups at LaGuardia / JFK summed over all monthly files present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:82",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "year": "2022",
+    "agg": "sum",
+    "concept": "distance"
+   },
+   "K_oracle": "534774.48",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 11,
+   "history_value_changes": 3,
+   "question": "What is the total trip distance in miles summed over all monthly files of 2022 present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet",
+    "trip-data/yellow_tripdata_2022-02.parquet",
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D4:83",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "year": "all",
+    "agg": "sum",
+    "concept": "congestion_surcharge"
+   },
+   "K_oracle": "4932979.00",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 56,
+   "history_value_changes": 16,
+   "question": "What is the total NYS congestion surcharge summed over all monthly files present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:84",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "year": "all",
+    "agg": "sum",
+    "concept": "base_fare"
+   },
+   "K_oracle": "2344350.13",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 14,
+   "question": "What is the total base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) summed over all monthly files present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:85",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "year": "all",
+    "agg": "sum",
+    "concept": "tip"
+   },
+   "K_oracle": "5179316.47",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 56,
+   "history_value_changes": 16,
+   "question": "What is the total tip amount summed over all monthly files present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:86",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "year": "all",
+    "agg": "sum",
+    "concept": "base_fare"
+   },
+   "K_oracle": "30844754.33",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 56,
+   "history_value_changes": 16,
+   "question": "What is the total base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) summed over all monthly files present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D4:87",
+   "lake": "tlc",
+   "type": "D4",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "year": "2022",
+    "agg": "sum",
+    "concept": "tip"
+   },
+   "K_oracle": "3664.02",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 10,
+   "history_value_changes": 2,
+   "question": "What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-01.parquet",
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:88",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "period": "2021-12",
+    "sub": "topk",
+    "side": "pu",
+    "k": 3
+   },
+   "K_oracle": "237, 236, 132",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 3 pick-up zone ID(s) have the most Yellow taxi trips in the 2021-12 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:89",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2022-02",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "74",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 1 pick-up zone ID(s) have the most Green taxi trips in the 2022-02 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:90",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021-12",
+    "sub": "topk",
+    "side": "do",
+    "k": 3
+   },
+   "K_oracle": "74, 42, 75",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 3 drop-off zone ID(s) have the most Green taxi trips in the 2021-12 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:91",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2021-10",
+    "sub": "topk",
+    "side": "do",
+    "k": 3
+   },
+   "K_oracle": "265, 26, 76",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 3 drop-off zone ID(s) have the most FHV trips in the 2021-10 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2021-10.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:92",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "period": "2021-10",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "237",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 1 pick-up zone ID(s) have the most Yellow taxi trips in the 2021-10 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-10.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:93",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "period": "all",
+    "sub": "topk",
+    "side": "do",
+    "k": 1
+   },
+   "K_oracle": "265",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "Which 1 drop-off zone ID(s) have the most High Volume FHV (fhvhv) trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D5:94",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2022-02",
+    "sub": "topk",
+    "side": "do",
+    "k": 1
+   },
+   "K_oracle": "26",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 1 drop-off zone ID(s) have the most FHV trips in the 2022-02 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:95",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "all",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "264",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "Which 1 pick-up zone ID(s) have the most FHV trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2019-01.parquet",
+    "trip-data/fhv_tripdata_2019-02.parquet",
+    "trip-data/fhv_tripdata_2019-03.parquet",
+    "trip-data/fhv_tripdata_2019-04.parquet",
+    "trip-data/fhv_tripdata_2019-05.parquet",
+    "trip-data/fhv_tripdata_2019-06.parquet",
+    "trip-data/fhv_tripdata_2019-07.parquet",
+    "trip-data/fhv_tripdata_2019-08.parquet",
+    "trip-data/fhv_tripdata_2019-09.parquet",
+    "trip-data/fhv_tripdata_2019-10.parquet",
+    "trip-data/fhv_tripdata_2019-11.parquet",
+    "trip-data/fhv_tripdata_2019-12.parquet",
+    "trip-data/fhv_tripdata_2020-01.parquet",
+    "trip-data/fhv_tripdata_2020-02.parquet",
+    "trip-data/fhv_tripdata_2020-03.parquet",
+    "trip-data/fhv_tripdata_2020-04.parquet",
+    "trip-data/fhv_tripdata_2020-05.parquet",
+    "trip-data/fhv_tripdata_2020-06.parquet",
+    "trip-data/fhv_tripdata_2020-07.parquet",
+    "trip-data/fhv_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D5:96",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2022-01",
+    "sub": "topk",
+    "side": "do",
+    "k": 3
+   },
+   "K_oracle": "26, 265, 76",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 3 drop-off zone ID(s) have the most FHV trips in the 2022-01 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-01.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:97",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021-10",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "74",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 1 pick-up zone ID(s) have the most Green taxi trips in the 2021-10 monthly file? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-10.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:98",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "74",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 2,
+   "question": "Which 1 pick-up zone ID(s) have the most Green taxi trips in calendar year 2021 (all monthly files of 2021 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-01.parquet",
+    "trip-data/green_tripdata_2021-02.parquet",
+    "trip-data/green_tripdata_2021-03.parquet",
+    "trip-data/green_tripdata_2021-04.parquet",
+    "trip-data/green_tripdata_2021-05.parquet",
+    "trip-data/green_tripdata_2021-06.parquet",
+    "trip-data/green_tripdata_2021-07.parquet",
+    "trip-data/green_tripdata_2021-08.parquet",
+    "trip-data/green_tripdata_2021-09.parquet",
+    "trip-data/green_tripdata_2021-10.parquet",
+    "trip-data/green_tripdata_2021-11.parquet",
+    "trip-data/green_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:99",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "all",
+    "sub": "topk",
+    "side": "do",
+    "k": 3
+   },
+   "K_oracle": "265, 132, 61",
+   "n_future_changed": 209,
+   "first_change_future_idx": 20,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 2,
+   "question": "Which 3 drop-off zone ID(s) have the most High Volume FHV (fhvhv) trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D5:100",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "2022",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "237",
+   "n_future_changed": 203,
+   "first_change_future_idx": 26,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Which 1 pick-up zone ID(s) have the most Yellow taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet",
+    "trip-data/yellow_tripdata_2022-02.parquet",
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:101",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "period": "2022",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "129",
+   "n_future_changed": 228,
+   "first_change_future_idx": 1,
+   "n_distinct_future_values": 3,
+   "history_value_changes": 1,
+   "question": "Which 1 pick-up zone ID(s) have the most FHV trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-01.parquet",
+    "trip-data/fhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:102",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "period": "2022",
+    "sub": "topk",
+    "side": "do",
+    "k": 3
+   },
+   "K_oracle": "75, 74, 41",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Which 3 drop-off zone ID(s) have the most Green taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-01.parquet",
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:103",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2022",
+    "sub": "topk",
+    "side": "pu",
+    "k": 3
+   },
+   "K_oracle": "79, 132, 61",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 4,
+   "history_value_changes": 2,
+   "question": "Which 3 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-01.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:104",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "all",
+    "sub": "topk",
+    "side": "pu",
+    "k": 3
+   },
+   "K_oracle": "237, 236, 161",
+   "n_future_changed": 76,
+   "first_change_future_idx": 153,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Which 3 pick-up zone ID(s) have the most Yellow taxi trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D5:105",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "2022",
+    "sub": "topk",
+    "side": "pu",
+    "k": 3
+   },
+   "K_oracle": "237, 236, 132",
+   "n_future_changed": 217,
+   "first_change_future_idx": 12,
+   "n_distinct_future_values": 3,
+   "history_value_changes": 1,
+   "question": "Which 3 pick-up zone ID(s) have the most Yellow taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet",
+    "trip-data/yellow_tripdata_2022-02.parquet",
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:106",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2022",
+    "sub": "topk",
+    "side": "pu",
+    "k": 1
+   },
+   "K_oracle": "79",
+   "n_future_changed": 218,
+   "first_change_future_idx": 11,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 2,
+   "question": "Which 1 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-01.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:107",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2022",
+    "sub": "topk",
+    "side": "do",
+    "k": 3
+   },
+   "K_oracle": "265, 132, 61",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Which 3 drop-off zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-01.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:108",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "period": "2022",
+    "sub": "topk",
+    "side": "pu",
+    "k": 3
+   },
+   "K_oracle": "129, 206, 92",
+   "n_future_changed": 228,
+   "first_change_future_idx": 1,
+   "n_distinct_future_values": 4,
+   "history_value_changes": 1,
+   "question": "Which 3 pick-up zone ID(s) have the most FHV trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-01.parquet",
+    "trip-data/fhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D5:109",
+   "lake": "tlc",
+   "type": "D5",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "period": "2022",
+    "sub": "topk",
+    "side": "do",
+    "k": 1
+   },
+   "K_oracle": "75",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Which 1 drop-off zone ID(s) have the most Green taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-01.parquet",
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D6:110",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "all",
+    "sub": "count_service_zone",
+    "value": "EWR"
+   },
+   "K_oracle": "4",
+   "n_future_changed": 211,
+   "first_change_future_idx": 18,
+   "n_distinct_future_values": 7,
+   "history_value_changes": 0,
+   "question": "Join the Green taxi trips of all data in the lake so far on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have service_zone = 'EWR'?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D6:111",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "all",
+    "sub": "count_borough",
+    "value": "Queens"
+   },
+   "K_oracle": "39458",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 14,
+   "question": "Join the Green taxi trips of all data in the lake so far on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Queens'?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D6:112",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "period": "2022-03",
+    "sub": "count_borough",
+    "value": "Unknown"
+   },
+   "K_oracle": "755",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Join the Yellow taxi trips of the 2022-03 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:113",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2021-09",
+    "sub": "count_borough",
+    "value": "Queens"
+   },
+   "K_oracle": "1072",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Join the FHV trips of the 2021-09 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Queens'?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2021-09.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:114",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021-10",
+    "sub": "count_service_zone",
+    "value": "EWR"
+   },
+   "K_oracle": "0",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Join the Green taxi trips of the 2021-10 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have service_zone = 'EWR'?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-10.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:115",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2022-02",
+    "sub": "count_service_zone",
+    "value": "Boro Zone"
+   },
+   "K_oracle": "153332",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Join the High Volume FHV (fhvhv) trips of the 2022-02 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have service_zone = 'Boro Zone'?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:116",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2022-01",
+    "sub": "count_borough",
+    "value": "Manhattan"
+   },
+   "K_oracle": "898",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Join the FHV trips of the 2022-01 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Manhattan'?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-01.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:117",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2021",
+    "sub": "count_borough",
+    "value": "EWR"
+   },
+   "K_oracle": "30",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 12,
+   "question": "Join the FHV trips of calendar year 2021 (all monthly files of 2021 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'EWR'?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2021-01.parquet",
+    "trip-data/fhv_tripdata_2021-02.parquet",
+    "trip-data/fhv_tripdata_2021-03.parquet",
+    "trip-data/fhv_tripdata_2021-04.parquet",
+    "trip-data/fhv_tripdata_2021-05.parquet",
+    "trip-data/fhv_tripdata_2021-06.parquet",
+    "trip-data/fhv_tripdata_2021-07.parquet",
+    "trip-data/fhv_tripdata_2021-08.parquet",
+    "trip-data/fhv_tripdata_2021-09.parquet",
+    "trip-data/fhv_tripdata_2021-10.parquet",
+    "trip-data/fhv_tripdata_2021-11.parquet",
+    "trip-data/fhv_tripdata_2021-12.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:118",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "period": "2019",
+    "sub": "count_service_zone",
+    "value": "Boro Zone"
+   },
+   "K_oracle": "69504",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "Join the Yellow taxi trips of calendar year 2019 (all monthly files of 2019 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have service_zone = 'Boro Zone'?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:119",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2022",
+    "sub": "count_borough",
+    "value": "Manhattan"
+   },
+   "K_oracle": "194356",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 11,
+   "history_value_changes": 2,
+   "question": "Join the High Volume FHV (fhvhv) trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Manhattan'?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-01.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:120",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021-10",
+    "sub": "count_borough",
+    "value": "EWR"
+   },
+   "K_oracle": "0",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "Join the Green taxi trips of the 2021-10 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'EWR'?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-10.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:121",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "all",
+    "sub": "count_borough",
+    "value": "Queens"
+   },
+   "K_oracle": "157501",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 56,
+   "history_value_changes": 16,
+   "question": "Join the Yellow taxi trips of all data in the lake so far on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Queens'?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D6:122",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "2020",
+    "sub": "count_service_zone",
+    "value": "Boro Zone"
+   },
+   "K_oracle": "29306",
+   "n_future_changed": 65,
+   "first_change_future_idx": 164,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "Join the Yellow taxi trips of calendar year 2020 (all monthly files of 2020 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have service_zone = 'Boro Zone'?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "trip-data/yellow_tripdata_2020-09.parquet",
+    "trip-data/yellow_tripdata_2020-10.parquet",
+    "trip-data/yellow_tripdata_2020-11.parquet",
+    "trip-data/yellow_tripdata_2020-12.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:123",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "period": "2022",
+    "sub": "count_borough",
+    "value": "N/A"
+   },
+   "K_oracle": "0",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Join the FHV trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2022-01.parquet",
+    "trip-data/fhv_tripdata_2022-02.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:124",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "period": "2021-10",
+    "sub": "count_borough",
+    "value": "N/A"
+   },
+   "K_oracle": "0",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Join the FHV trips of the 2021-10 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2021-10.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:125",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "2022-02",
+    "sub": "count_borough",
+    "value": "Unknown"
+   },
+   "K_oracle": "560",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Join the Yellow taxi trips of the 2022-02 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-02.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:126",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2019",
+    "sub": "count_borough",
+    "value": "N/A"
+   },
+   "K_oracle": "0",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "Join the High Volume FHV (fhvhv) trips of calendar year 2019 (all monthly files of 2019 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:127",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "period": "2020",
+    "sub": "count_borough",
+    "value": "N/A"
+   },
+   "K_oracle": "0",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 3,
+   "history_value_changes": 0,
+   "question": "Join the FHV trips of calendar year 2020 (all monthly files of 2020 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2020-01.parquet",
+    "trip-data/fhv_tripdata_2020-02.parquet",
+    "trip-data/fhv_tripdata_2020-03.parquet",
+    "trip-data/fhv_tripdata_2020-04.parquet",
+    "trip-data/fhv_tripdata_2020-05.parquet",
+    "trip-data/fhv_tripdata_2020-06.parquet",
+    "trip-data/fhv_tripdata_2020-07.parquet",
+    "trip-data/fhv_tripdata_2020-08.parquet",
+    "trip-data/fhv_tripdata_2020-09.parquet",
+    "trip-data/fhv_tripdata_2020-10.parquet",
+    "trip-data/fhv_tripdata_2020-11.parquet",
+    "trip-data/fhv_tripdata_2020-12.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:128",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "period": "2020",
+    "sub": "count_service_zone",
+    "value": "Yellow Zone"
+   },
+   "K_oracle": "5327",
+   "n_future_changed": 123,
+   "first_change_future_idx": 106,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Join the FHV trips of calendar year 2020 (all monthly files of 2020 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have service_zone = 'Yellow Zone'?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2020-01.parquet",
+    "trip-data/fhv_tripdata_2020-02.parquet",
+    "trip-data/fhv_tripdata_2020-03.parquet",
+    "trip-data/fhv_tripdata_2020-04.parquet",
+    "trip-data/fhv_tripdata_2020-05.parquet",
+    "trip-data/fhv_tripdata_2020-06.parquet",
+    "trip-data/fhv_tripdata_2020-07.parquet",
+    "trip-data/fhv_tripdata_2020-08.parquet",
+    "trip-data/fhv_tripdata_2020-09.parquet",
+    "trip-data/fhv_tripdata_2020-10.parquet",
+    "trip-data/fhv_tripdata_2020-11.parquet",
+    "trip-data/fhv_tripdata_2020-12.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:129",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2021-11",
+    "sub": "count_borough",
+    "value": "Unknown"
+   },
+   "K_oracle": "13",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Join the High Volume FHV (fhvhv) trips of the 2021-11 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2021-11.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D6:130",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "all",
+    "sub": "count_borough",
+    "value": "Unknown"
+   },
+   "K_oracle": "23809",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 57,
+   "history_value_changes": 16,
+   "question": "Join the Yellow taxi trips of all data in the lake so far on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D6:131",
+   "lake": "tlc",
+   "type": "D6",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "2021-12",
+    "sub": "count_borough",
+    "value": "Unknown"
+   },
+   "K_oracle": "549",
+   "n_future_changed": 136,
+   "first_change_future_idx": 93,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "Join the Yellow taxi trips of the 2021-12 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-12.parquet",
+    "misc/taxi_zone_lookup.csv"
+   ]
+  },
+  {
+   "id": "tlc:D7:132",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "period": "2021-12",
+    "check": "null_frac",
+    "column": "total_amount"
+   },
+   "K_oracle": "0.00000",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What fraction of Yellow taxi rows in the 2021-12 monthly file have a NULL (a missing column counts as NULL) value in column `total_amount` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:133",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021",
+    "check": "zero_frac",
+    "column": "tip_amount"
+   },
+   "K_oracle": "0.65176",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 12,
+   "question": "What fraction of Green taxi rows in calendar year 2021 (all monthly files of 2021 present so far) have a exactly zero value in column `tip_amount` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-01.parquet",
+    "trip-data/green_tripdata_2021-02.parquet",
+    "trip-data/green_tripdata_2021-03.parquet",
+    "trip-data/green_tripdata_2021-04.parquet",
+    "trip-data/green_tripdata_2021-05.parquet",
+    "trip-data/green_tripdata_2021-06.parquet",
+    "trip-data/green_tripdata_2021-07.parquet",
+    "trip-data/green_tripdata_2021-08.parquet",
+    "trip-data/green_tripdata_2021-09.parquet",
+    "trip-data/green_tripdata_2021-10.parquet",
+    "trip-data/green_tripdata_2021-11.parquet",
+    "trip-data/green_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:134",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2021-11",
+    "check": "null_frac",
+    "column": "dispatching_base_num"
+   },
+   "K_oracle": "0.00000",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What fraction of FHV rows in the 2021-11 monthly file have a NULL (a missing column counts as NULL) value in column `dispatching_base_num` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:135",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2020",
+    "check": "null_frac",
+    "column": "DOLocationID"
+   },
+   "K_oracle": "0.00000",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "What fraction of Green taxi rows in calendar year 2020 (all monthly files of 2020 present so far) have a NULL (a missing column counts as NULL) value in column `DOLocationID` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "trip-data/green_tripdata_2020-09.parquet",
+    "trip-data/green_tripdata_2020-10.parquet",
+    "trip-data/green_tripdata_2020-11.parquet",
+    "trip-data/green_tripdata_2020-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:136",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021-12",
+    "check": "zero_frac",
+    "column": "total_amount"
+   },
+   "K_oracle": "0.00189",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What fraction of Green taxi rows in the 2021-12 monthly file have a exactly zero value in column `total_amount` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:137",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "period": "2021-12",
+    "check": "null_frac",
+    "column": "Affiliated_base_number"
+   },
+   "K_oracle": "0.00000",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What fraction of FHV rows in the 2021-12 monthly file have a NULL (a missing column counts as NULL) value in column `Affiliated_base_number` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2021-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:138",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2022",
+    "check": "null_frac",
+    "column": "store_and_fwd_flag"
+   },
+   "K_oracle": "0.11637",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 10,
+   "history_value_changes": 2,
+   "question": "What fraction of Green taxi rows in calendar year 2022 (all monthly files of 2022 present so far) have a NULL (a missing column counts as NULL) value in column `store_and_fwd_flag` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2022-01.parquet",
+    "trip-data/green_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:139",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "period": "2022-03",
+    "check": "neg_frac",
+    "column": "tip_amount"
+   },
+   "K_oracle": "0.00009",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What fraction of Yellow taxi rows in the 2022-03 monthly file have a negative value in column `tip_amount` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:140",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2022-02",
+    "check": "null_frac",
+    "column": "PULocationID"
+   },
+   "K_oracle": "0.00000",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What fraction of High Volume FHV (fhvhv) rows in the 2022-02 monthly file have a NULL (a missing column counts as NULL) value in column `PULocationID` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:141",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "period": "2021-10",
+    "check": "null_frac",
+    "column": "improvement_surcharge"
+   },
+   "K_oracle": "0.00000",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 1,
+   "question": "What fraction of Green taxi rows in the 2021-10 monthly file have a NULL (a missing column counts as NULL) value in column `improvement_surcharge` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-10.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:142",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "period": "2019",
+    "check": "zero_frac",
+    "column": "tolls_amount"
+   },
+   "K_oracle": "0.94074",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "What fraction of Yellow taxi rows in calendar year 2019 (all monthly files of 2019 present so far) have a exactly zero value in column `tolls_amount` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:143",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "2022",
+    "check": "zero_frac",
+    "column": "congestion_surcharge"
+   },
+   "K_oracle": "0.59412",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 11,
+   "history_value_changes": 2,
+   "question": "What fraction of High Volume FHV (fhvhv) rows in calendar year 2022 (all monthly files of 2022 present so far) have a exactly zero value in column `congestion_surcharge` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2022-01.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:144",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "period": "2021-11",
+    "check": "zero_frac",
+    "column": "fare_amount"
+   },
+   "K_oracle": "0.00064",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "What fraction of Green taxi rows in the 2021-11 monthly file have a exactly zero value in column `fare_amount` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:145",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "period": "2021-11",
+    "check": "zero_frac",
+    "column": "passenger_count"
+   },
+   "K_oracle": "0.00127",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "What fraction of Green taxi rows in the 2021-11 monthly file have a exactly zero value in column `passenger_count` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:146",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "2022",
+    "check": "null_frac",
+    "column": "store_and_fwd_flag"
+   },
+   "K_oracle": "0.03187",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 11,
+   "history_value_changes": 3,
+   "question": "What fraction of Yellow taxi rows in calendar year 2022 (all monthly files of 2022 present so far) have a NULL (a missing column counts as NULL) value in column `store_and_fwd_flag` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet",
+    "trip-data/yellow_tripdata_2022-02.parquet",
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:147",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "all",
+    "check": "null_frac",
+    "column": "RatecodeID"
+   },
+   "K_oracle": "0.02043",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 56,
+   "history_value_changes": 16,
+   "question": "What fraction of Yellow taxi rows in all data in the lake so far have a NULL (a missing column counts as NULL) value in column `RatecodeID` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D7:148",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "period": "2021-11",
+    "check": "null_frac",
+    "column": "passenger_count"
+   },
+   "K_oracle": "0.32675",
+   "n_future_changed": 213,
+   "first_change_future_idx": 16,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 1,
+   "question": "What fraction of Green taxi rows in the 2021-11 monthly file have a NULL (a missing column counts as NULL) value in column `passenger_count` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2021-11.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:149",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "all",
+    "check": "null_frac",
+    "column": "congestion_surcharge"
+   },
+   "K_oracle": "0.00088",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 43,
+   "history_value_changes": 15,
+   "question": "What fraction of High Volume FHV (fhvhv) rows in all data in the lake so far have a NULL (a missing column counts as NULL) value in column `congestion_surcharge` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D7:150",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "period": "all",
+    "check": "null_frac",
+    "column": "RatecodeID"
+   },
+   "K_oracle": "0.17586",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 52,
+   "history_value_changes": 14,
+   "question": "What fraction of Green taxi rows in all data in the lake so far have a NULL (a missing column counts as NULL) value in column `RatecodeID` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D7:151",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "period": "all",
+    "check": "null_frac",
+    "column": "airport_fee"
+   },
+   "K_oracle": "0.71169",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 56,
+   "history_value_changes": 13,
+   "question": "What fraction of High Volume FHV (fhvhv) rows in all data in the lake so far have a NULL (a missing column counts as NULL) value in column `airport_fee` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D7:152",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "2022",
+    "check": "null_frac",
+    "column": "RatecodeID"
+   },
+   "K_oracle": "0.03187",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 11,
+   "history_value_changes": 3,
+   "question": "What fraction of Yellow taxi rows in calendar year 2022 (all monthly files of 2022 present so far) have a NULL (a missing column counts as NULL) value in column `RatecodeID` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-01.parquet",
+    "trip-data/yellow_tripdata_2022-02.parquet",
+    "trip-data/yellow_tripdata_2022-03.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D7:153",
+   "lake": "tlc",
+   "type": "D7",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "period": "all",
+    "check": "null_frac",
+    "column": "congestion_surcharge"
+   },
+   "K_oracle": "0.05277",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 16,
+   "question": "What fraction of Yellow taxi rows in all data in the lake so far have a NULL (a missing column counts as NULL) value in column `congestion_surcharge` (matched case-insensitively)? (5 decimals)",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:154",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "sub": "n_months_with_column",
+    "column": "extra"
+   },
+   "K_oracle": "39",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 15,
+   "question": "How many monthly Yellow taxi partitions have a column named exactly `extra` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:155",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "fhv",
+    "sub": "n_months_with_column",
+    "column": "SR_Flag"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 228,
+   "first_change_future_idx": 1,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 15,
+   "question": "How many monthly FHV partitions have a column named exactly `SR_Flag` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2019-01.parquet",
+    "trip-data/fhv_tripdata_2019-02.parquet",
+    "trip-data/fhv_tripdata_2019-03.parquet",
+    "trip-data/fhv_tripdata_2019-04.parquet",
+    "trip-data/fhv_tripdata_2019-05.parquet",
+    "trip-data/fhv_tripdata_2019-06.parquet",
+    "trip-data/fhv_tripdata_2019-07.parquet",
+    "trip-data/fhv_tripdata_2019-08.parquet",
+    "trip-data/fhv_tripdata_2019-09.parquet",
+    "trip-data/fhv_tripdata_2019-10.parquet",
+    "trip-data/fhv_tripdata_2019-11.parquet",
+    "trip-data/fhv_tripdata_2019-12.parquet",
+    "trip-data/fhv_tripdata_2020-01.parquet",
+    "trip-data/fhv_tripdata_2020-02.parquet",
+    "trip-data/fhv_tripdata_2020-03.parquet",
+    "trip-data/fhv_tripdata_2020-04.parquet",
+    "trip-data/fhv_tripdata_2020-05.parquet",
+    "trip-data/fhv_tripdata_2020-06.parquet",
+    "trip-data/fhv_tripdata_2020-07.parquet",
+    "trip-data/fhv_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:156",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "sub": "n_months_with_column",
+    "column": "on_scene_datetime"
+   },
+   "K_oracle": "37",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 15,
+   "question": "How many monthly High Volume FHV (fhvhv) partitions have a column named exactly `on_scene_datetime` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:157",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "sub": "first_month",
+    "column": "trip_miles"
+   },
+   "K_oracle": "2019-02",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "What is the earliest month (YYYY-MM) whose High Volume FHV (fhvhv) file has a column named exactly `trip_miles` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:158",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "fhvhv",
+    "sub": "n_months_with_column",
+    "column": "shared_request_flag"
+   },
+   "K_oracle": "37",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 15,
+   "question": "How many monthly High Volume FHV (fhvhv) partitions have a column named exactly `shared_request_flag` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:159",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "sub": "datasets_with_column",
+    "column": "driver_pay"
+   },
+   "K_oracle": "fhvhv",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "Which of the datasets yellow, green, fhv, fhvhv have a column named exactly `driver_pay` (case-sensitive) in their most recent file? Answer in the order yellow, green, fhv, fhvhv, comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet",
+    "trip-data/green_tripdata_2022-02.parquet",
+    "trip-data/fhv_tripdata_2022-02.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D8:160",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "sub": "first_month",
+    "column": "trip_distance"
+   },
+   "K_oracle": "2019-01",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "What is the earliest month (YYYY-MM) whose Yellow taxi file has a column named exactly `trip_distance` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:161",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "sub": "datasets_with_column",
+    "column": "shared_request_flag"
+   },
+   "K_oracle": "fhvhv",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "Which of the datasets yellow, green, fhv, fhvhv have a column named exactly `shared_request_flag` (case-sensitive) in their most recent file? Answer in the order yellow, green, fhv, fhvhv, comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet",
+    "trip-data/green_tripdata_2022-02.parquet",
+    "trip-data/fhv_tripdata_2022-02.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D8:162",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "green",
+    "sub": "n_months_with_column",
+    "column": "VendorID"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 14,
+   "question": "How many monthly Green taxi partitions have a column named exactly `VendorID` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:163",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "sub": "datasets_with_column",
+    "column": "trip_distance"
+   },
+   "K_oracle": "yellow, green",
+   "n_future_changed": 0,
+   "first_change_future_idx": null,
+   "n_distinct_future_values": 1,
+   "history_value_changes": 0,
+   "question": "Which of the datasets yellow, green, fhv, fhvhv have a column named exactly `trip_distance` (case-sensitive) in their most recent file? Answer in the order yellow, green, fhv, fhvhv, comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet",
+    "trip-data/green_tripdata_2022-02.parquet",
+    "trip-data/fhv_tripdata_2022-02.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D8:164",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "natural",
+   "args": {
+    "ds": "yellow",
+    "sub": "n_months_with_column",
+    "column": "DOLocationID"
+   },
+   "K_oracle": "39",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 15,
+   "question": "How many monthly Yellow taxi partitions have a column named exactly `DOLocationID` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:165",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "sub": "n_months_with_column",
+    "column": "DOlocationID"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 228,
+   "first_change_future_idx": 1,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 15,
+   "question": "How many monthly FHV partitions have a column named exactly `DOlocationID` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2019-01.parquet",
+    "trip-data/fhv_tripdata_2019-02.parquet",
+    "trip-data/fhv_tripdata_2019-03.parquet",
+    "trip-data/fhv_tripdata_2019-04.parquet",
+    "trip-data/fhv_tripdata_2019-05.parquet",
+    "trip-data/fhv_tripdata_2019-06.parquet",
+    "trip-data/fhv_tripdata_2019-07.parquet",
+    "trip-data/fhv_tripdata_2019-08.parquet",
+    "trip-data/fhv_tripdata_2019-09.parquet",
+    "trip-data/fhv_tripdata_2019-10.parquet",
+    "trip-data/fhv_tripdata_2019-11.parquet",
+    "trip-data/fhv_tripdata_2019-12.parquet",
+    "trip-data/fhv_tripdata_2020-01.parquet",
+    "trip-data/fhv_tripdata_2020-02.parquet",
+    "trip-data/fhv_tripdata_2020-03.parquet",
+    "trip-data/fhv_tripdata_2020-04.parquet",
+    "trip-data/fhv_tripdata_2020-05.parquet",
+    "trip-data/fhv_tripdata_2020-06.parquet",
+    "trip-data/fhv_tripdata_2020-07.parquet",
+    "trip-data/fhv_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:166",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "sub": "n_months_with_column",
+    "column": "fare_amount"
+   },
+   "K_oracle": "39",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 15,
+   "question": "How many monthly Yellow taxi partitions have a column named exactly `fare_amount` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:167",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhvhv",
+    "sub": "n_months_with_column",
+    "column": "airport_fee"
+   },
+   "K_oracle": "37",
+   "n_future_changed": 227,
+   "first_change_future_idx": 2,
+   "n_distinct_future_values": 55,
+   "history_value_changes": 15,
+   "question": "How many monthly High Volume FHV (fhvhv) partitions have a column named exactly `airport_fee` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/fhvhv_tripdata_2019-02.parquet",
+    "trip-data/fhvhv_tripdata_2019-03.parquet",
+    "trip-data/fhvhv_tripdata_2019-04.parquet",
+    "trip-data/fhvhv_tripdata_2019-05.parquet",
+    "trip-data/fhvhv_tripdata_2019-06.parquet",
+    "trip-data/fhvhv_tripdata_2019-07.parquet",
+    "trip-data/fhvhv_tripdata_2019-08.parquet",
+    "trip-data/fhvhv_tripdata_2019-09.parquet",
+    "trip-data/fhvhv_tripdata_2019-10.parquet",
+    "trip-data/fhvhv_tripdata_2019-11.parquet",
+    "trip-data/fhvhv_tripdata_2019-12.parquet",
+    "trip-data/fhvhv_tripdata_2020-01.parquet",
+    "trip-data/fhvhv_tripdata_2020-02.parquet",
+    "trip-data/fhvhv_tripdata_2020-03.parquet",
+    "trip-data/fhvhv_tripdata_2020-04.parquet",
+    "trip-data/fhvhv_tripdata_2020-05.parquet",
+    "trip-data/fhvhv_tripdata_2020-06.parquet",
+    "trip-data/fhvhv_tripdata_2020-07.parquet",
+    "trip-data/fhvhv_tripdata_2020-08.parquet",
+    "trip-data/fhvhv_tripdata_2020-09.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:168",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "sub": "datasets_with_column",
+    "column": "airport_fee"
+   },
+   "K_oracle": "yellow, fhvhv",
+   "n_future_changed": 182,
+   "first_change_future_idx": 47,
+   "n_distinct_future_values": 2,
+   "history_value_changes": 0,
+   "question": "Which of the datasets yellow, green, fhv, fhvhv have a column named exactly `airport_fee` (case-sensitive) in their most recent file? Answer in the order yellow, green, fhv, fhvhv, comma-separated.",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2022-03.parquet",
+    "trip-data/green_tripdata_2022-02.parquet",
+    "trip-data/fhv_tripdata_2022-02.parquet",
+    "trip-data/fhvhv_tripdata_2022-02.parquet"
+   ]
+  },
+  {
+   "id": "tlc:D8:169",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "sub": "n_months_with_column",
+    "column": "trip_distance"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 14,
+   "question": "How many monthly Green taxi partitions have a column named exactly `trip_distance` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:170",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "sub": "n_months_with_column",
+    "column": "total_amount"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 14,
+   "question": "How many monthly Green taxi partitions have a column named exactly `total_amount` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:171",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "yellow",
+    "sub": "n_months_with_column",
+    "column": "airport_fee"
+   },
+   "K_oracle": "39",
+   "n_future_changed": 226,
+   "first_change_future_idx": 3,
+   "n_distinct_future_values": 11,
+   "history_value_changes": 15,
+   "question": "How many monthly Yellow taxi partitions have a column named exactly `airport_fee` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/yellow_tripdata_2019-01.parquet",
+    "trip-data/yellow_tripdata_2019-02.parquet",
+    "trip-data/yellow_tripdata_2019-03.parquet",
+    "trip-data/yellow_tripdata_2019-04.parquet",
+    "trip-data/yellow_tripdata_2019-05.parquet",
+    "trip-data/yellow_tripdata_2019-06.parquet",
+    "trip-data/yellow_tripdata_2019-07.parquet",
+    "trip-data/yellow_tripdata_2019-08.parquet",
+    "trip-data/yellow_tripdata_2019-09.parquet",
+    "trip-data/yellow_tripdata_2019-10.parquet",
+    "trip-data/yellow_tripdata_2019-11.parquet",
+    "trip-data/yellow_tripdata_2019-12.parquet",
+    "trip-data/yellow_tripdata_2020-01.parquet",
+    "trip-data/yellow_tripdata_2020-02.parquet",
+    "trip-data/yellow_tripdata_2020-03.parquet",
+    "trip-data/yellow_tripdata_2020-04.parquet",
+    "trip-data/yellow_tripdata_2020-05.parquet",
+    "trip-data/yellow_tripdata_2020-06.parquet",
+    "trip-data/yellow_tripdata_2020-07.parquet",
+    "trip-data/yellow_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:172",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "fhv",
+    "sub": "n_months_with_column",
+    "column": "dropOff_datetime"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 228,
+   "first_change_future_idx": 1,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 15,
+   "question": "How many monthly FHV partitions have a column named exactly `dropOff_datetime` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/fhv_tripdata_2019-01.parquet",
+    "trip-data/fhv_tripdata_2019-02.parquet",
+    "trip-data/fhv_tripdata_2019-03.parquet",
+    "trip-data/fhv_tripdata_2019-04.parquet",
+    "trip-data/fhv_tripdata_2019-05.parquet",
+    "trip-data/fhv_tripdata_2019-06.parquet",
+    "trip-data/fhv_tripdata_2019-07.parquet",
+    "trip-data/fhv_tripdata_2019-08.parquet",
+    "trip-data/fhv_tripdata_2019-09.parquet",
+    "trip-data/fhv_tripdata_2019-10.parquet",
+    "trip-data/fhv_tripdata_2019-11.parquet",
+    "trip-data/fhv_tripdata_2019-12.parquet",
+    "trip-data/fhv_tripdata_2020-01.parquet",
+    "trip-data/fhv_tripdata_2020-02.parquet",
+    "trip-data/fhv_tripdata_2020-03.parquet",
+    "trip-data/fhv_tripdata_2020-04.parquet",
+    "trip-data/fhv_tripdata_2020-05.parquet",
+    "trip-data/fhv_tripdata_2020-06.parquet",
+    "trip-data/fhv_tripdata_2020-07.parquet",
+    "trip-data/fhv_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:173",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "sub": "n_months_with_column",
+    "column": "congestion_surcharge"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 14,
+   "question": "How many monthly Green taxi partitions have a column named exactly `congestion_surcharge` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:174",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "sub": "latest_month"
+   },
+   "K_oracle": "2022-02",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 14,
+   "question": "What is the most recent month (YYYY-MM) for which a Green taxi trip file is in the lake?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  },
+  {
+   "id": "tlc:D8:175",
+   "lake": "tlc",
+   "type": "D8",
+   "subset": "enriched",
+   "args": {
+    "ds": "green",
+    "sub": "n_months_with_column",
+    "column": "fare_amount"
+   },
+   "K_oracle": "38",
+   "n_future_changed": 229,
+   "first_change_future_idx": 0,
+   "n_distinct_future_values": 54,
+   "history_value_changes": 14,
+   "question": "How many monthly Green taxi partitions have a column named exactly `fare_amount` (case-sensitive)?",
+   "depends_on_s0": [
+    "trip-data/green_tripdata_2019-01.parquet",
+    "trip-data/green_tripdata_2019-02.parquet",
+    "trip-data/green_tripdata_2019-03.parquet",
+    "trip-data/green_tripdata_2019-04.parquet",
+    "trip-data/green_tripdata_2019-05.parquet",
+    "trip-data/green_tripdata_2019-06.parquet",
+    "trip-data/green_tripdata_2019-07.parquet",
+    "trip-data/green_tripdata_2019-08.parquet",
+    "trip-data/green_tripdata_2019-09.parquet",
+    "trip-data/green_tripdata_2019-10.parquet",
+    "trip-data/green_tripdata_2019-11.parquet",
+    "trip-data/green_tripdata_2019-12.parquet",
+    "trip-data/green_tripdata_2020-01.parquet",
+    "trip-data/green_tripdata_2020-02.parquet",
+    "trip-data/green_tripdata_2020-03.parquet",
+    "trip-data/green_tripdata_2020-04.parquet",
+    "trip-data/green_tripdata_2020-05.parquet",
+    "trip-data/green_tripdata_2020-06.parquet",
+    "trip-data/green_tripdata_2020-07.parquet",
+    "trip-data/green_tripdata_2020-08.parquet",
+    "..."
+   ]
+  }
+ ]
+}

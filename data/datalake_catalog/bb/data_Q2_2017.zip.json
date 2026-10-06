@@ -1,0 +1,930 @@
+{
+ "name": "data_Q2_2017.zip",
+ "url": "https://f001.backblazeb2.com/file/Backblaze-Hard-Drive-Data/data_Q2_2017.zip",
+ "http": {
+  "status": "200",
+  "content_length": 387036146,
+  "last_modified": null,
+  "etag": null,
+  "bz_upload_ts": "1667323869834",
+  "bz_sha1": "none"
+ },
+ "available": true,
+ "raw_size": 387036146,
+ "n_rows_raw": 7568630,
+ "n_rows_sub": 117420,
+ "members": [
+  {
+   "member": "2017-04-01.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-01.csv",
+   "sha256": "3711f895f8a77458c41fb315679a96936b6199b0d15e21d113f9271c94045d5b",
+   "size": 344951,
+   "n_rows_raw": 84469,
+   "n_rows_sub": 1308,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-02.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-02.csv",
+   "sha256": "7845e5bc86c99f5fd7e27e1e61a6a3678b1410f02e051c6a749452083c7e24b9",
+   "size": 344672,
+   "n_rows_raw": 84469,
+   "n_rows_sub": 1307,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-03.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-03.csv",
+   "sha256": "653c06d1de2c42ffb863359bc2382aea7e6c23cc19a37c15913b5b4707e3b356",
+   "size": 343949,
+   "n_rows_raw": 84469,
+   "n_rows_sub": 1305,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-04.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-04.csv",
+   "sha256": "0afdfc5b4e3c196e3ae7813568d3036786cceb5e3d5f94f579377e662ae63d36",
+   "size": 344384,
+   "n_rows_raw": 84469,
+   "n_rows_sub": 1306,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-05.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-05.csv",
+   "sha256": "87610199df47042568653e6360bfa3b139a481b13a466ba4ec2f1979b543ebe2",
+   "size": 344129,
+   "n_rows_raw": 84331,
+   "n_rows_sub": 1305,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-06.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-06.csv",
+   "sha256": "9ca1310bcae55b0cef31ca66554ee0e489fb5bfedc0f2223b11b3ba6d91c8a43",
+   "size": 343889,
+   "n_rows_raw": 84285,
+   "n_rows_sub": 1304,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-07.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-07.csv",
+   "sha256": "853c1905b5d93f95e881cbfc8775d58be67e1027e0530b5f6a7da3f6e2528aed",
+   "size": 343963,
+   "n_rows_raw": 84285,
+   "n_rows_sub": 1304,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-08.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-08.csv",
+   "sha256": "01b488a4835651ff7fb770206bfd1d6a2b74e3629a4f0202284876abc5d5cb41",
+   "size": 343957,
+   "n_rows_raw": 84283,
+   "n_rows_sub": 1304,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-09.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-09.csv",
+   "sha256": "2594b8cc6d48b80b17ce266290209d1b85648cd49dcfd30de875774279b01bbe",
+   "size": 343960,
+   "n_rows_raw": 84285,
+   "n_rows_sub": 1304,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-10.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-10.csv",
+   "sha256": "f81ae6206954e70f1d8c1550191e46bc0098a69c185d0f32a34e021f4f81fd73",
+   "size": 343721,
+   "n_rows_raw": 84285,
+   "n_rows_sub": 1303,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-11.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-11.csv",
+   "sha256": "0ee62e5ba407bfa507894e93fed90e9d7131bfbe14adc15808fdf56da936125b",
+   "size": 343778,
+   "n_rows_raw": 84285,
+   "n_rows_sub": 1303,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-12.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-12.csv",
+   "sha256": "acb42db0b834dcb67f9f2ac7cc08d8bc598aa28a642bc6c6c0e54852c1a053bc",
+   "size": 343264,
+   "n_rows_raw": 84195,
+   "n_rows_sub": 1301,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-13.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-13.csv",
+   "sha256": "27214ed08d15289ee37fe87bcc67b0d0127f4a0d366e3667f8cfc362f6f72fef",
+   "size": 343318,
+   "n_rows_raw": 84195,
+   "n_rows_sub": 1301,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-14.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-14.csv",
+   "sha256": "eb6d05d086e817e32ab72f990215f13b3d90c2b32aeb6b9d4151abf64899794b",
+   "size": 343260,
+   "n_rows_raw": 84195,
+   "n_rows_sub": 1301,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-15.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-15.csv",
+   "sha256": "4e0d76f25bb6d1e8eebbfbf9b3ea2541935b12b36aaecb22bb2da11529cfcba6",
+   "size": 343067,
+   "n_rows_raw": 84055,
+   "n_rows_sub": 1300,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-16.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-16.csv",
+   "sha256": "80dfc6c9846098162f8adb4585b6b580c9a6a8541170a7edcd9ffb7fff066f63",
+   "size": 343064,
+   "n_rows_raw": 84056,
+   "n_rows_sub": 1300,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-17.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-17.csv",
+   "sha256": "c16f247d1aea8e621f00bf68d4c26a8ee4c7c01a4fcee6329ae200451515ebf9",
+   "size": 342860,
+   "n_rows_raw": 84011,
+   "n_rows_sub": 1299,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-18.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-18.csv",
+   "sha256": "aae5e0e8a86937f4f3da923437557e15d1a294c7a5abb1e972e8f8ea7e46aa5a",
+   "size": 343122,
+   "n_rows_raw": 84056,
+   "n_rows_sub": 1300,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-19.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-19.csv",
+   "sha256": "cb0ce567a144e1e05e202ea6c76343a2ff37dcfc9b3dc160f562a55d3394406e",
+   "size": 341260,
+   "n_rows_raw": 83641,
+   "n_rows_sub": 1292,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-20.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-20.csv",
+   "sha256": "454377b2d3f790c7472821c11dd570a2e5752ebd70664d0092bd267d12f82435",
+   "size": 341257,
+   "n_rows_raw": 83593,
+   "n_rows_sub": 1292,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-21.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-21.csv",
+   "sha256": "9485d1b41e32d1ba2381264762908c231d89a7f9baea254d5822b061cd7524ef",
+   "size": 339653,
+   "n_rows_raw": 83318,
+   "n_rows_sub": 1285,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-22.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-22.csv",
+   "sha256": "1aaad8270c8029fac0058387432a69577a7f6b6bdbb028cd8164ee9eac0d5eb3",
+   "size": 338018,
+   "n_rows_raw": 82995,
+   "n_rows_sub": 1278,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-23.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-23.csv",
+   "sha256": "cb1eea9431e4579157742a176435b7a207eca9877a6b3f46d6f1cde3ddd20a0a",
+   "size": 336844,
+   "n_rows_raw": 82628,
+   "n_rows_sub": 1273,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-24.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-24.csv",
+   "sha256": "96535007d096add0d9fb088f2a62cbe66566c3f408aa32fa15b67615dfe87968",
+   "size": 336842,
+   "n_rows_raw": 82629,
+   "n_rows_sub": 1273,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-25.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-25.csv",
+   "sha256": "cfb86545e4a0a4d96a1c500640515d9ad7c9ba84c77f25e9a717c1cfaf67dbc6",
+   "size": 336897,
+   "n_rows_raw": 82629,
+   "n_rows_sub": 1273,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-26.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-26.csv",
+   "sha256": "a42acc75418a79dd8cd49d704809194175b55a6f6a188add4e1f03947d784218",
+   "size": 336871,
+   "n_rows_raw": 82628,
+   "n_rows_sub": 1273,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-27.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-27.csv",
+   "sha256": "1626fec15fb212287f70d82795cad156d35d0889808d760b347f82d5a55d9309",
+   "size": 335622,
+   "n_rows_raw": 82260,
+   "n_rows_sub": 1268,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-28.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-28.csv",
+   "sha256": "8436020953013c8b2f301cef8f9c34c25584bc4d7b0f76dd89575e618da487f3",
+   "size": 335210,
+   "n_rows_raw": 82030,
+   "n_rows_sub": 1266,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-29.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-29.csv",
+   "sha256": "fbc7076002b01acec45d553574d6288f56b3f864ee6216425be5469ad608d787",
+   "size": 335192,
+   "n_rows_raw": 82031,
+   "n_rows_sub": 1266,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-04-30.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-04-30.csv",
+   "sha256": "bbe7bd4a911d10d13a3fbc50261bb0d89bab90c9d4b81e028edab6e734e066b8",
+   "size": 334954,
+   "n_rows_raw": 81984,
+   "n_rows_sub": 1265,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-01.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-01.csv",
+   "sha256": "0aadd96cfa610534f66968b554e8209739afa693bd3d572daeba6b24abe0e4e4",
+   "size": 334981,
+   "n_rows_raw": 81985,
+   "n_rows_sub": 1265,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-02.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-02.csv",
+   "sha256": "9c368c4019e92ce6077adaeac0e52d9c89836bc6004e592b3c3ed2c4ee69dc49",
+   "size": 335021,
+   "n_rows_raw": 81985,
+   "n_rows_sub": 1265,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-03.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-03.csv",
+   "sha256": "a631e4f63584b090d1159111618ef16478498a82cb0875e51295ecf9abcaf376",
+   "size": 334809,
+   "n_rows_raw": 81939,
+   "n_rows_sub": 1264,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-04.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-04.csv",
+   "sha256": "1629630c2a66a46d40c957093051353eb393cbad211fa2d7e81d80cc39616cae",
+   "size": 334841,
+   "n_rows_raw": 81939,
+   "n_rows_sub": 1264,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-05.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-05.csv",
+   "sha256": "ffb65a3c276a3f832f6a69ff8b5f1643636c98a14a4cd4f778e2d9d1354d0ad6",
+   "size": 341738,
+   "n_rows_raw": 83159,
+   "n_rows_sub": 1289,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-06.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-06.csv",
+   "sha256": "b4ca5b4904c29d2db4bb4a4de22b8da72fc2f605d98de6deadd4acfc828e6d92",
+   "size": 342049,
+   "n_rows_raw": 83158,
+   "n_rows_sub": 1290,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-07.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-07.csv",
+   "sha256": "02049470ae1eaba754e62233cabfb7c30b05633e59475efacbd26d46ccb9031c",
+   "size": 342029,
+   "n_rows_raw": 83158,
+   "n_rows_sub": 1290,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-08.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-08.csv",
+   "sha256": "78deb706443b7df1ab3b073eeb85128e5016f10b7c6985a4a587b9159a911534",
+   "size": 342050,
+   "n_rows_raw": 83158,
+   "n_rows_sub": 1290,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-09.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-09.csv",
+   "sha256": "727ec6a5d258b18ee6f9b7a7b1edacc260f7865b5979f6d67cb9c4e7a62cd1ee",
+   "size": 342267,
+   "n_rows_raw": 83158,
+   "n_rows_sub": 1291,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-10.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-10.csv",
+   "sha256": "f581e1fddba5a4bf7497c0b50aa81e2dc4edecc0ae6d4ae25e22300bd76c3a90",
+   "size": 341099,
+   "n_rows_raw": 82697,
+   "n_rows_sub": 1286,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-11.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-11.csv",
+   "sha256": "1cb48b532b02bae665c822bc500bf19199f0c37915e34497a36e2eb2b158c9ce",
+   "size": 341056,
+   "n_rows_raw": 82605,
+   "n_rows_sub": 1286,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-12.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-12.csv",
+   "sha256": "a9fca743b441516ee9572d3105d4c311c27537d8f488afb85211430fa37ad40a",
+   "size": 341108,
+   "n_rows_raw": 82559,
+   "n_rows_sub": 1286,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-13.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-13.csv",
+   "sha256": "5a378834a0802397e46ef9300586e4af268a3a742e86222c7083bc44b6df23d2",
+   "size": 341138,
+   "n_rows_raw": 82560,
+   "n_rows_sub": 1286,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-14.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-14.csv",
+   "sha256": "dc08ae8537f04d52964685502f1d4e96bb10a9b6170b94b852e62573d6c7878a",
+   "size": 341145,
+   "n_rows_raw": 82558,
+   "n_rows_sub": 1286,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-15.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-15.csv",
+   "sha256": "c95cf3e1678a53838ca46c1659fa7911883cb98d446ff79c190fb6003dff169d",
+   "size": 341153,
+   "n_rows_raw": 82514,
+   "n_rows_sub": 1286,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-16.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-16.csv",
+   "sha256": "dded6214176f3b05f3d56658e8ab16c1b34d496940db5d9ed06ef66f8536fe7d",
+   "size": 340634,
+   "n_rows_raw": 82499,
+   "n_rows_sub": 1284,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-17.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-17.csv",
+   "sha256": "3476bf52c183339da13e92bd32ceff9f57980e4f9e4123e7a6915f466381f8fc",
+   "size": 340396,
+   "n_rows_raw": 82238,
+   "n_rows_sub": 1283,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-18.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-18.csv",
+   "sha256": "422a3854d119e38d43309d89d8bdcdc53fa6a5cf7285c762472920d3c72d38b3",
+   "size": 340180,
+   "n_rows_raw": 82283,
+   "n_rows_sub": 1282,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-19.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-19.csv",
+   "sha256": "9852aa61c1d6eeb998ff926fa94552796987f847ec379eabd5ab17266d771eec",
+   "size": 339221,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1278,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-20.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-20.csv",
+   "sha256": "22363cc9273985d33ef0f9d5feb42f41fcb2ffbc1f08b055492c3dfb15280ece",
+   "size": 339253,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1278,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-21.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-21.csv",
+   "sha256": "d42883b192fcd2e8c14132f95a380861537b206510a9a70d001481a816ce7182",
+   "size": 339509,
+   "n_rows_raw": 82160,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-22.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-22.csv",
+   "sha256": "d66594b9a160500daf4b89735bd2fbeccee515ef89cb899f6642273a754908af",
+   "size": 340014,
+   "n_rows_raw": 82207,
+   "n_rows_sub": 1281,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-23.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-23.csv",
+   "sha256": "fca0cbb80303fe6cfb168e8a52aa73d420c81afd4841116c7f318b3b50f9b795",
+   "size": 339751,
+   "n_rows_raw": 82207,
+   "n_rows_sub": 1280,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-24.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-24.csv",
+   "sha256": "fb7a317494b7cef7275851695c110dd4df69d0b90069193d8aabae935515eb07",
+   "size": 339208,
+   "n_rows_raw": 82145,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-25.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-25.csv",
+   "sha256": "3da53e9d2eb4d3110e08192a28213221d86ed3039b6fc92354fa2169d0a72128",
+   "size": 339513,
+   "n_rows_raw": 82143,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-26.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-26.csv",
+   "sha256": "a8874cba55ea2e6a38b43281573d0396fbfaaa28cf70159d864c819579926dad",
+   "size": 339482,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-27.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-27.csv",
+   "sha256": "063b9ab12fbbfeb64c818fdcdc79347e510ce7cfac1aa9aea4fb1b44143e46f0",
+   "size": 339513,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-28.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-28.csv",
+   "sha256": "3019138a8c9d8ca4c3b3b56279e48de9544fd65455a71cf249451e4521570dd3",
+   "size": 339492,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-29.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-29.csv",
+   "sha256": "1dd753fcea34d47fff4f09116427ae3269ccd8b855e9678512de706f5a65fc2a",
+   "size": 339494,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-30.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-30.csv",
+   "sha256": "c1c923c42121fc61576ddf5ac0a1f8f9abad0b4ee0fd5b885cc1dec1817c3950",
+   "size": 339566,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-05-31.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-05-31.csv",
+   "sha256": "354f19eb3fc7fb7c5c7d3a18b8665e31ea0855b6cf4fdc6f2ac2999a209c67de",
+   "size": 339546,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-01.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-01.csv",
+   "sha256": "b8070deba100c5f5f266a4dfcae6fc56482525b89f29e9c32ce13dde5b189ec1",
+   "size": 339391,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-02.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-02.csv",
+   "sha256": "90f1e57c60a817344d6b0d8b80a3a11a02a86fc3d6dd2970422995eeb450a22e",
+   "size": 339589,
+   "n_rows_raw": 82146,
+   "n_rows_sub": 1279,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-03.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-03.csv",
+   "sha256": "8f55c0d3278a83c57a423b42931f123bb889f1a1b7c8de78d458f1c39aedabbe",
+   "size": 338604,
+   "n_rows_raw": 81963,
+   "n_rows_sub": 1275,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-04.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-04.csv",
+   "sha256": "1af5b4c64c57d1a966a982fe0575cade131cd3ea091be4174371fa18604c07fa",
+   "size": 338564,
+   "n_rows_raw": 81963,
+   "n_rows_sub": 1275,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-05.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-05.csv",
+   "sha256": "db68c70f015efccb9e61af03ba9c5848c6cf30298b3faffc713f648f0f6a8d47",
+   "size": 338304,
+   "n_rows_raw": 81962,
+   "n_rows_sub": 1275,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-06.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-06.csv",
+   "sha256": "aa8611365dced7b192df63a1d50110be76d878a9797e8060695ab9be959a985a",
+   "size": 342195,
+   "n_rows_raw": 83182,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-07.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-07.csv",
+   "sha256": "fa7fe67f916b3a1b8231b104e528c7ff87861e1aefccf63520509880eaf3336f",
+   "size": 343562,
+   "n_rows_raw": 83137,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-08.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-08.csv",
+   "sha256": "33c2c0a26256fec924dfac37f1160d7881aec45b12e32c6bc3259bbd9ba2a7b2",
+   "size": 343572,
+   "n_rows_raw": 83183,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-09.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-09.csv",
+   "sha256": "01d3a4d4581f9c008b4d5c05e539113712b482447ec85819e6eef1d89474a6a6",
+   "size": 343519,
+   "n_rows_raw": 83183,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-10.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-10.csv",
+   "sha256": "beeb5b33e10466c41d6968eb75f0a1d97d6878a2c011021fa05b424ca960b2a1",
+   "size": 343488,
+   "n_rows_raw": 83182,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-11.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-11.csv",
+   "sha256": "dcf6b3632ccbc8ef728bfa46981b75ce0ae79a50f5ca1e28bd2786496f2bfc65",
+   "size": 343661,
+   "n_rows_raw": 83181,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-12.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-12.csv",
+   "sha256": "564dbb50f465cdc51763635cb0af16ca5b4b99fc6f60311e1bfac9566607e3fe",
+   "size": 343674,
+   "n_rows_raw": 83183,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-13.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-13.csv",
+   "sha256": "7608504ac2d2381b1aa0f58d09cccdd413e7cd46b50cc40a4f6954a2825f3b3e",
+   "size": 343679,
+   "n_rows_raw": 83182,
+   "n_rows_sub": 1293,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-14.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-14.csv",
+   "sha256": "ace2a90d185066ddc04aa887eed05f2d68b438b184ec66f449d4df2c1ec5a021",
+   "size": 342901,
+   "n_rows_raw": 83044,
+   "n_rows_sub": 1290,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-15.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-15.csv",
+   "sha256": "3bdaccb20baad4560e235eb0761feb6b724c57f54a503bcee0dff74b3ddf5b4b",
+   "size": 342699,
+   "n_rows_raw": 83044,
+   "n_rows_sub": 1289,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-16.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-16.csv",
+   "sha256": "3b3555fec287c5b4f7491eea8a9d5764a48cd6ce419ccb48c967effbeb948ecb",
+   "size": 348559,
+   "n_rows_raw": 84265,
+   "n_rows_sub": 1313,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-17.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-17.csv",
+   "sha256": "a3fa4e1b1938f18900098d2b184b41b460c7ea2777467907503960bd4a183e80",
+   "size": 348597,
+   "n_rows_raw": 84219,
+   "n_rows_sub": 1313,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-18.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-18.csv",
+   "sha256": "1cfa63301ac43eb3a9d8383920f2fd63ad38076f8c6991d47ab895df2049d7c1",
+   "size": 348082,
+   "n_rows_raw": 84126,
+   "n_rows_sub": 1311,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-19.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-19.csv",
+   "sha256": "e6ded6a0162ece7332f509c426ec5c7b2aff5f9be3d47fbf5ded796935983501",
+   "size": 348020,
+   "n_rows_raw": 84127,
+   "n_rows_sub": 1311,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-20.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-20.csv",
+   "sha256": "92ff7fb430f1ee30da1230f81c26b5e7f24a80002741c90857f805e6506031e1",
+   "size": 348141,
+   "n_rows_raw": 84126,
+   "n_rows_sub": 1311,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-21.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-21.csv",
+   "sha256": "5817195aa62f463e6f8efe5ca992bb314815b13562a73abf1971dae7684456a3",
+   "size": 348140,
+   "n_rows_raw": 84127,
+   "n_rows_sub": 1311,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-22.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-22.csv",
+   "sha256": "a57fb50d244c1a83e6fb51b9cbd44dbd066b86ec6421d5872521fe729a01a03d",
+   "size": 348111,
+   "n_rows_raw": 84127,
+   "n_rows_sub": 1311,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-23.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-23.csv",
+   "sha256": "4201522cd65223e5826962929a8330fdf016de09a517e8b6508c4dad83025795",
+   "size": 344319,
+   "n_rows_raw": 83069,
+   "n_rows_sub": 1295,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-24.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-24.csv",
+   "sha256": "ec4b3d9c49bffb706b32407ed79fe91e8ecbbc8ce8bee3eb1278828340f9b1f3",
+   "size": 348509,
+   "n_rows_raw": 84289,
+   "n_rows_sub": 1310,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-25.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-25.csv",
+   "sha256": "3f28384806ba29c51d025adb79c40ffe888bbd640084a21ac9664880a8410fdb",
+   "size": 348451,
+   "n_rows_raw": 84288,
+   "n_rows_sub": 1310,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-26.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-26.csv",
+   "sha256": "a610086f6d0fbf771cee417da25d1751dd8d571c762d9d68542ec1328d21a1b3",
+   "size": 348249,
+   "n_rows_raw": 84241,
+   "n_rows_sub": 1309,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-27.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-27.csv",
+   "sha256": "9ee0e16d79a1cbfa1badff98d3d9d8722be25e8e695b319429ea545018c86f3f",
+   "size": 348287,
+   "n_rows_raw": 84289,
+   "n_rows_sub": 1309,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-28.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-28.csv",
+   "sha256": "da5242fd74a639114ce681febf17bbd7b2497cb0c682eedba446383fb9003580",
+   "size": 347273,
+   "n_rows_raw": 84197,
+   "n_rows_sub": 1305,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-29.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-29.csv",
+   "sha256": "e8c0d30b515a697b57c47bde796cbf2f68b51f2d4419d048ff36f97214da78eb",
+   "size": 350339,
+   "n_rows_raw": 85116,
+   "n_rows_sub": 1318,
+   "n_cols": 95
+  },
+  {
+   "member": "2017-06-30.csv",
+   "logical_path": "drive_stats/data_Q2_2017/2017-06-30.csv",
+   "sha256": "0b8b43dfd624d2de367e59ba203f5afabd72dcac313c290bcdd399498d897a8e",
+   "size": 350107,
+   "n_rows_raw": 85117,
+   "n_rows_sub": 1317,
+   "n_cols": 95
+  }
+ ],
+ "skipped_members": [
+  "__MACOSX/._2017-04-01.csv",
+  "__MACOSX/._2017-04-02.csv",
+  "__MACOSX/._2017-04-03.csv",
+  "__MACOSX/._2017-04-04.csv",
+  "__MACOSX/._2017-04-05.csv",
+  "__MACOSX/._2017-04-06.csv",
+  "__MACOSX/._2017-04-07.csv",
+  "__MACOSX/._2017-04-08.csv",
+  "__MACOSX/._2017-04-09.csv",
+  "__MACOSX/._2017-04-10.csv",
+  "__MACOSX/._2017-04-11.csv",
+  "__MACOSX/._2017-04-12.csv",
+  "__MACOSX/._2017-04-13.csv",
+  "__MACOSX/._2017-04-14.csv",
+  "__MACOSX/._2017-04-15.csv",
+  "__MACOSX/._2017-04-16.csv",
+  "__MACOSX/._2017-04-17.csv",
+  "__MACOSX/._2017-04-18.csv",
+  "__MACOSX/._2017-04-19.csv",
+  "__MACOSX/._2017-04-20.csv",
+  "__MACOSX/._2017-04-21.csv",
+  "__MACOSX/._2017-04-22.csv",
+  "__MACOSX/._2017-04-23.csv",
+  "__MACOSX/._2017-04-24.csv",
+  "__MACOSX/._2017-04-25.csv",
+  "__MACOSX/._2017-04-26.csv",
+  "__MACOSX/._2017-04-27.csv",
+  "__MACOSX/._2017-04-28.csv",
+  "__MACOSX/._2017-04-29.csv",
+  "__MACOSX/._2017-04-30.csv",
+  "__MACOSX/._2017-05-01.csv",
+  "__MACOSX/._2017-05-02.csv",
+  "__MACOSX/._2017-05-03.csv",
+  "__MACOSX/._2017-05-04.csv",
+  "__MACOSX/._2017-05-05.csv",
+  "__MACOSX/._2017-05-06.csv",
+  "__MACOSX/._2017-05-07.csv",
+  "__MACOSX/._2017-05-08.csv",
+  "__MACOSX/._2017-05-09.csv",
+  "__MACOSX/._2017-05-10.csv",
+  "__MACOSX/._2017-05-11.csv",
+  "__MACOSX/._2017-05-12.csv",
+  "__MACOSX/._2017-05-13.csv",
+  "__MACOSX/._2017-05-14.csv",
+  "__MACOSX/._2017-05-15.csv",
+  "__MACOSX/._2017-05-16.csv",
+  "__MACOSX/._2017-05-17.csv",
+  "__MACOSX/._2017-05-18.csv",
+  "__MACOSX/._2017-05-19.csv",
+  "__MACOSX/._2017-05-20.csv",
+  "__MACOSX/._2017-05-21.csv",
+  "__MACOSX/._2017-05-22.csv",
+  "__MACOSX/._2017-05-23.csv",
+  "__MACOSX/._2017-05-24.csv",
+  "__MACOSX/._2017-05-25.csv",
+  "__MACOSX/._2017-05-26.csv",
+  "__MACOSX/._2017-05-27.csv",
+  "__MACOSX/._2017-05-28.csv",
+  "__MACOSX/._2017-05-29.csv",
+  "__MACOSX/._2017-05-30.csv",
+  "__MACOSX/._2017-05-31.csv",
+  "__MACOSX/._2017-06-01.csv",
+  "__MACOSX/._2017-06-02.csv",
+  "__MACOSX/._2017-06-03.csv",
+  "__MACOSX/._2017-06-04.csv",
+  "__MACOSX/._2017-06-05.csv",
+  "__MACOSX/._2017-06-06.csv",
+  "__MACOSX/._2017-06-07.csv",
+  "__MACOSX/._2017-06-08.csv",
+  "__MACOSX/._2017-06-09.csv",
+  "__MACOSX/._2017-06-10.csv",
+  "__MACOSX/._2017-06-11.csv",
+  "__MACOSX/._2017-06-12.csv",
+  "__MACOSX/._2017-06-13.csv",
+  "__MACOSX/._2017-06-14.csv",
+  "__MACOSX/._2017-06-15.csv",
+  "__MACOSX/._2017-06-16.csv",
+  "__MACOSX/._2017-06-17.csv",
+  "__MACOSX/._2017-06-18.csv",
+  "__MACOSX/._2017-06-19.csv",
+  "__MACOSX/._2017-06-20.csv",
+  "__MACOSX/._2017-06-21.csv",
+  "__MACOSX/._2017-06-22.csv",
+  "__MACOSX/._2017-06-23.csv",
+  "__MACOSX/._2017-06-24.csv",
+  "__MACOSX/._2017-06-25.csv",
+  "__MACOSX/._2017-06-26.csv",
+  "__MACOSX/._2017-06-27.csv",
+  "__MACOSX/._2017-06-28.csv",
+  "__MACOSX/._2017-06-29.csv",
+  "__MACOSX/._2017-06-30.csv"
+ ]
+}

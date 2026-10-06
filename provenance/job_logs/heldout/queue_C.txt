@@ -1,0 +1,3 @@
+# 9B arms on H150 (remote 9B via ssh tunnel 11597; 27B local) -- run after the main arm has covered H150
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ESM-norepair-9Bderiver --schedules every --facts esm_data_heldout\sub_H150.json --workers 4 --q27 11595,11596 --q9 11597,11597
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ESM-norepair-9B --schedules every --facts esm_data_heldout\sub_H150.json --workers 4 --q27 11595,11596 --q9 11597,11597

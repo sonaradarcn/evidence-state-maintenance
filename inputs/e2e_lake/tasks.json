@@ -1,0 +1,1232 @@
+[
+ {
+  "tid": "tlc:D1:12@100",
+  "iid": "tlc:D1:12",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+  "K0": "string",
+  "task": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "large_string"
+  },
+  "fact_value": "large_string",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D1:12@25",
+  "iid": "tlc:D1:12",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+  "K0": "string",
+  "task": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "string"
+  },
+  "fact_value": "string",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D1:12@50",
+  "iid": "tlc:D1:12",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null.",
+  "K0": "string",
+  "task": "In the most recent Yellow taxi trip file in the lake, what is the Arrow/Parquet data type of column `store_and_fwd_flag` (matched case-insensitively)? Answer with the type name, e.g. int64, double, string, large_string, timestamp[us], null. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "large_string"
+  },
+  "fact_value": "large_string",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D2:33@100",
+  "iid": "tlc:D2:33",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "enriched",
+  "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the airport fee charged for pick-ups at LaGuardia / JFK? Answer NONE if no column holds it.",
+  "K0": "airport_fee",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent Yellow taxi trip file in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the airport fee charged for pick-ups at LaGuardia / JFK. Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Airport_fee",
+   "latest": "trip-data/yellow_tripdata_2024-02.parquet",
+   "ref_query": "SELECT count(DISTINCT \"Airport_fee\") AS \"Airport_fee\" FROM 'trip-data/yellow_tripdata_2024-02.parquet'",
+   "ref_out": "Airport_fee\n3"
+  },
+  "fact_value": "Airport_fee",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D2:33@25",
+  "iid": "tlc:D2:33",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "enriched",
+  "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the airport fee charged for pick-ups at LaGuardia / JFK? Answer NONE if no column holds it.",
+  "K0": "airport_fee",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent Yellow taxi trip file in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the airport fee charged for pick-ups at LaGuardia / JFK. Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "airport_fee",
+   "latest": "trip-data/yellow_tripdata_2022-08.parquet",
+   "ref_query": "SELECT count(DISTINCT \"airport_fee\") AS \"airport_fee\" FROM 'trip-data/yellow_tripdata_2022-08.parquet'",
+   "ref_out": "airport_fee\n3"
+  },
+  "fact_value": "airport_fee",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D2:33@50",
+  "iid": "tlc:D2:33",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "enriched",
+  "question": "In the most recent Yellow taxi trip file, what is the exact (case-sensitive) name of the column that holds the airport fee charged for pick-ups at LaGuardia / JFK? Answer NONE if no column holds it.",
+  "K0": "airport_fee",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent Yellow taxi trip file in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the airport fee charged for pick-ups at LaGuardia / JFK. Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Airport_fee",
+   "latest": "trip-data/yellow_tripdata_2023-02.parquet",
+   "ref_query": "SELECT count(DISTINCT \"Airport_fee\") AS \"Airport_fee\" FROM 'trip-data/yellow_tripdata_2023-02.parquet'",
+   "ref_out": "Airport_fee\n3"
+  },
+  "fact_value": "Airport_fee",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D3:45@100",
+  "iid": "tlc:D3:45",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "natural",
+  "question": "In the Green taxi partition for month 2020-10, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals?",
+  "K0": "2841.25",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Green taxi partition for month 2020-10, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2841.25"
+  },
+  "fact_value": "2841.25",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:45@25",
+  "iid": "tlc:D3:45",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "natural",
+  "question": "In the Green taxi partition for month 2020-10, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals?",
+  "K0": "2841.25",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Green taxi partition for month 2020-10, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2841.25"
+  },
+  "fact_value": "2841.25",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:45@50",
+  "iid": "tlc:D3:45",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "natural",
+  "question": "In the Green taxi partition for month 2020-10, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals?",
+  "K0": "2841.25",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Green taxi partition for month 2020-10, what is the sum of the tip amount (each value rounded to cents first); answer with 2 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2841.25"
+  },
+  "fact_value": "2841.25",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:56@100",
+  "iid": "tlc:D3:56",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "In the Yellow taxi partition for month 2022-01, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals?",
+  "K0": "2.2789",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Yellow taxi partition for month 2022-01, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2.2789"
+  },
+  "fact_value": "2.2789",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:56@25",
+  "iid": "tlc:D3:56",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "In the Yellow taxi partition for month 2022-01, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals?",
+  "K0": "2.2789",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Yellow taxi partition for month 2022-01, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2.2789"
+  },
+  "fact_value": "2.2789",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:56@50",
+  "iid": "tlc:D3:56",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "In the Yellow taxi partition for month 2022-01, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals?",
+  "K0": "2.2789",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Yellow taxi partition for month 2022-01, what is the mean over non-null rows of the NYS congestion surcharge (each value rounded to cents first); answer with 4 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2.2789"
+  },
+  "fact_value": "2.2789",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:65@100",
+  "iid": "tlc:D3:65",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals?",
+  "K0": "63.5962",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "63.5962"
+  },
+  "fact_value": "63.5962",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:65@25",
+  "iid": "tlc:D3:65",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals?",
+  "K0": "63.5962",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "63.5962"
+  },
+  "fact_value": "63.5962",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D3:65@50",
+  "iid": "tlc:D3:65",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals?",
+  "K0": "63.5962",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: In the Green taxi partition for month 2021-11, what is the mean over non-null rows of the trip distance in miles (each value rounded to cents first); answer with 4 decimals? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "63.5962"
+  },
+  "fact_value": "63.5962",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D4:87@100",
+  "iid": "tlc:D4:87",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-report",
+  "fact_type": "D4",
+  "subset": "enriched",
+  "question": "What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+  "K0": "3664.02",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "25485.83"
+  },
+  "fact_value": "25485.83",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D4:87@25",
+  "iid": "tlc:D4:87",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-report",
+  "fact_type": "D4",
+  "subset": "enriched",
+  "question": "What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+  "K0": "3664.02",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "16903.35"
+  },
+  "fact_value": "16903.35",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D4:87@50",
+  "iid": "tlc:D4:87",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-report",
+  "fact_type": "D4",
+  "subset": "enriched",
+  "question": "What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)?",
+  "K0": "3664.02",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "25485.83"
+  },
+  "fact_value": "25485.83",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D6:112@100",
+  "iid": "tlc:D6:112",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "natural",
+  "question": "Join the Yellow taxi trips of the 2022-03 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+  "K0": "755",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Join the Yellow taxi trips of the 2022-03 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "599"
+  },
+  "fact_value": "599",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D6:112@25",
+  "iid": "tlc:D6:112",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "natural",
+  "question": "Join the Yellow taxi trips of the 2022-03 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+  "K0": "755",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Join the Yellow taxi trips of the 2022-03 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "755"
+  },
+  "fact_value": "755",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D6:112@50",
+  "iid": "tlc:D6:112",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "natural",
+  "question": "Join the Yellow taxi trips of the 2022-03 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'?",
+  "K0": "755",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Join the Yellow taxi trips of the 2022-03 monthly file on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Unknown'? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "755"
+  },
+  "fact_value": "755",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D6:123@100",
+  "iid": "tlc:D6:123",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "enriched",
+  "question": "Join the FHV trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'?",
+  "K0": "0",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Join the FHV trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "799"
+  },
+  "fact_value": "799",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D6:123@25",
+  "iid": "tlc:D6:123",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "enriched",
+  "question": "Join the FHV trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'?",
+  "K0": "0",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Join the FHV trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "0"
+  },
+  "fact_value": "0",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D6:123@50",
+  "iid": "tlc:D6:123",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "enriched",
+  "question": "Join the FHV trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'?",
+  "K0": "0",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Join the FHV trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'N/A'? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "0"
+  },
+  "fact_value": "0",
+  "K0_valid": true
+ },
+ {
+  "tid": "tlc:D8:155@100",
+  "iid": "tlc:D8:155",
+  "lake": "tlc",
+  "t": 100,
+  "snapshot": "tlcR-0253",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "natural",
+  "question": "How many monthly FHV partitions have a column named exactly `SR_Flag` (case-sensitive)?",
+  "K0": "38",
+  "task": "How many monthly FHV partitions have a column named exactly `SR_Flag` (case-sensitive)? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "61"
+  },
+  "fact_value": "61",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D8:155@25",
+  "iid": "tlc:D8:155",
+  "lake": "tlc",
+  "t": 25,
+  "snapshot": "tlcR-0178",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "natural",
+  "question": "How many monthly FHV partitions have a column named exactly `SR_Flag` (case-sensitive)?",
+  "K0": "38",
+  "task": "How many monthly FHV partitions have a column named exactly `SR_Flag` (case-sensitive)? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "44"
+  },
+  "fact_value": "44",
+  "K0_valid": false
+ },
+ {
+  "tid": "tlc:D8:155@50",
+  "iid": "tlc:D8:155",
+  "lake": "tlc",
+  "t": 50,
+  "snapshot": "tlcR-0203",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "natural",
+  "question": "How many monthly FHV partitions have a column named exactly `SR_Flag` (case-sensitive)?",
+  "K0": "38",
+  "task": "How many monthly FHV partitions have a column named exactly `SR_Flag` (case-sensitive)? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "50"
+  },
+  "fact_value": "50",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D1:13@20",
+  "iid": "bb:D1:13",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_13_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_13_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "VARCHAR"
+  },
+  "fact_value": "VARCHAR",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D1:13@40",
+  "iid": "bb:D1:13",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_13_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_13_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BIGINT"
+  },
+  "fact_value": "BIGINT",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D1:13@80",
+  "iid": "bb:D1:13",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_13_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_13_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BIGINT"
+  },
+  "fact_value": "BIGINT",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D1:17@20",
+  "iid": "bb:D1:17",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_23_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_23_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BIGINT"
+  },
+  "fact_value": "BIGINT",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D1:17@40",
+  "iid": "bb:D1:17",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_23_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_23_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BIGINT"
+  },
+  "fact_value": "BIGINT",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D1:17@80",
+  "iid": "bb:D1:17",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_23_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_23_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BIGINT"
+  },
+  "fact_value": "BIGINT",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D1:5@20",
+  "iid": "bb:D1:5",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "natural",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_201_raw` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_201_raw` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "VARCHAR"
+  },
+  "fact_value": "VARCHAR",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D1:5@40",
+  "iid": "bb:D1:5",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "natural",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_201_raw` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_201_raw` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BIGINT"
+  },
+  "fact_value": "BIGINT",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D1:5@80",
+  "iid": "bb:D1:5",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-question",
+  "fact_type": "D1",
+  "subset": "natural",
+  "question": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_201_raw` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.",
+  "K0": "VARCHAR",
+  "task": "In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_201_raw` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR. Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BIGINT"
+  },
+  "fact_value": "BIGINT",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D2:31@20",
+  "iid": "bb:D2:31",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "natural",
+  "question": "In the most recent daily Drive Stats CSV, what is the exact name of the column holding the observation date? Answer NONE if absent.",
+  "K0": "date",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent daily Drive Stats CSV in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the observation date. Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "date",
+   "latest": "drive_stats/data_Q1_2020/2020-02-29.csv",
+   "ref_query": "SELECT count(DISTINCT \"date\") AS \"date\" FROM 'drive_stats/data_Q1_2020/2020-02-29.csv'",
+   "ref_out": "date\n1"
+  },
+  "fact_value": "date",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D2:31@40",
+  "iid": "bb:D2:31",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "natural",
+  "question": "In the most recent daily Drive Stats CSV, what is the exact name of the column holding the observation date? Answer NONE if absent.",
+  "K0": "date",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent daily Drive Stats CSV in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the observation date. Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "date",
+   "latest": "drive_stats/data_Q3_2021/2021-07-31.csv",
+   "ref_query": "SELECT count(DISTINCT \"date\") AS \"date\" FROM 'drive_stats/data_Q3_2021/2021-07-31.csv'",
+   "ref_out": "date\n1"
+  },
+  "fact_value": "date",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D2:31@80",
+  "iid": "bb:D2:31",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "natural",
+  "question": "In the most recent daily Drive Stats CSV, what is the exact name of the column holding the observation date? Answer NONE if absent.",
+  "K0": "date",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent daily Drive Stats CSV in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the observation date. Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "date",
+   "latest": "drive_stats/data_Q3_2024/2024-07-31.csv",
+   "ref_query": "SELECT count(DISTINCT \"date\") AS \"date\" FROM 'drive_stats/data_Q3_2024/2024-07-31.csv'",
+   "ref_out": "date\n1"
+  },
+  "fact_value": "date",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D2:34@20",
+  "iid": "bb:D2:34",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV, what is the exact name of the column holding the raw drive temperature (SMART 194)? Answer NONE if absent.",
+  "K0": "smart_194_raw",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent daily Drive Stats CSV in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the raw drive temperature (SMART 194). Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "smart_194_raw",
+   "latest": "drive_stats/data_Q1_2020/2020-02-29.csv",
+   "ref_query": "SELECT count(DISTINCT \"smart_194_raw\") AS \"smart_194_raw\" FROM 'drive_stats/data_Q1_2020/2020-02-29.csv'",
+   "ref_out": "smart_194_raw\n33"
+  },
+  "fact_value": "smart_194_raw",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D2:34@40",
+  "iid": "bb:D2:34",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV, what is the exact name of the column holding the raw drive temperature (SMART 194)? Answer NONE if absent.",
+  "K0": "smart_194_raw",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent daily Drive Stats CSV in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the raw drive temperature (SMART 194). Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "smart_194_raw",
+   "latest": "drive_stats/data_Q3_2021/2021-07-31.csv",
+   "ref_query": "SELECT count(DISTINCT \"smart_194_raw\") AS \"smart_194_raw\" FROM 'drive_stats/data_Q3_2021/2021-07-31.csv'",
+   "ref_out": "smart_194_raw\n36"
+  },
+  "fact_value": "smart_194_raw",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D2:34@80",
+  "iid": "bb:D2:34",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-sql",
+  "fact_type": "D2",
+  "subset": "enriched",
+  "question": "In the most recent daily Drive Stats CSV, what is the exact name of the column holding the raw drive temperature (SMART 194)? Answer NONE if absent.",
+  "K0": "smart_194_raw",
+  "task": "Write one DuckDB SQL SELECT statement over the most recent daily Drive Stats CSV in the lake (reference the file by its quoted logical path) that returns exactly one row with exactly one column: the number of distinct non-null values of the column that holds the raw drive temperature (SMART 194). Alias the output column with the exact, case-sensitive name of that source column (downstream code selects the result by that name). Submit the query. If no column holds it in the most recent file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "smart_194_raw",
+   "latest": "drive_stats/data_Q3_2024/2024-07-31.csv",
+   "ref_query": "SELECT count(DISTINCT \"smart_194_raw\") AS \"smart_194_raw\" FROM 'drive_stats/data_Q3_2024/2024-07-31.csv'",
+   "ref_out": "smart_194_raw\n35"
+  },
+  "fact_value": "smart_194_raw",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D3:44@20",
+  "iid": "bb:D3:44",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "natural",
+  "question": "What is the mean capacity_bytes in TB (10^12 bytes; rows with capacity_bytes <= 0 excluded) over all daily files of 2014-08 present so far? (4 decimals)",
+  "K0": "3.2618",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: What is the mean capacity_bytes in TB (10^12 bytes; rows with capacity_bytes <= 0 excluded) over all daily files of 2014-08 present so far? (4 decimals) Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "3.2618"
+  },
+  "fact_value": "3.2618",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D3:44@40",
+  "iid": "bb:D3:44",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "natural",
+  "question": "What is the mean capacity_bytes in TB (10^12 bytes; rows with capacity_bytes <= 0 excluded) over all daily files of 2014-08 present so far? (4 decimals)",
+  "K0": "3.2618",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: What is the mean capacity_bytes in TB (10^12 bytes; rows with capacity_bytes <= 0 excluded) over all daily files of 2014-08 present so far? (4 decimals) Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "3.2618"
+  },
+  "fact_value": "3.2618",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D3:44@80",
+  "iid": "bb:D3:44",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "natural",
+  "question": "What is the mean capacity_bytes in TB (10^12 bytes; rows with capacity_bytes <= 0 excluded) over all daily files of 2014-08 present so far? (4 decimals)",
+  "K0": "3.2618",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: What is the mean capacity_bytes in TB (10^12 bytes; rows with capacity_bytes <= 0 excluded) over all daily files of 2014-08 present so far? (4 decimals) Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "3.2618"
+  },
+  "fact_value": "3.2618",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D3:48@20",
+  "iid": "bb:D3:48",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "How many drive-day rows are there in all daily files of 2017-03 present so far?",
+  "K0": "38995",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: How many drive-day rows are there in all daily files of 2017-03 present so far? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "38995"
+  },
+  "fact_value": "38995",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D3:48@40",
+  "iid": "bb:D3:48",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "How many drive-day rows are there in all daily files of 2017-03 present so far?",
+  "K0": "38995",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: How many drive-day rows are there in all daily files of 2017-03 present so far? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "38995"
+  },
+  "fact_value": "38995",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D3:48@80",
+  "iid": "bb:D3:48",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-report",
+  "fact_type": "D3",
+  "subset": "enriched",
+  "question": "How many drive-day rows are there in all daily files of 2017-03 present so far?",
+  "K0": "38995",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: How many drive-day rows are there in all daily files of 2017-03 present so far? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "38995"
+  },
+  "fact_value": "38995",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D4:66@20",
+  "iid": "bb:D4:66",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-files",
+  "fact_type": "D4",
+  "subset": "natural",
+  "question": "What is the latest date covered by all daily files of 2018 present so far?",
+  "K0": "2018-09-30",
+  "task": "You need to load the daily Drive Stats CSV file that holds the most recent day of data of calendar year 2018 present in the lake (for a daily report on that day). Which file is it? Submit its logical path. If there is no such file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "drive_stats/data_Q4_2018/2018-12-31.csv",
+   "fact_value": "2018-12-31"
+  },
+  "fact_value": "2018-12-31",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D4:66@40",
+  "iid": "bb:D4:66",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-files",
+  "fact_type": "D4",
+  "subset": "natural",
+  "question": "What is the latest date covered by all daily files of 2018 present so far?",
+  "K0": "2018-09-30",
+  "task": "You need to load the daily Drive Stats CSV file that holds the most recent day of data of calendar year 2018 present in the lake (for a daily report on that day). Which file is it? Submit its logical path. If there is no such file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "drive_stats/data_Q4_2018/2018-12-31.csv",
+   "fact_value": "2018-12-31"
+  },
+  "fact_value": "2018-12-31",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D4:66@80",
+  "iid": "bb:D4:66",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-files",
+  "fact_type": "D4",
+  "subset": "natural",
+  "question": "What is the latest date covered by all daily files of 2018 present so far?",
+  "K0": "2018-09-30",
+  "task": "You need to load the daily Drive Stats CSV file that holds the most recent day of data of calendar year 2018 present in the lake (for a daily report on that day). Which file is it? Submit its logical path. If there is no such file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "drive_stats/data_Q4_2018/2018-12-31.csv",
+   "fact_value": "2018-12-31"
+  },
+  "fact_value": "2018-12-31",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D4:72@20",
+  "iid": "bb:D4:72",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-files",
+  "fact_type": "D4",
+  "subset": "enriched",
+  "question": "What is the latest date covered by all daily files present so far?",
+  "K0": "2018-09-30",
+  "task": "You need to load the daily Drive Stats CSV file that holds the most recent day of data in the lake (for a daily report on that day). Which file is it? Submit its logical path. If there is no such file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "drive_stats/data_Q1_2020/2020-02-29.csv",
+   "fact_value": "2020-02-29"
+  },
+  "fact_value": "2020-02-29",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D4:72@40",
+  "iid": "bb:D4:72",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-files",
+  "fact_type": "D4",
+  "subset": "enriched",
+  "question": "What is the latest date covered by all daily files present so far?",
+  "K0": "2018-09-30",
+  "task": "You need to load the daily Drive Stats CSV file that holds the most recent day of data in the lake (for a daily report on that day). Which file is it? Submit its logical path. If there is no such file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "drive_stats/data_Q3_2021/2021-07-31.csv",
+   "fact_value": "2021-07-31"
+  },
+  "fact_value": "2021-07-31",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D4:72@80",
+  "iid": "bb:D4:72",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-files",
+  "fact_type": "D4",
+  "subset": "enriched",
+  "question": "What is the latest date covered by all daily files present so far?",
+  "K0": "2018-09-30",
+  "task": "You need to load the daily Drive Stats CSV file that holds the most recent day of data in the lake (for a daily report on that day). Which file is it? Submit its logical path. If there is no such file, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "drive_stats/data_Q3_2024/2024-07-31.csv",
+   "fact_value": "2024-07-31"
+  },
+  "fact_value": "2024-07-31",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D6:111@20",
+  "iid": "bb:D6:111",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "natural",
+  "question": "Consider the drives of model `Hitachi HDS5C3030ALA630` that appear in the daily files of 2017-07. How many of them appear (with that model) in the most recent daily file in the lake?",
+  "K0": "0",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Consider the drives of model `Hitachi HDS5C3030ALA630` that appear in the daily files of 2017-07. How many of them appear (with that model) in the most recent daily file in the lake? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "0"
+  },
+  "fact_value": "0",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D6:111@40",
+  "iid": "bb:D6:111",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "natural",
+  "question": "Consider the drives of model `Hitachi HDS5C3030ALA630` that appear in the daily files of 2017-07. How many of them appear (with that model) in the most recent daily file in the lake?",
+  "K0": "0",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Consider the drives of model `Hitachi HDS5C3030ALA630` that appear in the daily files of 2017-07. How many of them appear (with that model) in the most recent daily file in the lake? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "0"
+  },
+  "fact_value": "0",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D6:111@80",
+  "iid": "bb:D6:111",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-report",
+  "fact_type": "D6",
+  "subset": "natural",
+  "question": "Consider the drives of model `Hitachi HDS5C3030ALA630` that appear in the daily files of 2017-07. How many of them appear (with that model) in the most recent daily file in the lake?",
+  "K0": "0",
+  "task": "You are preparing a data report and need this statistic, computed on the lake as it is now: Consider the drives of model `Hitachi HDS5C3030ALA630` that appear in the daily files of 2017-07. How many of them appear (with that model) in the most recent daily file in the lake? Submit only the value. If what it refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "0"
+  },
+  "fact_value": "0",
+  "K0_valid": true
+ },
+ {
+  "tid": "bb:D8:147@20",
+  "iid": "bb:D8:147",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "natural",
+  "question": "How many daily files present so far have a column named `smart_223_raw`?",
+  "K0": "2000",
+  "task": "How many daily files present so far have a column named `smart_223_raw`? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2517"
+  },
+  "fact_value": "2517",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D8:147@40",
+  "iid": "bb:D8:147",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "natural",
+  "question": "How many daily files present so far have a column named `smart_223_raw`?",
+  "K0": "2000",
+  "task": "How many daily files present so far have a column named `smart_223_raw`? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "3035"
+  },
+  "fact_value": "3035",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D8:147@80",
+  "iid": "bb:D8:147",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "natural",
+  "question": "How many daily files present so far have a column named `smart_223_raw`?",
+  "K0": "2000",
+  "task": "How many daily files present so far have a column named `smart_223_raw`? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "4131"
+  },
+  "fact_value": "4131",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D8:162@20",
+  "iid": "bb:D8:162",
+  "lake": "bb",
+  "t": 20,
+  "snapshot": "bbR-0090",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "enriched",
+  "question": "How many daily files present so far have a column named `smart_255_raw`?",
+  "K0": "2000",
+  "task": "How many daily files present so far have a column named `smart_255_raw`? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "2517"
+  },
+  "fact_value": "2517",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D8:162@40",
+  "iid": "bb:D8:162",
+  "lake": "bb",
+  "t": 40,
+  "snapshot": "bbR-0110",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "enriched",
+  "question": "How many daily files present so far have a column named `smart_255_raw`?",
+  "K0": "2000",
+  "task": "How many daily files present so far have a column named `smart_255_raw`? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "3035"
+  },
+  "fact_value": "3035",
+  "K0_valid": false
+ },
+ {
+  "tid": "bb:D8:162@80",
+  "iid": "bb:D8:162",
+  "lake": "bb",
+  "t": 80,
+  "snapshot": "bbR-0150",
+  "task_type": "T-question",
+  "fact_type": "D8",
+  "subset": "enriched",
+  "question": "How many daily files present so far have a column named `smart_255_raw`?",
+  "K0": "2000",
+  "task": "How many daily files present so far have a column named `smart_255_raw`? Submit only the answer. If what the question refers to no longer exists in this snapshot, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "4131"
+  },
+  "fact_value": "4131",
+  "K0_valid": false
+ }
+]

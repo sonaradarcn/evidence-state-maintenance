@@ -1,0 +1,105 @@
+{
+ "name": "yellow_tripdata_2025-12.parquet",
+ "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-12.parquet",
+ "http": {
+  "status": "200",
+  "content_length": 73701327,
+  "last_modified": "Wed, 25 Mar 2026 15:55:54 GMT",
+  "etag": "\"2c31ea7afe9bc1a94e01fd0833a06490-15\"",
+  "bz_upload_ts": null,
+  "bz_sha1": null
+ },
+ "available": true,
+ "raw_sha256": "eaba7ff61ebb6453fc6f673fda43d621380307f869b768b124992e8486c785e1",
+ "logical_path": "trip-data/yellow_tripdata_2025-12.parquet",
+ "sha256": "97c0a5e9415220a40e3f18a3669268105908f3036abbeceeb18b1e7aa6338ad8",
+ "size": 1664449,
+ "n_rows_raw": 4305006,
+ "n_rows_sub": 67106,
+ "codec": "zstd",
+ "raw_created_by": "parquet-cpp-arrow version 16.1.0",
+ "raw_row_groups": 5,
+ "schema_equal": true,
+ "schema": [
+  [
+   "VendorID",
+   "int32"
+  ],
+  [
+   "tpep_pickup_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "tpep_dropoff_datetime",
+   "timestamp[us]"
+  ],
+  [
+   "passenger_count",
+   "int64"
+  ],
+  [
+   "trip_distance",
+   "double"
+  ],
+  [
+   "RatecodeID",
+   "int64"
+  ],
+  [
+   "store_and_fwd_flag",
+   "large_string"
+  ],
+  [
+   "PULocationID",
+   "int32"
+  ],
+  [
+   "DOLocationID",
+   "int32"
+  ],
+  [
+   "payment_type",
+   "int64"
+  ],
+  [
+   "fare_amount",
+   "double"
+  ],
+  [
+   "extra",
+   "double"
+  ],
+  [
+   "mta_tax",
+   "double"
+  ],
+  [
+   "tip_amount",
+   "double"
+  ],
+  [
+   "tolls_amount",
+   "double"
+  ],
+  [
+   "improvement_surcharge",
+   "double"
+  ],
+  [
+   "total_amount",
+   "double"
+  ],
+  [
+   "congestion_surcharge",
+   "double"
+  ],
+  [
+   "Airport_fee",
+   "double"
+  ],
+  [
+   "cbd_congestion_fee",
+   "double"
+  ]
+ ]
+}

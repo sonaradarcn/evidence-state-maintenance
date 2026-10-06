@@ -1,0 +1,4 @@
+python -B -m esm.scripts.dl_s0 --kind dlsyn_tlc --workers 1 --q27 11595 --ids esm_data_datalake\dlsyn_tlc\sub_SYN.json
+python -B -m esm.scripts.run_sim --kind dlsyn_tlc --policies NEVER,TTL25@oracle,TTL50@oracle,TTL100@oracle,REPLAY@oracle,FILEHASH@oracle,MANIFEST@oracle --schedules every --facts esm_data_datalake\dlsyn_tlc\sub_SYN.json --workers 2 --q27 ""
+python -B -m esm.scripts.dl_s0 --kind dlsyn_bb --workers 1 --q27 11596 --ids esm_data_datalake\dlsyn_bb\sub_SYN.json
+python -B -m esm.scripts.run_sim --kind dlsyn_bb --policies NEVER,TTL20@oracle,TTL40@oracle,TTL100@oracle,REPLAY@oracle,FILEHASH@oracle,MANIFEST@oracle --schedules every --facts esm_data_datalake\dlsyn_bb\sub_SYN.json --workers 2 --q27 ""

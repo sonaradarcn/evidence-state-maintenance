@@ -1,0 +1,1 @@
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair-trunc,ESM-norepair-unsurefresh,ESM-verify --schedules every --facts esm_data_datalake\dl_tlc\sub_S.json --workers 2 --q27 11596

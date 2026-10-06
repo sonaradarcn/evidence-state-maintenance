@@ -1,0 +1,2 @@
+python -B -m esm.scripts.poll --max 30000 --every 60 --lines esm_data_datalake\queue_B.done 2
+python -B -m esm.scripts.run_sim --kind dl_bb --policies NEVER,TTL20@oracle,TTL40@oracle,TTL100@oracle,ALWAYS@oracle --schedules every,every20,every5,bursty --workers 2 --q27 ""

@@ -1,0 +1,63 @@
+{
+ "natural": {
+  "n": 15,
+  "types": {
+   "B": 2,
+   "T1": 2,
+   "T2": 2,
+   "T3": 2,
+   "T4": 1,
+   "T5": 3,
+   "T6": 1,
+   "T7": 2
+  },
+  "repos": 13,
+  "changing": 6
+ },
+ "enriched": {
+  "n": 15,
+  "types": {
+   "B": 3,
+   "T1": 2,
+   "T2": 2,
+   "T3": 1,
+   "T4": 3,
+   "T5": 3,
+   "T7": 1
+  },
+  "repos": 12,
+  "changing": 9
+ },
+ "ids": [
+  "black:T1:n38",
+  "black:T2:10",
+  "boltons:B:clamp:n-f1cc87fa",
+  "boltons:T3:n1",
+  "boltons:T5:25",
+  "httpx:T3:n10",
+  "httpx:T7:37",
+  "isort:T4:21",
+  "isort:T5:n15",
+  "jinja:T7:n37",
+  "kombu:T5:28",
+  "kombu:T7:n7",
+  "marshmallow:T2:8",
+  "marshmallow:T4:n3",
+  "mkdocs:T1:0",
+  "networkx:B:is_k_edge_connected:e6c33c2f",
+  "networkx:B:karate_club_graph:n-912f2b83",
+  "networkx:T2:n18",
+  "networkx:T3:16",
+  "poetry-core:B:distribution_name:be1acf96",
+  "poetry-core:T1:4",
+  "poetry-core:T1:n36",
+  "pygments:T5:n7",
+  "pyparsing:T5:24",
+  "pyparsing:T6:n36",
+  "typer:T4:19",
+  "typer:T5:n38",
+  "werkzeug:B:unquote_etag:3c2bb591",
+  "werkzeug:T2:n16",
+  "werkzeug:T4:21"
+ ]
+}

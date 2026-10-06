@@ -1,0 +1,43 @@
+{
+ "policy": "ESM-norepair",
+ "lowest_sw": "ESM-norepair",
+ "within_0.5pp": [
+  "ESM-norepair"
+ ],
+ "candidates": {
+  "ESM": {
+   "sw": 0.12427325581395349,
+   "sw_ci": [
+    0.07626816860465117,
+    0.17476889534883722
+   ],
+   "tok_per_fact": 32536.511627906977,
+   "der_per_fact": 0.5465116279069767,
+   "repairs": 65,
+   "repair_rate": 0.49230769230769234
+  },
+  "ESM-verify": {
+   "sw": 0.08912790697674419,
+   "sw_ci": [
+    0.04903851744186047,
+    0.13592296511627905
+   ],
+   "tok_per_fact": 39588.12790697674,
+   "der_per_fact": 0.8837209302325582,
+   "repairs": 39,
+   "repair_rate": 0.8461538461538461
+  },
+  "ESM-norepair": {
+   "sw": 0.08177325581395349,
+   "sw_ci": [
+    0.041243459302325584,
+    0.12812718023255812
+   ],
+   "tok_per_fact": 42501.08139534884,
+   "der_per_fact": 1.3255813953488371,
+   "repairs": 0,
+   "repair_rate": 0.0
+  }
+ },
+ "rule": "lowest served-wrong on dev S1 (27B deriver); within 0.5 pp -> cheaper"
+}

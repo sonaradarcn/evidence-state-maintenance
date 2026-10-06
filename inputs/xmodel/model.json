@@ -1,0 +1,1 @@
+{"model": "ollama:gpt-oss:20b", "reasoning": "medium", "judge_max_tokens": 4000, "label": "gpt-oss-20B", "server": "own Ollama 127.0.0.1:11621, GPU 0, OLLAMA_NUM_PARALLEL=4, ctx 16384"}

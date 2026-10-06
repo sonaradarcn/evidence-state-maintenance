@@ -1,0 +1,202 @@
+[
+ {
+  "iid": "boltons:T1:0",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "mkdocs:T1:0",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "black:T1:0",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "isort:T1:n21",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "scrapy:T1:n1",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "jinja:T1:n25",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "pygments:T1:n10",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "isort:T1:n7",
+  "task_type": "T-locate",
+  "fact_type": "T1"
+ },
+ {
+  "iid": "mkdocs:T3:13",
+  "task_type": "T-api",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "httpx:T3:n27",
+  "task_type": "T-api",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "black:T3:n23",
+  "task_type": "T-api",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "scrapy:T3:14",
+  "task_type": "T-api",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "pyparsing:T3:n22",
+  "task_type": "T-api",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "boltons:T3:17",
+  "task_type": "T-api",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "mkdocs:T3:n21",
+  "task_type": "T-api",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "poetry-core:T3:n30",
+  "task_type": "T-modify",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "black:T3:n21",
+  "task_type": "T-modify",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "kombu:T3:13",
+  "task_type": "T-modify",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "scrapy:T3:12",
+  "task_type": "T-modify",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "httpx:T3:n10",
+  "task_type": "T-modify",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "kombu:T3:n32",
+  "task_type": "T-modify",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "typer:T3:17",
+  "task_type": "T-modify",
+  "fact_type": "T3"
+ },
+ {
+  "iid": "poetry-core:B:strip_extras:n-dd8d90f0",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "isort:B:skip_line:419f7c14",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "werkzeug:B:unquote_etag:3c2bb591",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "jinja:B:modifies_known_mutable:fe45bd2f",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "pygments:B:escape_html:n-6b22cf32",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "rich:B:chop_cells:ebc873c0",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "networkx:B:is_k_edge_connected:e6c33c2f",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "isort:B:naturally:ec91a888",
+  "task_type": "T-test",
+  "fact_type": "B"
+ },
+ {
+  "iid": "marshmallow:T2:n36",
+  "task_type": "T-question",
+  "fact_type": "T2"
+ },
+ {
+  "iid": "isort:T2:n1",
+  "task_type": "T-question",
+  "fact_type": "T2"
+ },
+ {
+  "iid": "typer:T2:n6",
+  "task_type": "T-question",
+  "fact_type": "T2"
+ },
+ {
+  "iid": "networkx:T2:n33",
+  "task_type": "T-question",
+  "fact_type": "T2"
+ },
+ {
+  "iid": "poetry-core:T6:31",
+  "task_type": "T-question",
+  "fact_type": "T6"
+ },
+ {
+  "iid": "pygments:T6:32",
+  "task_type": "T-question",
+  "fact_type": "T6"
+ },
+ {
+  "iid": "kombu:T6:35",
+  "task_type": "T-question",
+  "fact_type": "T6"
+ },
+ {
+  "iid": "mkdocs:T7:n32",
+  "task_type": "T-question",
+  "fact_type": "T7"
+ },
+ {
+  "iid": "jinja:T7:41",
+  "task_type": "T-question",
+  "fact_type": "T7"
+ },
+ {
+  "iid": "marshmallow:T7:40",
+  "task_type": "T-question",
+  "fact_type": "T7"
+ }
+]

@@ -1,0 +1,343 @@
+{
+ "grep": {
+  "H150 name": [
+   "sections/06_setup.tex:23",
+   "sections/06_setup.tex:44",
+   "sections/06_setup.tex:44",
+   "sections/07_results.tex:32",
+   "sections/07_results.tex:55",
+   "sections/07_results.tex:68",
+   "sections/07_results.tex:76",
+   "sections/07_results.tex:76",
+   "sections/07_results.tex:81",
+   "sections/07_results.tex:86",
+   "sections/07_results.tex:90",
+   "sections/07_results.tex:93",
+   "sections/07_results.tex:115",
+   "sections/07_results.tex:160",
+   "sections/07_results.tex:187",
+   "sections/07_results.tex:191",
+   "sections/07_results.tex:207",
+   "sections/08_discussion.tex:4",
+   "sections/08_discussion.tex:7",
+   "sections/08_discussion.tex:16",
+   "figs/make_figs.py:208",
+   "figs/make_figs.py:209",
+   "figs/make_figs.py:210",
+   "figs/make_figs.py:211",
+   "figs/make_figs.py:212",
+   "figs/make_figs.py:230",
+   "figs/make_figs.py:245",
+   "figs/make_figs.py:246",
+   "figs/make_figs.py:265",
+   "figs/make_figs.py:272",
+   "figs/make_figs.py:284",
+   "figs/make_figs.py:285"
+  ],
+  "'tie' wording": [
+   "sections/07_results.tex:27",
+   "sections/07_results.tex:59",
+   "sections/07_results.tex:90",
+   "sections/08_discussion.tex:4",
+   "main.tex:51",
+   "main.tex:58"
+  ],
+  "'measured rather than assumed'": [
+   "sections/08_discussion.tex:19"
+  ],
+  "cost ratio headline": [
+   "sections/08_discussion.tex:4",
+   "sections/09_conclusion.tex:3",
+   "main.tex:51",
+   "main.tex:51",
+   "main.tex:58",
+   "main.tex:58"
+  ],
+  "Section 4 title": [
+   "sections/04_negative.tex:1"
+  ]
+ },
+ "recheck": {
+  "Table 4|ESM-norepair": [
+   6.9015625,
+   26.53546875,
+   1.30625,
+   true
+  ],
+  "Table 4|REPLAY": [
+   8.4984375,
+   162.402825,
+   10.075,
+   true
+  ],
+  "Table 4|CERT-ZS": [
+   7.1453125,
+   53.12080625,
+   4.6,
+   true
+  ],
+  "Table 4|CERT-v0": [
+   6.44172932330827,
+   26.569323308270675,
+   2.308270676691729,
+   true
+  ],
+  "Table 4|LLMDIFF": [
+   8.0640625,
+   72.3000625,
+   2.06875,
+   true
+  ],
+  "Table 4|TTL50": [
+   11.9953125,
+   86.33821875,
+   8.0,
+   true
+  ],
+  "Table 4|TTL100": [
+   14.5671875,
+   44.03386875,
+   4.0,
+   true
+  ],
+  "Table 4|TTL200": [
+   20.88125,
+   22.48065625,
+   2.0,
+   true
+  ],
+  "Table 4|NEVER": [
+   28.775,
+   0.0,
+   0.0,
+   true
+  ],
+  "Table 5|ESM-norepair": [
+   6.9015625,
+   26.53546875,
+   1.30625,
+   true
+  ],
+  "Table 5|ESM-verify": [
+   6.8140625,
+   20.89966875,
+   0.73125,
+   true
+  ],
+  "Table 5|ESM": [
+   10.9875,
+   16.1510375,
+   0.525,
+   true
+  ],
+  "Table 5|ESM-norepair-noanchor": [
+   6.7109375,
+   40.50924375,
+   2.5125,
+   true
+  ],
+  "Table 5|ESM-norepair-trunc": [
+   6.9015625,
+   25.37305625,
+   1.3125,
+   true
+  ],
+  "Table 5|ESM-norepair-unsurefresh": [
+   6.5875,
+   22.643974999999998,
+   1.05,
+   true
+  ],
+  "Table 5|ESM-norepair-n2": [
+   6.6828125,
+   42.7625,
+   1.7375,
+   true
+  ],
+  "Table 5|ESM-norepair-9B": [
+   8.3703125,
+   57.5981375,
+   2.6625,
+   true
+  ],
+  "Table 5|ESM-norepair-9Bderiver": [
+   11.140625,
+   41.11130625,
+   1.35,
+   true
+  ]
+ },
+ "io": {
+  "ESM-norepair|every": {
+   "guard_io": 1512.20625,
+   "n_der": 1.30625,
+   "der_tools": 6.35625,
+   "der_llm": 7.76875,
+   "judge": 7.825,
+   "mins": 5.6816515625,
+   "missing": 0
+  },
+  "REPLAY|every": {
+   "guard_io": 1512.58125,
+   "n_der": 10.075,
+   "der_tools": 55.6875,
+   "der_llm": 66.96875,
+   "judge": 0.0,
+   "mins": 24.784018229166666,
+   "missing": 0
+  },
+  "CERT-ZS|every": {
+   "guard_io": 595.0,
+   "n_der": 4.6,
+   "der_tools": 18.96875,
+   "der_llm": 23.80625,
+   "judge": 0.0,
+   "mins": 8.810296354166665,
+   "missing": 0
+  },
+  "CERT-v0|every": {
+   "guard_io": 471.1503759398496,
+   "n_der": 2.308270676691729,
+   "der_tools": 8.330827067669173,
+   "der_llm": 10.699248120300751,
+   "judge": 0.0,
+   "mins": 3.9596134085213026,
+   "missing": 0
+  },
+  "LLMDIFF|every": {
+   "guard_io": 862.50625,
+   "n_der": 2.06875,
+   "der_tools": 8.41875,
+   "der_llm": 10.55625,
+   "judge": 23.3,
+   "mins": 12.263625520833333,
+   "missing": 0
+  },
+  "TTL50|every": {
+   "guard_io": 0.0,
+   "n_der": 8.0,
+   "der_tools": 31.05625,
+   "der_llm": 39.49375,
+   "judge": 0.0,
+   "mins": 14.615978645833332,
+   "missing": 0
+  },
+  "TTL100|every": {
+   "guard_io": 0.0,
+   "n_der": 4.0,
+   "der_tools": 15.825,
+   "der_llm": 20.0375,
+   "judge": 0.0,
+   "mins": 7.415544791666666,
+   "missing": 0
+  },
+  "TTL200|every": {
+   "guard_io": 0.0,
+   "n_der": 2.0,
+   "der_tools": 8.13125,
+   "der_llm": 10.2625,
+   "judge": 0.0,
+   "mins": 3.797980208333333,
+   "missing": 0
+  },
+  "ESM-norepair|every50": {
+   "guard_io": 29.65625,
+   "n_der": 0.925,
+   "der_tools": 4.6125,
+   "der_llm": 5.59375,
+   "judge": 3.525,
+   "mins": 3.3344536458333334,
+   "missing": 0
+  },
+  "ALWAYS|every50": {
+   "guard_io": 0.0,
+   "n_der": 8.0,
+   "der_tools": 31.05625,
+   "der_llm": 39.49375,
+   "judge": 0.0,
+   "mins": 14.615978645833332,
+   "missing": 0
+  },
+  "REPLAY|every50": {
+   "guard_io": 29.6,
+   "n_der": 3.91875,
+   "der_tools": 19.4,
+   "der_llm": 23.66875,
+   "judge": 0.0,
+   "mins": 8.759409895833333,
+   "missing": 0
+  },
+  "FILEHASH|every50": {
+   "guard_io": 18.3625,
+   "n_der": 5.45625,
+   "der_tools": 23.2125,
+   "der_llm": 29.025,
+   "judge": 0.0,
+   "mins": 10.741668749999999,
+   "missing": 0
+  },
+  "ASTHASH|every50": {
+   "guard_io": 18.3625,
+   "n_der": 5.3375,
+   "der_tools": 22.75625,
+   "der_llm": 28.45,
+   "judge": 0.0,
+   "mins": 10.528870833333333,
+   "missing": 0
+  },
+  "CITE|every50": {
+   "guard_io": 25.55625,
+   "n_der": 1.63125,
+   "der_tools": 6.95625,
+   "der_llm": 8.675,
+   "judge": 0.0,
+   "mins": 3.210472916666667,
+   "missing": 0
+  },
+  "CERT-ZS|every50": {
+   "guard_io": 11.9,
+   "n_der": 2.35625,
+   "der_tools": 9.98125,
+   "der_llm": 12.4625,
+   "judge": 0.0,
+   "mins": 4.612163541666666,
+   "missing": 0
+  },
+  "LLMDIFF|every50": {
+   "guard_io": 19.30625,
+   "n_der": 1.2875,
+   "der_tools": 5.4,
+   "der_llm": 6.75625,
+   "judge": 5.49375,
+   "mins": 4.4708005208333335,
+   "missing": 0
+  }
+ },
+ "checks": [
+  [
+   "jinja kept facts / changing",
+   "93 / 90",
+   "paper: 93 / 90"
+  ],
+  [
+   "H150 size / changing / enriched / natural",
+   "160 / 94 / 89 / 71",
+   "paper: 160 / 94 / 89 / 71"
+  ],
+  [
+   "H150 facts per repo",
+   "10",
+   "paper: ten per repository"
+  ],
+  [
+   "H150 behaviour facts",
+   "27",
+   "CERT-v0h covers the other 133"
+  ],
+  [
+   "ALL kept / changing",
+   "1419 / 555",
+   "paper: 1,419 / 555"
+  ]
+ ]
+}

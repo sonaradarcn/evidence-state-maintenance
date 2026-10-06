@@ -1,0 +1,31 @@
+# secrets
+.env
+
+# rebuilt data and run outputs (see README, "Data")
+esm_data*/
+heldout_data/
+datalake_data/
+dev_data/
+pilot3_data/
+pilot6_data/
+llm_cache/
+*.jsonl
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# build artefacts
+build/
+*.egg-info/
+.pytest_cache/

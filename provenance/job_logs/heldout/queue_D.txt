@@ -1,0 +1,4 @@
+# TTL50 grid at every commit, then the every50 sweep (all real-cost baselines + ESM share the grid)
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies TTL50 --schedules every --facts esm_data_heldout\sub_H150.json --workers 5 --q27 11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ALWAYS,ESM-norepair,TTL50,TTL100,TTL200,REPLAY,FILEHASH,ASTHASH,CITE,CERT-ZS,CERT-v0,LLMDIFF --schedules every50 --facts esm_data_heldout\sub_H150.json --workers 5 --q27 11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ESM-norepair-n2 --schedules every --facts esm_data_heldout\sub_H150.json --workers 5 --q27 11595,11596,11595,11596

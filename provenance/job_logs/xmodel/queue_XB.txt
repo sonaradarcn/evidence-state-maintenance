@@ -1,0 +1,6 @@
+# cross-model stage, queue B (gpt-oss:20b on 11621 / GPU 0); started after s0.
+python -B -m esm.scripts.heldout_certs --facts esm_data_xmodel/sub_X120.json --kinds certzs --workers 4
+python -B -m esm.scripts.run_sim --kind heldout --policies TTL100 --schedules every --workers 4
+python -B -m esm.scripts.run_sim --kind heldout --policies CERT-ZS --schedules every --workers 4 --save-every 10
+python -B -m esm.scripts.run_sim --kind heldout --policies REPLAY --schedules every --workers 4 --save-every 10
+python -B -m esm.scripts.run_sim --kind heldout --policies ESM-norepair,REPLAY --schedules every50 --workers 4

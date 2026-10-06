@@ -1,0 +1,21 @@
+# cross-model stage, primary second model: NIM nvidia/nemotron-3-super-120b-a12b. s0 first.
+python -B -m esm.scripts.heldout_s0 --facts esm_data_xmodel/nemotron/sub_X120.json --workers 8
+python -B -m esm.scripts.heldout_s0 --facts esm_data_xmodel/nemotron/sub_X120.json --workers 8
+python -B -m esm.scripts.run_sim --kind heldout --policies NEVER --schedules every,every50 --workers 8
+# 01:45 re-plan 2 (NIM sustains ~4-5 calls/min): phase 1 = X30 (all arms), phase 2 = the other 30 facts of X60, with deadlines
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X30.json --policies ESM-norepair --schedules every
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X30.json --policies TTL100 --schedules every
+# 04:05 order: DETECT, CERT-ZS, LLMDIFF (random order, deadline 12:30), REPLAY grid (random order, deadline 14:40)
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X30.json --policies DETECT-anchor-hier --schedules every
+python -B -m esm.scripts.heldout_certs --facts esm_data_xmodel/nemotron/sub_X30.json --kinds certzs --workers 4
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X30.json --policies CERT-ZS --schedules every
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X30.json --policies LLMDIFF --schedules every --order random:30 --deadline "2026-10-06 12:30"
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X30.json --policies ESM-norepair,REPLAY --schedules every50 --order random:50 --deadline "2026-10-06 14:40"
+# 07:10 phase 2: the other 30 X60 facts in seeded random chunks of 5; each chunk ESM + TTL100 + CERT-ZS (deadline 15:20)
+python -B -m esm.scripts.heldout_certs --facts esm_data_xmodel/nemotron/sub_X60rest30.json --kinds certzs --workers 4
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X60rest_c0.json --policies ESM-norepair,TTL100,CERT-ZS --schedules every --deadline "2026-10-06 15:20"
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X60rest_c1.json --policies ESM-norepair,TTL100,CERT-ZS --schedules every --deadline "2026-10-06 15:20"
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X60rest_c2.json --policies ESM-norepair,TTL100,CERT-ZS --schedules every --deadline "2026-10-06 15:20"
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X60rest_c3.json --policies ESM-norepair,TTL100,CERT-ZS --schedules every --deadline "2026-10-06 15:20"
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X60rest_c4.json --policies ESM-norepair,TTL100,CERT-ZS --schedules every --deadline "2026-10-06 15:20"
+python -B -m esm.scripts.run_sim --kind heldout --workers 4 --merge --save-every 1 --facts esm_data_xmodel/nemotron/sub_X60rest_c5.json --policies ESM-norepair,TTL100,CERT-ZS --schedules every --deadline "2026-10-06 15:20"

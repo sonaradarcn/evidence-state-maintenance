@@ -1,0 +1,2910 @@
+{
+"lake": "bb",
+"n_snapshots": 176,
+"s0_index": 70,
+"history_start_index": 10,
+"n_history": 60,
+"n_future": 105,
+"s0_snap": "bb-0070",
+"s0_time": "2018-10-01T00:00:00Z",
+"subsample_rate": "1/64 of drives (md5 of serial_number)",
+"events": [
+{
+"time": "2013-04-01T00:00:00Z",
+"kind": "bootstrap",
+"synthetic": false,
+"note": "empty lake (docs arrive later)",
+"idx": 0,
+"snap": "bb-0000",
+"put_paths": []
+},
+{
+"time": "2013-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-04",
+"note": "21 daily files of 2013-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 1,
+"snap": "bb-0001",
+"put_paths": [
+"drive_stats/2013/2013-04-10.csv",
+"drive_stats/2013/2013-04-11.csv",
+"drive_stats/2013/2013-04-12.csv",
+"drive_stats/2013/2013-04-13.csv",
+"drive_stats/2013/2013-04-14.csv",
+"... (+16)"
+]
+},
+{
+"time": "2013-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-05",
+"note": "31 daily files of 2013-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 2,
+"snap": "bb-0002",
+"put_paths": [
+"drive_stats/2013/2013-05-01.csv",
+"drive_stats/2013/2013-05-02.csv",
+"drive_stats/2013/2013-05-03.csv",
+"drive_stats/2013/2013-05-04.csv",
+"drive_stats/2013/2013-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2013-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-06",
+"note": "30 daily files of 2013-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 3,
+"snap": "bb-0003",
+"put_paths": [
+"drive_stats/2013/2013-06-01.csv",
+"drive_stats/2013/2013-06-02.csv",
+"drive_stats/2013/2013-06-03.csv",
+"drive_stats/2013/2013-06-04.csv",
+"drive_stats/2013/2013-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2013-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-07",
+"note": "31 daily files of 2013-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 4,
+"snap": "bb-0004",
+"put_paths": [
+"drive_stats/2013/2013-07-01.csv",
+"drive_stats/2013/2013-07-02.csv",
+"drive_stats/2013/2013-07-03.csv",
+"drive_stats/2013/2013-07-04.csv",
+"drive_stats/2013/2013-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2013-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-08",
+"note": "31 daily files of 2013-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 5,
+"snap": "bb-0005",
+"put_paths": [
+"drive_stats/2013/2013-08-01.csv",
+"drive_stats/2013/2013-08-02.csv",
+"drive_stats/2013/2013-08-03.csv",
+"drive_stats/2013/2013-08-04.csv",
+"drive_stats/2013/2013-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2013-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-09",
+"note": "30 daily files of 2013-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 6,
+"snap": "bb-0006",
+"put_paths": [
+"drive_stats/2013/2013-09-01.csv",
+"drive_stats/2013/2013-09-02.csv",
+"drive_stats/2013/2013-09-03.csv",
+"drive_stats/2013/2013-09-04.csv",
+"drive_stats/2013/2013-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2013-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-10",
+"note": "31 daily files of 2013-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 7,
+"snap": "bb-0007",
+"put_paths": [
+"drive_stats/2013/2013-10-01.csv",
+"drive_stats/2013/2013-10-02.csv",
+"drive_stats/2013/2013-10-03.csv",
+"drive_stats/2013/2013-10-04.csv",
+"drive_stats/2013/2013-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2013-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-11",
+"note": "30 daily files of 2013-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 8,
+"snap": "bb-0008",
+"put_paths": [
+"drive_stats/2013/2013-11-01.csv",
+"drive_stats/2013/2013-11-02.csv",
+"drive_stats/2013/2013-11-03.csv",
+"drive_stats/2013/2013-11-04.csv",
+"drive_stats/2013/2013-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2014-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2013-12",
+"note": "31 daily files of 2013-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 9,
+"snap": "bb-0009",
+"put_paths": [
+"drive_stats/2013/2013-12-01.csv",
+"drive_stats/2013/2013-12-02.csv",
+"drive_stats/2013/2013-12-03.csv",
+"drive_stats/2013/2013-12-04.csv",
+"drive_stats/2013/2013-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2014-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-01",
+"note": "31 daily files of 2014-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 10,
+"snap": "bb-0010",
+"put_paths": [
+"drive_stats/2014/2014-01-01.csv",
+"drive_stats/2014/2014-01-02.csv",
+"drive_stats/2014/2014-01-03.csv",
+"drive_stats/2014/2014-01-04.csv",
+"drive_stats/2014/2014-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2014-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-02",
+"note": "28 daily files of 2014-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 11,
+"snap": "bb-0011",
+"put_paths": [
+"drive_stats/2014/2014-02-01.csv",
+"drive_stats/2014/2014-02-02.csv",
+"drive_stats/2014/2014-02-03.csv",
+"drive_stats/2014/2014-02-04.csv",
+"drive_stats/2014/2014-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2014-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-03",
+"note": "31 daily files of 2014-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 12,
+"snap": "bb-0012",
+"put_paths": [
+"drive_stats/2014/2014-03-01.csv",
+"drive_stats/2014/2014-03-02.csv",
+"drive_stats/2014/2014-03-03.csv",
+"drive_stats/2014/2014-03-04.csv",
+"drive_stats/2014/2014-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2014-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-04",
+"note": "30 daily files of 2014-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 13,
+"snap": "bb-0013",
+"put_paths": [
+"drive_stats/2014/2014-04-01.csv",
+"drive_stats/2014/2014-04-02.csv",
+"drive_stats/2014/2014-04-03.csv",
+"drive_stats/2014/2014-04-04.csv",
+"drive_stats/2014/2014-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2014-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-05",
+"note": "31 daily files of 2014-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 14,
+"snap": "bb-0014",
+"put_paths": [
+"drive_stats/2014/2014-05-01.csv",
+"drive_stats/2014/2014-05-02.csv",
+"drive_stats/2014/2014-05-03.csv",
+"drive_stats/2014/2014-05-04.csv",
+"drive_stats/2014/2014-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2014-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-06",
+"note": "30 daily files of 2014-06 (real cadence: quarterly zip; monthly batches here); contains SYNTHETIC preliminary file(s)",
+"synthetic_part": true,
+"idx": 15,
+"snap": "bb-0015",
+"put_paths": [
+"drive_stats/2014/2014-06-01.csv",
+"drive_stats/2014/2014-06-02.csv",
+"drive_stats/2014/2014-06-03.csv",
+"drive_stats/2014/2014-06-04.csv",
+"drive_stats/2014/2014-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2014-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-07",
+"note": "31 daily files of 2014-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 16,
+"snap": "bb-0016",
+"put_paths": [
+"drive_stats/2014/2014-07-01.csv",
+"drive_stats/2014/2014-07-02.csv",
+"drive_stats/2014/2014-07-03.csv",
+"drive_stats/2014/2014-07-04.csv",
+"drive_stats/2014/2014-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2014-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-08",
+"note": "31 daily files of 2014-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 17,
+"snap": "bb-0017",
+"put_paths": [
+"drive_stats/2014/2014-08-01.csv",
+"drive_stats/2014/2014-08-02.csv",
+"drive_stats/2014/2014-08-03.csv",
+"drive_stats/2014/2014-08-04.csv",
+"drive_stats/2014/2014-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2014-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-09",
+"note": "30 daily files of 2014-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 18,
+"snap": "bb-0018",
+"put_paths": [
+"drive_stats/2014/2014-09-01.csv",
+"drive_stats/2014/2014-09-02.csv",
+"drive_stats/2014/2014-09-03.csv",
+"drive_stats/2014/2014-09-04.csv",
+"drive_stats/2014/2014-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2014-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-10",
+"note": "31 daily files of 2014-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 19,
+"snap": "bb-0019",
+"put_paths": [
+"drive_stats/2014/2014-10-01.csv",
+"drive_stats/2014/2014-10-02.csv",
+"drive_stats/2014/2014-10-03.csv",
+"drive_stats/2014/2014-10-04.csv",
+"drive_stats/2014/2014-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2014-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-11",
+"note": "30 daily files of 2014-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 20,
+"snap": "bb-0020",
+"put_paths": [
+"drive_stats/2014/2014-11-01.csv",
+"drive_stats/2014/2014-11-02.csv",
+"drive_stats/2014/2014-11-03.csv",
+"drive_stats/2014/2014-11-04.csv",
+"drive_stats/2014/2014-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2015-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2014-12",
+"note": "31 daily files of 2014-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 21,
+"snap": "bb-0021",
+"put_paths": [
+"drive_stats/2014/2014-12-01.csv",
+"drive_stats/2014/2014-12-02.csv",
+"drive_stats/2014/2014-12-03.csv",
+"drive_stats/2014/2014-12-04.csv",
+"drive_stats/2014/2014-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2015-01-15T06:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"month": "2014-06",
+"note": "SYNTHETIC late-arriving correction of 2014-06-10: full file republished (13 rows were missing from the preliminary file)",
+"idx": 22,
+"snap": "bb-0022",
+"put_paths": [
+"drive_stats/2014/2014-06-10.csv"
+]
+},
+{
+"time": "2015-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-01",
+"note": "31 daily files of 2015-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 23,
+"snap": "bb-0023",
+"put_paths": [
+"drive_stats/2015/2015-01-01.csv",
+"drive_stats/2015/2015-01-02.csv",
+"drive_stats/2015/2015-01-03.csv",
+"drive_stats/2015/2015-01-04.csv",
+"drive_stats/2015/2015-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2015-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-02",
+"note": "28 daily files of 2015-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 24,
+"snap": "bb-0024",
+"put_paths": [
+"drive_stats/2015/2015-02-01.csv",
+"drive_stats/2015/2015-02-02.csv",
+"drive_stats/2015/2015-02-03.csv",
+"drive_stats/2015/2015-02-04.csv",
+"drive_stats/2015/2015-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2015-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-03",
+"note": "31 daily files of 2015-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 25,
+"snap": "bb-0025",
+"put_paths": [
+"drive_stats/2015/2015-03-01.csv",
+"drive_stats/2015/2015-03-02.csv",
+"drive_stats/2015/2015-03-03.csv",
+"drive_stats/2015/2015-03-04.csv",
+"drive_stats/2015/2015-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2015-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-04",
+"note": "30 daily files of 2015-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 26,
+"snap": "bb-0026",
+"put_paths": [
+"drive_stats/2015/2015-04-01.csv",
+"drive_stats/2015/2015-04-02.csv",
+"drive_stats/2015/2015-04-03.csv",
+"drive_stats/2015/2015-04-04.csv",
+"drive_stats/2015/2015-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2015-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-05",
+"note": "31 daily files of 2015-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 27,
+"snap": "bb-0027",
+"put_paths": [
+"drive_stats/2015/2015-05-01.csv",
+"drive_stats/2015/2015-05-02.csv",
+"drive_stats/2015/2015-05-03.csv",
+"drive_stats/2015/2015-05-04.csv",
+"drive_stats/2015/2015-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2015-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-06",
+"note": "30 daily files of 2015-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 28,
+"snap": "bb-0028",
+"put_paths": [
+"drive_stats/2015/2015-06-01.csv",
+"drive_stats/2015/2015-06-02.csv",
+"drive_stats/2015/2015-06-03.csv",
+"drive_stats/2015/2015-06-04.csv",
+"drive_stats/2015/2015-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2015-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-07",
+"note": "31 daily files of 2015-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 29,
+"snap": "bb-0029",
+"put_paths": [
+"drive_stats/2015/2015-07-01.csv",
+"drive_stats/2015/2015-07-02.csv",
+"drive_stats/2015/2015-07-03.csv",
+"drive_stats/2015/2015-07-04.csv",
+"drive_stats/2015/2015-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2015-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-08",
+"note": "31 daily files of 2015-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 30,
+"snap": "bb-0030",
+"put_paths": [
+"drive_stats/2015/2015-08-01.csv",
+"drive_stats/2015/2015-08-02.csv",
+"drive_stats/2015/2015-08-03.csv",
+"drive_stats/2015/2015-08-04.csv",
+"drive_stats/2015/2015-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2015-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-09",
+"note": "30 daily files of 2015-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 31,
+"snap": "bb-0031",
+"put_paths": [
+"drive_stats/2015/2015-09-01.csv",
+"drive_stats/2015/2015-09-02.csv",
+"drive_stats/2015/2015-09-03.csv",
+"drive_stats/2015/2015-09-04.csv",
+"drive_stats/2015/2015-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2015-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-10",
+"note": "31 daily files of 2015-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 32,
+"snap": "bb-0032",
+"put_paths": [
+"drive_stats/2015/2015-10-01.csv",
+"drive_stats/2015/2015-10-02.csv",
+"drive_stats/2015/2015-10-03.csv",
+"drive_stats/2015/2015-10-04.csv",
+"drive_stats/2015/2015-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2015-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-11",
+"note": "30 daily files of 2015-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 33,
+"snap": "bb-0033",
+"put_paths": [
+"drive_stats/2015/2015-11-01.csv",
+"drive_stats/2015/2015-11-02.csv",
+"drive_stats/2015/2015-11-03.csv",
+"drive_stats/2015/2015-11-04.csv",
+"drive_stats/2015/2015-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2016-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2015-12",
+"note": "31 daily files of 2015-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 34,
+"snap": "bb-0034",
+"put_paths": [
+"drive_stats/2015/2015-12-01.csv",
+"drive_stats/2015/2015-12-02.csv",
+"drive_stats/2015/2015-12-03.csv",
+"drive_stats/2015/2015-12-04.csv",
+"drive_stats/2015/2015-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2016-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-01",
+"note": "31 daily files of 2016-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 35,
+"snap": "bb-0035",
+"put_paths": [
+"drive_stats/data_Q1_2016/2016-01-01.csv",
+"drive_stats/data_Q1_2016/2016-01-02.csv",
+"drive_stats/data_Q1_2016/2016-01-03.csv",
+"drive_stats/data_Q1_2016/2016-01-04.csv",
+"drive_stats/data_Q1_2016/2016-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2016-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-02",
+"note": "29 daily files of 2016-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 36,
+"snap": "bb-0036",
+"put_paths": [
+"drive_stats/data_Q1_2016/2016-02-01.csv",
+"drive_stats/data_Q1_2016/2016-02-02.csv",
+"drive_stats/data_Q1_2016/2016-02-03.csv",
+"drive_stats/data_Q1_2016/2016-02-04.csv",
+"drive_stats/data_Q1_2016/2016-02-05.csv",
+"... (+24)"
+]
+},
+{
+"time": "2016-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-03",
+"note": "31 daily files of 2016-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 37,
+"snap": "bb-0037",
+"put_paths": [
+"drive_stats/data_Q1_2016/2016-03-01.csv",
+"drive_stats/data_Q1_2016/2016-03-02.csv",
+"drive_stats/data_Q1_2016/2016-03-03.csv",
+"drive_stats/data_Q1_2016/2016-03-04.csv",
+"drive_stats/data_Q1_2016/2016-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2016-04-23T16:58:39Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20160423165839",
+"idx": 38,
+"snap": "bb-0038",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2016-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-04",
+"note": "30 daily files of 2016-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 39,
+"snap": "bb-0039",
+"put_paths": [
+"drive_stats/data_Q2_2016/2016-04-01.csv",
+"drive_stats/data_Q2_2016/2016-04-02.csv",
+"drive_stats/data_Q2_2016/2016-04-03.csv",
+"drive_stats/data_Q2_2016/2016-04-04.csv",
+"drive_stats/data_Q2_2016/2016-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2016-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-05",
+"note": "31 daily files of 2016-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 40,
+"snap": "bb-0040",
+"put_paths": [
+"drive_stats/data_Q2_2016/2016-05-01.csv",
+"drive_stats/data_Q2_2016/2016-05-02.csv",
+"drive_stats/data_Q2_2016/2016-05-03.csv",
+"drive_stats/data_Q2_2016/2016-05-04.csv",
+"drive_stats/data_Q2_2016/2016-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2016-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-06",
+"note": "30 daily files of 2016-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 41,
+"snap": "bb-0041",
+"put_paths": [
+"drive_stats/data_Q2_2016/2016-06-01.csv",
+"drive_stats/data_Q2_2016/2016-06-02.csv",
+"drive_stats/data_Q2_2016/2016-06-03.csv",
+"drive_stats/data_Q2_2016/2016-06-04.csv",
+"drive_stats/data_Q2_2016/2016-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2016-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-07",
+"note": "31 daily files of 2016-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 42,
+"snap": "bb-0042",
+"put_paths": [
+"drive_stats/data_Q3_2016/2016-07-01.csv",
+"drive_stats/data_Q3_2016/2016-07-02.csv",
+"drive_stats/data_Q3_2016/2016-07-03.csv",
+"drive_stats/data_Q3_2016/2016-07-04.csv",
+"drive_stats/data_Q3_2016/2016-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2016-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-08",
+"note": "31 daily files of 2016-08 (real cadence: quarterly zip; monthly batches here); contains SYNTHETIC preliminary file(s)",
+"synthetic_part": true,
+"idx": 43,
+"snap": "bb-0043",
+"put_paths": [
+"drive_stats/data_Q3_2016/2016-08-01.csv",
+"drive_stats/data_Q3_2016/2016-08-02.csv",
+"drive_stats/data_Q3_2016/2016-08-03.csv",
+"drive_stats/data_Q3_2016/2016-08-04.csv",
+"drive_stats/data_Q3_2016/2016-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2016-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-09",
+"note": "30 daily files of 2016-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 44,
+"snap": "bb-0044",
+"put_paths": [
+"drive_stats/data_Q3_2016/2016-09-01.csv",
+"drive_stats/data_Q3_2016/2016-09-02.csv",
+"drive_stats/data_Q3_2016/2016-09-03.csv",
+"drive_stats/data_Q3_2016/2016-09-04.csv",
+"drive_stats/data_Q3_2016/2016-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2016-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-10",
+"note": "31 daily files of 2016-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 45,
+"snap": "bb-0045",
+"put_paths": [
+"drive_stats/data_Q4_2016/2016-10-01.csv",
+"drive_stats/data_Q4_2016/2016-10-02.csv",
+"drive_stats/data_Q4_2016/2016-10-03.csv",
+"drive_stats/data_Q4_2016/2016-10-04.csv",
+"drive_stats/data_Q4_2016/2016-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2016-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-11",
+"note": "30 daily files of 2016-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 46,
+"snap": "bb-0046",
+"put_paths": [
+"drive_stats/data_Q4_2016/2016-11-01.csv",
+"drive_stats/data_Q4_2016/2016-11-02.csv",
+"drive_stats/data_Q4_2016/2016-11-03.csv",
+"drive_stats/data_Q4_2016/2016-11-04.csv",
+"drive_stats/data_Q4_2016/2016-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2017-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2016-12",
+"note": "31 daily files of 2016-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 47,
+"snap": "bb-0047",
+"put_paths": [
+"drive_stats/data_Q4_2016/2016-12-01.csv",
+"drive_stats/data_Q4_2016/2016-12-02.csv",
+"drive_stats/data_Q4_2016/2016-12-03.csv",
+"drive_stats/data_Q4_2016/2016-12-04.csv",
+"drive_stats/data_Q4_2016/2016-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2017-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-01",
+"note": "31 daily files of 2017-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 48,
+"snap": "bb-0048",
+"put_paths": [
+"drive_stats/data_Q1_2017/2017-01-01.csv",
+"drive_stats/data_Q1_2017/2017-01-02.csv",
+"drive_stats/data_Q1_2017/2017-01-03.csv",
+"drive_stats/data_Q1_2017/2017-01-04.csv",
+"drive_stats/data_Q1_2017/2017-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2017-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-02",
+"note": "28 daily files of 2017-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 49,
+"snap": "bb-0049",
+"put_paths": [
+"drive_stats/data_Q1_2017/2017-02-01.csv",
+"drive_stats/data_Q1_2017/2017-02-02.csv",
+"drive_stats/data_Q1_2017/2017-02-03.csv",
+"drive_stats/data_Q1_2017/2017-02-04.csv",
+"drive_stats/data_Q1_2017/2017-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2017-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-03",
+"note": "31 daily files of 2017-03 (real cadence: quarterly zip; monthly batches here); contains SYNTHETIC preliminary file(s)",
+"synthetic_part": true,
+"idx": 50,
+"snap": "bb-0050",
+"put_paths": [
+"drive_stats/data_Q1_2017/2017-03-01.csv",
+"drive_stats/data_Q1_2017/2017-03-02.csv",
+"drive_stats/data_Q1_2017/2017-03-03.csv",
+"drive_stats/data_Q1_2017/2017-03-04.csv",
+"drive_stats/data_Q1_2017/2017-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2017-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-04",
+"note": "30 daily files of 2017-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 51,
+"snap": "bb-0051",
+"put_paths": [
+"drive_stats/data_Q2_2017/2017-04-01.csv",
+"drive_stats/data_Q2_2017/2017-04-02.csv",
+"drive_stats/data_Q2_2017/2017-04-03.csv",
+"drive_stats/data_Q2_2017/2017-04-04.csv",
+"drive_stats/data_Q2_2017/2017-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2017-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-05",
+"note": "31 daily files of 2017-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 52,
+"snap": "bb-0052",
+"put_paths": [
+"drive_stats/data_Q2_2017/2017-05-01.csv",
+"drive_stats/data_Q2_2017/2017-05-02.csv",
+"drive_stats/data_Q2_2017/2017-05-03.csv",
+"drive_stats/data_Q2_2017/2017-05-04.csv",
+"drive_stats/data_Q2_2017/2017-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2017-06-30T07:36:37Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20170630073637",
+"idx": 53,
+"snap": "bb-0053",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2017-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-06",
+"note": "30 daily files of 2017-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 54,
+"snap": "bb-0054",
+"put_paths": [
+"drive_stats/data_Q2_2017/2017-06-01.csv",
+"drive_stats/data_Q2_2017/2017-06-02.csv",
+"drive_stats/data_Q2_2017/2017-06-03.csv",
+"drive_stats/data_Q2_2017/2017-06-04.csv",
+"drive_stats/data_Q2_2017/2017-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2017-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-07",
+"note": "31 daily files of 2017-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 55,
+"snap": "bb-0055",
+"put_paths": [
+"drive_stats/data_Q3_2017/2017-07-01.csv",
+"drive_stats/data_Q3_2017/2017-07-02.csv",
+"drive_stats/data_Q3_2017/2017-07-03.csv",
+"drive_stats/data_Q3_2017/2017-07-04.csv",
+"drive_stats/data_Q3_2017/2017-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2017-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-08",
+"note": "31 daily files of 2017-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 56,
+"snap": "bb-0056",
+"put_paths": [
+"drive_stats/data_Q3_2017/2017-08-01.csv",
+"drive_stats/data_Q3_2017/2017-08-02.csv",
+"drive_stats/data_Q3_2017/2017-08-03.csv",
+"drive_stats/data_Q3_2017/2017-08-04.csv",
+"drive_stats/data_Q3_2017/2017-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2017-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-09",
+"note": "30 daily files of 2017-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 57,
+"snap": "bb-0057",
+"put_paths": [
+"drive_stats/data_Q3_2017/2017-09-01.csv",
+"drive_stats/data_Q3_2017/2017-09-02.csv",
+"drive_stats/data_Q3_2017/2017-09-03.csv",
+"drive_stats/data_Q3_2017/2017-09-04.csv",
+"drive_stats/data_Q3_2017/2017-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2017-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-10",
+"note": "31 daily files of 2017-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 58,
+"snap": "bb-0058",
+"put_paths": [
+"drive_stats/data_Q4_2017/2017-10-01.csv",
+"drive_stats/data_Q4_2017/2017-10-02.csv",
+"drive_stats/data_Q4_2017/2017-10-03.csv",
+"drive_stats/data_Q4_2017/2017-10-04.csv",
+"drive_stats/data_Q4_2017/2017-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2017-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-11",
+"note": "29 daily files of 2017-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 59,
+"snap": "bb-0059",
+"put_paths": [
+"drive_stats/data_Q4_2017/2017-11-01.csv",
+"drive_stats/data_Q4_2017/2017-11-02.csv",
+"drive_stats/data_Q4_2017/2017-11-03.csv",
+"drive_stats/data_Q4_2017/2017-11-04.csv",
+"drive_stats/data_Q4_2017/2017-11-05.csv",
+"... (+24)"
+]
+},
+{
+"time": "2018-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2017-12",
+"note": "31 daily files of 2017-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 60,
+"snap": "bb-0060",
+"put_paths": [
+"drive_stats/data_Q4_2017/2017-12-01.csv",
+"drive_stats/data_Q4_2017/2017-12-02.csv",
+"drive_stats/data_Q4_2017/2017-12-03.csv",
+"drive_stats/data_Q4_2017/2017-12-04.csv",
+"drive_stats/data_Q4_2017/2017-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2018-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-01",
+"note": "31 daily files of 2018-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 61,
+"snap": "bb-0061",
+"put_paths": [
+"drive_stats/data_Q1_2018/2018-01-01.csv",
+"drive_stats/data_Q1_2018/2018-01-02.csv",
+"drive_stats/data_Q1_2018/2018-01-03.csv",
+"drive_stats/data_Q1_2018/2018-01-04.csv",
+"drive_stats/data_Q1_2018/2018-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2018-02-02T09:43:12Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20180202094312",
+"idx": 62,
+"snap": "bb-0062",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2018-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-02",
+"note": "28 daily files of 2018-02 (real cadence: quarterly zip; monthly batches here); contains SYNTHETIC preliminary file(s)",
+"synthetic_part": true,
+"idx": 63,
+"snap": "bb-0063",
+"put_paths": [
+"drive_stats/data_Q1_2018/2018-02-01.csv",
+"drive_stats/data_Q1_2018/2018-02-02.csv",
+"drive_stats/data_Q1_2018/2018-02-03.csv",
+"drive_stats/data_Q1_2018/2018-02-04.csv",
+"drive_stats/data_Q1_2018/2018-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2018-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-03",
+"note": "31 daily files of 2018-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 64,
+"snap": "bb-0064",
+"put_paths": [
+"drive_stats/data_Q1_2018/2018-03-01.csv",
+"drive_stats/data_Q1_2018/2018-03-02.csv",
+"drive_stats/data_Q1_2018/2018-03-03.csv",
+"drive_stats/data_Q1_2018/2018-03-04.csv",
+"drive_stats/data_Q1_2018/2018-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2018-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-04",
+"note": "30 daily files of 2018-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 65,
+"snap": "bb-0065",
+"put_paths": [
+"drive_stats/data_Q2_2018/2018-04-01.csv",
+"drive_stats/data_Q2_2018/2018-04-02.csv",
+"drive_stats/data_Q2_2018/2018-04-03.csv",
+"drive_stats/data_Q2_2018/2018-04-04.csv",
+"drive_stats/data_Q2_2018/2018-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2018-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-05",
+"note": "31 daily files of 2018-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 66,
+"snap": "bb-0066",
+"put_paths": [
+"drive_stats/data_Q2_2018/2018-05-01.csv",
+"drive_stats/data_Q2_2018/2018-05-02.csv",
+"drive_stats/data_Q2_2018/2018-05-03.csv",
+"drive_stats/data_Q2_2018/2018-05-04.csv",
+"drive_stats/data_Q2_2018/2018-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2018-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-06",
+"note": "30 daily files of 2018-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 67,
+"snap": "bb-0067",
+"put_paths": [
+"drive_stats/data_Q2_2018/2018-06-01.csv",
+"drive_stats/data_Q2_2018/2018-06-02.csv",
+"drive_stats/data_Q2_2018/2018-06-03.csv",
+"drive_stats/data_Q2_2018/2018-06-04.csv",
+"drive_stats/data_Q2_2018/2018-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2018-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-07",
+"note": "31 daily files of 2018-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 68,
+"snap": "bb-0068",
+"put_paths": [
+"drive_stats/data_Q3_2018/2018-07-01.csv",
+"drive_stats/data_Q3_2018/2018-07-02.csv",
+"drive_stats/data_Q3_2018/2018-07-03.csv",
+"drive_stats/data_Q3_2018/2018-07-04.csv",
+"drive_stats/data_Q3_2018/2018-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2018-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-08",
+"note": "31 daily files of 2018-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 69,
+"snap": "bb-0069",
+"put_paths": [
+"drive_stats/data_Q3_2018/2018-08-01.csv",
+"drive_stats/data_Q3_2018/2018-08-02.csv",
+"drive_stats/data_Q3_2018/2018-08-03.csv",
+"drive_stats/data_Q3_2018/2018-08-04.csv",
+"drive_stats/data_Q3_2018/2018-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2018-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-09",
+"note": "30 daily files of 2018-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 70,
+"snap": "bb-0070",
+"put_paths": [
+"drive_stats/data_Q3_2018/2018-09-01.csv",
+"drive_stats/data_Q3_2018/2018-09-02.csv",
+"drive_stats/data_Q3_2018/2018-09-03.csv",
+"drive_stats/data_Q3_2018/2018-09-04.csv",
+"drive_stats/data_Q3_2018/2018-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2018-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-10",
+"note": "31 daily files of 2018-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 71,
+"snap": "bb-0071",
+"put_paths": [
+"drive_stats/data_Q4_2018/2018-10-01.csv",
+"drive_stats/data_Q4_2018/2018-10-02.csv",
+"drive_stats/data_Q4_2018/2018-10-03.csv",
+"drive_stats/data_Q4_2018/2018-10-04.csv",
+"drive_stats/data_Q4_2018/2018-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2018-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-11",
+"note": "30 daily files of 2018-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 72,
+"snap": "bb-0072",
+"put_paths": [
+"drive_stats/data_Q4_2018/2018-11-01.csv",
+"drive_stats/data_Q4_2018/2018-11-02.csv",
+"drive_stats/data_Q4_2018/2018-11-03.csv",
+"drive_stats/data_Q4_2018/2018-11-04.csv",
+"drive_stats/data_Q4_2018/2018-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2019-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2018-12",
+"note": "31 daily files of 2018-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 73,
+"snap": "bb-0073",
+"put_paths": [
+"drive_stats/data_Q4_2018/2018-12-01.csv",
+"drive_stats/data_Q4_2018/2018-12-02.csv",
+"drive_stats/data_Q4_2018/2018-12-03.csv",
+"drive_stats/data_Q4_2018/2018-12-04.csv",
+"drive_stats/data_Q4_2018/2018-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2019-01-23T17:41:49Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20190123174149",
+"idx": 74,
+"snap": "bb-0074",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2019-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-01",
+"note": "31 daily files of 2019-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 75,
+"snap": "bb-0075",
+"put_paths": [
+"drive_stats/data_Q1_2019/2019-01-01.csv",
+"drive_stats/data_Q1_2019/2019-01-02.csv",
+"drive_stats/data_Q1_2019/2019-01-03.csv",
+"drive_stats/data_Q1_2019/2019-01-04.csv",
+"drive_stats/data_Q1_2019/2019-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2019-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-02",
+"note": "28 daily files of 2019-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 76,
+"snap": "bb-0076",
+"put_paths": [
+"drive_stats/data_Q1_2019/2019-02-01.csv",
+"drive_stats/data_Q1_2019/2019-02-02.csv",
+"drive_stats/data_Q1_2019/2019-02-03.csv",
+"drive_stats/data_Q1_2019/2019-02-04.csv",
+"drive_stats/data_Q1_2019/2019-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2019-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-03",
+"note": "31 daily files of 2019-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 77,
+"snap": "bb-0077",
+"put_paths": [
+"drive_stats/data_Q1_2019/2019-03-01.csv",
+"drive_stats/data_Q1_2019/2019-03-02.csv",
+"drive_stats/data_Q1_2019/2019-03-03.csv",
+"drive_stats/data_Q1_2019/2019-03-04.csv",
+"drive_stats/data_Q1_2019/2019-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2019-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-04",
+"note": "30 daily files of 2019-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 78,
+"snap": "bb-0078",
+"put_paths": [
+"drive_stats/data_Q2_2019/2019-04-01.csv",
+"drive_stats/data_Q2_2019/2019-04-02.csv",
+"drive_stats/data_Q2_2019/2019-04-03.csv",
+"drive_stats/data_Q2_2019/2019-04-04.csv",
+"drive_stats/data_Q2_2019/2019-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2019-05-15T06:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"month": "2017-03",
+"note": "SYNTHETIC late-arriving correction of 2017-03-14: full file republished (43 rows were missing from the preliminary file)",
+"idx": 79,
+"snap": "bb-0079",
+"put_paths": [
+"drive_stats/data_Q1_2017/2017-03-14.csv"
+]
+},
+{
+"time": "2019-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-05",
+"note": "31 daily files of 2019-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 80,
+"snap": "bb-0080",
+"put_paths": [
+"drive_stats/data_Q2_2019/2019-05-01.csv",
+"drive_stats/data_Q2_2019/2019-05-02.csv",
+"drive_stats/data_Q2_2019/2019-05-03.csv",
+"drive_stats/data_Q2_2019/2019-05-04.csv",
+"drive_stats/data_Q2_2019/2019-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2019-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-06",
+"note": "30 daily files of 2019-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 81,
+"snap": "bb-0081",
+"put_paths": [
+"drive_stats/data_Q2_2019/2019-06-01.csv",
+"drive_stats/data_Q2_2019/2019-06-02.csv",
+"drive_stats/data_Q2_2019/2019-06-03.csv",
+"drive_stats/data_Q2_2019/2019-06-04.csv",
+"drive_stats/data_Q2_2019/2019-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2019-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-07",
+"note": "31 daily files of 2019-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 82,
+"snap": "bb-0082",
+"put_paths": [
+"drive_stats/data_Q3_2019/2019-07-01.csv",
+"drive_stats/data_Q3_2019/2019-07-02.csv",
+"drive_stats/data_Q3_2019/2019-07-03.csv",
+"drive_stats/data_Q3_2019/2019-07-04.csv",
+"drive_stats/data_Q3_2019/2019-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2019-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-08",
+"note": "31 daily files of 2019-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 83,
+"snap": "bb-0083",
+"put_paths": [
+"drive_stats/data_Q3_2019/2019-08-01.csv",
+"drive_stats/data_Q3_2019/2019-08-02.csv",
+"drive_stats/data_Q3_2019/2019-08-03.csv",
+"drive_stats/data_Q3_2019/2019-08-04.csv",
+"drive_stats/data_Q3_2019/2019-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2019-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-09",
+"note": "30 daily files of 2019-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 84,
+"snap": "bb-0084",
+"put_paths": [
+"drive_stats/data_Q3_2019/2019-09-01.csv",
+"drive_stats/data_Q3_2019/2019-09-02.csv",
+"drive_stats/data_Q3_2019/2019-09-03.csv",
+"drive_stats/data_Q3_2019/2019-09-04.csv",
+"drive_stats/data_Q3_2019/2019-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2019-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-10",
+"note": "31 daily files of 2019-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 85,
+"snap": "bb-0085",
+"put_paths": [
+"drive_stats/data_Q4_2019/2019-10-01.csv",
+"drive_stats/data_Q4_2019/2019-10-02.csv",
+"drive_stats/data_Q4_2019/2019-10-03.csv",
+"drive_stats/data_Q4_2019/2019-10-04.csv",
+"drive_stats/data_Q4_2019/2019-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2019-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-11",
+"note": "30 daily files of 2019-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 86,
+"snap": "bb-0086",
+"put_paths": [
+"drive_stats/data_Q4_2019/2019-11-01.csv",
+"drive_stats/data_Q4_2019/2019-11-02.csv",
+"drive_stats/data_Q4_2019/2019-11-03.csv",
+"drive_stats/data_Q4_2019/2019-11-04.csv",
+"drive_stats/data_Q4_2019/2019-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2020-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2019-12",
+"note": "31 daily files of 2019-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 87,
+"snap": "bb-0087",
+"put_paths": [
+"drive_stats/data_Q4_2019/2019-12-01.csv",
+"drive_stats/data_Q4_2019/2019-12-02.csv",
+"drive_stats/data_Q4_2019/2019-12-03.csv",
+"drive_stats/data_Q4_2019/2019-12-04.csv",
+"drive_stats/data_Q4_2019/2019-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2020-01-04T16:53:44Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20200104165344",
+"idx": 88,
+"snap": "bb-0088",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2020-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-01",
+"note": "31 daily files of 2020-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 89,
+"snap": "bb-0089",
+"put_paths": [
+"drive_stats/data_Q1_2020/2020-01-01.csv",
+"drive_stats/data_Q1_2020/2020-01-02.csv",
+"drive_stats/data_Q1_2020/2020-01-03.csv",
+"drive_stats/data_Q1_2020/2020-01-04.csv",
+"drive_stats/data_Q1_2020/2020-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2020-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-02",
+"note": "29 daily files of 2020-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 90,
+"snap": "bb-0090",
+"put_paths": [
+"drive_stats/data_Q1_2020/2020-02-01.csv",
+"drive_stats/data_Q1_2020/2020-02-02.csv",
+"drive_stats/data_Q1_2020/2020-02-03.csv",
+"drive_stats/data_Q1_2020/2020-02-04.csv",
+"drive_stats/data_Q1_2020/2020-02-05.csv",
+"... (+24)"
+]
+},
+{
+"time": "2020-03-15T06:00:00Z",
+"kind": "late_day",
+"synthetic": true,
+"month": "2017-11",
+"note": "SYNTHETIC: daily file 2017-11-20 withheld from its month batch, arrives late",
+"idx": 91,
+"snap": "bb-0091",
+"put_paths": [
+"drive_stats/data_Q4_2017/2017-11-20.csv"
+]
+},
+{
+"time": "2020-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-03",
+"note": "31 daily files of 2020-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 92,
+"snap": "bb-0092",
+"put_paths": [
+"drive_stats/data_Q1_2020/2020-03-01.csv",
+"drive_stats/data_Q1_2020/2020-03-02.csv",
+"drive_stats/data_Q1_2020/2020-03-03.csv",
+"drive_stats/data_Q1_2020/2020-03-04.csv",
+"drive_stats/data_Q1_2020/2020-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2020-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-04",
+"note": "30 daily files of 2020-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 93,
+"snap": "bb-0093",
+"put_paths": [
+"drive_stats/data_Q2_2020/2020-04-01.csv",
+"drive_stats/data_Q2_2020/2020-04-02.csv",
+"drive_stats/data_Q2_2020/2020-04-03.csv",
+"drive_stats/data_Q2_2020/2020-04-04.csv",
+"drive_stats/data_Q2_2020/2020-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2020-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-05",
+"note": "31 daily files of 2020-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 94,
+"snap": "bb-0094",
+"put_paths": [
+"drive_stats/data_Q2_2020/2020-05-01.csv",
+"drive_stats/data_Q2_2020/2020-05-02.csv",
+"drive_stats/data_Q2_2020/2020-05-03.csv",
+"drive_stats/data_Q2_2020/2020-05-04.csv",
+"drive_stats/data_Q2_2020/2020-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2020-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-06",
+"note": "30 daily files of 2020-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 95,
+"snap": "bb-0095",
+"put_paths": [
+"drive_stats/data_Q2_2020/2020-06-01.csv",
+"drive_stats/data_Q2_2020/2020-06-02.csv",
+"drive_stats/data_Q2_2020/2020-06-03.csv",
+"drive_stats/data_Q2_2020/2020-06-04.csv",
+"drive_stats/data_Q2_2020/2020-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2020-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-07",
+"note": "31 daily files of 2020-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 96,
+"snap": "bb-0096",
+"put_paths": [
+"drive_stats/data_Q3_2020/2020-07-01.csv",
+"drive_stats/data_Q3_2020/2020-07-02.csv",
+"drive_stats/data_Q3_2020/2020-07-03.csv",
+"drive_stats/data_Q3_2020/2020-07-04.csv",
+"drive_stats/data_Q3_2020/2020-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2020-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-08",
+"note": "31 daily files of 2020-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 97,
+"snap": "bb-0097",
+"put_paths": [
+"drive_stats/data_Q3_2020/2020-08-01.csv",
+"drive_stats/data_Q3_2020/2020-08-02.csv",
+"drive_stats/data_Q3_2020/2020-08-03.csv",
+"drive_stats/data_Q3_2020/2020-08-04.csv",
+"drive_stats/data_Q3_2020/2020-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2020-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-09",
+"note": "30 daily files of 2020-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 98,
+"snap": "bb-0098",
+"put_paths": [
+"drive_stats/data_Q3_2020/2020-09-01.csv",
+"drive_stats/data_Q3_2020/2020-09-02.csv",
+"drive_stats/data_Q3_2020/2020-09-03.csv",
+"drive_stats/data_Q3_2020/2020-09-04.csv",
+"drive_stats/data_Q3_2020/2020-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2020-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-10",
+"note": "31 daily files of 2020-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 99,
+"snap": "bb-0099",
+"put_paths": [
+"drive_stats/data_Q4_2020/2020-10-01.csv",
+"drive_stats/data_Q4_2020/2020-10-02.csv",
+"drive_stats/data_Q4_2020/2020-10-03.csv",
+"drive_stats/data_Q4_2020/2020-10-04.csv",
+"drive_stats/data_Q4_2020/2020-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2020-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-11",
+"note": "30 daily files of 2020-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 100,
+"snap": "bb-0100",
+"put_paths": [
+"drive_stats/data_Q4_2020/2020-11-01.csv",
+"drive_stats/data_Q4_2020/2020-11-02.csv",
+"drive_stats/data_Q4_2020/2020-11-03.csv",
+"drive_stats/data_Q4_2020/2020-11-04.csv",
+"drive_stats/data_Q4_2020/2020-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2021-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2020-12",
+"note": "31 daily files of 2020-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 101,
+"snap": "bb-0101",
+"put_paths": [
+"drive_stats/data_Q4_2020/2020-12-01.csv",
+"drive_stats/data_Q4_2020/2020-12-02.csv",
+"drive_stats/data_Q4_2020/2020-12-03.csv",
+"drive_stats/data_Q4_2020/2020-12-04.csv",
+"drive_stats/data_Q4_2020/2020-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2021-01-03T07:12:50Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20210103071250",
+"idx": 102,
+"snap": "bb-0102",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2021-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-01",
+"note": "31 daily files of 2021-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 103,
+"snap": "bb-0103",
+"put_paths": [
+"drive_stats/data_Q1_2021/2021-01-01.csv",
+"drive_stats/data_Q1_2021/2021-01-02.csv",
+"drive_stats/data_Q1_2021/2021-01-03.csv",
+"drive_stats/data_Q1_2021/2021-01-04.csv",
+"drive_stats/data_Q1_2021/2021-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2021-02-15T06:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"month": "2016-08",
+"note": "SYNTHETIC late-arriving correction of 2016-08-02: full file republished (27 rows were missing from the preliminary file)",
+"idx": 104,
+"snap": "bb-0104",
+"put_paths": [
+"drive_stats/data_Q3_2016/2016-08-02.csv"
+]
+},
+{
+"time": "2021-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-02",
+"note": "28 daily files of 2021-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 105,
+"snap": "bb-0105",
+"put_paths": [
+"drive_stats/data_Q1_2021/2021-02-01.csv",
+"drive_stats/data_Q1_2021/2021-02-02.csv",
+"drive_stats/data_Q1_2021/2021-02-03.csv",
+"drive_stats/data_Q1_2021/2021-02-04.csv",
+"drive_stats/data_Q1_2021/2021-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2021-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-03",
+"note": "31 daily files of 2021-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 106,
+"snap": "bb-0106",
+"put_paths": [
+"drive_stats/data_Q1_2021/2021-03-01.csv",
+"drive_stats/data_Q1_2021/2021-03-02.csv",
+"drive_stats/data_Q1_2021/2021-03-03.csv",
+"drive_stats/data_Q1_2021/2021-03-04.csv",
+"drive_stats/data_Q1_2021/2021-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2021-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-04",
+"note": "30 daily files of 2021-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 107,
+"snap": "bb-0107",
+"put_paths": [
+"drive_stats/data_Q2_2021/2021-04-01.csv",
+"drive_stats/data_Q2_2021/2021-04-02.csv",
+"drive_stats/data_Q2_2021/2021-04-03.csv",
+"drive_stats/data_Q2_2021/2021-04-04.csv",
+"drive_stats/data_Q2_2021/2021-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2021-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-05",
+"note": "31 daily files of 2021-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 108,
+"snap": "bb-0108",
+"put_paths": [
+"drive_stats/data_Q2_2021/2021-05-01.csv",
+"drive_stats/data_Q2_2021/2021-05-02.csv",
+"drive_stats/data_Q2_2021/2021-05-03.csv",
+"drive_stats/data_Q2_2021/2021-05-04.csv",
+"drive_stats/data_Q2_2021/2021-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2021-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-06",
+"note": "30 daily files of 2021-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 109,
+"snap": "bb-0109",
+"put_paths": [
+"drive_stats/data_Q2_2021/2021-06-01.csv",
+"drive_stats/data_Q2_2021/2021-06-02.csv",
+"drive_stats/data_Q2_2021/2021-06-03.csv",
+"drive_stats/data_Q2_2021/2021-06-04.csv",
+"drive_stats/data_Q2_2021/2021-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2021-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-07",
+"note": "31 daily files of 2021-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 110,
+"snap": "bb-0110",
+"put_paths": [
+"drive_stats/data_Q3_2021/2021-07-01.csv",
+"drive_stats/data_Q3_2021/2021-07-02.csv",
+"drive_stats/data_Q3_2021/2021-07-03.csv",
+"drive_stats/data_Q3_2021/2021-07-04.csv",
+"drive_stats/data_Q3_2021/2021-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2021-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-08",
+"note": "31 daily files of 2021-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 111,
+"snap": "bb-0111",
+"put_paths": [
+"drive_stats/data_Q3_2021/2021-08-01.csv",
+"drive_stats/data_Q3_2021/2021-08-02.csv",
+"drive_stats/data_Q3_2021/2021-08-03.csv",
+"drive_stats/data_Q3_2021/2021-08-04.csv",
+"drive_stats/data_Q3_2021/2021-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2021-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-09",
+"note": "30 daily files of 2021-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 112,
+"snap": "bb-0112",
+"put_paths": [
+"drive_stats/data_Q3_2021/2021-09-01.csv",
+"drive_stats/data_Q3_2021/2021-09-02.csv",
+"drive_stats/data_Q3_2021/2021-09-03.csv",
+"drive_stats/data_Q3_2021/2021-09-04.csv",
+"drive_stats/data_Q3_2021/2021-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2021-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-10",
+"note": "31 daily files of 2021-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 113,
+"snap": "bb-0113",
+"put_paths": [
+"drive_stats/data_Q4_2021/2021-10-01.csv",
+"drive_stats/data_Q4_2021/2021-10-02.csv",
+"drive_stats/data_Q4_2021/2021-10-03.csv",
+"drive_stats/data_Q4_2021/2021-10-04.csv",
+"drive_stats/data_Q4_2021/2021-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2021-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-11",
+"note": "30 daily files of 2021-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 114,
+"snap": "bb-0114",
+"put_paths": [
+"drive_stats/data_Q4_2021/2021-11-01.csv",
+"drive_stats/data_Q4_2021/2021-11-02.csv",
+"drive_stats/data_Q4_2021/2021-11-03.csv",
+"drive_stats/data_Q4_2021/2021-11-04.csv",
+"drive_stats/data_Q4_2021/2021-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2022-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2021-12",
+"note": "31 daily files of 2021-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 115,
+"snap": "bb-0115",
+"put_paths": [
+"drive_stats/data_Q4_2021/2021-12-01.csv",
+"drive_stats/data_Q4_2021/2021-12-02.csv",
+"drive_stats/data_Q4_2021/2021-12-03.csv",
+"drive_stats/data_Q4_2021/2021-12-04.csv",
+"drive_stats/data_Q4_2021/2021-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2022-01-12T02:36:48Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20220112023648",
+"idx": 116,
+"snap": "bb-0116",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2022-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-01",
+"note": "31 daily files of 2022-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 117,
+"snap": "bb-0117",
+"put_paths": [
+"drive_stats/data_Q1_2022/2022-01-01.csv",
+"drive_stats/data_Q1_2022/2022-01-02.csv",
+"drive_stats/data_Q1_2022/2022-01-03.csv",
+"drive_stats/data_Q1_2022/2022-01-04.csv",
+"drive_stats/data_Q1_2022/2022-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2022-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-02",
+"note": "28 daily files of 2022-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 118,
+"snap": "bb-0118",
+"put_paths": [
+"drive_stats/data_Q1_2022/2022-02-01.csv",
+"drive_stats/data_Q1_2022/2022-02-02.csv",
+"drive_stats/data_Q1_2022/2022-02-03.csv",
+"drive_stats/data_Q1_2022/2022-02-04.csv",
+"drive_stats/data_Q1_2022/2022-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2022-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-03",
+"note": "31 daily files of 2022-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 119,
+"snap": "bb-0119",
+"put_paths": [
+"drive_stats/data_Q1_2022/2022-03-01.csv",
+"drive_stats/data_Q1_2022/2022-03-02.csv",
+"drive_stats/data_Q1_2022/2022-03-03.csv",
+"drive_stats/data_Q1_2022/2022-03-04.csv",
+"drive_stats/data_Q1_2022/2022-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2022-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-04",
+"note": "30 daily files of 2022-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 120,
+"snap": "bb-0120",
+"put_paths": [
+"drive_stats/data_Q2_2022 /2022-04-01.csv",
+"drive_stats/data_Q2_2022 /2022-04-02.csv",
+"drive_stats/data_Q2_2022 /2022-04-03.csv",
+"drive_stats/data_Q2_2022 /2022-04-04.csv",
+"drive_stats/data_Q2_2022 /2022-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2022-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-05",
+"note": "31 daily files of 2022-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 121,
+"snap": "bb-0121",
+"put_paths": [
+"drive_stats/data_Q2_2022 /2022-05-01.csv",
+"drive_stats/data_Q2_2022 /2022-05-02.csv",
+"drive_stats/data_Q2_2022 /2022-05-03.csv",
+"drive_stats/data_Q2_2022 /2022-05-04.csv",
+"drive_stats/data_Q2_2022 /2022-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2022-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-06",
+"note": "30 daily files of 2022-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 122,
+"snap": "bb-0122",
+"put_paths": [
+"drive_stats/data_Q2_2022 /2022-06-01.csv",
+"drive_stats/data_Q2_2022 /2022-06-02.csv",
+"drive_stats/data_Q2_2022 /2022-06-03.csv",
+"drive_stats/data_Q2_2022 /2022-06-04.csv",
+"drive_stats/data_Q2_2022 /2022-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2022-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-07",
+"note": "31 daily files of 2022-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 123,
+"snap": "bb-0123",
+"put_paths": [
+"drive_stats/data_Q3_2022/2022-07-01.csv",
+"drive_stats/data_Q3_2022/2022-07-02.csv",
+"drive_stats/data_Q3_2022/2022-07-03.csv",
+"drive_stats/data_Q3_2022/2022-07-04.csv",
+"drive_stats/data_Q3_2022/2022-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2022-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-08",
+"note": "31 daily files of 2022-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 124,
+"snap": "bb-0124",
+"put_paths": [
+"drive_stats/data_Q3_2022/2022-08-01.csv",
+"drive_stats/data_Q3_2022/2022-08-02.csv",
+"drive_stats/data_Q3_2022/2022-08-03.csv",
+"drive_stats/data_Q3_2022/2022-08-04.csv",
+"drive_stats/data_Q3_2022/2022-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2022-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-09",
+"note": "30 daily files of 2022-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 125,
+"snap": "bb-0125",
+"put_paths": [
+"drive_stats/data_Q3_2022/2022-09-01.csv",
+"drive_stats/data_Q3_2022/2022-09-02.csv",
+"drive_stats/data_Q3_2022/2022-09-03.csv",
+"drive_stats/data_Q3_2022/2022-09-04.csv",
+"drive_stats/data_Q3_2022/2022-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2022-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-10",
+"note": "31 daily files of 2022-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 126,
+"snap": "bb-0126",
+"put_paths": [
+"drive_stats/data_Q4_2022/2022-10-01.csv",
+"drive_stats/data_Q4_2022/2022-10-02.csv",
+"drive_stats/data_Q4_2022/2022-10-03.csv",
+"drive_stats/data_Q4_2022/2022-10-04.csv",
+"drive_stats/data_Q4_2022/2022-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2022-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-11",
+"note": "30 daily files of 2022-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 127,
+"snap": "bb-0127",
+"put_paths": [
+"drive_stats/data_Q4_2022/2022-11-01.csv",
+"drive_stats/data_Q4_2022/2022-11-02.csv",
+"drive_stats/data_Q4_2022/2022-11-03.csv",
+"drive_stats/data_Q4_2022/2022-11-04.csv",
+"drive_stats/data_Q4_2022/2022-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2023-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2022-12",
+"note": "31 daily files of 2022-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 128,
+"snap": "bb-0128",
+"put_paths": [
+"drive_stats/data_Q4_2022/2022-12-01.csv",
+"drive_stats/data_Q4_2022/2022-12-02.csv",
+"drive_stats/data_Q4_2022/2022-12-03.csv",
+"drive_stats/data_Q4_2022/2022-12-04.csv",
+"drive_stats/data_Q4_2022/2022-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2023-01-30T00:12:03Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20230130001203",
+"idx": 129,
+"snap": "bb-0129",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2023-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-01",
+"note": "31 daily files of 2023-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 130,
+"snap": "bb-0130",
+"put_paths": [
+"drive_stats/data_Q1_2023/2023-01-01.csv",
+"drive_stats/data_Q1_2023/2023-01-02.csv",
+"drive_stats/data_Q1_2023/2023-01-03.csv",
+"drive_stats/data_Q1_2023/2023-01-04.csv",
+"drive_stats/data_Q1_2023/2023-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2023-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-02",
+"note": "28 daily files of 2023-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 131,
+"snap": "bb-0131",
+"put_paths": [
+"drive_stats/data_Q1_2023/2023-02-01.csv",
+"drive_stats/data_Q1_2023/2023-02-02.csv",
+"drive_stats/data_Q1_2023/2023-02-03.csv",
+"drive_stats/data_Q1_2023/2023-02-04.csv",
+"drive_stats/data_Q1_2023/2023-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2023-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-03",
+"note": "31 daily files of 2023-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 132,
+"snap": "bb-0132",
+"put_paths": [
+"drive_stats/data_Q1_2023/2023-03-01.csv",
+"drive_stats/data_Q1_2023/2023-03-02.csv",
+"drive_stats/data_Q1_2023/2023-03-03.csv",
+"drive_stats/data_Q1_2023/2023-03-04.csv",
+"drive_stats/data_Q1_2023/2023-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2023-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-04",
+"note": "30 daily files of 2023-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 133,
+"snap": "bb-0133",
+"put_paths": [
+"drive_stats/data_Q2_2023/2023-04-01.csv",
+"drive_stats/data_Q2_2023/2023-04-02.csv",
+"drive_stats/data_Q2_2023/2023-04-03.csv",
+"drive_stats/data_Q2_2023/2023-04-04.csv",
+"drive_stats/data_Q2_2023/2023-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2023-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-05",
+"note": "31 daily files of 2023-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 134,
+"snap": "bb-0134",
+"put_paths": [
+"drive_stats/data_Q2_2023/2023-05-01.csv",
+"drive_stats/data_Q2_2023/2023-05-02.csv",
+"drive_stats/data_Q2_2023/2023-05-03.csv",
+"drive_stats/data_Q2_2023/2023-05-04.csv",
+"drive_stats/data_Q2_2023/2023-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2023-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-06",
+"note": "30 daily files of 2023-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 135,
+"snap": "bb-0135",
+"put_paths": [
+"drive_stats/data_Q2_2023/2023-06-01.csv",
+"drive_stats/data_Q2_2023/2023-06-02.csv",
+"drive_stats/data_Q2_2023/2023-06-03.csv",
+"drive_stats/data_Q2_2023/2023-06-04.csv",
+"drive_stats/data_Q2_2023/2023-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2023-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-07",
+"note": "31 daily files of 2023-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 136,
+"snap": "bb-0136",
+"put_paths": [
+"drive_stats/data_Q3_2023/2023-07-01.csv",
+"drive_stats/data_Q3_2023/2023-07-02.csv",
+"drive_stats/data_Q3_2023/2023-07-03.csv",
+"drive_stats/data_Q3_2023/2023-07-04.csv",
+"drive_stats/data_Q3_2023/2023-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2023-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-08",
+"note": "31 daily files of 2023-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 137,
+"snap": "bb-0137",
+"put_paths": [
+"drive_stats/data_Q3_2023/2023-08-01.csv",
+"drive_stats/data_Q3_2023/2023-08-02.csv",
+"drive_stats/data_Q3_2023/2023-08-03.csv",
+"drive_stats/data_Q3_2023/2023-08-04.csv",
+"drive_stats/data_Q3_2023/2023-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2023-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-09",
+"note": "30 daily files of 2023-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 138,
+"snap": "bb-0138",
+"put_paths": [
+"drive_stats/data_Q3_2023/2023-09-01.csv",
+"drive_stats/data_Q3_2023/2023-09-02.csv",
+"drive_stats/data_Q3_2023/2023-09-03.csv",
+"drive_stats/data_Q3_2023/2023-09-04.csv",
+"drive_stats/data_Q3_2023/2023-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2023-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-10",
+"note": "31 daily files of 2023-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 139,
+"snap": "bb-0139",
+"put_paths": [
+"drive_stats/data_Q4_2023/2023-10-01.csv",
+"drive_stats/data_Q4_2023/2023-10-02.csv",
+"drive_stats/data_Q4_2023/2023-10-03.csv",
+"drive_stats/data_Q4_2023/2023-10-04.csv",
+"drive_stats/data_Q4_2023/2023-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2023-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-11",
+"note": "30 daily files of 2023-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 140,
+"snap": "bb-0140",
+"put_paths": [
+"drive_stats/data_Q4_2023/2023-11-01.csv",
+"drive_stats/data_Q4_2023/2023-11-02.csv",
+"drive_stats/data_Q4_2023/2023-11-03.csv",
+"drive_stats/data_Q4_2023/2023-11-04.csv",
+"drive_stats/data_Q4_2023/2023-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2024-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2023-12",
+"note": "31 daily files of 2023-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 141,
+"snap": "bb-0141",
+"put_paths": [
+"drive_stats/data_Q4_2023/2023-12-01.csv",
+"drive_stats/data_Q4_2023/2023-12-02.csv",
+"drive_stats/data_Q4_2023/2023-12-03.csv",
+"drive_stats/data_Q4_2023/2023-12-04.csv",
+"drive_stats/data_Q4_2023/2023-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2024-01-07T05:41:35Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20240107054135",
+"idx": 142,
+"snap": "bb-0142",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2024-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-01",
+"note": "31 daily files of 2024-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 143,
+"snap": "bb-0143",
+"put_paths": [
+"drive_stats/data_Q1_2024/2024-01-01.csv",
+"drive_stats/data_Q1_2024/2024-01-02.csv",
+"drive_stats/data_Q1_2024/2024-01-03.csv",
+"drive_stats/data_Q1_2024/2024-01-04.csv",
+"drive_stats/data_Q1_2024/2024-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2024-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-02",
+"note": "29 daily files of 2024-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 144,
+"snap": "bb-0144",
+"put_paths": [
+"drive_stats/data_Q1_2024/2024-02-01.csv",
+"drive_stats/data_Q1_2024/2024-02-02.csv",
+"drive_stats/data_Q1_2024/2024-02-03.csv",
+"drive_stats/data_Q1_2024/2024-02-04.csv",
+"drive_stats/data_Q1_2024/2024-02-05.csv",
+"... (+24)"
+]
+},
+{
+"time": "2024-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-03",
+"note": "31 daily files of 2024-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 145,
+"snap": "bb-0145",
+"put_paths": [
+"drive_stats/data_Q1_2024/2024-03-01.csv",
+"drive_stats/data_Q1_2024/2024-03-02.csv",
+"drive_stats/data_Q1_2024/2024-03-03.csv",
+"drive_stats/data_Q1_2024/2024-03-04.csv",
+"drive_stats/data_Q1_2024/2024-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2024-04-15T06:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"month": "2018-02",
+"note": "SYNTHETIC late-arriving correction of 2018-02-07: full file republished (40 rows were missing from the preliminary file)",
+"idx": 146,
+"snap": "bb-0146",
+"put_paths": [
+"drive_stats/data_Q1_2018/2018-02-07.csv"
+]
+},
+{
+"time": "2024-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-04",
+"note": "30 daily files of 2024-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 147,
+"snap": "bb-0147",
+"put_paths": [
+"drive_stats/data_Q2_2024/2024-04-01.csv",
+"drive_stats/data_Q2_2024/2024-04-02.csv",
+"drive_stats/data_Q2_2024/2024-04-03.csv",
+"drive_stats/data_Q2_2024/2024-04-04.csv",
+"drive_stats/data_Q2_2024/2024-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2024-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-05",
+"note": "31 daily files of 2024-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 148,
+"snap": "bb-0148",
+"put_paths": [
+"drive_stats/data_Q2_2024/2024-05-01.csv",
+"drive_stats/data_Q2_2024/2024-05-02.csv",
+"drive_stats/data_Q2_2024/2024-05-03.csv",
+"drive_stats/data_Q2_2024/2024-05-04.csv",
+"drive_stats/data_Q2_2024/2024-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2024-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-06",
+"note": "30 daily files of 2024-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 149,
+"snap": "bb-0149",
+"put_paths": [
+"drive_stats/data_Q2_2024/2024-06-01.csv",
+"drive_stats/data_Q2_2024/2024-06-02.csv",
+"drive_stats/data_Q2_2024/2024-06-03.csv",
+"drive_stats/data_Q2_2024/2024-06-04.csv",
+"drive_stats/data_Q2_2024/2024-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2024-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-07",
+"note": "31 daily files of 2024-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 150,
+"snap": "bb-0150",
+"put_paths": [
+"drive_stats/data_Q3_2024/2024-07-01.csv",
+"drive_stats/data_Q3_2024/2024-07-02.csv",
+"drive_stats/data_Q3_2024/2024-07-03.csv",
+"drive_stats/data_Q3_2024/2024-07-04.csv",
+"drive_stats/data_Q3_2024/2024-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2024-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-08",
+"note": "31 daily files of 2024-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 151,
+"snap": "bb-0151",
+"put_paths": [
+"drive_stats/data_Q3_2024/2024-08-01.csv",
+"drive_stats/data_Q3_2024/2024-08-02.csv",
+"drive_stats/data_Q3_2024/2024-08-03.csv",
+"drive_stats/data_Q3_2024/2024-08-04.csv",
+"drive_stats/data_Q3_2024/2024-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2024-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-09",
+"note": "30 daily files of 2024-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 152,
+"snap": "bb-0152",
+"put_paths": [
+"drive_stats/data_Q3_2024/2024-09-01.csv",
+"drive_stats/data_Q3_2024/2024-09-02.csv",
+"drive_stats/data_Q3_2024/2024-09-03.csv",
+"drive_stats/data_Q3_2024/2024-09-04.csv",
+"drive_stats/data_Q3_2024/2024-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2024-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-10",
+"note": "31 daily files of 2024-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 153,
+"snap": "bb-0153",
+"put_paths": [
+"drive_stats/data_Q4_2024/2024-10-01.csv",
+"drive_stats/data_Q4_2024/2024-10-02.csv",
+"drive_stats/data_Q4_2024/2024-10-03.csv",
+"drive_stats/data_Q4_2024/2024-10-04.csv",
+"drive_stats/data_Q4_2024/2024-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2024-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-11",
+"note": "30 daily files of 2024-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 154,
+"snap": "bb-0154",
+"put_paths": [
+"drive_stats/data_Q4_2024/2024-11-01.csv",
+"drive_stats/data_Q4_2024/2024-11-02.csv",
+"drive_stats/data_Q4_2024/2024-11-03.csv",
+"drive_stats/data_Q4_2024/2024-11-04.csv",
+"drive_stats/data_Q4_2024/2024-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2025-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2024-12",
+"note": "31 daily files of 2024-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 155,
+"snap": "bb-0155",
+"put_paths": [
+"drive_stats/data_Q4_2024/2024-12-01.csv",
+"drive_stats/data_Q4_2024/2024-12-02.csv",
+"drive_stats/data_Q4_2024/2024-12-03.csv",
+"drive_stats/data_Q4_2024/2024-12-04.csv",
+"drive_stats/data_Q4_2024/2024-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2025-01-07T18:10:21Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20250107181021",
+"idx": 156,
+"snap": "bb-0156",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2025-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-01",
+"note": "31 daily files of 2025-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 157,
+"snap": "bb-0157",
+"put_paths": [
+"drive_stats/data_Q1_2025/2025-01-01.csv",
+"drive_stats/data_Q1_2025/2025-01-02.csv",
+"drive_stats/data_Q1_2025/2025-01-03.csv",
+"drive_stats/data_Q1_2025/2025-01-04.csv",
+"drive_stats/data_Q1_2025/2025-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2025-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-02",
+"note": "28 daily files of 2025-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 158,
+"snap": "bb-0158",
+"put_paths": [
+"drive_stats/data_Q1_2025/2025-02-01.csv",
+"drive_stats/data_Q1_2025/2025-02-02.csv",
+"drive_stats/data_Q1_2025/2025-02-03.csv",
+"drive_stats/data_Q1_2025/2025-02-04.csv",
+"drive_stats/data_Q1_2025/2025-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2025-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-03",
+"note": "31 daily files of 2025-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 159,
+"snap": "bb-0159",
+"put_paths": [
+"drive_stats/data_Q1_2025/2025-03-01.csv",
+"drive_stats/data_Q1_2025/2025-03-02.csv",
+"drive_stats/data_Q1_2025/2025-03-03.csv",
+"drive_stats/data_Q1_2025/2025-03-04.csv",
+"drive_stats/data_Q1_2025/2025-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2025-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-04",
+"note": "30 daily files of 2025-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 160,
+"snap": "bb-0160",
+"put_paths": [
+"drive_stats/data_Q2_2025/2025-04-01.csv",
+"drive_stats/data_Q2_2025/2025-04-02.csv",
+"drive_stats/data_Q2_2025/2025-04-03.csv",
+"drive_stats/data_Q2_2025/2025-04-04.csv",
+"drive_stats/data_Q2_2025/2025-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2025-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-05",
+"note": "31 daily files of 2025-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 161,
+"snap": "bb-0161",
+"put_paths": [
+"drive_stats/data_Q2_2025/2025-05-01.csv",
+"drive_stats/data_Q2_2025/2025-05-02.csv",
+"drive_stats/data_Q2_2025/2025-05-03.csv",
+"drive_stats/data_Q2_2025/2025-05-04.csv",
+"drive_stats/data_Q2_2025/2025-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2025-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-06",
+"note": "30 daily files of 2025-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 162,
+"snap": "bb-0162",
+"put_paths": [
+"drive_stats/data_Q2_2025/2025-06-01.csv",
+"drive_stats/data_Q2_2025/2025-06-02.csv",
+"drive_stats/data_Q2_2025/2025-06-03.csv",
+"drive_stats/data_Q2_2025/2025-06-04.csv",
+"drive_stats/data_Q2_2025/2025-06-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2025-08-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-07",
+"note": "31 daily files of 2025-07 (real cadence: quarterly zip; monthly batches here)",
+"idx": 163,
+"snap": "bb-0163",
+"put_paths": [
+"drive_stats/data_Q3_2025/2025-07-01.csv",
+"drive_stats/data_Q3_2025/2025-07-02.csv",
+"drive_stats/data_Q3_2025/2025-07-03.csv",
+"drive_stats/data_Q3_2025/2025-07-04.csv",
+"drive_stats/data_Q3_2025/2025-07-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2025-09-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-08",
+"note": "31 daily files of 2025-08 (real cadence: quarterly zip; monthly batches here)",
+"idx": 164,
+"snap": "bb-0164",
+"put_paths": [
+"drive_stats/data_Q3_2025/2025-08-01.csv",
+"drive_stats/data_Q3_2025/2025-08-02.csv",
+"drive_stats/data_Q3_2025/2025-08-03.csv",
+"drive_stats/data_Q3_2025/2025-08-04.csv",
+"drive_stats/data_Q3_2025/2025-08-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2025-10-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-09",
+"note": "30 daily files of 2025-09 (real cadence: quarterly zip; monthly batches here)",
+"idx": 165,
+"snap": "bb-0165",
+"put_paths": [
+"drive_stats/data_Q3_2025/2025-09-01.csv",
+"drive_stats/data_Q3_2025/2025-09-02.csv",
+"drive_stats/data_Q3_2025/2025-09-03.csv",
+"drive_stats/data_Q3_2025/2025-09-04.csv",
+"drive_stats/data_Q3_2025/2025-09-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2025-11-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-10",
+"note": "31 daily files of 2025-10 (real cadence: quarterly zip; monthly batches here)",
+"idx": 166,
+"snap": "bb-0166",
+"put_paths": [
+"drive_stats/data_Q4_2025/2025-10-01.csv",
+"drive_stats/data_Q4_2025/2025-10-02.csv",
+"drive_stats/data_Q4_2025/2025-10-03.csv",
+"drive_stats/data_Q4_2025/2025-10-04.csv",
+"drive_stats/data_Q4_2025/2025-10-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2025-12-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-11",
+"note": "30 daily files of 2025-11 (real cadence: quarterly zip; monthly batches here)",
+"idx": 167,
+"snap": "bb-0167",
+"put_paths": [
+"drive_stats/data_Q4_2025/2025-11-01.csv",
+"drive_stats/data_Q4_2025/2025-11-02.csv",
+"drive_stats/data_Q4_2025/2025-11-03.csv",
+"drive_stats/data_Q4_2025/2025-11-04.csv",
+"drive_stats/data_Q4_2025/2025-11-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2026-01-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2025-12",
+"note": "31 daily files of 2025-12 (real cadence: quarterly zip; monthly batches here)",
+"idx": 168,
+"snap": "bb-0168",
+"put_paths": [
+"drive_stats/data_Q4_2025/2025-12-01.csv",
+"drive_stats/data_Q4_2025/2025-12-02.csv",
+"drive_stats/data_Q4_2025/2025-12-03.csv",
+"drive_stats/data_Q4_2025/2025-12-04.csv",
+"drive_stats/data_Q4_2025/2025-12-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2026-01-01T13:43:21Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20260101134321",
+"idx": 169,
+"snap": "bb-0169",
+"put_paths": [
+"docs/hard-drive-test-data.txt"
+]
+},
+{
+"time": "2026-02-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2026-01",
+"note": "31 daily files of 2026-01 (real cadence: quarterly zip; monthly batches here)",
+"idx": 170,
+"snap": "bb-0170",
+"put_paths": [
+"drive_stats/data_Q1_2026/2026-01-01.csv",
+"drive_stats/data_Q1_2026/2026-01-02.csv",
+"drive_stats/data_Q1_2026/2026-01-03.csv",
+"drive_stats/data_Q1_2026/2026-01-04.csv",
+"drive_stats/data_Q1_2026/2026-01-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2026-03-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2026-02",
+"note": "28 daily files of 2026-02 (real cadence: quarterly zip; monthly batches here)",
+"idx": 171,
+"snap": "bb-0171",
+"put_paths": [
+"drive_stats/data_Q1_2026/2026-02-01.csv",
+"drive_stats/data_Q1_2026/2026-02-02.csv",
+"drive_stats/data_Q1_2026/2026-02-03.csv",
+"drive_stats/data_Q1_2026/2026-02-04.csv",
+"drive_stats/data_Q1_2026/2026-02-05.csv",
+"... (+23)"
+]
+},
+{
+"time": "2026-04-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2026-03",
+"note": "31 daily files of 2026-03 (real cadence: quarterly zip; monthly batches here)",
+"idx": 172,
+"snap": "bb-0172",
+"put_paths": [
+"drive_stats/data_Q1_2026/2026-03-01.csv",
+"drive_stats/data_Q1_2026/2026-03-02.csv",
+"drive_stats/data_Q1_2026/2026-03-03.csv",
+"drive_stats/data_Q1_2026/2026-03-04.csv",
+"drive_stats/data_Q1_2026/2026-03-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2026-05-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2026-04",
+"note": "30 daily files of 2026-04 (real cadence: quarterly zip; monthly batches here)",
+"idx": 173,
+"snap": "bb-0173",
+"put_paths": [
+"drive_stats/data_Q2_2026/2026-04-01.csv",
+"drive_stats/data_Q2_2026/2026-04-02.csv",
+"drive_stats/data_Q2_2026/2026-04-03.csv",
+"drive_stats/data_Q2_2026/2026-04-04.csv",
+"drive_stats/data_Q2_2026/2026-04-05.csv",
+"... (+25)"
+]
+},
+{
+"time": "2026-06-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2026-05",
+"note": "31 daily files of 2026-05 (real cadence: quarterly zip; monthly batches here)",
+"idx": 174,
+"snap": "bb-0174",
+"put_paths": [
+"drive_stats/data_Q2_2026/2026-05-01.csv",
+"drive_stats/data_Q2_2026/2026-05-02.csv",
+"drive_stats/data_Q2_2026/2026-05-03.csv",
+"drive_stats/data_Q2_2026/2026-05-04.csv",
+"drive_stats/data_Q2_2026/2026-05-05.csv",
+"... (+26)"
+]
+},
+{
+"time": "2026-07-01T00:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"month": "2026-06",
+"note": "30 daily files of 2026-06 (real cadence: quarterly zip; monthly batches here)",
+"idx": 175,
+"snap": "bb-0175",
+"put_paths": [
+"drive_stats/data_Q2_2026/2026-06-01.csv",
+"drive_stats/data_Q2_2026/2026-06-02.csv",
+"drive_stats/data_Q2_2026/2026-06-03.csv",
+"drive_stats/data_Q2_2026/2026-06-04.csv",
+"drive_stats/data_Q2_2026/2026-06-05.csv",
+"... (+25)"
+]
+}
+]
+}

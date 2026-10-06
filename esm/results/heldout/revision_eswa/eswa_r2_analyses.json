@@ -1,0 +1,407 @@
+{
+ "facts_per_repo": {
+  "black": 3,
+  "boltons": 2,
+  "httpx": 2,
+  "isort": 5,
+  "jinja": 3,
+  "kombu": 3,
+  "marshmallow": 2,
+  "mkdocs": 4,
+  "networkx": 2,
+  "poetry-core": 3,
+  "pygments": 3,
+  "pyparsing": 1,
+  "rich": 1,
+  "scrapy": 3,
+  "typer": 2,
+  "werkzeug": 1
+ },
+ "n_facts_code": 40,
+ "n_repos_code": 16,
+ "n_tasks_code": 120,
+ "n_facts_lake": 21,
+ "contrasts": {
+  "code|main|ESM-NO-MEMORY|tok": {
+   "est": 6034.041666666667,
+   "n": 120,
+   "task": [
+    4102.46375,
+    8140.0256249999975
+   ],
+   "fact": [
+    3814.2018749999997,
+    8240.222083333332
+   ],
+   "repo": [
+    3636.3032728788826,
+    8520.383410045217
+   ],
+   "fact_incl0": false,
+   "repo_incl0": false,
+   "same": true
+  },
+  "code|main|ESM-NO-MEMORY|wrong": {
+   "est": 0.016666666666666666,
+   "n": 120,
+   "task": [
+    -0.016666666666666666,
+    0.05
+   ],
+   "fact": [
+    -0.016666666666666666,
+    0.058333333333333334
+   ],
+   "repo": [
+    -0.020202020202020204,
+    0.056910569105691054
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|main|NEVER-NO-MEMORY|wrong": {
+   "est": 0.041666666666666664,
+   "n": 120,
+   "task": [
+    0.0,
+    0.08333333333333333
+   ],
+   "fact": [
+    0.0,
+    0.1
+   ],
+   "repo": [
+    -0.008771929824561403,
+    0.09375667735042731
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|main|ESM-NO-MEMORY|success": {
+   "est": 0.016666666666666666,
+   "n": 120,
+   "task": [
+    -0.025,
+    0.05854166666666553
+   ],
+   "fact": [
+    -0.041666666666666664,
+    0.075
+   ],
+   "repo": [
+    -0.03875968992248062,
+    0.0729230182926829
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|main|ESM-NEVER|wrong": {
+   "est": -0.025,
+   "n": 120,
+   "task": [
+    -0.058333333333333334,
+    0.0
+   ],
+   "fact": [
+    -0.06666666666666667,
+    0.0
+   ],
+   "repo": [
+    -0.06666666666666667,
+    0.0
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|main|ESM-TTL100|tok": {
+   "est": -7190.158333333334,
+   "n": 120,
+   "task": [
+    -9335.190625000001,
+    -5339.678333333334
+   ],
+   "fact": [
+    -9689.202291666666,
+    -5228.673958333334
+   ],
+   "repo": [
+    -9282.906063034188,
+    -5115.395250397457
+   ],
+   "fact_incl0": false,
+   "repo_incl0": false,
+   "same": true
+  },
+  "code|main|ESM-TTL100|wrong": {
+   "est": 0.0,
+   "n": 120,
+   "task": [
+    0.0,
+    0.0
+   ],
+   "fact": [
+    0.0,
+    0.0
+   ],
+   "repo": [
+    0.0,
+    0.0
+   ],
+   "fact_incl0": "identical arms",
+   "repo_incl0": "identical arms",
+   "same": true
+  },
+  "code|main|ESM-REPLAY|tok": {
+   "est": -5446.408333333334,
+   "n": 120,
+   "task": [
+    -7592.42125,
+    -3510.593541666668
+   ],
+   "fact": [
+    -8135.7375,
+    -3290.415625000005
+   ],
+   "repo": [
+    -7672.196616383825,
+    -3123.427704933955
+   ],
+   "fact_incl0": false,
+   "repo_incl0": false,
+   "same": true
+  },
+  "code|main|ORACLE-NO-MEMORY|success": {
+   "est": 0.008333333333333333,
+   "n": 120,
+   "task": [
+    -0.041666666666666664,
+    0.058333333333333334
+   ],
+   "fact": [
+    -0.058333333333333334,
+    0.06666666666666667
+   ],
+   "repo": [
+    -0.05405405405405406,
+    0.07207207207207207
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|main|ESM-TTL100|success": {
+   "est": 0.0,
+   "n": 120,
+   "task": [
+    0.0,
+    0.0
+   ],
+   "fact": [
+    0.0,
+    0.0
+   ],
+   "repo": [
+    0.0,
+    0.0
+   ],
+   "fact_incl0": "identical arms",
+   "repo_incl0": "identical arms",
+   "same": true
+  },
+  "code|rely|ESM-NO-MEMORY|tok": {
+   "est": 4493.216666666666,
+   "n": 120,
+   "task": [
+    2544.5968749999997,
+    6531.889166666665
+   ],
+   "fact": [
+    2236.9322916666665,
+    6566.097708333328
+   ],
+   "repo": [
+    2057.1282496782496,
+    6851.312115962116
+   ],
+   "fact_incl0": false,
+   "repo_incl0": false,
+   "same": true
+  },
+  "code|rely|ESM-NO-MEMORY|wrong": {
+   "est": 0.03333333333333333,
+   "n": 120,
+   "task": [
+    0.0,
+    0.075
+   ],
+   "fact": [
+    -0.008333333333333333,
+    0.08333333333333333
+   ],
+   "repo": [
+    -0.009259259259259259,
+    0.07578671328671313
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|rely|NEVER-NO-MEMORY|wrong": {
+   "est": 0.09166666666666666,
+   "n": 120,
+   "task": [
+    0.041666666666666664,
+    0.15
+   ],
+   "fact": [
+    0.03333333333333333,
+    0.16666666666666666
+   ],
+   "repo": [
+    0.032520325203252036,
+    0.16666666666666666
+   ],
+   "fact_incl0": false,
+   "repo_incl0": false,
+   "same": true
+  },
+  "code|rely|ESM-NO-MEMORY|success": {
+   "est": 0.0,
+   "n": 120,
+   "task": [
+    -0.05,
+    0.05
+   ],
+   "fact": [
+    -0.06666666666666667,
+    0.05854166666666553
+   ],
+   "repo": [
+    -0.06140350877192982,
+    0.06306306306306306
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|rely|ESM-NEVER|wrong": {
+   "est": -0.058333333333333334,
+   "n": 120,
+   "task": [
+    -0.11666666666666667,
+    -0.008333333333333333
+   ],
+   "fact": [
+    -0.125,
+    0.0
+   ],
+   "repo": [
+    -0.13333333333333333,
+    0.006673611111111074
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|rely|ESM-TTL100|tok": {
+   "est": -7107.108333333334,
+   "n": 120,
+   "task": [
+    -9050.853333333333,
+    -5412.528541666668
+   ],
+   "fact": [
+    -9440.357708333333,
+    -5246.909583333335
+   ],
+   "repo": [
+    -9017.988452380952,
+    -5187.157230915126
+   ],
+   "fact_incl0": false,
+   "repo_incl0": false,
+   "same": true
+  },
+  "code|rely|ESM-TTL100|wrong": {
+   "est": 0.0,
+   "n": 120,
+   "task": [
+    0.0,
+    0.0
+   ],
+   "fact": [
+    0.0,
+    0.0
+   ],
+   "repo": [
+    0.0,
+    0.0
+   ],
+   "fact_incl0": "identical arms",
+   "repo_incl0": "identical arms",
+   "same": true
+  },
+  "code|rely|ESM-REPLAY|tok": {
+   "est": -5363.358333333334,
+   "n": 120,
+   "task": [
+    -7374.0841666666665,
+    -3561.625416666667
+   ],
+   "fact": [
+    -7862.553541666667,
+    -3270.7964583333337
+   ],
+   "repo": [
+    -7442.114087301587,
+    -3172.162708333335
+   ],
+   "fact_incl0": false,
+   "repo_incl0": false,
+   "same": true
+  },
+  "code|rely|ORACLE-NO-MEMORY|success": {
+   "est": 0.008333333333333333,
+   "n": 120,
+   "task": [
+    -0.041666666666666664,
+    0.058333333333333334
+   ],
+   "fact": [
+    -0.058333333333333334,
+    0.06666666666666667
+   ],
+   "repo": [
+    -0.05,
+    0.06666666666666667
+   ],
+   "fact_incl0": true,
+   "repo_incl0": true,
+   "same": true
+  },
+  "code|rely|ESM-TTL100|success": {
+   "est": 0.0,
+   "n": 120,
+   "task": [
+    0.0,
+    0.0
+   ],
+   "fact": [
+    0.0,
+    0.0
+   ],
+   "repo": [
+    0.0,
+    0.0
+   ],
+   "fact_incl0": "identical arms",
+   "repo_incl0": "identical arms",
+   "same": true
+  }
+ },
+ "verdict_changes": 0
+}

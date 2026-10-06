@@ -1,0 +1,1 @@
+python -B -m esm.scripts.run_sim --kind dl_bb --policies CERT-ZS@oracle --schedules every --facts esm_data_datalake\dl_bb\sub_S.json --workers 2 --q27 ""

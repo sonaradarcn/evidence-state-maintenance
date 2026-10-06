@@ -1,0 +1,10 @@
+# main arm on ALL kept facts (27B judge + 27B deriver); H150 facts first so that the H150 arms reuse its cached calls
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ESM-norepair --schedules every --facts esm_data_heldout\sub_ALL.json --priority esm_data_heldout\sub_H150.json --workers 10 --q27 11595,11596,11595,11596,11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies DETECT-anchor-hier --schedules every --facts esm_data_heldout\sub_ALL.json --priority esm_data_heldout\sub_H150.json --workers 8 --q27 11595,11596,11595,11596,11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ESM-norepair --schedules every20,every5,bursty --facts esm_data_heldout\sub_H150.json --workers 6 --q27 11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies REPLAY --schedules every --facts esm_data_heldout\sub_H150.json --workers 5 --q27 11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies REPLAY --schedules every --facts esm_data_heldout\sub_H80R.json --workers 8 --q27 11595,11596,11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies REPLAY --schedules every --facts esm_data_heldout\sub_H150.json --workers 8 --q27 11595,11596,11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies LLMDIFF --schedules every --facts esm_data_heldout\sub_H80R.json --workers 8 --q27 11595,11596,11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ESM-norepair@oracle,DETECT-anchor-trunc,DETECT-noanchor-hier --schedules every --facts esm_data_heldout\sub_H150.json --workers 8 --q27 11595,11596,11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies LLMDIFF --schedules every --facts esm_data_heldout\sub_H150.json --workers 8 --q27 11595,11596,11595,11596,11595,11596

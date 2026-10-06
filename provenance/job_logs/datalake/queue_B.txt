@@ -1,0 +1,14 @@
+python -B -m esm.scripts.dl_s0 --kind dl_bb --workers 1 --q27 11596
+python -B -m esm.scripts.dl_subsets --kind dl_bb --n 16
+python -B -m esm.scripts.run_sim --kind dl_bb --policies ESM-norepair --schedules every --workers 2 --q27 11596 --order random:7 --save-every 3 --deadline "2026-10-05 06:00" --priority esm_data_datalake\dl_bb\sub_S.json
+python -B -m esm.scripts.derive_grid --kind dl_bb --facts esm_data_datalake\dl_bb\sub_S.json --grid 20,40,60,80,100 --workers 1 --q27 11596
+python -B -m esm.scripts.heldout_certs --kind dl_bb --facts esm_data_datalake\dl_bb\sub_S.json --kinds certzs --workers 1 --q27 11596
+python -B -m esm.scripts.run_sim --kind dl_bb --policies ESM-norepair,ALWAYS,REPLAY,FILEHASH,MANIFEST,CERT-ZS,LLMDIFF,TTL20,TTL40,TTL100,NEVER,ESM-norepair-noanchor --schedules every20 --facts esm_data_datalake\dl_bb\sub_S.json --workers 2 --q27 11596
+python -B -m esm.scripts.run_sim --kind dl_bb --policies TTL20,TTL40,TTL100,CERT-ZS@oracle --schedules every --facts esm_data_datalake\dl_bb\sub_S.json --workers 2 --q27 11596
+python -B -m esm.scripts.run_sim --kind dl_bb --policies DETECT-anchor-hier --schedules every --workers 3 --q27 11596
+python -B -m esm.scripts.run_sim --kind dl_bb --policies ESM-norepair-trunc,ESM-norepair-unsurefresh,ESM-verify --schedules every --facts esm_data_datalake\dl_bb\sub_S.json --workers 2 --q27 11596
+python -B -m esm.scripts.run_sim --kind dl_bb --policies ESM-norepair-9B --schedules every --facts esm_data_datalake\dl_bb\sub_S.json --workers 2 --q27 11596 --q9 11597
+python -B -m esm.scripts.run_sim --kind dl_bb --policies ESM-norepair --schedules every5,every20,bursty --facts esm_data_datalake\dl_bb\sub_S.json --workers 2 --q27 11596
+python -B -m esm.scripts.dl_s0 --kind dlsyn_bb --workers 1 --q27 11596 --ids esm_data_datalake\dlsyn_bb\sub_SYNK.json
+python -B -m esm.scripts.run_sim --kind dlsyn_bb --policies NEVER,TTL20@oracle,TTL40@oracle,TTL100@oracle,REPLAY@oracle,FILEHASH@oracle,MANIFEST@oracle --schedules every --facts esm_data_datalake\dlsyn_bb\sub_SYNK.json --workers 2 --q27 ""
+python -c "pass"

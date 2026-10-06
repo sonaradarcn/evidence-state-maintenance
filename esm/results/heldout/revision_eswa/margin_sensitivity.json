@@ -1,0 +1,338 @@
+{
+ "S160|CERT-ZS|fact": {
+  "set": "S160",
+  "baseline": "CERT-ZS",
+  "unit": "fact",
+  "n": 160,
+  "esm": 0.069015625,
+  "base": 0.071453125,
+  "d": -0.002437500000000009,
+  "ci90": [
+   -0.011472656249999992,
+   0.0067218750000000065
+  ],
+  "ub": 0.0067218750000000065,
+  "ni": [
+   false,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   true,
+   true
+  ],
+  "smallest_ni_margin": 0.0067218750000000065,
+  "smallest_eq_margin": 0.011472656249999992
+ },
+ "S160|CERT-ZS|repo": {
+  "set": "S160",
+  "baseline": "CERT-ZS",
+  "unit": "repo",
+  "n": 160,
+  "esm": 0.069015625,
+  "base": 0.071453125,
+  "d": -0.002437500000000009,
+  "ci90": [
+   -0.012314062499999997,
+   0.008015624999999998
+  ],
+  "ub": 0.008015624999999998,
+  "ni": [
+   false,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   true,
+   true
+  ],
+  "smallest_ni_margin": 0.008015624999999998,
+  "smallest_eq_margin": 0.012314062499999997
+ },
+ "S160|CERT-V0H|fact": {
+  "set": "S160",
+  "baseline": "CERT-V0H",
+  "unit": "fact",
+  "n": 133,
+  "esm": 0.06116541353383459,
+  "base": 0.0644172932330827,
+  "d": -0.003251879699248117,
+  "ci90": [
+   -0.01962406015037594,
+   0.011109022556390971
+  ],
+  "ub": 0.011109022556390971,
+  "ni": [
+   false,
+   false,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "smallest_ni_margin": 0.011109022556390971,
+  "smallest_eq_margin": 0.01962406015037594
+ },
+ "S160|CERT-V0H|repo": {
+  "set": "S160",
+  "baseline": "CERT-V0H",
+  "unit": "repo",
+  "n": 133,
+  "esm": 0.06116541353383459,
+  "base": 0.0644172932330827,
+  "d": -0.003251879699248117,
+  "ci90": [
+   -0.01962484866828087,
+   0.010830136926817962
+  ],
+  "ub": 0.010830136926817962,
+  "ni": [
+   false,
+   false,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   false,
+   true
+  ],
+  "smallest_ni_margin": 0.010830136926817962,
+  "smallest_eq_margin": 0.01962484866828087
+ },
+ "S160|LLMDIFF|fact": {
+  "set": "S160",
+  "baseline": "LLMDIFF",
+  "unit": "fact",
+  "n": 160,
+  "esm": 0.069015625,
+  "base": 0.080640625,
+  "d": -0.011624999999999996,
+  "ci90": [
+   -0.023844531250000005,
+   0.00010937500000000218
+  ],
+  "ub": 0.00010937500000000218,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   false,
+   false
+  ],
+  "smallest_ni_margin": 0.00010937500000000218,
+  "smallest_eq_margin": 0.023844531250000005
+ },
+ "S160|LLMDIFF|repo": {
+  "set": "S160",
+  "baseline": "LLMDIFF",
+  "unit": "repo",
+  "n": 160,
+  "esm": 0.069015625,
+  "base": 0.080640625,
+  "d": -0.011624999999999996,
+  "ci90": [
+   -0.021376562499999998,
+   -0.0018734375000000034
+  ],
+  "ub": -0.0018734375000000034,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   false,
+   false
+  ],
+  "smallest_ni_margin": 0.0,
+  "smallest_eq_margin": 0.021376562499999998
+ },
+ "NAT100|CERT-ZS|fact": {
+  "set": "NAT100",
+  "baseline": "CERT-ZS",
+  "unit": "fact",
+  "n": 100,
+  "esm": 0.054725,
+  "base": 0.05505,
+  "d": -0.0003249999999999989,
+  "ci90": [
+   -0.0009749999999999967,
+   0.0
+  ],
+  "ub": 0.0,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "smallest_ni_margin": 0.0,
+  "smallest_eq_margin": 0.0009749999999999967
+ },
+ "NAT100|CERT-ZS|repo": {
+  "set": "NAT100",
+  "baseline": "CERT-ZS",
+  "unit": "repo",
+  "n": 100,
+  "esm": 0.054725,
+  "base": 0.05505,
+  "d": -0.0003249999999999989,
+  "ci90": [
+   -0.0008783783783783763,
+   0.0
+  ],
+  "ub": 0.0,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "smallest_ni_margin": 0.0,
+  "smallest_eq_margin": 0.0008783783783783763
+ },
+ "NAT100|CERT-V0H|fact": {
+  "set": "NAT100",
+  "baseline": "CERT-V0H",
+  "unit": "fact",
+  "n": 92,
+  "esm": 0.059375,
+  "base": 0.059375,
+  "d": 0.0,
+  "ci90": [
+   0.0,
+   0.0
+  ],
+  "ub": 0.0,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "smallest_ni_margin": 0.0,
+  "smallest_eq_margin": -0.0
+ },
+ "NAT100|CERT-V0H|repo": {
+  "set": "NAT100",
+  "baseline": "CERT-V0H",
+  "unit": "repo",
+  "n": 92,
+  "esm": 0.059375,
+  "base": 0.059375,
+  "d": 0.0,
+  "ci90": [
+   0.0,
+   0.0
+  ],
+  "ub": 0.0,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "smallest_ni_margin": 0.0,
+  "smallest_eq_margin": -0.0
+ },
+ "NAT100|LLMDIFF|fact": {
+  "set": "NAT100",
+  "baseline": "LLMDIFF",
+  "unit": "fact",
+  "n": 100,
+  "esm": 0.054725,
+  "base": 0.063825,
+  "d": -0.009100000000000004,
+  "ci90": [
+   -0.025749999999999995,
+   0.0
+  ],
+  "ub": 0.0,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   false,
+   false
+  ],
+  "smallest_ni_margin": 0.0,
+  "smallest_eq_margin": 0.025749999999999995
+ },
+ "NAT100|LLMDIFF|repo": {
+  "set": "NAT100",
+  "baseline": "LLMDIFF",
+  "unit": "repo",
+  "n": 100,
+  "esm": 0.054725,
+  "base": 0.063825,
+  "d": -0.009100000000000004,
+  "ci90": [
+   -0.02601010101010101,
+   0.0
+  ],
+  "ub": 0.0,
+  "ni": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "eq": [
+   false,
+   false,
+   false,
+   false
+  ],
+  "smallest_ni_margin": 0.0,
+  "smallest_eq_margin": 0.02601010101010101
+ }
+}

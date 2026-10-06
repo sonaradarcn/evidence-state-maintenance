@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esm"
+version = "1.0.0"
+description = "Evidence-State Maintenance: keeping agent-derived knowledge valid under environment drift"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.14"
+dependencies = ["duckdb>=1.5", "matplotlib>=3.10", "numpy>=2.3", "openai>=2.0", "pandas>=3.0", "pyarrow>=21", "scipy>=1.16"]
+
+[project.optional-dependencies]
+datalake = ["pypdf>=6"]
+
+[tool.setuptools.packages.find]
+include = ["esm*"]

@@ -1,0 +1,1 @@
+{"model": "nim:nvidia/nemotron-3-super-120b-a12b", "reasoning": "default (NIM; reasoning on, not switched off)", "judge_max_tokens": 4000, "label": "Nemotron-3-Super-120B", "server": "NVIDIA NIM integrate.api.nvidia.com, OpenAI-compatible"}

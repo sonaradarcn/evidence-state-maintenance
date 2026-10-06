@@ -1,0 +1,170 @@
+[
+ {
+  "iid": "tlc:D1:12",
+  "lake": "tlc",
+  "fact_type": "D1",
+  "task_type": "T-question",
+  "subset": "enriched",
+  "changes_in_future": true
+ },
+ {
+  "iid": "tlc:D2:33",
+  "lake": "tlc",
+  "fact_type": "D2",
+  "task_type": "T-sql",
+  "subset": "enriched",
+  "changes_in_future": true
+ },
+ {
+  "iid": "tlc:D3:45",
+  "lake": "tlc",
+  "fact_type": "D3",
+  "task_type": "T-report",
+  "subset": "natural",
+  "changes_in_future": false
+ },
+ {
+  "iid": "tlc:D3:56",
+  "lake": "tlc",
+  "fact_type": "D3",
+  "task_type": "T-report",
+  "subset": "enriched",
+  "changes_in_future": false
+ },
+ {
+  "iid": "tlc:D3:65",
+  "lake": "tlc",
+  "fact_type": "D3",
+  "task_type": "T-report",
+  "subset": "enriched",
+  "changes_in_future": false
+ },
+ {
+  "iid": "tlc:D4:87",
+  "lake": "tlc",
+  "fact_type": "D4",
+  "task_type": "T-report",
+  "subset": "enriched",
+  "changes_in_future": true
+ },
+ {
+  "iid": "tlc:D6:112",
+  "lake": "tlc",
+  "fact_type": "D6",
+  "task_type": "T-report",
+  "subset": "natural",
+  "changes_in_future": true
+ },
+ {
+  "iid": "tlc:D6:123",
+  "lake": "tlc",
+  "fact_type": "D6",
+  "task_type": "T-report",
+  "subset": "enriched",
+  "changes_in_future": true
+ },
+ {
+  "iid": "tlc:D8:155",
+  "lake": "tlc",
+  "fact_type": "D8",
+  "task_type": "T-question",
+  "subset": "natural",
+  "changes_in_future": true
+ },
+ {
+  "iid": "bb:D1:13",
+  "lake": "bb",
+  "fact_type": "D1",
+  "task_type": "T-question",
+  "subset": "enriched",
+  "changes_in_future": true
+ },
+ {
+  "iid": "bb:D1:17",
+  "lake": "bb",
+  "fact_type": "D1",
+  "task_type": "T-question",
+  "subset": "enriched",
+  "changes_in_future": true
+ },
+ {
+  "iid": "bb:D1:5",
+  "lake": "bb",
+  "fact_type": "D1",
+  "task_type": "T-question",
+  "subset": "natural",
+  "changes_in_future": true
+ },
+ {
+  "iid": "bb:D2:31",
+  "lake": "bb",
+  "fact_type": "D2",
+  "task_type": "T-sql",
+  "subset": "natural",
+  "changes_in_future": false
+ },
+ {
+  "iid": "bb:D2:34",
+  "lake": "bb",
+  "fact_type": "D2",
+  "task_type": "T-sql",
+  "subset": "enriched",
+  "changes_in_future": false
+ },
+ {
+  "iid": "bb:D3:44",
+  "lake": "bb",
+  "fact_type": "D3",
+  "task_type": "T-report",
+  "subset": "natural",
+  "changes_in_future": false
+ },
+ {
+  "iid": "bb:D3:48",
+  "lake": "bb",
+  "fact_type": "D3",
+  "task_type": "T-report",
+  "subset": "enriched",
+  "changes_in_future": false
+ },
+ {
+  "iid": "bb:D4:66",
+  "lake": "bb",
+  "fact_type": "D4",
+  "task_type": "T-files",
+  "subset": "natural",
+  "changes_in_future": true
+ },
+ {
+  "iid": "bb:D4:72",
+  "lake": "bb",
+  "fact_type": "D4",
+  "task_type": "T-files",
+  "subset": "enriched",
+  "changes_in_future": true
+ },
+ {
+  "iid": "bb:D6:111",
+  "lake": "bb",
+  "fact_type": "D6",
+  "task_type": "T-report",
+  "subset": "natural",
+  "changes_in_future": false
+ },
+ {
+  "iid": "bb:D8:147",
+  "lake": "bb",
+  "fact_type": "D8",
+  "task_type": "T-question",
+  "subset": "natural",
+  "changes_in_future": true
+ },
+ {
+  "iid": "bb:D8:162",
+  "lake": "bb",
+  "fact_type": "D8",
+  "task_type": "T-question",
+  "subset": "enriched",
+  "changes_in_future": true
+ }
+]

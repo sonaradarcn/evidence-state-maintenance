@@ -1,0 +1,13 @@
+# B3 e2e job queue (one command per line; appended while running)
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.maint_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.agent_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_LLM_OFFLINE=1&& python -B -m esm.e2e.report_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.agent_e2e --variant trust --arms NEVER,ESM,TTL100,REPLAY,ORACLE
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_LLM_OFFLINE=1&& python -B -m esm.e2e.report_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.agent_e2e --variant trust --arms NEVER,ESM,TTL100,REPLAY,ORACLE
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_LLM_OFFLINE=1&& python -B -m esm.e2e.report_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.setup_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.recheck_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.agent_e2e
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.agent_e2e --variant trust --arms NEVER,ESM,TTL100,REPLAY,ORACLE
+set PYTHONIOENCODING=utf-8&& set ESM_DATA=esm_data_e2e&& set ESM_PORTS_Q27=11641&& python -B -m esm.e2e.report_e2e

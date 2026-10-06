@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or the benchmarks, please cite the paper below."
+title: "Evidence-State Maintenance (ESM): code, benchmarks and results"
+authors:
+  - name: "Authors to be added"
+license: MIT
+repository-code: "https://github.com/sonaradarcn/evidence-state-maintenance"
+preferred-citation:
+  type: article
+  title: "Maintaining Agent-Derived Knowledge under Environment Drift: An Evidence-State Approach for Persistent LLM Agents"
+  authors:
+    - name: "Authors to be added"
+  journal: "Expert Systems with Applications"
+  year: 2026
+  notes: "Submitted"

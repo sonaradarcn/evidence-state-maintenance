@@ -1,0 +1,2569 @@
+[
+ {
+  "tid": "boltons:T1:0@100",
+  "iid": "boltons:T1:0",
+  "repo": "boltons",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `windowed_iter` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "boltons/iterutils.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import windowed_iter` that imports `windowed_iter` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `windowed_iter` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "boltons/iterutils.py"
+  },
+  "semantic_value": "boltons/iterutils.py",
+  "bench_value": "boltons/iterutils.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "boltons:T1:0@250",
+  "iid": "boltons:T1:0",
+  "repo": "boltons",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `windowed_iter` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "boltons/iterutils.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import windowed_iter` that imports `windowed_iter` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `windowed_iter` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "boltons/iterutils.py"
+  },
+  "semantic_value": "boltons/iterutils.py",
+  "bench_value": "boltons/iterutils.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "boltons:T1:0@400",
+  "iid": "boltons:T1:0",
+  "repo": "boltons",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `windowed_iter` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "boltons/iterutils.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import windowed_iter` that imports `windowed_iter` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `windowed_iter` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "boltons/iterutils.py"
+  },
+  "semantic_value": "boltons/iterutils.py",
+  "bench_value": "boltons/iterutils.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T1:0@100",
+  "iid": "mkdocs:T1:0",
+  "repo": "mkdocs",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `tojson` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "mkdocs/utils/filters.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import tojson` that imports `tojson` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `tojson` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "mkdocs:T1:0@250",
+  "iid": "mkdocs:T1:0",
+  "repo": "mkdocs",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `tojson` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "mkdocs/utils/filters.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import tojson` that imports `tojson` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `tojson` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "mkdocs:T1:0@400",
+  "iid": "mkdocs:T1:0",
+  "repo": "mkdocs",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `tojson` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "mkdocs/utils/filters.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import tojson` that imports `tojson` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `tojson` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "black:T1:0@100",
+  "iid": "black:T1:0",
+  "repo": "black",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `nullcontext` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "src/black/__init__.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import nullcontext` that imports `nullcontext` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `nullcontext` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "src/black/__init__.py"
+  },
+  "semantic_value": "src/black/__init__.py",
+  "bench_value": "src/black/__init__.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "black:T1:0@250",
+  "iid": "black:T1:0",
+  "repo": "black",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `nullcontext` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "src/black/__init__.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import nullcontext` that imports `nullcontext` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `nullcontext` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "black:T1:0@400",
+  "iid": "black:T1:0",
+  "repo": "black",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "enriched",
+  "question": "Which file defines the top-level class or function `nullcontext` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "src/black/__init__.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import nullcontext` that imports `nullcontext` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `nullcontext` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "isort:T1:n21@100",
+  "iid": "isort:T1:n21",
+  "repo": "isort",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `_InitVarMeta` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "isort/_future/_dataclasses.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import _InitVarMeta` that imports `_InitVarMeta` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `_InitVarMeta` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "isort:T1:n21@250",
+  "iid": "isort:T1:n21",
+  "repo": "isort",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `_InitVarMeta` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "isort/_future/_dataclasses.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import _InitVarMeta` that imports `_InitVarMeta` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `_InitVarMeta` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "isort:T1:n21@400",
+  "iid": "isort:T1:n21",
+  "repo": "isort",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `_InitVarMeta` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "isort/_future/_dataclasses.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import _InitVarMeta` that imports `_InitVarMeta` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `_InitVarMeta` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "scrapy:T1:n1@100",
+  "iid": "scrapy:T1:n1",
+  "repo": "scrapy",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `_enable_windows_terminal_processing` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "scrapy/utils/display.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import _enable_windows_terminal_processing` that imports `_enable_windows_terminal_processing` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `_enable_windows_terminal_processing` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "scrapy/utils/display.py"
+  },
+  "semantic_value": "scrapy/utils/display.py",
+  "bench_value": "scrapy/utils/display.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "scrapy:T1:n1@250",
+  "iid": "scrapy:T1:n1",
+  "repo": "scrapy",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `_enable_windows_terminal_processing` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "scrapy/utils/display.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import _enable_windows_terminal_processing` that imports `_enable_windows_terminal_processing` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `_enable_windows_terminal_processing` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "scrapy/utils/display.py"
+  },
+  "semantic_value": "scrapy/utils/display.py",
+  "bench_value": "scrapy/utils/display.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "scrapy:T1:n1@400",
+  "iid": "scrapy:T1:n1",
+  "repo": "scrapy",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `_enable_windows_terminal_processing` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "scrapy/utils/display.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import _enable_windows_terminal_processing` that imports `_enable_windows_terminal_processing` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `_enable_windows_terminal_processing` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "scrapy/utils/_colorize.py"
+  },
+  "semantic_value": "scrapy/utils/_colorize.py",
+  "bench_value": "scrapy/utils/_colorize.py",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "jinja:T1:n25@100",
+  "iid": "jinja:T1:n25",
+  "repo": "jinja",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `Mod` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "jinja2/nodes.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import Mod` that imports `Mod` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `Mod` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "jinja2/nodes.py"
+  },
+  "semantic_value": "jinja2/nodes.py",
+  "bench_value": "jinja2/nodes.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "jinja:T1:n25@250",
+  "iid": "jinja:T1:n25",
+  "repo": "jinja",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `Mod` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "jinja2/nodes.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import Mod` that imports `Mod` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `Mod` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "src/jinja2/nodes.py"
+  },
+  "semantic_value": "src/jinja2/nodes.py",
+  "bench_value": "src/jinja2/nodes.py",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "jinja:T1:n25@400",
+  "iid": "jinja:T1:n25",
+  "repo": "jinja",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `Mod` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "jinja2/nodes.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import Mod` that imports `Mod` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `Mod` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "src/jinja2/nodes.py"
+  },
+  "semantic_value": "src/jinja2/nodes.py",
+  "bench_value": "src/jinja2/nodes.py",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "pygments:T1:n10@100",
+  "iid": "pygments:T1:n10",
+  "repo": "pygments",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `PangoMarkupFormatter` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "pygments/formatters/pangomarkup.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import PangoMarkupFormatter` that imports `PangoMarkupFormatter` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `PangoMarkupFormatter` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "pygments/formatters/pangomarkup.py"
+  },
+  "semantic_value": "pygments/formatters/pangomarkup.py",
+  "bench_value": "pygments/formatters/pangomarkup.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "pygments:T1:n10@250",
+  "iid": "pygments:T1:n10",
+  "repo": "pygments",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `PangoMarkupFormatter` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "pygments/formatters/pangomarkup.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import PangoMarkupFormatter` that imports `PangoMarkupFormatter` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `PangoMarkupFormatter` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "pygments/formatters/pangomarkup.py"
+  },
+  "semantic_value": "pygments/formatters/pangomarkup.py",
+  "bench_value": "pygments/formatters/pangomarkup.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "pygments:T1:n10@400",
+  "iid": "pygments:T1:n10",
+  "repo": "pygments",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `PangoMarkupFormatter` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "pygments/formatters/pangomarkup.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import PangoMarkupFormatter` that imports `PangoMarkupFormatter` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `PangoMarkupFormatter` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "pygments/formatters/pangomarkup.py"
+  },
+  "semantic_value": "pygments/formatters/pangomarkup.py",
+  "bench_value": "pygments/formatters/pangomarkup.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:T1:n7@100",
+  "iid": "isort:T1:n7",
+  "repo": "isort",
+  "t": 100,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `ISortError` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "isort/exceptions.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import ISortError` that imports `ISortError` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `ISortError` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "isort/exceptions.py"
+  },
+  "semantic_value": "isort/exceptions.py",
+  "bench_value": "isort/exceptions.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:T1:n7@250",
+  "iid": "isort:T1:n7",
+  "repo": "isort",
+  "t": 250,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `ISortError` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "isort/exceptions.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import ISortError` that imports `ISortError` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `ISortError` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "isort/exceptions.py"
+  },
+  "semantic_value": "isort/exceptions.py",
+  "bench_value": "isort/exceptions.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:T1:n7@400",
+  "iid": "isort:T1:n7",
+  "repo": "isort",
+  "t": 400,
+  "task_type": "T-locate",
+  "fact_type": "T1",
+  "subset": "natural",
+  "question": "Which file defines the top-level class or function `ISortError` in the non-test source code of this repository? Answer with the repository-relative file path (if several files define it, list all paths separated by '|').",
+  "K0": "isort/exceptions.py",
+  "task": "Write a one-line Python import statement of the form `from <module> import ISortError` that imports `ISortError` from the module in which it is defined (its defining module, not a package that re-exports it). Submit the statement. If `ISortError` is no longer defined anywhere in the repository's non-test source code, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "isort/exceptions.py"
+  },
+  "semantic_value": "isort/exceptions.py",
+  "bench_value": "isort/exceptions.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T3:13@100",
+  "iid": "mkdocs:T3:13",
+  "repo": "mkdocs",
+  "t": 100,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `mkdocs/contrib/search/__init__.py`, what are the parameter names of `SearchPlugin.on_pre_build`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, config, kwargs",
+  "task": "Write a single Python call expression that calls `SearchPlugin.on_pre_build` from module `mkdocs.contrib.search`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `on_pre_build`, for example `on_pre_build(a=None, b=None)`, and submit only the expression. If `SearchPlugin.on_pre_build` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, config, kwargs",
+   "file": "mkdocs/contrib/search/__init__.py",
+   "expected": [
+    "config"
+   ]
+  },
+  "semantic_value": "self, config, kwargs",
+  "bench_value": "self, config, kwargs",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T3:13@250",
+  "iid": "mkdocs:T3:13",
+  "repo": "mkdocs",
+  "t": 250,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `mkdocs/contrib/search/__init__.py`, what are the parameter names of `SearchPlugin.on_pre_build`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, config, kwargs",
+  "task": "Write a single Python call expression that calls `SearchPlugin.on_pre_build` from module `mkdocs.contrib.search`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `on_pre_build`, for example `on_pre_build(a=None, b=None)`, and submit only the expression. If `SearchPlugin.on_pre_build` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, config, kwargs",
+   "file": "mkdocs/contrib/search/__init__.py",
+   "expected": [
+    "config"
+   ]
+  },
+  "semantic_value": "self, config, kwargs",
+  "bench_value": "self, config, kwargs",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T3:13@400",
+  "iid": "mkdocs:T3:13",
+  "repo": "mkdocs",
+  "t": 400,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `mkdocs/contrib/search/__init__.py`, what are the parameter names of `SearchPlugin.on_pre_build`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, config, kwargs",
+  "task": "Write a single Python call expression that calls `SearchPlugin.on_pre_build` from module `mkdocs.contrib.search`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `on_pre_build`, for example `on_pre_build(a=None, b=None)`, and submit only the expression. If `SearchPlugin.on_pre_build` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, config, kwargs",
+   "file": "mkdocs/contrib/search/__init__.py",
+   "expected": [
+    "config"
+   ]
+  },
+  "semantic_value": "self, config, kwargs",
+  "bench_value": "self, config, kwargs",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "httpx:T3:n27@100",
+  "iid": "httpx:T3:n27",
+  "repo": "httpx",
+  "t": 100,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `httpx/_client.py`, what are the parameter names of `Client._init_proxy_transport`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+  "task": "Write a single Python call expression that calls `Client._init_proxy_transport` from module `httpx._client`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `_init_proxy_transport`, for example `_init_proxy_transport(a=None, b=None)`, and submit only the expression. If `Client._init_proxy_transport` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+   "file": "httpx/_client.py",
+   "expected": [
+    "proxy",
+    "verify",
+    "cert",
+    "http1",
+    "http2",
+    "limits",
+    "trust_env"
+   ]
+  },
+  "semantic_value": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+  "bench_value": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "httpx:T3:n27@250",
+  "iid": "httpx:T3:n27",
+  "repo": "httpx",
+  "t": 250,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `httpx/_client.py`, what are the parameter names of `Client._init_proxy_transport`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+  "task": "Write a single Python call expression that calls `Client._init_proxy_transport` from module `httpx._client`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `_init_proxy_transport`, for example `_init_proxy_transport(a=None, b=None)`, and submit only the expression. If `Client._init_proxy_transport` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+   "file": "httpx/_client.py",
+   "expected": [
+    "proxy",
+    "verify",
+    "cert",
+    "http1",
+    "http2",
+    "limits",
+    "trust_env"
+   ]
+  },
+  "semantic_value": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+  "bench_value": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "httpx:T3:n27@400",
+  "iid": "httpx:T3:n27",
+  "repo": "httpx",
+  "t": 400,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `httpx/_client.py`, what are the parameter names of `Client._init_proxy_transport`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, proxy, verify, cert, http1, http2, limits, trust_env",
+  "task": "Write a single Python call expression that calls `Client._init_proxy_transport` from module `httpx._client`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `_init_proxy_transport`, for example `_init_proxy_transport(a=None, b=None)`, and submit only the expression. If `Client._init_proxy_transport` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, proxy, verify, cert, trust_env, http1, http2, limits",
+   "file": "httpx/_client.py",
+   "expected": [
+    "proxy",
+    "verify",
+    "cert",
+    "trust_env",
+    "http1",
+    "http2",
+    "limits"
+   ]
+  },
+  "semantic_value": "self, proxy, verify, cert, trust_env, http1, http2, limits",
+  "bench_value": "self, proxy, verify, cert, trust_env, http1, http2, limits",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "black:T3:n23@100",
+  "iid": "black:T3:n23",
+  "repo": "black",
+  "t": 100,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/black/concurrency.py`, what are the parameter names of `reformat_many`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "sources, fast, write_back, mode, report, workers",
+  "task": "Write a single Python call expression that calls `reformat_many` from module `black.concurrency`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `reformat_many`, for example `reformat_many(a=None, b=None)`, and submit only the expression. If `reformat_many` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "sources, fast, write_back, mode, report, workers, no_cache",
+   "file": "src/black/concurrency.py",
+   "expected": [
+    "sources",
+    "fast",
+    "write_back",
+    "mode",
+    "report",
+    "workers",
+    "no_cache"
+   ]
+  },
+  "semantic_value": "sources, fast, write_back, mode, report, workers, no_cache",
+  "bench_value": "sources, fast, write_back, mode, report, workers, no_cache",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "black:T3:n23@250",
+  "iid": "black:T3:n23",
+  "repo": "black",
+  "t": 250,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/black/concurrency.py`, what are the parameter names of `reformat_many`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "sources, fast, write_back, mode, report, workers",
+  "task": "Write a single Python call expression that calls `reformat_many` from module `black.concurrency`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `reformat_many`, for example `reformat_many(a=None, b=None)`, and submit only the expression. If `reformat_many` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "sources, fast, write_back, mode, report, workers, no_cache",
+   "file": "src/black/concurrency.py",
+   "expected": [
+    "sources",
+    "fast",
+    "write_back",
+    "mode",
+    "report",
+    "workers",
+    "no_cache"
+   ]
+  },
+  "semantic_value": "sources, fast, write_back, mode, report, workers, no_cache",
+  "bench_value": "sources, fast, write_back, mode, report, workers, no_cache",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "black:T3:n23@400",
+  "iid": "black:T3:n23",
+  "repo": "black",
+  "t": 400,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/black/concurrency.py`, what are the parameter names of `reformat_many`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "sources, fast, write_back, mode, report, workers",
+  "task": "Write a single Python call expression that calls `reformat_many` from module `black.concurrency`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `reformat_many`, for example `reformat_many(a=None, b=None)`, and submit only the expression. If `reformat_many` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "sources, fast, write_back, mode, report, workers, no_cache",
+   "file": "src/black/concurrency.py",
+   "expected": [
+    "sources",
+    "fast",
+    "write_back",
+    "mode",
+    "report",
+    "workers",
+    "no_cache"
+   ]
+  },
+  "semantic_value": "sources, fast, write_back, mode, report, workers, no_cache",
+  "bench_value": "sources, fast, write_back, mode, report, workers, no_cache",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "scrapy:T3:14@100",
+  "iid": "scrapy:T3:14",
+  "repo": "scrapy",
+  "t": 100,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `scrapy/core/http2/protocol.py`, what are the parameter names of `H2ClientProtocol.connection_terminated`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, event",
+  "task": "Write a single Python call expression that calls `H2ClientProtocol.connection_terminated` from module `scrapy.core.http2.protocol`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `connection_terminated`, for example `connection_terminated(a=None, b=None)`, and submit only the expression. If `H2ClientProtocol.connection_terminated` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, event",
+   "file": "scrapy/core/http2/protocol.py",
+   "expected": [
+    "event"
+   ]
+  },
+  "semantic_value": "self, event",
+  "bench_value": "self, event",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "scrapy:T3:14@250",
+  "iid": "scrapy:T3:14",
+  "repo": "scrapy",
+  "t": 250,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `scrapy/core/http2/protocol.py`, what are the parameter names of `H2ClientProtocol.connection_terminated`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, event",
+  "task": "Write a single Python call expression that calls `H2ClientProtocol.connection_terminated` from module `scrapy.core.http2.protocol`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `connection_terminated`, for example `connection_terminated(a=None, b=None)`, and submit only the expression. If `H2ClientProtocol.connection_terminated` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE",
+   "file": null,
+   "expected": null
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "scrapy:T3:14@400",
+  "iid": "scrapy:T3:14",
+  "repo": "scrapy",
+  "t": 400,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `scrapy/core/http2/protocol.py`, what are the parameter names of `H2ClientProtocol.connection_terminated`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, event",
+  "task": "Write a single Python call expression that calls `H2ClientProtocol.connection_terminated` from module `scrapy.core.http2.protocol`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `connection_terminated`, for example `connection_terminated(a=None, b=None)`, and submit only the expression. If `H2ClientProtocol.connection_terminated` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE",
+   "file": null,
+   "expected": null
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "pyparsing:T3:n22@100",
+  "iid": "pyparsing:T3:n22",
+  "repo": "pyparsing",
+  "t": 100,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `pyparsing/results.py`, what are the parameter names of `ParseResults.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, toklist, name, asList, modal, isinstance",
+  "task": "Write a single Python call expression that calls `ParseResults.__init__` from module `pyparsing.results`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `ParseResults`, for example `ParseResults(a=None, b=None)`, and submit only the expression. If `ParseResults.__init__` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, toklist, name, asList, modal, isinstance",
+   "file": "pyparsing/results.py",
+   "expected": [
+    "toklist",
+    "name",
+    "asList",
+    "modal",
+    "isinstance"
+   ]
+  },
+  "semantic_value": "self, toklist, name, asList, modal, isinstance",
+  "bench_value": "self, toklist, name, asList, modal, isinstance",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "pyparsing:T3:n22@250",
+  "iid": "pyparsing:T3:n22",
+  "repo": "pyparsing",
+  "t": 250,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `pyparsing/results.py`, what are the parameter names of `ParseResults.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, toklist, name, asList, modal, isinstance",
+  "task": "Write a single Python call expression that calls `ParseResults.__init__` from module `pyparsing.results`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `ParseResults`, for example `ParseResults(a=None, b=None)`, and submit only the expression. If `ParseResults.__init__` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, toklist, name, aslist, modal, isinstance, kwargs",
+   "file": "pyparsing/results.py",
+   "expected": [
+    "toklist",
+    "name",
+    "aslist",
+    "modal",
+    "isinstance"
+   ]
+  },
+  "semantic_value": "self, toklist, name, aslist, modal, isinstance, kwargs",
+  "bench_value": "self, toklist, name, aslist, modal, isinstance, kwargs",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "pyparsing:T3:n22@400",
+  "iid": "pyparsing:T3:n22",
+  "repo": "pyparsing",
+  "t": 400,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `pyparsing/results.py`, what are the parameter names of `ParseResults.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, toklist, name, asList, modal, isinstance",
+  "task": "Write a single Python call expression that calls `ParseResults.__init__` from module `pyparsing.results`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `ParseResults`, for example `ParseResults(a=None, b=None)`, and submit only the expression. If `ParseResults.__init__` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, toklist, name, aslist, modal, isinstance, kwargs",
+   "file": "pyparsing/results.py",
+   "expected": [
+    "toklist",
+    "name",
+    "aslist",
+    "modal",
+    "isinstance"
+   ]
+  },
+  "semantic_value": "self, toklist, name, aslist, modal, isinstance, kwargs",
+  "bench_value": "self, toklist, name, aslist, modal, isinstance, kwargs",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "boltons:T3:17@100",
+  "iid": "boltons:T3:17",
+  "repo": "boltons",
+  "t": 100,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `boltons/tableutils.py`, what are the parameter names of `DictInputType.guess_headers`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, obj",
+  "task": "Write a single Python call expression that calls `DictInputType.guess_headers` from module `boltons.tableutils`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `guess_headers`, for example `guess_headers(a=None, b=None)`, and submit only the expression. If `DictInputType.guess_headers` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, obj",
+   "file": "boltons/tableutils.py",
+   "expected": [
+    "obj"
+   ]
+  },
+  "semantic_value": "self, obj",
+  "bench_value": "self, obj",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "boltons:T3:17@250",
+  "iid": "boltons:T3:17",
+  "repo": "boltons",
+  "t": 250,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `boltons/tableutils.py`, what are the parameter names of `DictInputType.guess_headers`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, obj",
+  "task": "Write a single Python call expression that calls `DictInputType.guess_headers` from module `boltons.tableutils`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `guess_headers`, for example `guess_headers(a=None, b=None)`, and submit only the expression. If `DictInputType.guess_headers` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, obj",
+   "file": "boltons/tableutils.py",
+   "expected": [
+    "obj"
+   ]
+  },
+  "semantic_value": "self, obj",
+  "bench_value": "self, obj",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "boltons:T3:17@400",
+  "iid": "boltons:T3:17",
+  "repo": "boltons",
+  "t": 400,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `boltons/tableutils.py`, what are the parameter names of `DictInputType.guess_headers`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, obj",
+  "task": "Write a single Python call expression that calls `DictInputType.guess_headers` from module `boltons.tableutils`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `guess_headers`, for example `guess_headers(a=None, b=None)`, and submit only the expression. If `DictInputType.guess_headers` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, obj",
+   "file": "boltons/tableutils.py",
+   "expected": [
+    "obj"
+   ]
+  },
+  "semantic_value": "self, obj",
+  "bench_value": "self, obj",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T3:n21@100",
+  "iid": "mkdocs:T3:n21",
+  "repo": "mkdocs",
+  "t": 100,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `mkdocs/theme.py`, what are the parameter names of `Theme.__getitem__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, key",
+  "task": "Write a single Python call expression that calls `Theme.__getitem__` from module `mkdocs.theme`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `__getitem__`, for example `__getitem__(a=None, b=None)`, and submit only the expression. If `Theme.__getitem__` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, key",
+   "file": "mkdocs/theme.py",
+   "expected": [
+    "key"
+   ]
+  },
+  "semantic_value": "self, key",
+  "bench_value": "self, key",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T3:n21@250",
+  "iid": "mkdocs:T3:n21",
+  "repo": "mkdocs",
+  "t": 250,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `mkdocs/theme.py`, what are the parameter names of `Theme.__getitem__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, key",
+  "task": "Write a single Python call expression that calls `Theme.__getitem__` from module `mkdocs.theme`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `__getitem__`, for example `__getitem__(a=None, b=None)`, and submit only the expression. If `Theme.__getitem__` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, key",
+   "file": "mkdocs/theme.py",
+   "expected": [
+    "key"
+   ]
+  },
+  "semantic_value": "self, key",
+  "bench_value": "self, key",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T3:n21@400",
+  "iid": "mkdocs:T3:n21",
+  "repo": "mkdocs",
+  "t": 400,
+  "task_type": "T-api",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `mkdocs/theme.py`, what are the parameter names of `Theme.__getitem__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, key",
+  "task": "Write a single Python call expression that calls `Theme.__getitem__` from module `mkdocs.theme`, passing every one of its named parameters explicitly as a keyword argument with the value None: all parameters except `self`/`cls` and except variadic `*args`/`**kwargs`-style parameters. Write the callee as `__getitem__`, for example `__getitem__(a=None, b=None)`, and submit only the expression. If `Theme.__getitem__` no longer exists in that module, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, key",
+   "file": "mkdocs/theme.py",
+   "expected": [
+    "key"
+   ]
+  },
+  "semantic_value": "self, key",
+  "bench_value": "self, key",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "poetry-core:T3:n30@100",
+  "iid": "poetry-core:T3:n30",
+  "repo": "poetry-core",
+  "t": 100,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/poetry/core/_vendor/pyrsistent/_pset.py`, what are the parameter names of `PSet.discard`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, element",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `PSet.discard` in module `poetry.core._vendor.pyrsistent._pset`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `PSet.discard` no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE",
+   "file": null,
+   "expected": null
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "poetry-core:T3:n30@250",
+  "iid": "poetry-core:T3:n30",
+  "repo": "poetry-core",
+  "t": 250,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/poetry/core/_vendor/pyrsistent/_pset.py`, what are the parameter names of `PSet.discard`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, element",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `PSet.discard` in module `poetry.core._vendor.pyrsistent._pset`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `PSet.discard` no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE",
+   "file": null,
+   "expected": null
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "poetry-core:T3:n30@400",
+  "iid": "poetry-core:T3:n30",
+  "repo": "poetry-core",
+  "t": 400,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/poetry/core/_vendor/pyrsistent/_pset.py`, what are the parameter names of `PSet.discard`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, element",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `PSet.discard` in module `poetry.core._vendor.pyrsistent._pset`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `PSet.discard` no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE",
+   "file": null,
+   "expected": null
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "black:T3:n21@100",
+  "iid": "black:T3:n21",
+  "repo": "black",
+  "t": 100,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/blib2to3/pytree.py`, what are the parameter names of `Leaf.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `Leaf.__init__` in module `blib2to3.pytree`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `Leaf.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+   "file": "src/blib2to3/pytree.py",
+   "expected": [
+    "type",
+    "value",
+    "context",
+    "prefix",
+    "fixers_applied",
+    "opening_bracket",
+    "fmt_pass_converted_first_leaf"
+   ]
+  },
+  "semantic_value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+  "bench_value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "black:T3:n21@250",
+  "iid": "black:T3:n21",
+  "repo": "black",
+  "t": 250,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/blib2to3/pytree.py`, what are the parameter names of `Leaf.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `Leaf.__init__` in module `blib2to3.pytree`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `Leaf.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+   "file": "src/blib2to3/pytree.py",
+   "expected": [
+    "type",
+    "value",
+    "context",
+    "prefix",
+    "fixers_applied",
+    "opening_bracket",
+    "fmt_pass_converted_first_leaf"
+   ]
+  },
+  "semantic_value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+  "bench_value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "black:T3:n21@400",
+  "iid": "black:T3:n21",
+  "repo": "black",
+  "t": 400,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `src/blib2to3/pytree.py`, what are the parameter names of `Leaf.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `Leaf.__init__` in module `blib2to3.pytree`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `Leaf.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf, bracket_depth, line_ranges_first_lineno, line_ranges_selected",
+   "file": "src/blib2to3/pytree.py",
+   "expected": [
+    "type",
+    "value",
+    "context",
+    "prefix",
+    "fixers_applied",
+    "opening_bracket",
+    "fmt_pass_converted_first_leaf",
+    "bracket_depth",
+    "line_ranges_first_lineno",
+    "line_ranges_selected"
+   ]
+  },
+  "semantic_value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf, bracket_depth, line_ranges_first_lineno, line_ranges_selected",
+  "bench_value": "self, type, value, context, prefix, fixers_applied, opening_bracket, fmt_pass_converted_first_leaf, bracket_depth, line_ranges_first_lineno, line_ranges_selected",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "kombu:T3:13@100",
+  "iid": "kombu:T3:13",
+  "repo": "kombu",
+  "t": 100,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `kombu/transport/SQS.py`, what are the parameter names of `QoS._extract_backoff_policy_configuration_and_message`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, delivery_tag",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `QoS._extract_backoff_policy_configuration_and_message` in module `kombu.transport.SQS`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `QoS._extract_backoff_policy_configuration_and_message` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, delivery_tag",
+   "file": "kombu/transport/SQS.py",
+   "expected": [
+    "delivery_tag"
+   ]
+  },
+  "semantic_value": "self, delivery_tag",
+  "bench_value": "self, delivery_tag",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "kombu:T3:13@250",
+  "iid": "kombu:T3:13",
+  "repo": "kombu",
+  "t": 250,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `kombu/transport/SQS.py`, what are the parameter names of `QoS._extract_backoff_policy_configuration_and_message`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, delivery_tag",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `QoS._extract_backoff_policy_configuration_and_message` in module `kombu.transport.SQS`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `QoS._extract_backoff_policy_configuration_and_message` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, delivery_tag",
+   "file": "kombu/transport/SQS/__init__.py",
+   "expected": [
+    "delivery_tag"
+   ]
+  },
+  "semantic_value": "self, delivery_tag",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "kombu:T3:13@400",
+  "iid": "kombu:T3:13",
+  "repo": "kombu",
+  "t": 400,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `kombu/transport/SQS.py`, what are the parameter names of `QoS._extract_backoff_policy_configuration_and_message`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, delivery_tag",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `QoS._extract_backoff_policy_configuration_and_message` in module `kombu.transport.SQS`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `QoS._extract_backoff_policy_configuration_and_message` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, delivery_tag",
+   "file": "kombu/transport/SQS/__init__.py",
+   "expected": [
+    "delivery_tag"
+   ]
+  },
+  "semantic_value": "self, delivery_tag",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "scrapy:T3:12@100",
+  "iid": "scrapy:T3:12",
+  "repo": "scrapy",
+  "t": 100,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `scrapy/core/downloader/middleware.py`, what are the parameter names of `DownloaderMiddlewareManager._process_response`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, response, request",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `DownloaderMiddlewareManager._process_response` in module `scrapy.core.downloader.middleware`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `DownloaderMiddlewareManager._process_response` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, response, request",
+   "file": "scrapy/core/downloader/middleware.py",
+   "expected": [
+    "response",
+    "request"
+   ]
+  },
+  "semantic_value": "self, response, request",
+  "bench_value": "self, response, request",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "scrapy:T3:12@250",
+  "iid": "scrapy:T3:12",
+  "repo": "scrapy",
+  "t": 250,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `scrapy/core/downloader/middleware.py`, what are the parameter names of `DownloaderMiddlewareManager._process_response`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, response, request",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `DownloaderMiddlewareManager._process_response` in module `scrapy.core.downloader.middleware`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `DownloaderMiddlewareManager._process_response` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, response, request",
+   "file": "scrapy/core/downloader/middleware.py",
+   "expected": [
+    "response",
+    "request"
+   ]
+  },
+  "semantic_value": "self, response, request",
+  "bench_value": "self, response, request",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "scrapy:T3:12@400",
+  "iid": "scrapy:T3:12",
+  "repo": "scrapy",
+  "t": 400,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `scrapy/core/downloader/middleware.py`, what are the parameter names of `DownloaderMiddlewareManager._process_response`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, response, request",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `DownloaderMiddlewareManager._process_response` in module `scrapy.core.downloader.middleware`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `DownloaderMiddlewareManager._process_response` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, response, request, index",
+   "file": "scrapy/core/downloader/middleware.py",
+   "expected": [
+    "response",
+    "request",
+    "index"
+   ]
+  },
+  "semantic_value": "self, response, request, index",
+  "bench_value": "self, response, request, index",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "httpx:T3:n10@100",
+  "iid": "httpx:T3:n10",
+  "repo": "httpx",
+  "t": 100,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `httpx/_client.py`, what are the parameter names of `AsyncClient.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `AsyncClient.__init__` in module `httpx._client`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `AsyncClient.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env, default_encoding",
+   "file": "httpx/_client.py",
+   "expected": [
+    "auth",
+    "params",
+    "headers",
+    "cookies",
+    "verify",
+    "cert",
+    "http1",
+    "http2",
+    "proxies",
+    "mounts",
+    "timeout",
+    "follow_redirects",
+    "limits",
+    "max_redirects",
+    "event_hooks",
+    "base_url",
+    "transport",
+    "app",
+    "trust_env",
+    "default_encoding"
+   ]
+  },
+  "semantic_value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env, default_encoding",
+  "bench_value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env, default_encoding",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "httpx:T3:n10@250",
+  "iid": "httpx:T3:n10",
+  "repo": "httpx",
+  "t": 250,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `httpx/_client.py`, what are the parameter names of `AsyncClient.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `AsyncClient.__init__` in module `httpx._client`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `AsyncClient.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env, default_encoding",
+   "file": "httpx/_client.py",
+   "expected": [
+    "auth",
+    "params",
+    "headers",
+    "cookies",
+    "verify",
+    "cert",
+    "http1",
+    "http2",
+    "proxies",
+    "mounts",
+    "timeout",
+    "follow_redirects",
+    "limits",
+    "max_redirects",
+    "event_hooks",
+    "base_url",
+    "transport",
+    "app",
+    "trust_env",
+    "default_encoding"
+   ]
+  },
+  "semantic_value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env, default_encoding",
+  "bench_value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env, default_encoding",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "httpx:T3:n10@400",
+  "iid": "httpx:T3:n10",
+  "repo": "httpx",
+  "t": 400,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `httpx/_client.py`, what are the parameter names of `AsyncClient.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxies, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, app, trust_env",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `AsyncClient.__init__` in module `httpx._client`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `AsyncClient.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxy, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, trust_env, default_encoding",
+   "file": "httpx/_client.py",
+   "expected": [
+    "auth",
+    "params",
+    "headers",
+    "cookies",
+    "verify",
+    "cert",
+    "http1",
+    "http2",
+    "proxy",
+    "mounts",
+    "timeout",
+    "follow_redirects",
+    "limits",
+    "max_redirects",
+    "event_hooks",
+    "base_url",
+    "transport",
+    "trust_env",
+    "default_encoding"
+   ]
+  },
+  "semantic_value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxy, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, trust_env, default_encoding",
+  "bench_value": "self, auth, params, headers, cookies, verify, cert, http1, http2, proxy, mounts, timeout, follow_redirects, limits, max_redirects, event_hooks, base_url, transport, trust_env, default_encoding",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "kombu:T3:n32@100",
+  "iid": "kombu:T3:n32",
+  "repo": "kombu",
+  "t": 100,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `kombu/transport/azureservicebus.py`, what are the parameter names of `Channel.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, args, kwargs",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `Channel.__init__` in module `kombu.transport.azureservicebus`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `Channel.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, args, kwargs",
+   "file": "kombu/transport/azureservicebus.py",
+   "expected": []
+  },
+  "semantic_value": "self, args, kwargs",
+  "bench_value": "self, args, kwargs",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "kombu:T3:n32@250",
+  "iid": "kombu:T3:n32",
+  "repo": "kombu",
+  "t": 250,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `kombu/transport/azureservicebus.py`, what are the parameter names of `Channel.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, args, kwargs",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `Channel.__init__` in module `kombu.transport.azureservicebus`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `Channel.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, args, kwargs",
+   "file": "kombu/transport/azureservicebus.py",
+   "expected": []
+  },
+  "semantic_value": "self, args, kwargs",
+  "bench_value": "self, args, kwargs",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "kombu:T3:n32@400",
+  "iid": "kombu:T3:n32",
+  "repo": "kombu",
+  "t": 400,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "natural",
+  "question": "In file `kombu/transport/azureservicebus.py`, what are the parameter names of `Channel.__init__`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, args, kwargs",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `Channel.__init__` in module `kombu.transport.azureservicebus`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `Channel.__init__` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, args, kwargs",
+   "file": "kombu/transport/azureservicebus.py",
+   "expected": []
+  },
+  "semantic_value": "self, args, kwargs",
+  "bench_value": "self, args, kwargs",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "typer:T3:17@100",
+  "iid": "typer:T3:17",
+  "repo": "typer",
+  "t": 100,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `typer/models.py`, what are the parameter names of `TyperPath.shell_complete`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, ctx, param, incomplete",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `TyperPath.shell_complete` in module `typer.models`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `TyperPath.shell_complete` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, ctx, param, incomplete",
+   "file": "typer/models.py",
+   "expected": [
+    "ctx",
+    "param",
+    "incomplete"
+   ]
+  },
+  "semantic_value": "self, ctx, param, incomplete",
+  "bench_value": "self, ctx, param, incomplete",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "typer:T3:17@250",
+  "iid": "typer:T3:17",
+  "repo": "typer",
+  "t": 250,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `typer/models.py`, what are the parameter names of `TyperPath.shell_complete`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, ctx, param, incomplete",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `TyperPath.shell_complete` in module `typer.models`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `TyperPath.shell_complete` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, ctx, param, incomplete",
+   "file": "typer/models.py",
+   "expected": [
+    "ctx",
+    "param",
+    "incomplete"
+   ]
+  },
+  "semantic_value": "self, ctx, param, incomplete",
+  "bench_value": "self, ctx, param, incomplete",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "typer:T3:17@400",
+  "iid": "typer:T3:17",
+  "repo": "typer",
+  "t": 400,
+  "task_type": "T-modify",
+  "fact_type": "T3",
+  "subset": "enriched",
+  "question": "In file `typer/models.py`, what are the parameter names of `TyperPath.shell_complete`, in order? Answer with the names only (including self/cls, *args and **kwargs names, without stars, annotations or defaults), comma-separated.",
+  "K0": "self, ctx, param, incomplete",
+  "task": "Modify the repository: add a new parameter `e2e_flag` with default value `False` to the signature of `TyperPath.shell_complete` in module `typer.models`, as its last parameter before any `**kwargs`-style parameter (after a bare `*` or `*args` it becomes keyword-only, which is fine). Change nothing else. Submit the edit as an exact text replacement: the repository-relative path of the file, an `old` snippet copied exactly from the current file (it must occur exactly once in that file), and the `new` snippet that replaces it. If `TyperPath.shell_complete` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "self, ctx, param, incomplete",
+   "file": "typer/models.py",
+   "expected": [
+    "ctx",
+    "param",
+    "incomplete"
+   ]
+  },
+  "semantic_value": "self, ctx, param, incomplete",
+  "bench_value": "self, ctx, param, incomplete",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "poetry-core:B:strip_extras:n-dd8d90f0@100",
+  "iid": "poetry-core:B:strip_extras:n-dd8d90f0",
+  "repo": "poetry-core",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "natural",
+  "question": "In this repository (the package is importable from `src`), what does the Python expression `poetry.core.packages.utils.utils.strip_extras('Hello World')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "('Hello World', None)",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `poetry.core.packages.utils.utils.strip_extras('Hello World')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `strip_extras` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "('Hello World', None)"
+  },
+  "semantic_value": "('Hello World', None)",
+  "bench_value": "('Hello World', None)",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "poetry-core:B:strip_extras:n-dd8d90f0@250",
+  "iid": "poetry-core:B:strip_extras:n-dd8d90f0",
+  "repo": "poetry-core",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "natural",
+  "question": "In this repository (the package is importable from `src`), what does the Python expression `poetry.core.packages.utils.utils.strip_extras('Hello World')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "('Hello World', None)",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `poetry.core.packages.utils.utils.strip_extras('Hello World')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `strip_extras` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "(WindowsPath('Hello World'), None)"
+  },
+  "semantic_value": "(WindowsPath('Hello World'), None)",
+  "bench_value": "(WindowsPath('Hello World'), None)",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "poetry-core:B:strip_extras:n-dd8d90f0@400",
+  "iid": "poetry-core:B:strip_extras:n-dd8d90f0",
+  "repo": "poetry-core",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "natural",
+  "question": "In this repository (the package is importable from `src`), what does the Python expression `poetry.core.packages.utils.utils.strip_extras('Hello World')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "('Hello World', None)",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `poetry.core.packages.utils.utils.strip_extras('Hello World')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `strip_extras` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "(WindowsPath('Hello World'), None)"
+  },
+  "semantic_value": "(WindowsPath('Hello World'), None)",
+  "bench_value": "(WindowsPath('Hello World'), None)",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "isort:B:skip_line:419f7c14@100",
+  "iid": "isort:B:skip_line:419f7c14",
+  "repo": "isort",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `isort.parse.skip_line('abc', 'abc', 3, (1, 2), needs_import=False)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "(True, 'abc')",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `isort.parse.skip_line('abc', 'abc', 3, (1, 2), needs_import=False)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `skip_line` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "(True, 'abc')"
+  },
+  "semantic_value": "(True, 'abc')",
+  "bench_value": "(True, 'abc')",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:B:skip_line:419f7c14@250",
+  "iid": "isort:B:skip_line:419f7c14",
+  "repo": "isort",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `isort.parse.skip_line('abc', 'abc', 3, (1, 2), needs_import=False)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "(True, 'abc')",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `isort.parse.skip_line('abc', 'abc', 3, (1, 2), needs_import=False)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `skip_line` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "raises TypeError"
+  },
+  "semantic_value": "raises TypeError",
+  "bench_value": "raises TypeError",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "isort:B:skip_line:419f7c14@400",
+  "iid": "isort:B:skip_line:419f7c14",
+  "repo": "isort",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `isort.parse.skip_line('abc', 'abc', 3, (1, 2), needs_import=False)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "(True, 'abc')",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `isort.parse.skip_line('abc', 'abc', 3, (1, 2), needs_import=False)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `skip_line` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "raises TypeError"
+  },
+  "semantic_value": "raises TypeError",
+  "bench_value": "raises TypeError",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "werkzeug:B:unquote_etag:3c2bb591@100",
+  "iid": "werkzeug:B:unquote_etag:3c2bb591",
+  "repo": "werkzeug",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `src`), what does the Python expression `werkzeug.http.unquote_etag('abc')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "('abc', False)",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `werkzeug.http.unquote_etag('abc')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `unquote_etag` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "('abc', False)"
+  },
+  "semantic_value": "('abc', False)",
+  "bench_value": "('abc', False)",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "werkzeug:B:unquote_etag:3c2bb591@250",
+  "iid": "werkzeug:B:unquote_etag:3c2bb591",
+  "repo": "werkzeug",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `src`), what does the Python expression `werkzeug.http.unquote_etag('abc')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "('abc', False)",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `werkzeug.http.unquote_etag('abc')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `unquote_etag` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "('abc', False)"
+  },
+  "semantic_value": "('abc', False)",
+  "bench_value": "('abc', False)",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "werkzeug:B:unquote_etag:3c2bb591@400",
+  "iid": "werkzeug:B:unquote_etag:3c2bb591",
+  "repo": "werkzeug",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `src`), what does the Python expression `werkzeug.http.unquote_etag('abc')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "('abc', False)",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `werkzeug.http.unquote_etag('abc')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `unquote_etag` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "(None, None)"
+  },
+  "semantic_value": "(None, None)",
+  "bench_value": "(None, None)",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "jinja:B:modifies_known_mutable:fe45bd2f@100",
+  "iid": "jinja:B:modifies_known_mutable:fe45bd2f",
+  "repo": "jinja",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `jinja2.sandbox.modifies_known_mutable({}, 'clear')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "True",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `jinja2.sandbox.modifies_known_mutable({}, 'clear')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `modifies_known_mutable` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "True"
+  },
+  "semantic_value": "True",
+  "bench_value": "True",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "jinja:B:modifies_known_mutable:fe45bd2f@250",
+  "iid": "jinja:B:modifies_known_mutable:fe45bd2f",
+  "repo": "jinja",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `jinja2.sandbox.modifies_known_mutable({}, 'clear')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "True",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `jinja2.sandbox.modifies_known_mutable({}, 'clear')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `modifies_known_mutable` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "True"
+  },
+  "semantic_value": "True",
+  "bench_value": "True",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "jinja:B:modifies_known_mutable:fe45bd2f@400",
+  "iid": "jinja:B:modifies_known_mutable:fe45bd2f",
+  "repo": "jinja",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `jinja2.sandbox.modifies_known_mutable({}, 'clear')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "True",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `jinja2.sandbox.modifies_known_mutable({}, 'clear')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `modifies_known_mutable` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "True"
+  },
+  "semantic_value": "True",
+  "bench_value": "True",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "pygments:B:escape_html:n-6b22cf32@100",
+  "iid": "pygments:B:escape_html:n-6b22cf32",
+  "repo": "pygments",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "natural",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `pygments.formatters.html.escape_html('Hello World')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "'Hello World'",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `pygments.formatters.html.escape_html('Hello World')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `escape_html` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "'Hello World'"
+  },
+  "semantic_value": "'Hello World'",
+  "bench_value": "'Hello World'",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "pygments:B:escape_html:n-6b22cf32@250",
+  "iid": "pygments:B:escape_html:n-6b22cf32",
+  "repo": "pygments",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "natural",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `pygments.formatters.html.escape_html('Hello World')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "'Hello World'",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `pygments.formatters.html.escape_html('Hello World')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `escape_html` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "'Hello World'"
+  },
+  "semantic_value": "'Hello World'",
+  "bench_value": "'Hello World'",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "pygments:B:escape_html:n-6b22cf32@400",
+  "iid": "pygments:B:escape_html:n-6b22cf32",
+  "repo": "pygments",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "natural",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `pygments.formatters.html.escape_html('Hello World')` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "'Hello World'",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `pygments.formatters.html.escape_html('Hello World')` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `escape_html` no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "rich:B:chop_cells:ebc873c0@100",
+  "iid": "rich:B:chop_cells:ebc873c0",
+  "repo": "rich",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `rich.cells.chop_cells('Hello World', 0)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "['', 'd', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `rich.cells.chop_cells('Hello World', 0)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `chop_cells` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "['', 'd', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']"
+  },
+  "semantic_value": "['', 'd', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']",
+  "bench_value": "['', 'd', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "rich:B:chop_cells:ebc873c0@250",
+  "iid": "rich:B:chop_cells:ebc873c0",
+  "repo": "rich",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `rich.cells.chop_cells('Hello World', 0)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "['', 'd', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `rich.cells.chop_cells('Hello World', 0)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `chop_cells` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "['', 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']"
+  },
+  "semantic_value": "['', 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']",
+  "bench_value": "['', 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "rich:B:chop_cells:ebc873c0@400",
+  "iid": "rich:B:chop_cells:ebc873c0",
+  "repo": "rich",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `rich.cells.chop_cells('Hello World', 0)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "['', 'd', 'l', 'r', 'o', 'W', ' ', 'o', 'l', 'l', 'e', 'H']",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `rich.cells.chop_cells('Hello World', 0)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `chop_cells` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "raises ValueError"
+  },
+  "semantic_value": "raises ValueError",
+  "bench_value": "raises ValueError",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "networkx:B:is_k_edge_connected:e6c33c2f@100",
+  "iid": "networkx:B:is_k_edge_connected:e6c33c2f",
+  "repo": "networkx",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `networkx.is_k_edge_connected(networkx.barbell_graph(10, 0), k=2)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "False",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `networkx.is_k_edge_connected(networkx.barbell_graph(10, 0), k=2)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `is_k_edge_connected` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "False"
+  },
+  "semantic_value": "False",
+  "bench_value": "False",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "networkx:B:is_k_edge_connected:e6c33c2f@250",
+  "iid": "networkx:B:is_k_edge_connected:e6c33c2f",
+  "repo": "networkx",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `networkx.is_k_edge_connected(networkx.barbell_graph(10, 0), k=2)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "False",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `networkx.is_k_edge_connected(networkx.barbell_graph(10, 0), k=2)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `is_k_edge_connected` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "False"
+  },
+  "semantic_value": "False",
+  "bench_value": "False",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "networkx:B:is_k_edge_connected:e6c33c2f@400",
+  "iid": "networkx:B:is_k_edge_connected:e6c33c2f",
+  "repo": "networkx",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `networkx.is_k_edge_connected(networkx.barbell_graph(10, 0), k=2)` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "False",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `networkx.is_k_edge_connected(networkx.barbell_graph(10, 0), k=2)` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `is_k_edge_connected` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "False"
+  },
+  "semantic_value": "False",
+  "bench_value": "False",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:B:naturally:ec91a888@100",
+  "iid": "isort:B:naturally:ec91a888",
+  "repo": "isort",
+  "t": 100,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `isort.sorting.naturally([3, 1, 2])` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "raises TypeError",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `isort.sorting.naturally([3, 1, 2])` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `naturally` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "raises TypeError"
+  },
+  "semantic_value": "raises TypeError",
+  "bench_value": "raises TypeError",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:B:naturally:ec91a888@250",
+  "iid": "isort:B:naturally:ec91a888",
+  "repo": "isort",
+  "t": 250,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `isort.sorting.naturally([3, 1, 2])` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "raises TypeError",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `isort.sorting.naturally([3, 1, 2])` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `naturally` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "raises TypeError"
+  },
+  "semantic_value": "raises TypeError",
+  "bench_value": "raises TypeError",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:B:naturally:ec91a888@400",
+  "iid": "isort:B:naturally:ec91a888",
+  "repo": "isort",
+  "t": 400,
+  "task_type": "T-test",
+  "fact_type": "B",
+  "subset": "enriched",
+  "question": "In this repository (the package is importable from `.`), what does the Python expression `isort.sorting.naturally([3, 1, 2])` evaluate to at the current commit? Determine it by reading the source code (you cannot run it). Answer with the Python repr of the value (e.g. 'abc', [1, 2], None, True), or 'raises <ExceptionType>' if it raises an exception.",
+  "K0": "raises TypeError",
+  "task": "Add a regression test: write a pytest test function named `test_e2e_regression` that checks what the Python expression `isort.sorting.naturally([3, 1, 2])` evaluates to in the current version of this repository (the package is importable from the repository root; import what you need inside the test). If it returns a value, assert equality with a literal (`assert <expression> == <literal>`); if it raises an exception, use `with pytest.raises(<ExceptionType>):`. You cannot run code. Submit the test source code. If `naturally` no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "raises TypeError"
+  },
+  "semantic_value": "raises TypeError",
+  "bench_value": "raises TypeError",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "marshmallow:T2:n36@100",
+  "iid": "marshmallow:T2:n36",
+  "repo": "marshmallow",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `src/marshmallow/schema.py`, what is the default value of parameter `ordered` of `_get_fields`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "False",
+  "task": "What is the default value of parameter `ordered` of `_get_fields` in module `marshmallow.schema`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `_get_fields` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "marshmallow:T2:n36@250",
+  "iid": "marshmallow:T2:n36",
+  "repo": "marshmallow",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `src/marshmallow/schema.py`, what is the default value of parameter `ordered` of `_get_fields`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "False",
+  "task": "What is the default value of parameter `ordered` of `_get_fields` in module `marshmallow.schema`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `_get_fields` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "marshmallow:T2:n36@400",
+  "iid": "marshmallow:T2:n36",
+  "repo": "marshmallow",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `src/marshmallow/schema.py`, what is the default value of parameter `ordered` of `_get_fields`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "False",
+  "task": "What is the default value of parameter `ordered` of `_get_fields` in module `marshmallow.schema`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `_get_fields` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "isort:T2:n1@100",
+  "iid": "isort:T2:n1",
+  "repo": "isort",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `isort/_vendored/tomli/_parser.py`, what is the default value of parameter `access_lists` of `NestedDict.get_or_create_nest`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "True",
+  "task": "What is the default value of parameter `access_lists` of `NestedDict.get_or_create_nest` in module `isort._vendored.tomli._parser`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `NestedDict.get_or_create_nest` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "True"
+  },
+  "semantic_value": "True",
+  "bench_value": "True",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:T2:n1@250",
+  "iid": "isort:T2:n1",
+  "repo": "isort",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `isort/_vendored/tomli/_parser.py`, what is the default value of parameter `access_lists` of `NestedDict.get_or_create_nest`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "True",
+  "task": "What is the default value of parameter `access_lists` of `NestedDict.get_or_create_nest` in module `isort._vendored.tomli._parser`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `NestedDict.get_or_create_nest` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "True"
+  },
+  "semantic_value": "True",
+  "bench_value": "True",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "isort:T2:n1@400",
+  "iid": "isort:T2:n1",
+  "repo": "isort",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `isort/_vendored/tomli/_parser.py`, what is the default value of parameter `access_lists` of `NestedDict.get_or_create_nest`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "True",
+  "task": "What is the default value of parameter `access_lists` of `NestedDict.get_or_create_nest` in module `isort._vendored.tomli._parser`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `NestedDict.get_or_create_nest` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": false,
+   "value": "NONE"
+  },
+  "semantic_value": "NONE",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "typer:T2:n6@100",
+  "iid": "typer:T2:n6",
+  "repo": "typer",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `typer/core.py`, what is the default value of parameter `ctx` of `TyperOption.make_metavar`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "None",
+  "task": "What is the default value of parameter `ctx` of `TyperOption.make_metavar` in module `typer.core`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `TyperOption.make_metavar` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "<NO DEFAULT>"
+  },
+  "semantic_value": "<NO DEFAULT>",
+  "bench_value": "<NO DEFAULT>",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "typer:T2:n6@250",
+  "iid": "typer:T2:n6",
+  "repo": "typer",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `typer/core.py`, what is the default value of parameter `ctx` of `TyperOption.make_metavar`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "None",
+  "task": "What is the default value of parameter `ctx` of `TyperOption.make_metavar` in module `typer.core`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `TyperOption.make_metavar` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "<NO DEFAULT>"
+  },
+  "semantic_value": "<NO DEFAULT>",
+  "bench_value": "<NO DEFAULT>",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "typer:T2:n6@400",
+  "iid": "typer:T2:n6",
+  "repo": "typer",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `typer/core.py`, what is the default value of parameter `ctx` of `TyperOption.make_metavar`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "None",
+  "task": "What is the default value of parameter `ctx` of `TyperOption.make_metavar` in module `typer.core`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `TyperOption.make_metavar` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "<NO DEFAULT>"
+  },
+  "semantic_value": "<NO DEFAULT>",
+  "bench_value": "<NO DEFAULT>",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "networkx:T2:n33@100",
+  "iid": "networkx:T2:n33",
+  "repo": "networkx",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `networkx/algorithms/shortest_paths/weighted.py`, what is the default value of parameter `pred` of `_dijkstra`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "None",
+  "task": "What is the default value of parameter `pred` of `_dijkstra` in module `networkx.algorithms.shortest_paths.weighted`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `_dijkstra` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "None"
+  },
+  "semantic_value": "None",
+  "bench_value": "None",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "networkx:T2:n33@250",
+  "iid": "networkx:T2:n33",
+  "repo": "networkx",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `networkx/algorithms/shortest_paths/weighted.py`, what is the default value of parameter `pred` of `_dijkstra`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "None",
+  "task": "What is the default value of parameter `pred` of `_dijkstra` in module `networkx.algorithms.shortest_paths.weighted`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `_dijkstra` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "None"
+  },
+  "semantic_value": "None",
+  "bench_value": "None",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "networkx:T2:n33@400",
+  "iid": "networkx:T2:n33",
+  "repo": "networkx",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T2",
+  "subset": "natural",
+  "question": "In file `networkx/algorithms/shortest_paths/weighted.py`, what is the default value of parameter `pred` of `_dijkstra`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none).",
+  "K0": "None",
+  "task": "What is the default value of parameter `pred` of `_dijkstra` in module `networkx.algorithms.shortest_paths.weighted`? Answer with the Python default expression exactly as written in the source (answer <NO DEFAULT> if it has none). If `_dijkstra` or that parameter no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "None"
+  },
+  "semantic_value": "None",
+  "bench_value": "None",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "poetry-core:T6:31@100",
+  "iid": "poetry-core:T6:31",
+  "repo": "poetry-core",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `poetry.core.packages.project_package` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/poetry.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `poetry.core.packages.project_package` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/poetry.py"
+  },
+  "semantic_value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/poetry.py",
+  "bench_value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/poetry.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "poetry-core:T6:31@250",
+  "iid": "poetry-core:T6:31",
+  "repo": "poetry-core",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `poetry.core.packages.project_package` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/poetry.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `poetry.core.packages.project_package` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/masonry/metadata.py, src/poetry/core/poetry.py"
+  },
+  "semantic_value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/masonry/metadata.py, src/poetry/core/poetry.py",
+  "bench_value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/masonry/metadata.py, src/poetry/core/poetry.py",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "poetry-core:T6:31@400",
+  "iid": "poetry-core:T6:31",
+  "repo": "poetry-core",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `poetry.core.packages.project_package` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/poetry.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `poetry.core.packages.project_package` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/masonry/metadata.py, src/poetry/core/poetry.py"
+  },
+  "semantic_value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/masonry/metadata.py, src/poetry/core/poetry.py",
+  "bench_value": "src/poetry/core/factory.py, src/poetry/core/masonry/builders/sdist.py, src/poetry/core/masonry/metadata.py, src/poetry/core/poetry.py",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "pygments:T6:32@100",
+  "iid": "pygments:T6:32",
+  "repo": "pygments",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `pygments.lexers.c_cpp` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `pygments.lexers.c_cpp` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py"
+  },
+  "semantic_value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py",
+  "bench_value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "pygments:T6:32@250",
+  "iid": "pygments:T6:32",
+  "repo": "pygments",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `pygments.lexers.c_cpp` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `pygments.lexers.c_cpp` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py, pygments/lexers/tablegen.py"
+  },
+  "semantic_value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py, pygments/lexers/tablegen.py",
+  "bench_value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py, pygments/lexers/tablegen.py",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "pygments:T6:32@400",
+  "iid": "pygments:T6:32",
+  "repo": "pygments",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `pygments.lexers.c_cpp` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `pygments.lexers.c_cpp` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py, pygments/lexers/tablegen.py"
+  },
+  "semantic_value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py, pygments/lexers/tablegen.py",
+  "bench_value": "pygments/lexers/asm.py, pygments/lexers/c_like.py, pygments/lexers/compiled.py, pygments/lexers/freefem.py, pygments/lexers/objective.py, pygments/lexers/parsers.py, pygments/lexers/tablegen.py",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "kombu:T6:35@100",
+  "iid": "kombu:T6:35",
+  "repo": "kombu",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `kombu.messaging` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `kombu.messaging` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py"
+  },
+  "semantic_value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "bench_value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "kombu:T6:35@250",
+  "iid": "kombu:T6:35",
+  "repo": "kombu",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `kombu.messaging` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `kombu.messaging` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py"
+  },
+  "semantic_value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "bench_value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "kombu:T6:35@400",
+  "iid": "kombu:T6:35",
+  "repo": "kombu",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T6",
+  "subset": "enriched",
+  "question": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `kombu.messaging` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated.",
+  "K0": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "task": "Which non-test source files (excluding tests, docs, examples and top-level scripts) import the module `kombu.messaging` (via `import`, `from ... import`, or relative imports, including importing names from it or its submodules), excluding the module's own file? Answer with the sorted list of repository-relative paths, comma-separated, or NONE if no file imports it. If the module no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py"
+  },
+  "semantic_value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "bench_value": "kombu/__init__.py, kombu/compat.py, kombu/connection.py, kombu/mixins.py, kombu/pools.py, kombu/simple.py, kombu/transport/base.py",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T7:n32@100",
+  "iid": "mkdocs:T7:n32",
+  "repo": "mkdocs",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "natural",
+  "question": "In `mkdocs/config/config_options.py`, what are the base classes of class `Private`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "OptionallyRequired",
+  "task": "In module `mkdocs.config.config_options`, what are the base classes of class `Private`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "OptionallyRequired"
+  },
+  "semantic_value": "OptionallyRequired",
+  "bench_value": "OptionallyRequired",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "mkdocs:T7:n32@250",
+  "iid": "mkdocs:T7:n32",
+  "repo": "mkdocs",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "natural",
+  "question": "In `mkdocs/config/config_options.py`, what are the base classes of class `Private`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "OptionallyRequired",
+  "task": "In module `mkdocs.config.config_options`, what are the base classes of class `Private`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "BaseConfigOption"
+  },
+  "semantic_value": "BaseConfigOption",
+  "bench_value": "BaseConfigOption",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "mkdocs:T7:n32@400",
+  "iid": "mkdocs:T7:n32",
+  "repo": "mkdocs",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "natural",
+  "question": "In `mkdocs/config/config_options.py`, what are the base classes of class `Private`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "OptionallyRequired",
+  "task": "In module `mkdocs.config.config_options`, what are the base classes of class `Private`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Generic[T], BaseConfigOption[T]"
+  },
+  "semantic_value": "Generic[T], BaseConfigOption[T]",
+  "bench_value": "Generic[T], BaseConfigOption[T]",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "jinja:T7:41@100",
+  "iid": "jinja:T7:41",
+  "repo": "jinja",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "enriched",
+  "question": "In `jinja2/nodes.py`, what are the base classes of class `Operand`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "Helper",
+  "task": "In module `jinja2.nodes`, what are the base classes of class `Operand`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Helper"
+  },
+  "semantic_value": "Helper",
+  "bench_value": "Helper",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "jinja:T7:41@250",
+  "iid": "jinja:T7:41",
+  "repo": "jinja",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "enriched",
+  "question": "In `jinja2/nodes.py`, what are the base classes of class `Operand`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "Helper",
+  "task": "In module `jinja2.nodes`, what are the base classes of class `Operand`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Helper"
+  },
+  "semantic_value": "Helper",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "jinja:T7:41@400",
+  "iid": "jinja:T7:41",
+  "repo": "jinja",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "enriched",
+  "question": "In `jinja2/nodes.py`, what are the base classes of class `Operand`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "Helper",
+  "task": "In module `jinja2.nodes`, what are the base classes of class `Operand`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Helper"
+  },
+  "semantic_value": "Helper",
+  "bench_value": "NONE",
+  "K0_valid_bench": false
+ },
+ {
+  "tid": "marshmallow:T7:40@100",
+  "iid": "marshmallow:T7:40",
+  "repo": "marshmallow",
+  "t": 100,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "enriched",
+  "question": "In `src/marshmallow/validate.py`, what are the base classes of class `And`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "Validator",
+  "task": "In module `marshmallow.validate`, what are the base classes of class `And`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Validator"
+  },
+  "semantic_value": "Validator",
+  "bench_value": "Validator",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "marshmallow:T7:40@250",
+  "iid": "marshmallow:T7:40",
+  "repo": "marshmallow",
+  "t": 250,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "enriched",
+  "question": "In `src/marshmallow/validate.py`, what are the base classes of class `And`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "Validator",
+  "task": "In module `marshmallow.validate`, what are the base classes of class `And`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Validator"
+  },
+  "semantic_value": "Validator",
+  "bench_value": "Validator",
+  "K0_valid_bench": true
+ },
+ {
+  "tid": "marshmallow:T7:40@400",
+  "iid": "marshmallow:T7:40",
+  "repo": "marshmallow",
+  "t": 400,
+  "task_type": "T-question",
+  "fact_type": "T7",
+  "subset": "enriched",
+  "question": "In `src/marshmallow/validate.py`, what are the base classes of class `And`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none).",
+  "K0": "Validator",
+  "task": "In module `marshmallow.validate`, what are the base classes of class `And`, in order (as written, including keyword arguments like metaclass=...)? Answer comma-separated, or (none). If the class no longer exists, call abstain.",
+  "truth": {
+   "possible": true,
+   "value": "Validator"
+  },
+  "semantic_value": "Validator",
+  "bench_value": "Validator",
+  "K0_valid_bench": true
+ }
+]

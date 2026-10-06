@@ -1,0 +1,328 @@
+{
+ "reads|ALL": {
+  "n": 122042,
+  "caught": 119784,
+  "missed": 2258,
+  "blind": 8,
+  "fresh": 70,
+  "memo": 2180,
+  "missed_none": 1303,
+  "blind_none": 8,
+  "blind_present": 0,
+  "judge_none": 1295,
+  "judge_present": 955,
+  "facts_blind": 4,
+  "facts_judge": 27
+ },
+ "reads|static": {
+  "n": 114806,
+  "caught": 113330,
+  "missed": 1476,
+  "blind": 8,
+  "fresh": 33,
+  "memo": 1435,
+  "missed_none": 655,
+  "blind_none": 8,
+  "blind_present": 0,
+  "judge_none": 647,
+  "judge_present": 821,
+  "facts_blind": 4,
+  "facts_judge": 15
+ },
+ "reads|behaviour": {
+  "n": 7236,
+  "caught": 6454,
+  "missed": 782,
+  "blind": 0,
+  "fresh": 37,
+  "memo": 745,
+  "missed_none": 648,
+  "blind_none": 0,
+  "blind_present": 0,
+  "judge_none": 648,
+  "judge_present": 134,
+  "facts_blind": 0,
+  "facts_judge": 12
+ },
+ "reads|natural": {
+  "n": 45154,
+  "caught": 44217,
+  "missed": 937,
+  "blind": 4,
+  "fresh": 32,
+  "memo": 901,
+  "missed_none": 735,
+  "blind_none": 4,
+  "blind_present": 0,
+  "judge_none": 731,
+  "judge_present": 202,
+  "facts_blind": 2,
+  "facts_judge": 9
+ },
+ "reads|without jinja": {
+  "n": 99615,
+  "caught": 97392,
+  "missed": 2223,
+  "blind": 8,
+  "fresh": 67,
+  "memo": 2148,
+  "missed_none": 1301,
+  "blind_none": 8,
+  "blind_present": 0,
+  "judge_none": 1293,
+  "judge_present": 922,
+  "facts_blind": 4,
+  "facts_judge": 25
+ },
+ "type|T1": {
+  "n": 16113,
+  "missed": 9,
+  "blind": 6,
+  "judge, fresh": 0,
+  "judge, memo": 3,
+  "none": 9
+ },
+ "type|T2": {
+  "n": 17205,
+  "missed": 644,
+  "blind": 0,
+  "judge, fresh": 8,
+  "judge, memo": 636,
+  "none": 644
+ },
+ "type|T3": {
+  "n": 23370,
+  "missed": 330,
+  "blind": 0,
+  "judge, fresh": 1,
+  "judge, memo": 329,
+  "none": 0
+ },
+ "type|T4": {
+  "n": 20978,
+  "missed": 0,
+  "blind": 0,
+  "judge, fresh": 0,
+  "judge, memo": 0,
+  "none": 0
+ },
+ "type|T5": {
+  "n": 15058,
+  "missed": 33,
+  "blind": 0,
+  "judge, fresh": 1,
+  "judge, memo": 32,
+  "none": 0
+ },
+ "type|T6": {
+  "n": 5295,
+  "missed": 35,
+  "blind": 0,
+  "judge, fresh": 1,
+  "judge, memo": 34,
+  "none": 0
+ },
+ "type|T7": {
+  "n": 16787,
+  "missed": 425,
+  "blind": 2,
+  "judge, fresh": 22,
+  "judge, memo": 401,
+  "none": 2
+ },
+ "type|B": {
+  "n": 7236,
+  "missed": 782,
+  "blind": 0,
+  "judge, fresh": 37,
+  "judge, memo": 745,
+  "none": 648
+ },
+ "eps|ALL": {
+  "n": 601,
+  "caught (at some read)": 0.9068219633943427,
+  "never caught: evidence never changed (blind)": 0.0066555740432612314,
+  "never caught: evidence changed, judge kept still_valid": 0.08652246256239601,
+  "onset_unchanged": 0.0066555740432612314,
+  "onset_none": 0.5391014975041597,
+  "reads_never": 1734
+ },
+ "eps|static": {
+  "n": 499,
+  "caught (at some read)": 0.9779559118236473,
+  "never caught: evidence never changed (blind)": 0.008016032064128256,
+  "never caught: evidence changed, judge kept still_valid": 0.014028056112224449,
+  "onset_unchanged": 0.008016032064128256,
+  "onset_none": 0.5511022044088176,
+  "reads_never": 954
+ },
+ "eps|behaviour": {
+  "n": 102,
+  "caught (at some read)": 0.5588235294117647,
+  "never caught: evidence never changed (blind)": 0.0,
+  "never caught: evidence changed, judge kept still_valid": 0.4411764705882353,
+  "onset_unchanged": 0.0,
+  "onset_none": 0.4803921568627451,
+  "reads_never": 780
+ },
+ "blind_episodes": [
+  {
+   "iid": "boltons:T1:0",
+   "slice": "static",
+   "type": "T1",
+   "start": 79,
+   "len": 2,
+   "onset": "evidence unchanged at onset",
+   "kind": "never caught: evidence never changed (blind)",
+   "none_onset": true,
+   "none_frac": 1.0
+  },
+  {
+   "iid": "boltons:T1:n11",
+   "slice": "static",
+   "type": "T1",
+   "start": 79,
+   "len": 2,
+   "onset": "evidence unchanged at onset",
+   "kind": "never caught: evidence never changed (blind)",
+   "none_onset": true,
+   "none_frac": 1.0
+  },
+  {
+   "iid": "boltons:T1:n6",
+   "slice": "static",
+   "type": "T1",
+   "start": 79,
+   "len": 2,
+   "onset": "evidence unchanged at onset",
+   "kind": "never caught: evidence never changed (blind)",
+   "none_onset": true,
+   "none_frac": 1.0
+  },
+  {
+   "iid": "boltons:T7:31",
+   "slice": "static",
+   "type": "T7",
+   "start": 79,
+   "len": 2,
+   "onset": "evidence unchanged at onset",
+   "kind": "never caught: evidence never changed (blind)",
+   "none_onset": true,
+   "none_frac": 1.0
+  }
+ ],
+ "identical|ALL": {
+  "n": 122042,
+  "ident": 273,
+  "ident_facts": 20,
+  "ident_caught": 131,
+  "missed": 2258,
+  "missed_ident": 142
+ },
+ "identical|static": {
+  "n": 114806,
+  "ident": 12,
+  "ident_facts": 7,
+  "ident_caught": 0,
+  "missed": 1476,
+  "missed_ident": 12
+ },
+ "identical|behaviour": {
+  "n": 7236,
+  "ident": 261,
+  "ident_facts": 13,
+  "ident_caught": 131,
+  "missed": 782,
+  "missed_ident": 130
+ },
+ "identical|natural": {
+  "n": 45154,
+  "ident": 22,
+  "ident_facts": 9,
+  "ident_caught": 5,
+  "missed": 937,
+  "missed_ident": 17
+ },
+ "identical|T1": {
+  "n": 16113,
+  "ident": 9,
+  "ident_facts": 5,
+  "ident_caught": 0,
+  "missed": 9,
+  "missed_ident": 9
+ },
+ "identical|T2": {
+  "n": 17205,
+  "ident": 1,
+  "ident_facts": 1,
+  "ident_caught": 0,
+  "missed": 644,
+  "missed_ident": 1
+ },
+ "identical|T3": {
+  "n": 23370,
+  "ident": 0,
+  "ident_facts": 0,
+  "ident_caught": 0,
+  "missed": 330,
+  "missed_ident": 0
+ },
+ "identical|T4": {
+  "n": 20978,
+  "ident": 0,
+  "ident_facts": 0,
+  "ident_caught": 0,
+  "missed": 0,
+  "missed_ident": 0
+ },
+ "identical|T5": {
+  "n": 15058,
+  "ident": 0,
+  "ident_facts": 0,
+  "ident_caught": 0,
+  "missed": 33,
+  "missed_ident": 0
+ },
+ "identical|T6": {
+  "n": 5295,
+  "ident": 0,
+  "ident_facts": 0,
+  "ident_caught": 0,
+  "missed": 35,
+  "missed_ident": 0
+ },
+ "identical|T7": {
+  "n": 16787,
+  "ident": 2,
+  "ident_facts": 1,
+  "ident_caught": 0,
+  "missed": 425,
+  "missed_ident": 2
+ },
+ "identical|B": {
+  "n": 7236,
+  "ident": 261,
+  "ident_facts": 13,
+  "ident_caught": 131,
+  "missed": 782,
+  "missed_ident": 130
+ },
+ "eps_ident|ALL": {
+  "n": 601,
+  "ident": 46,
+  "never": 56,
+  "never_ident": 44
+ },
+ "eps_ident|static": {
+  "n": 499,
+  "ident": 7,
+  "never": 11,
+  "never_ident": 7
+ },
+ "eps_ident|behaviour": {
+  "n": 102,
+  "ident": 39,
+  "never": 45,
+  "never_ident": 37
+ }
+}

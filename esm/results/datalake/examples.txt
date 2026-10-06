@@ -1,0 +1,275 @@
+[dl_tlc] missed: evidence state unchanged (change outside the recorded evidence)
+  fact tlc:D4:69 t=3
+  Q: What is the latest pickup timestamp over all monthly files present so far of High Volume FHV (fhvhv) data (YYYY-MM-DD HH:MM:SS)?
+  K='2022-02-28 23:59:49' served='2022-02-28 23:59:49' truth='2022-03-31 23:59:52'
+  judge: 
+
+[dl_tlc] missed: judge said still_valid on a changed state
+  fact tlc:D4:69 t=51
+  Q: What is the latest pickup timestamp over all monthly files present so far of High Volume FHV (fhvhv) data (YYYY-MM-DD HH:MM:SS)?
+  K='2022-02-28 23:59:49' served='2022-02-28 23:59:49' truth='2023-02-28 23:59:49'
+  judge: Schema type changes (string to large_string) do not alter data values or file contents. | proposed=2022-02-28 23:59:49
+
+[dl_tlc] missed: memoised still_valid reused on a state whose truth differs
+  fact tlc:D4:69 t=52
+  Q: What is the latest pickup timestamp over all monthly files present so far of High Volume FHV (fhvhv) data (YYYY-MM-DD HH:MM:SS)?
+  K='2022-02-28 23:59:49' served='2022-02-28 23:59:49' truth='2023-02-28 23:59:49'
+  judge: 
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D4:73 t=7
+  Q: What is the total base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) summed over all monthly files of 2022 present so far of High Volume FHV (fhvhv) data (values rounded to cents first; 2 decimals)?
+  K='9776730.37' served='' truth='22898344.51'
+  judge: New 2022-04 file appeared, so the sum over 'all monthly files present' must increase.
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D4:82 t=13
+  Q: What is the total trip distance in miles summed over all monthly files of 2022 present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?
+  K='538462.60' served='' truth='1225827.51'
+  judge: New June 2022 file appeared, altering the set of 'present so far' files and thus the total sum.
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D4:87 t=10
+  Q: What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)?
+  K='3664.02' served='' truth='10669.38'
+  judge: New May 2022 file added; total tip sum must increase but new value unknown.
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D5:100 t=18
+  Q: Which 1 pick-up zone ID(s) have the most Yellow taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='237' served='' truth='237'
+  judge: New data for July 2022 is present but not included in the original query, so the top zone might change.
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D5:102 t=19
+  Q: Which 3 drop-off zone ID(s) have the most Green taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='75, 74, 41' served='' truth='74, 75, 41'
+  judge: New July data added; original query excluded it, so top zones may change.
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D5:103 t=21
+  Q: Which 3 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='79, 132, 61' served='' truth='138, 132, 79'
+  judge: New data file (July 2022) appeared; original answer excluded it, so results may have changed.
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D5:105 t=18
+  Q: Which 3 pick-up zone ID(s) have the most Yellow taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='237, 236, 132' served='' truth='237, 132, 236'
+  judge: New July data added; top zones may change, but counts unknown.
+
+[dl_tlc] wrong re-derivation (no answer)
+  fact tlc:D5:106 t=21
+  Q: Which 1 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='79' served='' truth='138'
+  judge: New data file (July 2022) added; impact on top zone ID unknown without re-running query.
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D4:73 t=8
+  Q: What is the total base fare (time-and-distance fare, before taxes, tolls, tips and surcharges) summed over all monthly files of 2022 present so far of High Volume FHV (fhvhv) data (values rounded to cents first; 2 decimals)?
+  K='9776730.37' served='' truth='22898344.51'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D4:82 t=14
+  Q: What is the total trip distance in miles summed over all monthly files of 2022 present so far of Yellow taxi data (values rounded to cents first; 2 decimals)?
+  K='538462.60' served='' truth='1225827.51'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D4:87 t=11
+  Q: What is the total tip amount summed over all monthly files of 2022 present so far of Green taxi data (values rounded to cents first; 2 decimals)?
+  K='3664.02' served='' truth='10669.38'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D5:100 t=19
+  Q: Which 1 pick-up zone ID(s) have the most Yellow taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='237' served='' truth='237'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D5:102 t=20
+  Q: Which 3 drop-off zone ID(s) have the most Green taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='75, 74, 41' served='' truth='74, 75, 41'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D5:103 t=22
+  Q: Which 3 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='79, 132, 61' served='' truth='138, 132, 79'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D5:105 t=19
+  Q: Which 3 pick-up zone ID(s) have the most Yellow taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='237, 236, 132' served='' truth='237, 132, 236'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (agent gave no answer)
+  fact tlc:D5:106 t=22
+  Q: Which 1 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='79' served='' truth='138'
+  judge: 
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D5:102 t=10
+  Q: Which 3 drop-off zone ID(s) have the most Green taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='75, 74, 41' served='74,75,41' truth='74, 75, 42'
+  judge: New May 2022 data added; original answer only covered April, so full-year top 3 likely changed.
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D5:103 t=43
+  Q: Which 3 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='79, 132, 61' served='Total: 6158 + 6481 + 6402 + 6960 = 26001' truth='138, 132, 79'
+  judge: New December 2022 data arrived; original query excluded it, so top zones may have changed.
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D5:108 t=42
+  Q: Which 3 pick-up zone ID(s) have the most FHV trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='129,206,92' served='Zone 129:' truth='206, 92, 265'
+  judge: December data added; impact on top 3 zone counts unknown without re-running query.
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D5:93 t=30
+  Q: Which 1 drop-off zone ID(s) have the most High Volume FHV (fhvhv) trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='265' served='NONE' truth='265'
+  judge: New data added; original query was incomplete, so result cannot be verified or recomputed.
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D5:95 t=201
+  Q: Which 1 pick-up zone ID(s) have the most FHV trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='264' served='221' truth='264'
+  judge: New data files added; recorded answer 'None' is likely incorrect but new top zone unknown.
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D6:119 t=12
+  Q: Join the High Volume FHV (fhvhv) trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Manhattan'?
+  K='194356' served='NONE' truth='547588'
+  judge: New data file added for 2022, changing the total trip count and likely the Manhattan subset.
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D7:143 t=7
+  Q: What fraction of High Volume FHV (fhvhv) rows in calendar year 2022 (all monthly files of 2022 present so far) have a exactly zero value in column `congestion_surcharge` (matched case-insensitively)? (5 decimals)
+  K='0.59412' served='0.58611' truth='0.58612'
+  judge: New data file added and previous query failed; cannot recompute fraction without successful scan.
+
+[dl_tlc] wrong re-derivation
+  fact tlc:D7:152 t=22
+  Q: What fraction of Yellow taxi rows in calendar year 2022 (all monthly files of 2022 present so far) have a NULL (a missing column counts as NULL) value in column `RatecodeID` (matched case-insensitively)? (5 decimals)
+  K='0.03182' served='0.00000' truth='0.03306'
+  judge: New August 2022 data added; total rows and null counts changed, invalidating previous fraction.
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D5:102 t=11
+  Q: Which 3 drop-off zone ID(s) have the most Green taxi trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='75, 74, 41' served='74,75,41' truth='74, 75, 42'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D5:103 t=44
+  Q: Which 3 pick-up zone ID(s) have the most High Volume FHV (fhvhv) trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='79, 132, 61' served='Total: 6158 + 6481 + 6402 + 6960 = 26001' truth='138, 132, 79'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D5:108 t=43
+  Q: Which 3 pick-up zone ID(s) have the most FHV trips in calendar year 2022 (all monthly files of 2022 present so far)? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='129,206,92' served='Zone 129:' truth='206, 92, 265'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D5:93 t=31
+  Q: Which 1 drop-off zone ID(s) have the most High Volume FHV (fhvhv) trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='265' served='NONE' truth='265'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D5:95 t=202
+  Q: Which 1 pick-up zone ID(s) have the most FHV trips in all data in the lake so far? Ignore NULL zone IDs; order by count descending, ties by ID ascending; answer comma-separated.
+  K='264' served='221' truth='264'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D6:119 t=13
+  Q: Join the High Volume FHV (fhvhv) trips of calendar year 2022 (all monthly files of 2022 present so far) on their pick-up zone ID with the taxi zone lookup table currently in the lake. How many trips have Borough = 'Manhattan'?
+  K='194356' served='NONE' truth='547588'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D7:143 t=8
+  Q: What fraction of High Volume FHV (fhvhv) rows in calendar year 2022 (all monthly files of 2022 present so far) have a exactly zero value in column `congestion_surcharge` (matched case-insensitively)? (5 decimals)
+  K='0.59412' served='0.58611' truth='0.58612'
+  judge: 
+
+[dl_tlc] persisting wrong rederive (wrong value)
+  fact tlc:D7:152 t=23
+  Q: What fraction of Yellow taxi rows in calendar year 2022 (all monthly files of 2022 present so far) have a NULL (a missing column counts as NULL) value in column `RatecodeID` (matched case-insensitively)? (5 decimals)
+  K='0.03182' served='0.00000' truth='0.03306'
+  judge: 
+
+[dl_bb] missed: evidence state unchanged (change outside the recorded evidence)
+  fact bb:D1:13 t=31
+  Q: In the most recent daily Drive Stats CSV in the lake, what data type does DuckDB infer for column `smart_13_normalized` (read_csv with sample_size=-1)? Answer e.g. BIGINT, DOUBLE, VARCHAR.
+  K='VARCHAR' served='VARCHAR' truth='BIGINT'
+  judge: 
+
+[dl_bb] missed: evidence state unchanged (change outside the recorded evidence)
+  fact bb:D8:147 t=1
+  Q: How many daily files present so far have a column named `smart_223_raw`?
+  K='2000' served='2000' truth='2031'
+  judge: 
+
+[dl_bb] missed: evidence state unchanged (change outside the recorded evidence)
+  fact bb:D8:162 t=1
+  Q: How many daily files present so far have a column named `smart_255_raw`?
+  K='2000' served='2000' truth='2031'
+  judge: 
+
+[dl_bb] wrong re-derivation (no answer)
+  fact bb:D2:27 t=99
+  Q: In the most recent daily Drive Stats CSV, what is the exact name of the column holding the raw reallocated sectors count (SMART 5)? Answer NONE if absent.
+  K='smart_5_raw' served='' truth='smart_5_raw'
+  judge: Documentation changed, but CSV schema for the most recent file was not re-verified in the provided diffs.
+
+[dl_bb] wrong re-derivation (no answer)
+  fact bb:D8:160 t=1
+  Q: How many daily files present so far have a column named `smart_3_normalized`?
+  K='2000' served='' truth='2031'
+  judge: New data files added; count of files with that column likely increased.
+
+[dl_bb] wrong re-derivation (no answer)
+  fact bb:D8:162 t=4
+  Q: How many daily files present so far have a column named `smart_255_raw`?
+  K='2000' served='' truth='2092'
+  judge: Documentation changes suggest new data files exist, but schema diffs for those files are not provided.
+
+[dl_bb] persisting wrong rederive (agent gave no answer)
+  fact bb:D2:27 t=100
+  Q: In the most recent daily Drive Stats CSV, what is the exact name of the column holding the raw reallocated sectors count (SMART 5)? Answer NONE if absent.
+  K='smart_5_raw' served='' truth='smart_5_raw'
+  judge: 
+
+[dl_bb] persisting wrong rederive (agent gave no answer)
+  fact bb:D8:160 t=2
+  Q: How many daily files present so far have a column named `smart_3_normalized`?
+  K='2000' served='' truth='2061'
+  judge: 
+
+[dl_bb] persisting wrong rederive (agent gave no answer)
+  fact bb:D8:162 t=5
+  Q: How many daily files present so far have a column named `smart_255_raw`?
+  K='2000' served='' truth='2123'
+  judge: 
+
+[dl_bb] missed: judge said still_valid on a changed state
+  fact bb:D4:72 t=10
+  Q: What is the latest date covered by all daily files present so far?
+  K='2018-09-30' served='2019-04-30' truth='2019-05-31'
+  judge: Row count change in existing file does not alter the latest date covered. | proposed=2019-04-30
+
+[dl_bb] missed: memoised still_valid reused on a state whose truth differs
+  fact bb:D4:72 t=18
+  Q: What is the latest date covered by all daily files present so far?
+  K='2018-09-30' served='2019-04-30' truth='2019-12-31'
+  judge: 

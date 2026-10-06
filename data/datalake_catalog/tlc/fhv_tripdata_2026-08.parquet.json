@@ -1,0 +1,13 @@
+{
+ "name": "fhv_tripdata_2026-08.parquet",
+ "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/fhv_tripdata_2026-08.parquet",
+ "http": {
+  "status": "403",
+  "content_length": null,
+  "last_modified": null,
+  "etag": null,
+  "bz_upload_ts": null,
+  "bz_sha1": null
+ },
+ "available": false
+}

@@ -1,0 +1,4992 @@
+{
+"lake": "tlc",
+"n_snapshots": 383,
+"s0_index": 153,
+"history_start_index": 93,
+"n_history": 60,
+"n_future": 229,
+"s0_snap": "tlc-0153",
+"s0_time": "2022-05-15T12:00:00Z",
+"unavailable_files": [
+"fhv_tripdata_2026-08.parquet"
+],
+"subsample_rate": "1/64 rows (md5 of row text)",
+"events": [
+{
+"time": "2019-03-01T00:00:00Z",
+"kind": "bootstrap",
+"synthetic": false,
+"note": "per doc/lookup path: latest version available before the lake start, else the earliest available version",
+"idx": 0,
+"snap": "tlc-0000",
+"put_paths": [
+"docs/data_dictionary_trip_records_fhv.txt",
+"docs/data_dictionary_trip_records_green.txt",
+"docs/data_dictionary_trip_records_hvfhs.txt",
+"docs/data_dictionary_trip_records_yellow.txt",
+"misc/taxi_zone_lookup.csv"
+]
+},
+{
+"time": "2019-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 1,
+"snap": "tlc-0001",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-01.parquet"
+]
+},
+{
+"time": "2019-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 2,
+"snap": "tlc-0002",
+"put_paths": [
+"trip-data/green_tripdata_2019-01.parquet"
+]
+},
+{
+"time": "2019-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 3,
+"snap": "tlc-0003",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-01.parquet"
+]
+},
+{
+"time": "2019-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 4,
+"snap": "tlc-0004",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-02.parquet"
+]
+},
+{
+"time": "2019-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 5,
+"snap": "tlc-0005",
+"put_paths": [
+"trip-data/green_tripdata_2019-02.parquet"
+]
+},
+{
+"time": "2019-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 6,
+"snap": "tlc-0006",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-02.parquet"
+]
+},
+{
+"time": "2019-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 7,
+"snap": "tlc-0007",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-02.parquet"
+]
+},
+{
+"time": "2019-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 8,
+"snap": "tlc-0008",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-03.parquet"
+]
+},
+{
+"time": "2019-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 9,
+"snap": "tlc-0009",
+"put_paths": [
+"trip-data/green_tripdata_2019-03.parquet"
+]
+},
+{
+"time": "2019-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 10,
+"snap": "tlc-0010",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-03.parquet"
+]
+},
+{
+"time": "2019-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 11,
+"snap": "tlc-0011",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-03.parquet"
+]
+},
+{
+"time": "2019-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 12,
+"snap": "tlc-0012",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-04.parquet"
+]
+},
+{
+"time": "2019-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 13,
+"snap": "tlc-0013",
+"put_paths": [
+"trip-data/green_tripdata_2019-04.parquet"
+]
+},
+{
+"time": "2019-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 14,
+"snap": "tlc-0014",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-04.parquet"
+]
+},
+{
+"time": "2019-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 15,
+"snap": "tlc-0015",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-04.parquet"
+]
+},
+{
+"time": "2019-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 16,
+"snap": "tlc-0016",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-05.parquet"
+]
+},
+{
+"time": "2019-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 17,
+"snap": "tlc-0017",
+"put_paths": [
+"trip-data/green_tripdata_2019-05.parquet"
+]
+},
+{
+"time": "2019-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 18,
+"snap": "tlc-0018",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-05.parquet"
+]
+},
+{
+"time": "2019-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 19,
+"snap": "tlc-0019",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-05.parquet"
+]
+},
+{
+"time": "2019-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 20,
+"snap": "tlc-0020",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-06.parquet"
+]
+},
+{
+"time": "2019-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 21,
+"snap": "tlc-0021",
+"put_paths": [
+"trip-data/green_tripdata_2019-06.parquet"
+]
+},
+{
+"time": "2019-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 22,
+"snap": "tlc-0022",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-06.parquet"
+]
+},
+{
+"time": "2019-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 23,
+"snap": "tlc-0023",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-06.parquet"
+]
+},
+{
+"time": "2019-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 24,
+"snap": "tlc-0024",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-07.parquet"
+]
+},
+{
+"time": "2019-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 25,
+"snap": "tlc-0025",
+"put_paths": [
+"trip-data/green_tripdata_2019-07.parquet"
+]
+},
+{
+"time": "2019-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 26,
+"snap": "tlc-0026",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-07.parquet"
+]
+},
+{
+"time": "2019-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 27,
+"snap": "tlc-0027",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-07.parquet"
+]
+},
+{
+"time": "2019-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 28,
+"snap": "tlc-0028",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-08.parquet"
+]
+},
+{
+"time": "2019-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 29,
+"snap": "tlc-0029",
+"put_paths": [
+"trip-data/green_tripdata_2019-08.parquet"
+]
+},
+{
+"time": "2019-10-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 30,
+"snap": "tlc-0030",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-08.parquet"
+]
+},
+{
+"time": "2019-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 31,
+"snap": "tlc-0031",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-08.parquet"
+]
+},
+{
+"time": "2019-11-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 32,
+"snap": "tlc-0032",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-09.parquet"
+]
+},
+{
+"time": "2019-11-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 33,
+"snap": "tlc-0033",
+"put_paths": [
+"trip-data/green_tripdata_2019-09.parquet"
+]
+},
+{
+"time": "2019-11-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 34,
+"snap": "tlc-0034",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-09.parquet"
+]
+},
+{
+"time": "2019-11-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 35,
+"snap": "tlc-0035",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-09.parquet"
+]
+},
+{
+"time": "2019-12-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 36,
+"snap": "tlc-0036",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-10.parquet"
+]
+},
+{
+"time": "2019-12-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 37,
+"snap": "tlc-0037",
+"put_paths": [
+"trip-data/green_tripdata_2019-10.parquet"
+]
+},
+{
+"time": "2019-12-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 38,
+"snap": "tlc-0038",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-10.parquet"
+]
+},
+{
+"time": "2019-12-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 39,
+"snap": "tlc-0039",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-10.parquet"
+]
+},
+{
+"time": "2020-01-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 40,
+"snap": "tlc-0040",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-11.parquet"
+]
+},
+{
+"time": "2020-01-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 41,
+"snap": "tlc-0041",
+"put_paths": [
+"trip-data/green_tripdata_2019-11.parquet"
+]
+},
+{
+"time": "2020-01-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 42,
+"snap": "tlc-0042",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-11.parquet"
+]
+},
+{
+"time": "2020-01-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 43,
+"snap": "tlc-0043",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-11.parquet"
+]
+},
+{
+"time": "2020-02-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2019-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 44,
+"snap": "tlc-0044",
+"put_paths": [
+"trip-data/yellow_tripdata_2019-12.parquet"
+]
+},
+{
+"time": "2020-02-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2019-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 45,
+"snap": "tlc-0045",
+"put_paths": [
+"trip-data/green_tripdata_2019-12.parquet"
+]
+},
+{
+"time": "2020-02-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2019-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 46,
+"snap": "tlc-0046",
+"put_paths": [
+"trip-data/fhv_tripdata_2019-12.parquet"
+]
+},
+{
+"time": "2020-02-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2019-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 47,
+"snap": "tlc-0047",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2019-12.parquet"
+]
+},
+{
+"time": "2020-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 48,
+"snap": "tlc-0048",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-01.parquet"
+]
+},
+{
+"time": "2020-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 49,
+"snap": "tlc-0049",
+"put_paths": [
+"trip-data/green_tripdata_2020-01.parquet"
+]
+},
+{
+"time": "2020-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 50,
+"snap": "tlc-0050",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-01.parquet"
+]
+},
+{
+"time": "2020-03-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 51,
+"snap": "tlc-0051",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-01.parquet"
+]
+},
+{
+"time": "2020-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 52,
+"snap": "tlc-0052",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-02.parquet"
+]
+},
+{
+"time": "2020-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 53,
+"snap": "tlc-0053",
+"put_paths": [
+"trip-data/green_tripdata_2020-02.parquet"
+]
+},
+{
+"time": "2020-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:15 GMT",
+"idx": 54,
+"snap": "tlc-0054",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-02.parquet"
+]
+},
+{
+"time": "2020-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 55,
+"snap": "tlc-0055",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-02.parquet"
+]
+},
+{
+"time": "2020-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 56,
+"snap": "tlc-0056",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-03.parquet"
+]
+},
+{
+"time": "2020-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 57,
+"snap": "tlc-0057",
+"put_paths": [
+"trip-data/green_tripdata_2020-03.parquet"
+]
+},
+{
+"time": "2020-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 58,
+"snap": "tlc-0058",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-03.parquet"
+]
+},
+{
+"time": "2020-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 59,
+"snap": "tlc-0059",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-03.parquet"
+]
+},
+{
+"time": "2020-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 60,
+"snap": "tlc-0060",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-04.parquet"
+]
+},
+{
+"time": "2020-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 61,
+"snap": "tlc-0061",
+"put_paths": [
+"trip-data/green_tripdata_2020-04.parquet"
+]
+},
+{
+"time": "2020-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 62,
+"snap": "tlc-0062",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-04.parquet"
+]
+},
+{
+"time": "2020-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 63,
+"snap": "tlc-0063",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-04.parquet"
+]
+},
+{
+"time": "2020-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": true,
+"dataset": "yellow",
+"month": "2020-05",
+"note": "SYNTHETIC preliminary version: 191 of 5497 rows held back as late-arriving",
+"idx": 64,
+"snap": "tlc-0064",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-05.parquet"
+]
+},
+{
+"time": "2020-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 65,
+"snap": "tlc-0065",
+"put_paths": [
+"trip-data/green_tripdata_2020-05.parquet"
+]
+},
+{
+"time": "2020-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 66,
+"snap": "tlc-0066",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-05.parquet"
+]
+},
+{
+"time": "2020-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 67,
+"snap": "tlc-0067",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-05.parquet"
+]
+},
+{
+"time": "2020-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 68,
+"snap": "tlc-0068",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-06.parquet"
+]
+},
+{
+"time": "2020-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 69,
+"snap": "tlc-0069",
+"put_paths": [
+"trip-data/green_tripdata_2020-06.parquet"
+]
+},
+{
+"time": "2020-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 70,
+"snap": "tlc-0070",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-06.parquet"
+]
+},
+{
+"time": "2020-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 71,
+"snap": "tlc-0071",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-06.parquet"
+]
+},
+{
+"time": "2020-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 72,
+"snap": "tlc-0072",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-07.parquet"
+]
+},
+{
+"time": "2020-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 73,
+"snap": "tlc-0073",
+"put_paths": [
+"trip-data/green_tripdata_2020-07.parquet"
+]
+},
+{
+"time": "2020-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 74,
+"snap": "tlc-0074",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-07.parquet"
+]
+},
+{
+"time": "2020-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 75,
+"snap": "tlc-0075",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-07.parquet"
+]
+},
+{
+"time": "2020-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 76,
+"snap": "tlc-0076",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-08.parquet"
+]
+},
+{
+"time": "2020-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 77,
+"snap": "tlc-0077",
+"put_paths": [
+"trip-data/green_tripdata_2020-08.parquet"
+]
+},
+{
+"time": "2020-10-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 78,
+"snap": "tlc-0078",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-08.parquet"
+]
+},
+{
+"time": "2020-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 79,
+"snap": "tlc-0079",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-08.parquet"
+]
+},
+{
+"time": "2020-11-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 80,
+"snap": "tlc-0080",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-09.parquet"
+]
+},
+{
+"time": "2020-11-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 81,
+"snap": "tlc-0081",
+"put_paths": [
+"trip-data/green_tripdata_2020-09.parquet"
+]
+},
+{
+"time": "2020-11-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 82,
+"snap": "tlc-0082",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-09.parquet"
+]
+},
+{
+"time": "2020-11-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 83,
+"snap": "tlc-0083",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-09.parquet"
+]
+},
+{
+"time": "2020-12-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 84,
+"snap": "tlc-0084",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-10.parquet"
+]
+},
+{
+"time": "2020-12-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 85,
+"snap": "tlc-0085",
+"put_paths": [
+"trip-data/green_tripdata_2020-10.parquet"
+]
+},
+{
+"time": "2020-12-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 86,
+"snap": "tlc-0086",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-10.parquet"
+]
+},
+{
+"time": "2020-12-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 87,
+"snap": "tlc-0087",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-10.parquet"
+]
+},
+{
+"time": "2021-01-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 88,
+"snap": "tlc-0088",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-11.parquet"
+]
+},
+{
+"time": "2021-01-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 89,
+"snap": "tlc-0089",
+"put_paths": [
+"trip-data/green_tripdata_2020-11.parquet"
+]
+},
+{
+"time": "2021-01-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2020-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 90,
+"snap": "tlc-0090",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-11.parquet"
+]
+},
+{
+"time": "2021-01-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 91,
+"snap": "tlc-0091",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-11.parquet"
+]
+},
+{
+"time": "2021-02-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2020-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 92,
+"snap": "tlc-0092",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-12.parquet"
+]
+},
+{
+"time": "2021-02-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2020-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 93,
+"snap": "tlc-0093",
+"put_paths": [
+"trip-data/green_tripdata_2020-12.parquet"
+]
+},
+{
+"time": "2021-02-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": true,
+"dataset": "fhv",
+"month": "2020-12",
+"note": "SYNTHETIC preliminary version: 563 of 18459 rows held back as late-arriving",
+"idx": 94,
+"snap": "tlc-0094",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-12.parquet"
+]
+},
+{
+"time": "2021-02-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2020-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 95,
+"snap": "tlc-0095",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-12.parquet"
+]
+},
+{
+"time": "2021-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 96,
+"snap": "tlc-0096",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-01.parquet"
+]
+},
+{
+"time": "2021-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 97,
+"snap": "tlc-0097",
+"put_paths": [
+"trip-data/green_tripdata_2021-01.parquet"
+]
+},
+{
+"time": "2021-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 98,
+"snap": "tlc-0098",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-01.parquet"
+]
+},
+{
+"time": "2021-03-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 99,
+"snap": "tlc-0099",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-01.parquet"
+]
+},
+{
+"time": "2021-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 100,
+"snap": "tlc-0100",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-02.parquet"
+]
+},
+{
+"time": "2021-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 101,
+"snap": "tlc-0101",
+"put_paths": [
+"trip-data/green_tripdata_2021-02.parquet"
+]
+},
+{
+"time": "2021-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 102,
+"snap": "tlc-0102",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-02.parquet"
+]
+},
+{
+"time": "2021-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 103,
+"snap": "tlc-0103",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-02.parquet"
+]
+},
+{
+"time": "2021-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": true,
+"dataset": "yellow",
+"month": "2021-03",
+"note": "SYNTHETIC preliminary version: 969 of 30199 rows held back as late-arriving",
+"idx": 104,
+"snap": "tlc-0104",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-03.parquet"
+]
+},
+{
+"time": "2021-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 105,
+"snap": "tlc-0105",
+"put_paths": [
+"trip-data/green_tripdata_2021-03.parquet"
+]
+},
+{
+"time": "2021-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 106,
+"snap": "tlc-0106",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-03.parquet"
+]
+},
+{
+"time": "2021-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 107,
+"snap": "tlc-0107",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-03.parquet"
+]
+},
+{
+"time": "2021-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 108,
+"snap": "tlc-0108",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-04.parquet"
+]
+},
+{
+"time": "2021-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 109,
+"snap": "tlc-0109",
+"put_paths": [
+"trip-data/green_tripdata_2021-04.parquet"
+]
+},
+{
+"time": "2021-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 110,
+"snap": "tlc-0110",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-04.parquet"
+]
+},
+{
+"time": "2021-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 111,
+"snap": "tlc-0111",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-04.parquet"
+]
+},
+{
+"time": "2021-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 112,
+"snap": "tlc-0112",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-05.parquet"
+]
+},
+{
+"time": "2021-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 113,
+"snap": "tlc-0113",
+"put_paths": [
+"trip-data/green_tripdata_2021-05.parquet"
+]
+},
+{
+"time": "2021-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 114,
+"snap": "tlc-0114",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-05.parquet"
+]
+},
+{
+"time": "2021-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 115,
+"snap": "tlc-0115",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-05.parquet"
+]
+},
+{
+"time": "2021-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 116,
+"snap": "tlc-0116",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-06.parquet"
+]
+},
+{
+"time": "2021-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 117,
+"snap": "tlc-0117",
+"put_paths": [
+"trip-data/green_tripdata_2021-06.parquet"
+]
+},
+{
+"time": "2021-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 118,
+"snap": "tlc-0118",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-06.parquet"
+]
+},
+{
+"time": "2021-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": true,
+"dataset": "fhvhv",
+"month": "2021-06",
+"note": "SYNTHETIC preliminary version: 7353 of 233287 rows held back as late-arriving",
+"idx": 119,
+"snap": "tlc-0119",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-06.parquet"
+]
+},
+{
+"time": "2021-09-01T09:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"dataset": "yellow",
+"month": "2021-03",
+"note": "SYNTHETIC late-arriving correction: full file republished",
+"idx": 120,
+"snap": "tlc-0120",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-03.parquet"
+]
+},
+{
+"time": "2021-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 121,
+"snap": "tlc-0121",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-07.parquet"
+]
+},
+{
+"time": "2021-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 122,
+"snap": "tlc-0122",
+"put_paths": [
+"trip-data/green_tripdata_2021-07.parquet"
+]
+},
+{
+"time": "2021-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Jul 2022 19:25:14 GMT",
+"idx": 123,
+"snap": "tlc-0123",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-07.parquet"
+]
+},
+{
+"time": "2021-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 124,
+"snap": "tlc-0124",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-07.parquet"
+]
+},
+{
+"time": "2021-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 125,
+"snap": "tlc-0125",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-08.parquet"
+]
+},
+{
+"time": "2021-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 126,
+"snap": "tlc-0126",
+"put_paths": [
+"trip-data/green_tripdata_2021-08.parquet"
+]
+},
+{
+"time": "2021-10-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 127,
+"snap": "tlc-0127",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-08.parquet"
+]
+},
+{
+"time": "2021-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 128,
+"snap": "tlc-0128",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-08.parquet"
+]
+},
+{
+"time": "2021-11-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 129,
+"snap": "tlc-0129",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-09.parquet"
+]
+},
+{
+"time": "2021-11-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 130,
+"snap": "tlc-0130",
+"put_paths": [
+"trip-data/green_tripdata_2021-09.parquet"
+]
+},
+{
+"time": "2021-11-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 131,
+"snap": "tlc-0131",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-09.parquet"
+]
+},
+{
+"time": "2021-11-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 132,
+"snap": "tlc-0132",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-09.parquet"
+]
+},
+{
+"time": "2021-12-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 133,
+"snap": "tlc-0133",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-10.parquet"
+]
+},
+{
+"time": "2021-12-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 134,
+"snap": "tlc-0134",
+"put_paths": [
+"trip-data/green_tripdata_2021-10.parquet"
+]
+},
+{
+"time": "2021-12-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 135,
+"snap": "tlc-0135",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-10.parquet"
+]
+},
+{
+"time": "2021-12-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 136,
+"snap": "tlc-0136",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-10.parquet"
+]
+},
+{
+"time": "2022-01-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 137,
+"snap": "tlc-0137",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-11.parquet"
+]
+},
+{
+"time": "2022-01-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": true,
+"dataset": "green",
+"month": "2021-11",
+"note": "SYNTHETIC preliminary version: 42 of 1612 rows held back as late-arriving",
+"idx": 138,
+"snap": "tlc-0138",
+"put_paths": [
+"trip-data/green_tripdata_2021-11.parquet"
+]
+},
+{
+"time": "2022-01-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 139,
+"snap": "tlc-0139",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-11.parquet"
+]
+},
+{
+"time": "2022-01-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 140,
+"snap": "tlc-0140",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-11.parquet"
+]
+},
+{
+"time": "2022-02-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2021-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 141,
+"snap": "tlc-0141",
+"put_paths": [
+"trip-data/yellow_tripdata_2021-12.parquet"
+]
+},
+{
+"time": "2022-02-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2021-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 142,
+"snap": "tlc-0142",
+"put_paths": [
+"trip-data/green_tripdata_2021-12.parquet"
+]
+},
+{
+"time": "2022-02-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2021-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 143,
+"snap": "tlc-0143",
+"put_paths": [
+"trip-data/fhv_tripdata_2021-12.parquet"
+]
+},
+{
+"time": "2022-02-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2021-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 144,
+"snap": "tlc-0144",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-12.parquet"
+]
+},
+{
+"time": "2022-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": true,
+"dataset": "yellow",
+"month": "2022-01",
+"note": "SYNTHETIC preliminary version: 1223 of 38504 rows held back as late-arriving",
+"idx": 145,
+"snap": "tlc-0145",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-01.parquet"
+]
+},
+{
+"time": "2022-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 146,
+"snap": "tlc-0146",
+"put_paths": [
+"trip-data/green_tripdata_2022-01.parquet"
+]
+},
+{
+"time": "2022-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 147,
+"snap": "tlc-0147",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-01.parquet"
+]
+},
+{
+"time": "2022-03-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 148,
+"snap": "tlc-0148",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-01.parquet"
+]
+},
+{
+"time": "2022-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 149,
+"snap": "tlc-0149",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-02.parquet"
+]
+},
+{
+"time": "2022-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 150,
+"snap": "tlc-0150",
+"put_paths": [
+"trip-data/green_tripdata_2022-02.parquet"
+]
+},
+{
+"time": "2022-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 151,
+"snap": "tlc-0151",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-02.parquet"
+]
+},
+{
+"time": "2022-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 152,
+"snap": "tlc-0152",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-02.parquet"
+]
+},
+{
+"time": "2022-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:20 GMT",
+"idx": 153,
+"snap": "tlc-0153",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-03.parquet"
+]
+},
+{
+"time": "2022-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:18 GMT",
+"idx": 154,
+"snap": "tlc-0154",
+"put_paths": [
+"trip-data/green_tripdata_2022-03.parquet"
+]
+},
+{
+"time": "2022-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:19 GMT",
+"idx": 155,
+"snap": "tlc-0155",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-03.parquet"
+]
+},
+{
+"time": "2022-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 30 Jun 2022 03:16:23 GMT",
+"idx": 156,
+"snap": "tlc-0156",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-03.parquet"
+]
+},
+{
+"time": "2022-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:40 GMT",
+"idx": 157,
+"snap": "tlc-0157",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-04.parquet"
+]
+},
+{
+"time": "2022-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:48 GMT",
+"idx": 158,
+"snap": "tlc-0158",
+"put_paths": [
+"trip-data/green_tripdata_2022-04.parquet"
+]
+},
+{
+"time": "2022-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:42 GMT",
+"idx": 159,
+"snap": "tlc-0159",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-04.parquet"
+]
+},
+{
+"time": "2022-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:40 GMT",
+"idx": 160,
+"snap": "tlc-0160",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-04.parquet"
+]
+},
+{
+"time": "2022-07-07T15:04:54Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20220707150454",
+"idx": 161,
+"snap": "tlc-0161",
+"put_paths": [
+"docs/data_dictionary_trip_records_yellow.txt"
+]
+},
+{
+"time": "2022-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:40 GMT",
+"idx": 162,
+"snap": "tlc-0162",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-05.parquet"
+]
+},
+{
+"time": "2022-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:49 GMT",
+"idx": 163,
+"snap": "tlc-0163",
+"put_paths": [
+"trip-data/green_tripdata_2022-05.parquet"
+]
+},
+{
+"time": "2022-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:44 GMT",
+"idx": 164,
+"snap": "tlc-0164",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-05.parquet"
+]
+},
+{
+"time": "2022-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:40 GMT",
+"idx": 165,
+"snap": "tlc-0165",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-05.parquet"
+]
+},
+{
+"time": "2022-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:40 GMT",
+"idx": 166,
+"snap": "tlc-0166",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-06.parquet"
+]
+},
+{
+"time": "2022-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:50 GMT",
+"idx": 167,
+"snap": "tlc-0167",
+"put_paths": [
+"trip-data/green_tripdata_2022-06.parquet"
+]
+},
+{
+"time": "2022-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:47 GMT",
+"idx": 168,
+"snap": "tlc-0168",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-06.parquet"
+]
+},
+{
+"time": "2022-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 30 Aug 2022 16:01:40 GMT",
+"idx": 169,
+"snap": "tlc-0169",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-06.parquet"
+]
+},
+{
+"time": "2022-08-20T09:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"dataset": "green",
+"month": "2021-11",
+"note": "SYNTHETIC late-arriving correction: full file republished",
+"idx": 170,
+"snap": "tlc-0170",
+"put_paths": [
+"trip-data/green_tripdata_2021-11.parquet"
+]
+},
+{
+"time": "2022-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:37 GMT",
+"idx": 171,
+"snap": "tlc-0171",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-07.parquet"
+]
+},
+{
+"time": "2022-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:47 GMT",
+"idx": 172,
+"snap": "tlc-0172",
+"put_paths": [
+"trip-data/green_tripdata_2022-07.parquet"
+]
+},
+{
+"time": "2022-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:41 GMT",
+"idx": 173,
+"snap": "tlc-0173",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-07.parquet"
+]
+},
+{
+"time": "2022-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:37 GMT",
+"idx": 174,
+"snap": "tlc-0174",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-07.parquet"
+]
+},
+{
+"time": "2022-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:37 GMT",
+"idx": 175,
+"snap": "tlc-0175",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-08.parquet"
+]
+},
+{
+"time": "2022-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:48 GMT",
+"idx": 176,
+"snap": "tlc-0176",
+"put_paths": [
+"trip-data/green_tripdata_2022-08.parquet"
+]
+},
+{
+"time": "2022-10-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:45 GMT",
+"idx": 177,
+"snap": "tlc-0177",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-08.parquet"
+]
+},
+{
+"time": "2022-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 14 Nov 2022 13:55:37 GMT",
+"idx": 178,
+"snap": "tlc-0178",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-08.parquet"
+]
+},
+{
+"time": "2022-11-10T09:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"dataset": "yellow",
+"month": "2022-01",
+"note": "SYNTHETIC late-arriving correction: full file republished",
+"idx": 179,
+"snap": "tlc-0179",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-01.parquet"
+]
+},
+{
+"time": "2022-11-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 30 Nov 2022 20:24:30 GMT",
+"idx": 180,
+"snap": "tlc-0180",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-09.parquet"
+]
+},
+{
+"time": "2022-11-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 30 Nov 2022 20:24:32 GMT",
+"idx": 181,
+"snap": "tlc-0181",
+"put_paths": [
+"trip-data/green_tripdata_2022-09.parquet"
+]
+},
+{
+"time": "2022-11-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 30 Nov 2022 20:24:31 GMT",
+"idx": 182,
+"snap": "tlc-0182",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-09.parquet"
+]
+},
+{
+"time": "2022-11-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 30 Nov 2022 20:24:30 GMT",
+"idx": 183,
+"snap": "tlc-0183",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-09.parquet"
+]
+},
+{
+"time": "2022-12-06T17:25:52Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20221206172552",
+"idx": 184,
+"snap": "tlc-0184",
+"put_paths": [
+"docs/data_dictionary_trip_records_hvfhs.txt"
+]
+},
+{
+"time": "2022-12-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 19 Dec 2022 21:59:12 GMT",
+"idx": 185,
+"snap": "tlc-0185",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-10.parquet"
+]
+},
+{
+"time": "2022-12-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 19 Dec 2022 21:59:14 GMT",
+"idx": 186,
+"snap": "tlc-0186",
+"put_paths": [
+"trip-data/green_tripdata_2022-10.parquet"
+]
+},
+{
+"time": "2022-12-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 19 Dec 2022 21:59:14 GMT",
+"idx": 187,
+"snap": "tlc-0187",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-10.parquet"
+]
+},
+{
+"time": "2022-12-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 19 Dec 2022 21:59:12 GMT",
+"idx": 188,
+"snap": "tlc-0188",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-10.parquet"
+]
+},
+{
+"time": "2023-01-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jan 2023 16:46:43 GMT",
+"idx": 189,
+"snap": "tlc-0189",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-11.parquet"
+]
+},
+{
+"time": "2023-01-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jan 2023 16:46:43 GMT",
+"idx": 190,
+"snap": "tlc-0190",
+"put_paths": [
+"trip-data/green_tripdata_2022-11.parquet"
+]
+},
+{
+"time": "2023-01-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jan 2023 16:46:44 GMT",
+"idx": 191,
+"snap": "tlc-0191",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-11.parquet"
+]
+},
+{
+"time": "2023-01-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jan 2023 16:46:43 GMT",
+"idx": 192,
+"snap": "tlc-0192",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-11.parquet"
+]
+},
+{
+"time": "2023-02-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2022-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:51 GMT",
+"idx": 193,
+"snap": "tlc-0193",
+"put_paths": [
+"trip-data/yellow_tripdata_2022-12.parquet"
+]
+},
+{
+"time": "2023-02-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2022-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:53 GMT",
+"idx": 194,
+"snap": "tlc-0194",
+"put_paths": [
+"trip-data/green_tripdata_2022-12.parquet"
+]
+},
+{
+"time": "2023-02-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2022-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:55 GMT",
+"idx": 195,
+"snap": "tlc-0195",
+"put_paths": [
+"trip-data/fhv_tripdata_2022-12.parquet"
+]
+},
+{
+"time": "2023-02-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2022-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:51 GMT",
+"idx": 196,
+"snap": "tlc-0196",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2022-12.parquet"
+]
+},
+{
+"time": "2023-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:51 GMT",
+"idx": 197,
+"snap": "tlc-0197",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-01.parquet"
+]
+},
+{
+"time": "2023-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:53 GMT",
+"idx": 198,
+"snap": "tlc-0198",
+"put_paths": [
+"trip-data/green_tripdata_2023-01.parquet"
+]
+},
+{
+"time": "2023-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:54 GMT",
+"idx": 199,
+"snap": "tlc-0199",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-01.parquet"
+]
+},
+{
+"time": "2023-03-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 20 Mar 2023 20:46:51 GMT",
+"idx": 200,
+"snap": "tlc-0200",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-01.parquet"
+]
+},
+{
+"time": "2023-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 01 May 2023 15:32:56 GMT",
+"idx": 201,
+"snap": "tlc-0201",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-02.parquet"
+]
+},
+{
+"time": "2023-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 01 May 2023 15:32:58 GMT",
+"idx": 202,
+"snap": "tlc-0202",
+"put_paths": [
+"trip-data/green_tripdata_2023-02.parquet"
+]
+},
+{
+"time": "2023-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 01 May 2023 15:32:58 GMT",
+"idx": 203,
+"snap": "tlc-0203",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-02.parquet"
+]
+},
+{
+"time": "2023-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 01 May 2023 15:32:56 GMT",
+"idx": 204,
+"snap": "tlc-0204",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-02.parquet"
+]
+},
+{
+"time": "2023-05-05T09:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"dataset": "fhvhv",
+"month": "2021-06",
+"note": "SYNTHETIC late-arriving correction: full file republished",
+"idx": 205,
+"snap": "tlc-0205",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2021-06.parquet"
+]
+},
+{
+"time": "2023-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 May 2023 14:14:53 GMT",
+"idx": 206,
+"snap": "tlc-0206",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-03.parquet"
+]
+},
+{
+"time": "2023-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 May 2023 14:14:53 GMT",
+"idx": 207,
+"snap": "tlc-0207",
+"put_paths": [
+"trip-data/green_tripdata_2023-03.parquet"
+]
+},
+{
+"time": "2023-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 May 2023 14:14:55 GMT",
+"idx": 208,
+"snap": "tlc-0208",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-03.parquet"
+]
+},
+{
+"time": "2023-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 May 2023 16:09:46 GMT",
+"idx": 209,
+"snap": "tlc-0209",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-03.parquet"
+]
+},
+{
+"time": "2023-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 23 Jun 2023 14:05:21 GMT",
+"idx": 210,
+"snap": "tlc-0210",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-04.parquet"
+]
+},
+{
+"time": "2023-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 23 Jun 2023 14:05:22 GMT",
+"idx": 211,
+"snap": "tlc-0211",
+"put_paths": [
+"trip-data/green_tripdata_2023-04.parquet"
+]
+},
+{
+"time": "2023-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 23 Jun 2023 14:05:23 GMT",
+"idx": 212,
+"snap": "tlc-0212",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-04.parquet"
+]
+},
+{
+"time": "2023-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 23 Jun 2023 14:05:21 GMT",
+"idx": 213,
+"snap": "tlc-0213",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-04.parquet"
+]
+},
+{
+"time": "2023-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 26 Jul 2023 14:48:03 GMT",
+"idx": 214,
+"snap": "tlc-0214",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-05.parquet"
+]
+},
+{
+"time": "2023-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 26 Jul 2023 14:48:04 GMT",
+"idx": 215,
+"snap": "tlc-0215",
+"put_paths": [
+"trip-data/green_tripdata_2023-05.parquet"
+]
+},
+{
+"time": "2023-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 26 Jul 2023 14:48:06 GMT",
+"idx": 216,
+"snap": "tlc-0216",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-05.parquet"
+]
+},
+{
+"time": "2023-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 26 Jul 2023 14:48:04 GMT",
+"idx": 217,
+"snap": "tlc-0217",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-05.parquet"
+]
+},
+{
+"time": "2023-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 22 Aug 2023 13:23:37 GMT",
+"idx": 218,
+"snap": "tlc-0218",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-06.parquet"
+]
+},
+{
+"time": "2023-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 22 Aug 2023 13:23:37 GMT",
+"idx": 219,
+"snap": "tlc-0219",
+"put_paths": [
+"trip-data/green_tripdata_2023-06.parquet"
+]
+},
+{
+"time": "2023-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 22 Aug 2023 13:23:39 GMT",
+"idx": 220,
+"snap": "tlc-0220",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-06.parquet"
+]
+},
+{
+"time": "2023-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 22 Aug 2023 13:23:37 GMT",
+"idx": 221,
+"snap": "tlc-0221",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-06.parquet"
+]
+},
+{
+"time": "2023-09-01T09:00:00Z",
+"kind": "repartition",
+"synthetic": true,
+"remove": [
+"trip-data/fhvhv_tripdata_2020-09.parquet"
+],
+"dataset": "fhvhv",
+"month": "2020-09",
+"note": "SYNTHETIC re-partition into two part files (identical rows)",
+"idx": 222,
+"snap": "tlc-0222",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2020-09/part-0000.parquet",
+"trip-data/fhvhv_tripdata_2020-09/part-0001.parquet"
+]
+},
+{
+"time": "2023-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Sep 2023 22:40:27 GMT",
+"idx": 223,
+"snap": "tlc-0223",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-07.parquet"
+]
+},
+{
+"time": "2023-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Sep 2023 22:40:30 GMT",
+"idx": 224,
+"snap": "tlc-0224",
+"put_paths": [
+"trip-data/green_tripdata_2023-07.parquet"
+]
+},
+{
+"time": "2023-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 02 Nov 2023 13:57:02 GMT",
+"idx": 225,
+"snap": "tlc-0225",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-07.parquet"
+]
+},
+{
+"time": "2023-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Sep 2023 22:40:27 GMT",
+"idx": 226,
+"snap": "tlc-0226",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-07.parquet"
+]
+},
+{
+"time": "2023-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 02 Nov 2023 13:56:54 GMT",
+"idx": 227,
+"snap": "tlc-0227",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-08.parquet"
+]
+},
+{
+"time": "2023-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 02 Nov 2023 13:56:56 GMT",
+"idx": 228,
+"snap": "tlc-0228",
+"put_paths": [
+"trip-data/green_tripdata_2023-08.parquet"
+]
+},
+{
+"time": "2023-10-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 02 Nov 2023 13:56:59 GMT",
+"idx": 229,
+"snap": "tlc-0229",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-08.parquet"
+]
+},
+{
+"time": "2023-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 02 Nov 2023 13:56:54 GMT",
+"idx": 230,
+"snap": "tlc-0230",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-08.parquet"
+]
+},
+{
+"time": "2023-11-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Nov 2023 14:55:56 GMT",
+"idx": 231,
+"snap": "tlc-0231",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-09.parquet"
+]
+},
+{
+"time": "2023-11-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Nov 2023 14:56:01 GMT",
+"idx": 232,
+"snap": "tlc-0232",
+"put_paths": [
+"trip-data/green_tripdata_2023-09.parquet"
+]
+},
+{
+"time": "2023-11-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Nov 2023 14:55:59 GMT",
+"idx": 233,
+"snap": "tlc-0233",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-09.parquet"
+]
+},
+{
+"time": "2023-11-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Nov 2023 14:55:56 GMT",
+"idx": 234,
+"snap": "tlc-0234",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-09.parquet"
+]
+},
+{
+"time": "2023-12-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Dec 2023 14:32:59 GMT",
+"idx": 235,
+"snap": "tlc-0235",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-10.parquet"
+]
+},
+{
+"time": "2023-12-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Dec 2023 14:33:00 GMT",
+"idx": 236,
+"snap": "tlc-0236",
+"put_paths": [
+"trip-data/green_tripdata_2023-10.parquet"
+]
+},
+{
+"time": "2023-12-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Dec 2023 14:32:59 GMT",
+"idx": 237,
+"snap": "tlc-0237",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-10.parquet"
+]
+},
+{
+"time": "2023-12-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Mon, 18 Dec 2023 14:32:59 GMT",
+"idx": 238,
+"snap": "tlc-0238",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-10.parquet"
+]
+},
+{
+"time": "2024-01-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jan 2024 15:04:46 GMT",
+"idx": 239,
+"snap": "tlc-0239",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-11.parquet"
+]
+},
+{
+"time": "2024-01-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jan 2024 15:04:48 GMT",
+"idx": 240,
+"snap": "tlc-0240",
+"put_paths": [
+"trip-data/green_tripdata_2023-11.parquet"
+]
+},
+{
+"time": "2024-01-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jan 2024 15:04:51 GMT",
+"idx": 241,
+"snap": "tlc-0241",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-11.parquet"
+]
+},
+{
+"time": "2024-01-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jan 2024 15:04:46 GMT",
+"idx": 242,
+"snap": "tlc-0242",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-11.parquet"
+]
+},
+{
+"time": "2024-02-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2023-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 22 Feb 2024 14:55:08 GMT",
+"idx": 243,
+"snap": "tlc-0243",
+"put_paths": [
+"trip-data/yellow_tripdata_2023-12.parquet"
+]
+},
+{
+"time": "2024-02-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2023-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 22 Feb 2024 14:55:10 GMT",
+"idx": 244,
+"snap": "tlc-0244",
+"put_paths": [
+"trip-data/green_tripdata_2023-12.parquet"
+]
+},
+{
+"time": "2024-02-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2023-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 22 Feb 2024 14:55:12 GMT",
+"idx": 245,
+"snap": "tlc-0245",
+"put_paths": [
+"trip-data/fhv_tripdata_2023-12.parquet"
+]
+},
+{
+"time": "2024-02-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2023-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 22 Feb 2024 14:55:08 GMT",
+"idx": 246,
+"snap": "tlc-0246",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2023-12.parquet"
+]
+},
+{
+"time": "2024-02-22T21:33:00Z",
+"kind": "lookup",
+"synthetic": false,
+"note": "origin:last-modified",
+"idx": 247,
+"snap": "tlc-0247",
+"put_paths": [
+"misc/taxi_zone_lookup.csv"
+]
+},
+{
+"time": "2024-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Mar 2024 15:35:44 GMT",
+"idx": 248,
+"snap": "tlc-0248",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-01.parquet"
+]
+},
+{
+"time": "2024-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Mar 2024 15:35:45 GMT",
+"idx": 249,
+"snap": "tlc-0249",
+"put_paths": [
+"trip-data/green_tripdata_2024-01.parquet"
+]
+},
+{
+"time": "2024-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Mar 2024 15:35:48 GMT",
+"idx": 250,
+"snap": "tlc-0250",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-01.parquet"
+]
+},
+{
+"time": "2024-03-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Mar 2024 15:35:44 GMT",
+"idx": 251,
+"snap": "tlc-0251",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-01.parquet"
+]
+},
+{
+"time": "2024-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Apr 2024 18:22:42 GMT",
+"idx": 252,
+"snap": "tlc-0252",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-02.parquet"
+]
+},
+{
+"time": "2024-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Apr 2024 18:22:44 GMT",
+"idx": 253,
+"snap": "tlc-0253",
+"put_paths": [
+"trip-data/green_tripdata_2024-02.parquet"
+]
+},
+{
+"time": "2024-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Apr 2024 18:22:47 GMT",
+"idx": 254,
+"snap": "tlc-0254",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-02.parquet"
+]
+},
+{
+"time": "2024-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Apr 2024 18:22:42 GMT",
+"idx": 255,
+"snap": "tlc-0255",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-02.parquet"
+]
+},
+{
+"time": "2024-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 22 May 2024 19:27:43 GMT",
+"idx": 256,
+"snap": "tlc-0256",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-03.parquet"
+]
+},
+{
+"time": "2024-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 22 May 2024 19:27:44 GMT",
+"idx": 257,
+"snap": "tlc-0257",
+"put_paths": [
+"trip-data/green_tripdata_2024-03.parquet"
+]
+},
+{
+"time": "2024-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 22 May 2024 19:27:47 GMT",
+"idx": 258,
+"snap": "tlc-0258",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-03.parquet"
+]
+},
+{
+"time": "2024-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 22 May 2024 19:27:43 GMT",
+"idx": 259,
+"snap": "tlc-0259",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-03.parquet"
+]
+},
+{
+"time": "2024-06-12T09:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"dataset": "fhv",
+"month": "2020-12",
+"note": "SYNTHETIC late-arriving correction: full file republished",
+"idx": 260,
+"snap": "tlc-0260",
+"put_paths": [
+"trip-data/fhv_tripdata_2020-12.parquet"
+]
+},
+{
+"time": "2024-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 20 Jun 2024 20:30:14 GMT",
+"idx": 261,
+"snap": "tlc-0261",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-04.parquet"
+]
+},
+{
+"time": "2024-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 20 Jun 2024 20:30:18 GMT",
+"idx": 262,
+"snap": "tlc-0262",
+"put_paths": [
+"trip-data/green_tripdata_2024-04.parquet"
+]
+},
+{
+"time": "2024-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 20 Jun 2024 20:30:16 GMT",
+"idx": 263,
+"snap": "tlc-0263",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-04.parquet"
+]
+},
+{
+"time": "2024-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 20 Jun 2024 20:30:13 GMT",
+"idx": 264,
+"snap": "tlc-0264",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-04.parquet"
+]
+},
+{
+"time": "2024-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jul 2024 18:35:19 GMT",
+"idx": 265,
+"snap": "tlc-0265",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-05.parquet"
+]
+},
+{
+"time": "2024-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jul 2024 18:35:20 GMT",
+"idx": 266,
+"snap": "tlc-0266",
+"put_paths": [
+"trip-data/green_tripdata_2024-05.parquet"
+]
+},
+{
+"time": "2024-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jul 2024 18:35:23 GMT",
+"idx": 267,
+"snap": "tlc-0267",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-05.parquet"
+]
+},
+{
+"time": "2024-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 18 Jul 2024 18:35:19 GMT",
+"idx": 268,
+"snap": "tlc-0268",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-05.parquet"
+]
+},
+{
+"time": "2024-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 20 Aug 2024 14:01:55 GMT",
+"idx": 269,
+"snap": "tlc-0269",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-06.parquet"
+]
+},
+{
+"time": "2024-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 20 Aug 2024 14:01:56 GMT",
+"idx": 270,
+"snap": "tlc-0270",
+"put_paths": [
+"trip-data/green_tripdata_2024-06.parquet"
+]
+},
+{
+"time": "2024-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 20 Aug 2024 14:01:59 GMT",
+"idx": 271,
+"snap": "tlc-0271",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-06.parquet"
+]
+},
+{
+"time": "2024-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 20 Aug 2024 14:01:56 GMT",
+"idx": 272,
+"snap": "tlc-0272",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-06.parquet"
+]
+},
+{
+"time": "2024-09-01T09:00:00Z",
+"kind": "rename_dir",
+"synthetic": true,
+"remove": [
+"misc/taxi_zone_lookup.csv"
+],
+"note": "SYNTHETIC directory rename misc/ -> reference/",
+"idx": 273,
+"snap": "tlc-0273",
+"put_paths": [
+"reference/taxi_zone_lookup.csv"
+]
+},
+{
+"time": "2024-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Sep 2024 13:53:34 GMT",
+"idx": 274,
+"snap": "tlc-0274",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-07.parquet"
+]
+},
+{
+"time": "2024-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Sep 2024 13:53:39 GMT",
+"idx": 275,
+"snap": "tlc-0275",
+"put_paths": [
+"trip-data/green_tripdata_2024-07.parquet"
+]
+},
+{
+"time": "2024-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Sep 2024 13:53:37 GMT",
+"idx": 276,
+"snap": "tlc-0276",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-07.parquet"
+]
+},
+{
+"time": "2024-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Sep 2024 13:53:34 GMT",
+"idx": 277,
+"snap": "tlc-0277",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-07.parquet"
+]
+},
+{
+"time": "2024-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Oct 2024 18:45:26 GMT",
+"idx": 278,
+"snap": "tlc-0278",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-08.parquet"
+]
+},
+{
+"time": "2024-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Oct 2024 18:45:27 GMT",
+"idx": 279,
+"snap": "tlc-0279",
+"put_paths": [
+"trip-data/green_tripdata_2024-08.parquet"
+]
+},
+{
+"time": "2024-10-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Oct 2024 18:45:31 GMT",
+"idx": 280,
+"snap": "tlc-0280",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-08.parquet"
+]
+},
+{
+"time": "2024-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Oct 2024 18:45:26 GMT",
+"idx": 281,
+"snap": "tlc-0281",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-08.parquet"
+]
+},
+{
+"time": "2024-11-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 20 Nov 2024 21:37:39 GMT",
+"idx": 282,
+"snap": "tlc-0282",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-09.parquet"
+]
+},
+{
+"time": "2024-11-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 20 Nov 2024 21:37:40 GMT",
+"idx": 283,
+"snap": "tlc-0283",
+"put_paths": [
+"trip-data/green_tripdata_2024-09.parquet"
+]
+},
+{
+"time": "2024-11-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 20 Nov 2024 21:37:39 GMT",
+"idx": 284,
+"snap": "tlc-0284",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-09.parquet"
+]
+},
+{
+"time": "2024-11-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 20 Nov 2024 21:37:39 GMT",
+"idx": 285,
+"snap": "tlc-0285",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-09.parquet"
+]
+},
+{
+"time": "2024-12-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Dec 2024 21:21:21 GMT",
+"idx": 286,
+"snap": "tlc-0286",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-10.parquet"
+]
+},
+{
+"time": "2024-12-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Dec 2024 21:21:22 GMT",
+"idx": 287,
+"snap": "tlc-0287",
+"put_paths": [
+"trip-data/green_tripdata_2024-10.parquet"
+]
+},
+{
+"time": "2024-12-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Dec 2024 21:21:27 GMT",
+"idx": 288,
+"snap": "tlc-0288",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-10.parquet"
+]
+},
+{
+"time": "2024-12-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 18 Dec 2024 21:21:21 GMT",
+"idx": 289,
+"snap": "tlc-0289",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-10.parquet"
+]
+},
+{
+"time": "2025-01-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Jan 2025 20:03:41 GMT",
+"idx": 290,
+"snap": "tlc-0290",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-11.parquet"
+]
+},
+{
+"time": "2025-01-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Jan 2025 20:03:42 GMT",
+"idx": 291,
+"snap": "tlc-0291",
+"put_paths": [
+"trip-data/green_tripdata_2024-11.parquet"
+]
+},
+{
+"time": "2025-01-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Jan 2025 20:03:41 GMT",
+"idx": 292,
+"snap": "tlc-0292",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-11.parquet"
+]
+},
+{
+"time": "2025-01-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 17 Jan 2025 20:03:41 GMT",
+"idx": 293,
+"snap": "tlc-0293",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-11.parquet"
+]
+},
+{
+"time": "2025-02-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2024-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 21 Feb 2025 21:29:11 GMT",
+"idx": 294,
+"snap": "tlc-0294",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-12.parquet"
+]
+},
+{
+"time": "2025-02-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2024-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 21 Feb 2025 21:29:12 GMT",
+"idx": 295,
+"snap": "tlc-0295",
+"put_paths": [
+"trip-data/green_tripdata_2024-12.parquet"
+]
+},
+{
+"time": "2025-02-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2024-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 21 Feb 2025 21:29:11 GMT",
+"idx": 296,
+"snap": "tlc-0296",
+"put_paths": [
+"trip-data/fhv_tripdata_2024-12.parquet"
+]
+},
+{
+"time": "2025-02-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2024-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 21 Feb 2025 21:29:11 GMT",
+"idx": 297,
+"snap": "tlc-0297",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2024-12.parquet"
+]
+},
+{
+"time": "2025-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:31:58 GMT",
+"idx": 298,
+"snap": "tlc-0298",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-01.parquet"
+]
+},
+{
+"time": "2025-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:31:56 GMT",
+"idx": 299,
+"snap": "tlc-0299",
+"put_paths": [
+"trip-data/green_tripdata_2025-01.parquet"
+]
+},
+{
+"time": "2025-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:31:51 GMT",
+"idx": 300,
+"snap": "tlc-0300",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-01.parquet"
+]
+},
+{
+"time": "2025-03-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:30:36 GMT",
+"idx": 301,
+"snap": "tlc-0301",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-01.parquet"
+]
+},
+{
+"time": "2025-04-02T07:59:38Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20250402075938",
+"idx": 302,
+"snap": "tlc-0302",
+"put_paths": [
+"docs/data_dictionary_trip_records_yellow.txt"
+]
+},
+{
+"time": "2025-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:16:58 GMT",
+"idx": 303,
+"snap": "tlc-0303",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-02.parquet"
+]
+},
+{
+"time": "2025-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:16:58 GMT",
+"idx": 304,
+"snap": "tlc-0304",
+"put_paths": [
+"trip-data/green_tripdata_2025-02.parquet"
+]
+},
+{
+"time": "2025-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:16:54 GMT",
+"idx": 305,
+"snap": "tlc-0305",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-02.parquet"
+]
+},
+{
+"time": "2025-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 23 Apr 2025 16:15:47 GMT",
+"idx": 306,
+"snap": "tlc-0306",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-02.parquet"
+]
+},
+{
+"time": "2025-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 21 May 2025 15:29:16 GMT",
+"idx": 307,
+"snap": "tlc-0307",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-03.parquet"
+]
+},
+{
+"time": "2025-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 21 May 2025 15:29:16 GMT",
+"idx": 308,
+"snap": "tlc-0308",
+"put_paths": [
+"trip-data/green_tripdata_2025-03.parquet"
+]
+},
+{
+"time": "2025-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 21 May 2025 15:29:11 GMT",
+"idx": 309,
+"snap": "tlc-0309",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-03.parquet"
+]
+},
+{
+"time": "2025-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 21 May 2025 15:28:05 GMT",
+"idx": 310,
+"snap": "tlc-0310",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-03.parquet"
+]
+},
+{
+"time": "2025-05-16T18:55:15Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20250516185515",
+"idx": 311,
+"snap": "tlc-0311",
+"put_paths": [
+"docs/data_dictionary_trip_records_hvfhs.txt"
+]
+},
+{
+"time": "2025-05-21T02:59:55Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20250521025955",
+"idx": 312,
+"snap": "tlc-0312",
+"put_paths": [
+"docs/data_dictionary_trip_records_green.txt"
+]
+},
+{
+"time": "2025-05-21T02:59:55Z",
+"kind": "doc",
+"synthetic": false,
+"note": "wayback:20250521025955",
+"idx": 313,
+"snap": "tlc-0313",
+"put_paths": [
+"docs/data_dictionary_trip_records_fhv.txt"
+]
+},
+{
+"time": "2025-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jun 2025 14:52:12 GMT",
+"idx": 314,
+"snap": "tlc-0314",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-04.parquet"
+]
+},
+{
+"time": "2025-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jun 2025 14:52:11 GMT",
+"idx": 315,
+"snap": "tlc-0315",
+"put_paths": [
+"trip-data/green_tripdata_2025-04.parquet"
+]
+},
+{
+"time": "2025-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jun 2025 14:52:07 GMT",
+"idx": 316,
+"snap": "tlc-0316",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-04.parquet"
+]
+},
+{
+"time": "2025-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jun 2025 14:51:04 GMT",
+"idx": 317,
+"snap": "tlc-0317",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-04.parquet"
+]
+},
+{
+"time": "2025-07-01T09:00:00Z",
+"kind": "correct",
+"synthetic": true,
+"dataset": "yellow",
+"month": "2020-05",
+"note": "SYNTHETIC late-arriving correction: full file republished",
+"idx": 318,
+"snap": "tlc-0318",
+"put_paths": [
+"trip-data/yellow_tripdata_2020-05.parquet"
+]
+},
+{
+"time": "2025-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jun 2025 15:52:37 GMT",
+"idx": 319,
+"snap": "tlc-0319",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-05.parquet"
+]
+},
+{
+"time": "2025-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jun 2025 15:52:36 GMT",
+"idx": 320,
+"snap": "tlc-0320",
+"put_paths": [
+"trip-data/green_tripdata_2025-05.parquet"
+]
+},
+{
+"time": "2025-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 25 Jul 2025 14:01:14 GMT",
+"idx": 321,
+"snap": "tlc-0321",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-05.parquet"
+]
+},
+{
+"time": "2025-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Jun 2025 15:51:27 GMT",
+"idx": 322,
+"snap": "tlc-0322",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-05.parquet"
+]
+},
+{
+"time": "2025-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 25 Jul 2025 14:02:45 GMT",
+"idx": 323,
+"snap": "tlc-0323",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-06.parquet"
+]
+},
+{
+"time": "2025-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 25 Jul 2025 14:02:45 GMT",
+"idx": 324,
+"snap": "tlc-0324",
+"put_paths": [
+"trip-data/green_tripdata_2025-06.parquet"
+]
+},
+{
+"time": "2025-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Aug 2025 16:21:40 GMT",
+"idx": 325,
+"snap": "tlc-0325",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-06.parquet"
+]
+},
+{
+"time": "2025-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 25 Jul 2025 14:01:33 GMT",
+"idx": 326,
+"snap": "tlc-0326",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-06.parquet"
+]
+},
+{
+"time": "2025-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Aug 2025 16:23:37 GMT",
+"idx": 327,
+"snap": "tlc-0327",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-07.parquet"
+]
+},
+{
+"time": "2025-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Aug 2025 16:23:37 GMT",
+"idx": 328,
+"snap": "tlc-0328",
+"put_paths": [
+"trip-data/green_tripdata_2025-07.parquet"
+]
+},
+{
+"time": "2025-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 24 Sep 2025 14:38:44 GMT",
+"idx": 329,
+"snap": "tlc-0329",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-07.parquet"
+]
+},
+{
+"time": "2025-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 Aug 2025 16:21:54 GMT",
+"idx": 330,
+"snap": "tlc-0330",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-07.parquet"
+]
+},
+{
+"time": "2025-10-01T09:00:00Z",
+"kind": "repartition",
+"synthetic": true,
+"remove": [
+"trip-data/yellow_tripdata_2024-06.parquet"
+],
+"dataset": "yellow",
+"month": "2024-06",
+"note": "SYNTHETIC re-partition into two part files (identical rows)",
+"idx": 331,
+"snap": "tlc-0331",
+"put_paths": [
+"trip-data/yellow_tripdata_2024-06/part-0000.parquet",
+"trip-data/yellow_tripdata_2024-06/part-0001.parquet"
+]
+},
+{
+"time": "2025-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 24 Sep 2025 14:18:54 GMT",
+"idx": 332,
+"snap": "tlc-0332",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-08.parquet"
+]
+},
+{
+"time": "2025-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 24 Sep 2025 14:18:53 GMT",
+"idx": 333,
+"snap": "tlc-0333",
+"put_paths": [
+"trip-data/green_tripdata_2025-08.parquet"
+]
+},
+{
+"time": "2025-10-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 23 Oct 2025 15:56:45 GMT",
+"idx": 334,
+"snap": "tlc-0334",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-08.parquet"
+]
+},
+{
+"time": "2025-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 24 Sep 2025 14:17:30 GMT",
+"idx": 335,
+"snap": "tlc-0335",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-08.parquet"
+]
+},
+{
+"time": "2025-11-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 23 Oct 2025 15:54:14 GMT",
+"idx": 336,
+"snap": "tlc-0336",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-09.parquet"
+]
+},
+{
+"time": "2025-11-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 23 Oct 2025 15:54:13 GMT",
+"idx": 337,
+"snap": "tlc-0337",
+"put_paths": [
+"trip-data/green_tripdata_2025-09.parquet"
+]
+},
+{
+"time": "2025-11-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 25 Nov 2025 17:07:12 GMT",
+"idx": 338,
+"snap": "tlc-0338",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-09.parquet"
+]
+},
+{
+"time": "2025-11-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-09",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 23 Oct 2025 15:54:44 GMT",
+"idx": 339,
+"snap": "tlc-0339",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-09.parquet"
+]
+},
+{
+"time": "2025-12-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 25 Nov 2025 15:27:50 GMT",
+"idx": 340,
+"snap": "tlc-0340",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-10.parquet"
+]
+},
+{
+"time": "2025-12-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 25 Nov 2025 15:27:50 GMT",
+"idx": 341,
+"snap": "tlc-0341",
+"put_paths": [
+"trip-data/green_tripdata_2025-10.parquet"
+]
+},
+{
+"time": "2025-12-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Dec 2025 15:51:53 GMT",
+"idx": 342,
+"snap": "tlc-0342",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-10.parquet"
+]
+},
+{
+"time": "2025-12-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-10",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 25 Nov 2025 15:26:03 GMT",
+"idx": 343,
+"snap": "tlc-0343",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-10.parquet"
+]
+},
+{
+"time": "2026-01-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Dec 2025 15:51:29 GMT",
+"idx": 344,
+"snap": "tlc-0344",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-11.parquet"
+]
+},
+{
+"time": "2026-01-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Dec 2025 15:51:28 GMT",
+"idx": 345,
+"snap": "tlc-0345",
+"put_paths": [
+"trip-data/green_tripdata_2025-11.parquet"
+]
+},
+{
+"time": "2026-01-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 24 Feb 2026 17:45:37 GMT",
+"idx": 346,
+"snap": "tlc-0346",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-11.parquet"
+]
+},
+{
+"time": "2026-01-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-11",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 19 Dec 2025 15:50:06 GMT",
+"idx": 347,
+"snap": "tlc-0347",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-11.parquet"
+]
+},
+{
+"time": "2026-02-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2025-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:55:54 GMT",
+"idx": 348,
+"snap": "tlc-0348",
+"put_paths": [
+"trip-data/yellow_tripdata_2025-12.parquet"
+]
+},
+{
+"time": "2026-02-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2025-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:55:53 GMT",
+"idx": 349,
+"snap": "tlc-0349",
+"put_paths": [
+"trip-data/green_tripdata_2025-12.parquet"
+]
+},
+{
+"time": "2026-02-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2025-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 24 Feb 2026 17:46:00 GMT",
+"idx": 350,
+"snap": "tlc-0350",
+"put_paths": [
+"trip-data/fhv_tripdata_2025-12.parquet"
+]
+},
+{
+"time": "2026-02-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2025-12",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 24 Feb 2026 16:30:37 GMT",
+"idx": 351,
+"snap": "tlc-0351",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2025-12.parquet"
+]
+},
+{
+"time": "2026-03-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:46:09 GMT",
+"idx": 352,
+"snap": "tlc-0352",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-01.parquet"
+]
+},
+{
+"time": "2026-03-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:46:09 GMT",
+"idx": 353,
+"snap": "tlc-0353",
+"put_paths": [
+"trip-data/green_tripdata_2026-01.parquet"
+]
+},
+{
+"time": "2026-03-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2026-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:45:59 GMT",
+"idx": 354,
+"snap": "tlc-0354",
+"put_paths": [
+"trip-data/fhv_tripdata_2026-01.parquet"
+]
+},
+{
+"time": "2026-03-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-01",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 24 Feb 2026 17:46:21 GMT",
+"idx": 355,
+"snap": "tlc-0355",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-01.parquet"
+]
+},
+{
+"time": "2026-04-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:46:31 GMT",
+"idx": 356,
+"snap": "tlc-0356",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-02.parquet"
+]
+},
+{
+"time": "2026-04-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:46:30 GMT",
+"idx": 357,
+"snap": "tlc-0357",
+"put_paths": [
+"trip-data/green_tripdata_2026-02.parquet"
+]
+},
+{
+"time": "2026-04-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2026-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 28 Apr 2026 18:50:11 GMT",
+"idx": 358,
+"snap": "tlc-0358",
+"put_paths": [
+"trip-data/fhv_tripdata_2026-02.parquet"
+]
+},
+{
+"time": "2026-04-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-02",
+"note": "nominal release (month+2, 15th); origin Last-Modified Wed, 25 Mar 2026 15:46:41 GMT",
+"idx": 359,
+"snap": "tlc-0359",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-02.parquet"
+]
+},
+{
+"time": "2026-05-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 28 Apr 2026 18:56:26 GMT",
+"idx": 360,
+"snap": "tlc-0360",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-03.parquet"
+]
+},
+{
+"time": "2026-05-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 28 Apr 2026 18:56:27 GMT",
+"idx": 361,
+"snap": "tlc-0361",
+"put_paths": [
+"trip-data/green_tripdata_2026-03.parquet"
+]
+},
+{
+"time": "2026-05-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2026-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 May 2026 14:34:30 GMT",
+"idx": 362,
+"snap": "tlc-0362",
+"put_paths": [
+"trip-data/fhv_tripdata_2026-03.parquet"
+]
+},
+{
+"time": "2026-05-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-03",
+"note": "nominal release (month+2, 15th); origin Last-Modified Tue, 28 Apr 2026 18:50:11 GMT",
+"idx": 363,
+"snap": "tlc-0363",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-03.parquet"
+]
+},
+{
+"time": "2026-06-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 05 Jun 2026 20:44:34 GMT",
+"idx": 364,
+"snap": "tlc-0364",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-04.parquet"
+]
+},
+{
+"time": "2026-06-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 May 2026 14:34:32 GMT",
+"idx": 365,
+"snap": "tlc-0365",
+"put_paths": [
+"trip-data/green_tripdata_2026-04.parquet"
+]
+},
+{
+"time": "2026-06-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2026-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 26 Jun 2026 21:07:20 GMT",
+"idx": 366,
+"snap": "tlc-0366",
+"put_paths": [
+"trip-data/fhv_tripdata_2026-04.parquet"
+]
+},
+{
+"time": "2026-06-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-04",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 21 May 2026 14:34:30 GMT",
+"idx": 367,
+"snap": "tlc-0367",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-04.parquet"
+]
+},
+{
+"time": "2026-07-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 26 Jun 2026 21:07:20 GMT",
+"idx": 368,
+"snap": "tlc-0368",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-05.parquet"
+]
+},
+{
+"time": "2026-07-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 26 Jun 2026 21:07:21 GMT",
+"idx": 369,
+"snap": "tlc-0369",
+"put_paths": [
+"trip-data/green_tripdata_2026-05.parquet"
+]
+},
+{
+"time": "2026-07-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2026-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 18:34:43 GMT",
+"idx": 370,
+"snap": "tlc-0370",
+"put_paths": [
+"trip-data/fhv_tripdata_2026-05.parquet"
+]
+},
+{
+"time": "2026-07-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-05",
+"note": "nominal release (month+2, 15th); origin Last-Modified Fri, 26 Jun 2026 21:07:20 GMT",
+"idx": 371,
+"snap": "tlc-0371",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-05.parquet"
+]
+},
+{
+"time": "2026-08-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 18:34:43 GMT",
+"idx": 372,
+"snap": "tlc-0372",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-06.parquet"
+]
+},
+{
+"time": "2026-08-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 18:34:44 GMT",
+"idx": 373,
+"snap": "tlc-0373",
+"put_paths": [
+"trip-data/green_tripdata_2026-06.parquet"
+]
+},
+{
+"time": "2026-08-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2026-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 18:58:54 GMT",
+"idx": 374,
+"snap": "tlc-0374",
+"put_paths": [
+"trip-data/fhv_tripdata_2026-06.parquet"
+]
+},
+{
+"time": "2026-08-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-06",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 14:43:53 GMT",
+"idx": 375,
+"snap": "tlc-0375",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-06.parquet"
+]
+},
+{
+"time": "2026-09-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 21:03:03 GMT",
+"idx": 376,
+"snap": "tlc-0376",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-07.parquet"
+]
+},
+{
+"time": "2026-09-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 14:43:55 GMT",
+"idx": 377,
+"snap": "tlc-0377",
+"put_paths": [
+"trip-data/green_tripdata_2026-07.parquet"
+]
+},
+{
+"time": "2026-09-15T12:02:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhv",
+"month": "2026-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 01 Oct 2026 13:38:15 GMT",
+"idx": 378,
+"snap": "tlc-0378",
+"put_paths": [
+"trip-data/fhv_tripdata_2026-07.parquet"
+]
+},
+{
+"time": "2026-09-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-07",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 17 Sep 2026 14:43:53 GMT",
+"idx": 379,
+"snap": "tlc-0379",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-07.parquet"
+]
+},
+{
+"time": "2026-10-15T12:00:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "yellow",
+"month": "2026-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 01 Oct 2026 13:38:15 GMT",
+"idx": 380,
+"snap": "tlc-0380",
+"put_paths": [
+"trip-data/yellow_tripdata_2026-08.parquet"
+]
+},
+{
+"time": "2026-10-15T12:01:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "green",
+"month": "2026-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 01 Oct 2026 13:38:16 GMT",
+"idx": 381,
+"snap": "tlc-0381",
+"put_paths": [
+"trip-data/green_tripdata_2026-08.parquet"
+]
+},
+{
+"time": "2026-10-15T12:03:00Z",
+"kind": "arrive",
+"synthetic": false,
+"dataset": "fhvhv",
+"month": "2026-08",
+"note": "nominal release (month+2, 15th); origin Last-Modified Thu, 01 Oct 2026 13:38:15 GMT",
+"idx": 382,
+"snap": "tlc-0382",
+"put_paths": [
+"trip-data/fhvhv_tripdata_2026-08.parquet"
+]
+}
+]
+}

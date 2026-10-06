@@ -1,0 +1,7 @@
+# cross-model stage, queue A (gpt-oss:20b on 11621 / GPU 0). s0 first; queue XB starts after s0.
+python -B -m esm.scripts.heldout_s0 --facts esm_data_xmodel/sub_X120.json --workers 4
+python -B -m esm.scripts.heldout_s0 --facts esm_data_xmodel/sub_X120.json --workers 4
+python -B -m esm.scripts.run_sim --kind heldout --policies NEVER --schedules every --workers 4
+python -B -m esm.scripts.run_sim --kind heldout --policies ESM-norepair --schedules every --workers 4 --save-every 10
+python -B -m esm.scripts.run_sim --kind heldout --policies DETECT-anchor-hier --schedules every --workers 4
+python -B -m esm.scripts.run_sim --kind heldout --policies LLMDIFF --schedules every --workers 4 --save-every 10

@@ -1,0 +1,1 @@
+python -B -m esm.scripts.run_sim --kind dlsyn_bb --policies DETECT-anchor-hier --schedules every --facts esm_data_datalake\dlsyn_bb\sub_SYNK.json --workers 2 --q27 11596

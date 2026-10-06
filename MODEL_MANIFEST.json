@@ -1,0 +1,10 @@
+{
+  "note": "Ollama manifest digests read from the local model store at release time (2026-10-06). The manifest files were last modified before the first run that used each model and were not modified afterwards, so these are the builds that served the runs on the main workstation. The remote 9B server (second machine) was not checked. Ollama version at release time: 0.33.3 (the version during the runs was not recorded).",
+  "common_request_settings": {"temperature": 0, "reasoning_effort": "none (Qwen thinking off)", "context_length": 16384, "max_tool_calls_per_derivation": 12},
+  "models": [
+    {"tag": "qwen3.6:27b", "backend": "ollama", "manifest_sha256": "bcbdbd4bcf86f2c4a56cd1698fb31f9434f7dd99752f71b636c750aaa67a49a5", "quantization": "Q4_K_M", "parameters": "27.3B", "pulled": "2026-10-02", "roles": "deriver, judge, verifier, certificates, LLMDIFF judge, task agents"},
+    {"tag": "qwen3.5:9b", "backend": "ollama", "manifest_sha256": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7", "pulled": "2026-03-11", "roles": "dev-set deriver, 9B arms"},
+    {"tag": "gpt-oss:20b", "backend": "ollama", "manifest_sha256": "17052f91a42e97930aa6e28a6c6c06a983e6a58dbb00434885a0cf5313e376f7", "pulled": "2026-10-05", "roles": "second-model weak arm (reasoning_effort=medium, judge max_tokens 4000)"},
+    {"tag": "nvidia/nemotron-3-super-120b-a12b", "backend": "NVIDIA NIM, integrate.api.nvidia.com (OpenAI-compatible)", "dates": "2026-10-06", "roles": "second model family, every role (reasoning left on; judge max_tokens 4000)"}
+  ]
+}

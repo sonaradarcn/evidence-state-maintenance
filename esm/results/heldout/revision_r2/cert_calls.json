@@ -1,0 +1,1861 @@
+{
+"per_fact": {
+"black:T1:0|certv0h": {
+"calls": 7,
+"tokens": 4040
+},
+"black:T1:0|certzs": {
+"calls": 1,
+"tokens": 1182
+},
+"black:T1:n11|certv0h": {
+"calls": 2,
+"tokens": 2317
+},
+"black:T1:n11|certzs": {
+"calls": 1,
+"tokens": 566
+},
+"black:T1:n38|certv0h": {
+"calls": 7,
+"tokens": 3986
+},
+"black:T1:n38|certzs": {
+"calls": 1,
+"tokens": 801
+},
+"black:T1:n9|certv0h": {
+"calls": 7,
+"tokens": 4326
+},
+"black:T1:n9|certzs": {
+"calls": 1,
+"tokens": 520
+},
+"black:T2:10|certv0h": {
+"calls": 4,
+"tokens": 3167
+},
+"black:T2:10|certzs": {
+"calls": 1,
+"tokens": 866
+},
+"black:T3:n12|certv0h": {
+"calls": 6,
+"tokens": 3775
+},
+"black:T3:n12|certzs": {
+"calls": 1,
+"tokens": 1127
+},
+"black:T3:n19|certv0h": {
+"calls": 4,
+"tokens": 2052
+},
+"black:T3:n19|certzs": {
+"calls": 1,
+"tokens": 956
+},
+"black:T3:n21|certv0h": {
+"calls": 7,
+"tokens": 5292
+},
+"black:T3:n21|certzs": {
+"calls": 1,
+"tokens": 776
+},
+"black:T3:n23|certv0h": {
+"calls": 7,
+"tokens": 3764
+},
+"black:T3:n23|certzs": {
+"calls": 1,
+"tokens": 867
+},
+"black:T3:n28|certv0h": {
+"calls": 7,
+"tokens": 4444
+},
+"black:T3:n28|certzs": {
+"calls": 1,
+"tokens": 740
+},
+"black:T3:n3|certv0h": {
+"calls": 7,
+"tokens": 3154
+},
+"black:T3:n3|certzs": {
+"calls": 1,
+"tokens": 528
+},
+"black:T3:n37|certv0h": {
+"calls": 7,
+"tokens": 3292
+},
+"black:T3:n37|certzs": {
+"calls": 1,
+"tokens": 1185
+},
+"black:T5:24|certv0h": {
+"calls": 11,
+"tokens": 6009
+},
+"black:T5:24|certzs": {
+"calls": 1,
+"tokens": 579
+},
+"black:T5:28|certv0h": {
+"calls": 12,
+"tokens": 3579
+},
+"black:T5:28|certzs": {
+"calls": 1,
+"tokens": 477
+},
+"black:T6:30|certv0h": {
+"calls": 12,
+"tokens": 8776
+},
+"black:T6:30|certzs": {
+"calls": 1,
+"tokens": 1601
+},
+"black:T7:n29|certv0h": {
+"calls": 4,
+"tokens": 3868
+},
+"black:T7:n29|certzs": {
+"calls": 1,
+"tokens": 1004
+},
+"boltons:B:Stats:aff3689b|certzs": {
+"calls": 1,
+"tokens": 1349
+},
+"boltons:B:asciify:n-caf8abd6|certzs": {
+"calls": 1,
+"tokens": 1668
+},
+"boltons:B:bytes2human:ce8b12df|certzs": {
+"calls": 1,
+"tokens": 1503
+},
+"boltons:B:clamp:n-f1cc87fa|certzs": {
+"calls": 1,
+"tokens": 1000
+},
+"boltons:B:floor:n-82bd952c|certzs": {
+"calls": 1,
+"tokens": 932
+},
+"boltons:T1:0|certv0h": {
+"calls": 7,
+"tokens": 3295
+},
+"boltons:T1:0|certzs": {
+"calls": 1,
+"tokens": 520
+},
+"boltons:T1:n2|certv0h": {
+"calls": 7,
+"tokens": 3409
+},
+"boltons:T1:n2|certzs": {
+"calls": 1,
+"tokens": 879
+},
+"boltons:T1:n3|certv0h": {
+"calls": 13,
+"tokens": 4189
+},
+"boltons:T1:n3|certzs": {
+"calls": 1,
+"tokens": 733
+},
+"boltons:T2:n26|certv0h": {
+"calls": 7,
+"tokens": 3328
+},
+"boltons:T2:n26|certzs": {
+"calls": 1,
+"tokens": 1222
+},
+"boltons:T2:n34|certv0h": {
+"calls": 7,
+"tokens": 3710
+},
+"boltons:T2:n34|certzs": {
+"calls": 1,
+"tokens": 651
+},
+"boltons:T2:n35|certv0h": {
+"calls": 4,
+"tokens": 2740
+},
+"boltons:T2:n35|certzs": {
+"calls": 1,
+"tokens": 1505
+},
+"boltons:T2:n37|certv0h": {
+"calls": 4,
+"tokens": 3127
+},
+"boltons:T2:n37|certzs": {
+"calls": 1,
+"tokens": 1313
+},
+"boltons:T3:17|certv0h": {
+"calls": 5,
+"tokens": 3608
+},
+"boltons:T3:17|certzs": {
+"calls": 1,
+"tokens": 1443
+},
+"boltons:T3:n1|certv0h": {
+"calls": 11,
+"tokens": 9567
+},
+"boltons:T3:n1|certzs": {
+"calls": 1,
+"tokens": 1024
+},
+"boltons:T3:n7|certv0h": {
+"calls": 10,
+"tokens": 4733
+},
+"boltons:T3:n7|certzs": {
+"calls": 1,
+"tokens": 696
+},
+"boltons:T5:25|certv0h": {
+"calls": 7,
+"tokens": 3304
+},
+"boltons:T5:25|certzs": {
+"calls": 1,
+"tokens": 490
+},
+"boltons:T7:33|certv0h": {
+"calls": 4,
+"tokens": 2916
+},
+"boltons:T7:33|certzs": {
+"calls": 1,
+"tokens": 1372
+},
+"boltons:T7:n5|certv0h": {
+"calls": 4,
+"tokens": 2830
+},
+"boltons:T7:n5|certzs": {
+"calls": 1,
+"tokens": 1376
+},
+"httpx:T1:2|certv0h": {
+"calls": 7,
+"tokens": 4078
+},
+"httpx:T1:2|certzs": {
+"calls": 1,
+"tokens": 848
+},
+"httpx:T1:n31|certv0h": {
+"calls": 13,
+"tokens": 6377
+},
+"httpx:T1:n31|certzs": {
+"calls": 1,
+"tokens": 693
+},
+"httpx:T2:11|certv0h": {
+"calls": 12,
+"tokens": 10344
+},
+"httpx:T2:11|certzs": {
+"calls": 1,
+"tokens": 1387
+},
+"httpx:T2:6|certv0h": {
+"calls": 4,
+"tokens": 3619
+},
+"httpx:T2:6|certzs": {
+"calls": 1,
+"tokens": 1237
+},
+"httpx:T2:n14|certv0h": {
+"calls": 10,
+"tokens": 5659
+},
+"httpx:T2:n14|certzs": {
+"calls": 1,
+"tokens": 1746
+},
+"httpx:T2:n2|certv0h": {
+"calls": 7,
+"tokens": 5329
+},
+"httpx:T2:n2|certzs": {
+"calls": 1,
+"tokens": 1460
+},
+"httpx:T2:n37|certv0h": {
+"calls": 7,
+"tokens": 5990
+},
+"httpx:T2:n37|certzs": {
+"calls": 1,
+"tokens": 1282
+},
+"httpx:T3:n10|certv0h": {
+"calls": 10,
+"tokens": 10878
+},
+"httpx:T3:n10|certzs": {
+"calls": 1,
+"tokens": 906
+},
+"httpx:T3:n20|certv0h": {
+"calls": 12,
+"tokens": 5418
+},
+"httpx:T3:n20|certzs": {
+"calls": 1,
+"tokens": 594
+},
+"httpx:T3:n27|certv0h": {
+"calls": 12,
+"tokens": 7726
+},
+"httpx:T3:n27|certzs": {
+"calls": 1,
+"tokens": 1181
+},
+"httpx:T5:27|certv0h": {
+"calls": 10,
+"tokens": 6190
+},
+"httpx:T5:27|certzs": {
+"calls": 1,
+"tokens": 1290
+},
+"httpx:T7:37|certv0h": {
+"calls": 12,
+"tokens": 6946
+},
+"httpx:T7:37|certzs": {
+"calls": 1,
+"tokens": 1096
+},
+"httpx:T7:n1|certv0h": {
+"calls": 7,
+"tokens": 3850
+},
+"httpx:T7:n1|certzs": {
+"calls": 1,
+"tokens": 1090
+},
+"isort:B:check_code_string:n-be196cf0|certzs": {
+"calls": 1,
+"tokens": 4216
+},
+"isort:B:naturally:ec91a888|certzs": {
+"calls": 1,
+"tokens": 1600
+},
+"isort:B:skip_line:419f7c14|certzs": {
+"calls": 1,
+"tokens": 1822
+},
+"isort:T1:4|certv0h": {
+"calls": 2,
+"tokens": 2558
+},
+"isort:T1:4|certzs": {
+"calls": 1,
+"tokens": 767
+},
+"isort:T1:n0|certv0h": {
+"calls": 2,
+"tokens": 2570
+},
+"isort:T1:n0|certzs": {
+"calls": 1,
+"tokens": 738
+},
+"isort:T1:n21|certv0h": {
+"calls": 7,
+"tokens": 3826
+},
+"isort:T1:n21|certzs": {
+"calls": 1,
+"tokens": 831
+},
+"isort:T1:n7|certv0h": {
+"calls": 2,
+"tokens": 2480
+},
+"isort:T1:n7|certzs": {
+"calls": 1,
+"tokens": 780
+},
+"isort:T2:11|certv0h": {
+"calls": 4,
+"tokens": 2394
+},
+"isort:T2:11|certzs": {
+"calls": 1,
+"tokens": 936
+},
+"isort:T2:n1|certv0h": {
+"calls": 7,
+"tokens": 3692
+},
+"isort:T2:n1|certzs": {
+"calls": 1,
+"tokens": 1649
+},
+"isort:T2:n25|certv0h": {
+"calls": 7,
+"tokens": 3710
+},
+"isort:T2:n25|certzs": {
+"calls": 1,
+"tokens": 1518
+},
+"isort:T2:n27|certv0h": {
+"calls": 11,
+"tokens": 3990
+},
+"isort:T2:n27|certzs": {
+"calls": 1,
+"tokens": 1019
+},
+"isort:T3:n24|certv0h": {
+"calls": 11,
+"tokens": 4150
+},
+"isort:T3:n24|certzs": {
+"calls": 1,
+"tokens": 751
+},
+"isort:T3:n30|certv0h": {
+"calls": 7,
+"tokens": 2999
+},
+"isort:T3:n30|certzs": {
+"calls": 1,
+"tokens": 531
+},
+"isort:T4:20|certv0h": {
+"calls": 7,
+"tokens": 4119
+},
+"isort:T4:20|certzs": {
+"calls": 1,
+"tokens": 488
+},
+"isort:T4:21|certv0h": {
+"calls": 4,
+"tokens": 2160
+},
+"isort:T4:21|certzs": {
+"calls": 1,
+"tokens": 498
+},
+"isort:T5:n15|certv0h": {
+"calls": 12,
+"tokens": 3497
+},
+"isort:T5:n15|certzs": {
+"calls": 1,
+"tokens": 542
+},
+"isort:T7:n28|certv0h": {
+"calls": 12,
+"tokens": 5585
+},
+"isort:T7:n28|certzs": {
+"calls": 1,
+"tokens": 901
+},
+"jinja:B:DebugUndefined:n-2482807a|certzs": {
+"calls": 1,
+"tokens": 1516
+},
+"jinja:B:Undefined:n-2c83533d|certzs": {
+"calls": 1,
+"tokens": 1068
+},
+"jinja:B:Undefined:n-340a4777|certzs": {
+"calls": 1,
+"tokens": 1068
+},
+"jinja:B:do_capitalize:a178a29a|certzs": {
+"calls": 1,
+"tokens": 1252
+},
+"jinja:B:modifies_known_mutable:fe45bd2f|certzs": {
+"calls": 1,
+"tokens": 1981
+},
+"jinja:T1:n16|certv0h": {
+"calls": 7,
+"tokens": 3628
+},
+"jinja:T1:n16|certzs": {
+"calls": 1,
+"tokens": 780
+},
+"jinja:T1:n25|certv0h": {
+"calls": 2,
+"tokens": 2470
+},
+"jinja:T1:n25|certzs": {
+"calls": 1,
+"tokens": 904
+},
+"jinja:T2:n1|certv0h": {
+"calls": 7,
+"tokens": 4670
+},
+"jinja:T2:n1|certzs": {
+"calls": 1,
+"tokens": 1243
+},
+"jinja:T3:n31|certv0h": {
+"calls": 7,
+"tokens": 4640
+},
+"jinja:T3:n31|certzs": {
+"calls": 1,
+"tokens": 881
+},
+"jinja:T5:27|certv0h": {
+"calls": 7,
+"tokens": 3521
+},
+"jinja:T5:27|certzs": {
+"calls": 1,
+"tokens": 476
+},
+"jinja:T5:28|certv0h": {
+"calls": 13,
+"tokens": 5398
+},
+"jinja:T5:28|certzs": {
+"calls": 1,
+"tokens": 561
+},
+"jinja:T7:38|certv0h": {
+"calls": 7,
+"tokens": 3342
+},
+"jinja:T7:38|certzs": {
+"calls": 1,
+"tokens": 550
+},
+"jinja:T7:41|certv0h": {
+"calls": 7,
+"tokens": 4122
+},
+"jinja:T7:41|certzs": {
+"calls": 1,
+"tokens": 1230
+},
+"jinja:T7:n37|certv0h": {
+"calls": 1,
+"tokens": 1184
+},
+"jinja:T7:n37|certzs": {
+"calls": 1,
+"tokens": 618
+},
+"kombu:T2:6|certv0h": {
+"calls": 3,
+"tokens": 3264
+},
+"kombu:T2:6|certzs": {
+"calls": 1,
+"tokens": 1294
+},
+"kombu:T2:n17|certv0h": {
+"calls": 4,
+"tokens": 4519
+},
+"kombu:T2:n17|certzs": {
+"calls": 1,
+"tokens": 2370
+},
+"kombu:T2:n18|certv0h": {
+"calls": 7,
+"tokens": 3552
+},
+"kombu:T2:n18|certzs": {
+"calls": 1,
+"tokens": 1189
+},
+"kombu:T2:n27|certv0h": {
+"calls": 4,
+"tokens": 3200
+},
+"kombu:T2:n27|certzs": {
+"calls": 1,
+"tokens": 1482
+},
+"kombu:T3:13|certv0h": {
+"calls": 4,
+"tokens": 3325
+},
+"kombu:T3:13|certzs": {
+"calls": 1,
+"tokens": 1496
+},
+"kombu:T3:n1|certv0h": {
+"calls": 7,
+"tokens": 6087
+},
+"kombu:T3:n1|certzs": {
+"calls": 1,
+"tokens": 850
+},
+"kombu:T3:n11|certv0h": {
+"calls": 3,
+"tokens": 2421
+},
+"kombu:T3:n11|certzs": {
+"calls": 1,
+"tokens": 1212
+},
+"kombu:T3:n23|certv0h": {
+"calls": 6,
+"tokens": 3635
+},
+"kombu:T3:n23|certzs": {
+"calls": 1,
+"tokens": 1224
+},
+"kombu:T3:n32|certv0h": {
+"calls": 7,
+"tokens": 4100
+},
+"kombu:T3:n32|certzs": {
+"calls": 1,
+"tokens": 1029
+},
+"kombu:T3:n33|certv0h": {
+"calls": 6,
+"tokens": 3321
+},
+"kombu:T3:n33|certzs": {
+"calls": 1,
+"tokens": 1240
+},
+"kombu:T3:n34|certv0h": {
+"calls": 7,
+"tokens": 2809
+},
+"kombu:T3:n34|certzs": {
+"calls": 1,
+"tokens": 567
+},
+"kombu:T4:20|certv0h": {
+"calls": 10,
+"tokens": 8771
+},
+"kombu:T4:20|certzs": {
+"calls": 1,
+"tokens": 573
+},
+"kombu:T5:28|certv0h": {
+"calls": 7,
+"tokens": 4652
+},
+"kombu:T5:28|certzs": {
+"calls": 1,
+"tokens": 540
+},
+"kombu:T5:n30|certv0h": {
+"calls": 12,
+"tokens": 4339
+},
+"kombu:T5:n30|certzs": {
+"calls": 1,
+"tokens": 474
+},
+"kombu:T5:n9|certv0h": {
+"calls": 9,
+"tokens": 14312
+},
+"kombu:T5:n9|certzs": {
+"calls": 1,
+"tokens": 1433
+},
+"kombu:T6:35|certv0h": {
+"calls": 7,
+"tokens": 11940
+},
+"kombu:T6:35|certzs": {
+"calls": 1,
+"tokens": 2204
+},
+"kombu:T7:n7|certv0h": {
+"calls": 4,
+"tokens": 2431
+},
+"kombu:T7:n7|certzs": {
+"calls": 1,
+"tokens": 1030
+},
+"marshmallow:B:from_rfc:10238d90|certzs": {
+"calls": 1,
+"tokens": 2226
+},
+"marshmallow:B:get_class:n-55152165|certzs": {
+"calls": 1,
+"tokens": 1304
+},
+"marshmallow:B:get_fixed_timezone:n-0c78df22|certzs": {
+"calls": 1,
+"tokens": 1543
+},
+"marshmallow:B:pluck:d2d7db31|certzs": {
+"calls": 1,
+"tokens": 1090
+},
+"marshmallow:T1:n14|certv0h": {
+"calls": 7,
+"tokens": 4261
+},
+"marshmallow:T1:n14|certzs": {
+"calls": 1,
+"tokens": 1063
+},
+"marshmallow:T1:n30|certv0h": {
+"calls": 7,
+"tokens": 5213
+},
+"marshmallow:T1:n30|certzs": {
+"calls": 1,
+"tokens": 1010
+},
+"marshmallow:T1:n8|certv0h": {
+"calls": 7,
+"tokens": 3272
+},
+"marshmallow:T1:n8|certzs": {
+"calls": 1,
+"tokens": 687
+},
+"marshmallow:T2:6|certv0h": {
+"calls": 7,
+"tokens": 5674
+},
+"marshmallow:T2:6|certzs": {
+"calls": 1,
+"tokens": 1476
+},
+"marshmallow:T2:8|certv0h": {
+"calls": 7,
+"tokens": 5336
+},
+"marshmallow:T2:8|certzs": {
+"calls": 1,
+"tokens": 1490
+},
+"marshmallow:T2:n19|certv0h": {
+"calls": 7,
+"tokens": 5724
+},
+"marshmallow:T2:n19|certzs": {
+"calls": 1,
+"tokens": 1492
+},
+"marshmallow:T2:n36|certv0h": {
+"calls": 4,
+"tokens": 2680
+},
+"marshmallow:T2:n36|certzs": {
+"calls": 1,
+"tokens": 614
+},
+"marshmallow:T3:n13|certv0h": {
+"calls": 7,
+"tokens": 5198
+},
+"marshmallow:T3:n13|certzs": {
+"calls": 1,
+"tokens": 526
+},
+"marshmallow:T3:n17|certv0h": {
+"calls": 7,
+"tokens": 5789
+},
+"marshmallow:T3:n17|certzs": {
+"calls": 1,
+"tokens": 575
+},
+"marshmallow:T3:n38|certv0h": {
+"calls": 11,
+"tokens": 5887
+},
+"marshmallow:T3:n38|certzs": {
+"calls": 1,
+"tokens": 618
+},
+"marshmallow:T3:n7|certv0h": {
+"calls": 7,
+"tokens": 4905
+},
+"marshmallow:T3:n7|certzs": {
+"calls": 1,
+"tokens": 570
+},
+"marshmallow:T4:n3|certv0h": {
+"calls": 12,
+"tokens": 4911
+},
+"marshmallow:T4:n3|certzs": {
+"calls": 1,
+"tokens": 494
+},
+"marshmallow:T4:n5|certv0h": {
+"calls": 4,
+"tokens": 1957
+},
+"marshmallow:T4:n5|certzs": {
+"calls": 1,
+"tokens": 493
+},
+"marshmallow:T7:40|certv0h": {
+"calls": 7,
+"tokens": 4431
+},
+"marshmallow:T7:40|certzs": {
+"calls": 1,
+"tokens": 1012
+},
+"marshmallow:T7:41|certv0h": {
+"calls": 7,
+"tokens": 4530
+},
+"marshmallow:T7:41|certzs": {
+"calls": 1,
+"tokens": 1250
+},
+"marshmallow:T7:n20|certv0h": {
+"calls": 4,
+"tokens": 3573
+},
+"marshmallow:T7:n20|certzs": {
+"calls": 1,
+"tokens": 1256
+},
+"mkdocs:T1:0|certv0h": {
+"calls": 7,
+"tokens": 3228
+},
+"mkdocs:T1:0|certzs": {
+"calls": 1,
+"tokens": 885
+},
+"mkdocs:T1:n18|certv0h": {
+"calls": 13,
+"tokens": 5737
+},
+"mkdocs:T1:n18|certzs": {
+"calls": 1,
+"tokens": 771
+},
+"mkdocs:T2:7|certv0h": {
+"calls": 7,
+"tokens": 3048
+},
+"mkdocs:T2:7|certzs": {
+"calls": 1,
+"tokens": 1237
+},
+"mkdocs:T2:n16|certv0h": {
+"calls": 9,
+"tokens": 3937
+},
+"mkdocs:T2:n16|certzs": {
+"calls": 1,
+"tokens": 1343
+},
+"mkdocs:T2:n20|certv0h": {
+"calls": 7,
+"tokens": 4243
+},
+"mkdocs:T2:n20|certzs": {
+"calls": 1,
+"tokens": 1316
+},
+"mkdocs:T3:13|certv0h": {
+"calls": 7,
+"tokens": 2632
+},
+"mkdocs:T3:13|certzs": {
+"calls": 1,
+"tokens": 927
+},
+"mkdocs:T3:16|certv0h": {
+"calls": 11,
+"tokens": 7031
+},
+"mkdocs:T3:16|certzs": {
+"calls": 1,
+"tokens": 815
+},
+"mkdocs:T3:n21|certv0h": {
+"calls": 7,
+"tokens": 3528
+},
+"mkdocs:T3:n21|certzs": {
+"calls": 1,
+"tokens": 510
+},
+"mkdocs:T3:n22|certv0h": {
+"calls": 10,
+"tokens": 4167
+},
+"mkdocs:T3:n22|certzs": {
+"calls": 1,
+"tokens": 691
+},
+"mkdocs:T3:n3|certv0h": {
+"calls": 12,
+"tokens": 11545
+},
+"mkdocs:T3:n3|certzs": {
+"calls": 1,
+"tokens": 1359
+},
+"mkdocs:T4:n15|certv0h": {
+"calls": 7,
+"tokens": 4843
+},
+"mkdocs:T4:n15|certzs": {
+"calls": 1,
+"tokens": 494
+},
+"mkdocs:T4:n19|certv0h": {
+"calls": 7,
+"tokens": 3420
+},
+"mkdocs:T4:n19|certzs": {
+"calls": 1,
+"tokens": 501
+},
+"mkdocs:T7:39|certv0h": {
+"calls": 12,
+"tokens": 3663
+},
+"mkdocs:T7:39|certzs": {
+"calls": 1,
+"tokens": 647
+},
+"mkdocs:T7:n12|certv0h": {
+"calls": 12,
+"tokens": 4968
+},
+"mkdocs:T7:n12|certzs": {
+"calls": 1,
+"tokens": 937
+},
+"mkdocs:T7:n32|certv0h": {
+"calls": 4,
+"tokens": 1660
+},
+"mkdocs:T7:n32|certzs": {
+"calls": 1,
+"tokens": 602
+},
+"networkx:B:immediate_dominators:9a42ca08|certzs": {
+"calls": 1,
+"tokens": 1158
+},
+"networkx:B:is_k_edge_connected:e6c33c2f|certzs": {
+"calls": 1,
+"tokens": 2283
+},
+"networkx:B:karate_club_graph:n-912f2b83|certzs": {
+"calls": 1,
+"tokens": 2528
+},
+"networkx:T2:11|certv0h": {
+"calls": 7,
+"tokens": 5100
+},
+"networkx:T2:11|certzs": {
+"calls": 1,
+"tokens": 1143
+},
+"networkx:T2:n0|certv0h": {
+"calls": 4,
+"tokens": 3394
+},
+"networkx:T2:n0|certzs": {
+"calls": 1,
+"tokens": 1076
+},
+"networkx:T2:n13|certv0h": {
+"calls": 7,
+"tokens": 6625
+},
+"networkx:T2:n13|certzs": {
+"calls": 1,
+"tokens": 1611
+},
+"networkx:T2:n18|certv0h": {
+"calls": 4,
+"tokens": 3290
+},
+"networkx:T2:n18|certzs": {
+"calls": 1,
+"tokens": 1360
+},
+"networkx:T2:n23|certv0h": {
+"calls": 4,
+"tokens": 3198
+},
+"networkx:T2:n23|certzs": {
+"calls": 1,
+"tokens": 937
+},
+"networkx:T2:n24|certv0h": {
+"calls": 4,
+"tokens": 3230
+},
+"networkx:T2:n24|certzs": {
+"calls": 1,
+"tokens": 1562
+},
+"networkx:T2:n33|certv0h": {
+"calls": 4,
+"tokens": 2963
+},
+"networkx:T2:n33|certzs": {
+"calls": 1,
+"tokens": 1237
+},
+"networkx:T2:n7|certv0h": {
+"calls": 13,
+"tokens": 6500
+},
+"networkx:T2:n7|certzs": {
+"calls": 1,
+"tokens": 745
+},
+"networkx:T3:16|certv0h": {
+"calls": 7,
+"tokens": 4199
+},
+"networkx:T3:16|certzs": {
+"calls": 1,
+"tokens": 919
+},
+"networkx:T3:n16|certv0h": {
+"calls": 4,
+"tokens": 2945
+},
+"networkx:T3:n16|certzs": {
+"calls": 1,
+"tokens": 1554
+},
+"networkx:T5:n30|certv0h": {
+"calls": 7,
+"tokens": 15198
+},
+"networkx:T5:n30|certzs": {
+"calls": 1,
+"tokens": 1577
+},
+"networkx:T6:30|certv0h": {
+"calls": 7,
+"tokens": 7085
+},
+"networkx:T6:30|certzs": {
+"calls": 1,
+"tokens": 3095
+},
+"networkx:T6:31|certv0h": {
+"calls": 4,
+"tokens": 4241
+},
+"networkx:T6:31|certzs": {
+"calls": 1,
+"tokens": 2222
+},
+"poetry-core:B:distribution_name:be1acf96|certzs": {
+"calls": 1,
+"tokens": 1422
+},
+"poetry-core:B:strip_extras:dd8d90f0|certzs": {
+"calls": 1,
+"tokens": 1008
+},
+"poetry-core:B:strip_extras:n-dd8d90f0|certzs": {
+"calls": 1,
+"tokens": 1008
+},
+"poetry-core:T1:4|certv0h": {
+"calls": 7,
+"tokens": 3743
+},
+"poetry-core:T1:4|certzs": {
+"calls": 1,
+"tokens": 632
+},
+"poetry-core:T1:5|certv0h": {
+"calls": 7,
+"tokens": 5510
+},
+"poetry-core:T1:5|certzs": {
+"calls": 1,
+"tokens": 943
+},
+"poetry-core:T1:n19|certv0h": {
+"calls": 13,
+"tokens": 6515
+},
+"poetry-core:T1:n19|certzs": {
+"calls": 1,
+"tokens": 891
+},
+"poetry-core:T1:n32|certv0h": {
+"calls": 7,
+"tokens": 4655
+},
+"poetry-core:T1:n32|certzs": {
+"calls": 1,
+"tokens": 594
+},
+"poetry-core:T1:n36|certv0h": {
+"calls": 7,
+"tokens": 4750
+},
+"poetry-core:T1:n36|certzs": {
+"calls": 1,
+"tokens": 744
+},
+"poetry-core:T2:8|certv0h": {
+"calls": 4,
+"tokens": 3308
+},
+"poetry-core:T2:8|certzs": {
+"calls": 1,
+"tokens": 1610
+},
+"poetry-core:T2:n29|certv0h": {
+"calls": 7,
+"tokens": 3443
+},
+"poetry-core:T2:n29|certzs": {
+"calls": 1,
+"tokens": 1457
+},
+"poetry-core:T2:n39|certv0h": {
+"calls": 7,
+"tokens": 5662
+},
+"poetry-core:T2:n39|certzs": {
+"calls": 1,
+"tokens": 1476
+},
+"poetry-core:T3:n27|certv0h": {
+"calls": 7,
+"tokens": 3842
+},
+"poetry-core:T3:n27|certzs": {
+"calls": 1,
+"tokens": 1371
+},
+"poetry-core:T3:n30|certv0h": {
+"calls": 7,
+"tokens": 4691
+},
+"poetry-core:T3:n30|certzs": {
+"calls": 1,
+"tokens": 1097
+},
+"poetry-core:T3:n38|certv0h": {
+"calls": 3,
+"tokens": 1637
+},
+"poetry-core:T3:n38|certzs": {
+"calls": 1,
+"tokens": 701
+},
+"poetry-core:T6:31|certv0h": {
+"calls": 7,
+"tokens": 5941
+},
+"poetry-core:T6:31|certzs": {
+"calls": 1,
+"tokens": 1370
+},
+"poetry-core:T7:n13|certv0h": {
+"calls": 4,
+"tokens": 2762
+},
+"poetry-core:T7:n13|certzs": {
+"calls": 1,
+"tokens": 1376
+},
+"pygments:B:escape_html:8ceef4c7|certzs": {
+"calls": 1,
+"tokens": 759
+},
+"pygments:B:escape_html:n-6b22cf32|certzs": {
+"calls": 1,
+"tokens": 918
+},
+"pygments:B:html_doctype_matches:58467ec7|certzs": {
+"calls": 1,
+"tokens": 1640
+},
+"pygments:B:html_doctype_matches:n-c3a0c3a5|certzs": {
+"calls": 1,
+"tokens": 1530
+},
+"pygments:T1:n10|certv0h": {
+"calls": 7,
+"tokens": 3147
+},
+"pygments:T1:n10|certzs": {
+"calls": 1,
+"tokens": 744
+},
+"pygments:T1:n18|certv0h": {
+"calls": 2,
+"tokens": 2619
+},
+"pygments:T1:n18|certzs": {
+"calls": 1,
+"tokens": 740
+},
+"pygments:T1:n25|certv0h": {
+"calls": 7,
+"tokens": 3231
+},
+"pygments:T1:n25|certzs": {
+"calls": 1,
+"tokens": 817
+},
+"pygments:T4:18|certv0h": {
+"calls": 10,
+"tokens": 7374
+},
+"pygments:T4:18|certzs": {
+"calls": 1,
+"tokens": 537
+},
+"pygments:T5:27|certv0h": {
+"calls": 10,
+"tokens": 11508
+},
+"pygments:T5:27|certzs": {
+"calls": 1,
+"tokens": 691
+},
+"pygments:T5:n7|certv0h": {
+"calls": 7,
+"tokens": 8580
+},
+"pygments:T5:n7|certzs": {
+"calls": 1,
+"tokens": 658
+},
+"pygments:T6:32|certv0h": {
+"calls": 4,
+"tokens": 8201
+},
+"pygments:T6:32|certzs": {
+"calls": 1,
+"tokens": 3982
+},
+"pygments:T6:35|certv0h": {
+"calls": 4,
+"tokens": 5842
+},
+"pygments:T6:35|certzs": {
+"calls": 1,
+"tokens": 3262
+},
+"pyparsing:T2:8|certv0h": {
+"calls": 4,
+"tokens": 2961
+},
+"pyparsing:T2:8|certzs": {
+"calls": 1,
+"tokens": 970
+},
+"pyparsing:T2:9|certv0h": {
+"calls": 4,
+"tokens": 2860
+},
+"pyparsing:T2:9|certzs": {
+"calls": 1,
+"tokens": 629
+},
+"pyparsing:T2:n20|certv0h": {
+"calls": 4,
+"tokens": 3028
+},
+"pyparsing:T2:n20|certzs": {
+"calls": 1,
+"tokens": 1388
+},
+"pyparsing:T2:n24|certv0h": {
+"calls": 5,
+"tokens": 4481
+},
+"pyparsing:T2:n24|certzs": {
+"calls": 1,
+"tokens": 1553
+},
+"pyparsing:T2:n26|certv0h": {
+"calls": 7,
+"tokens": 5133
+},
+"pyparsing:T2:n26|certzs": {
+"calls": 1,
+"tokens": 1503
+},
+"pyparsing:T3:n1|certv0h": {
+"calls": 7,
+"tokens": 5269
+},
+"pyparsing:T3:n1|certzs": {
+"calls": 1,
+"tokens": 630
+},
+"pyparsing:T3:n22|certv0h": {
+"calls": 7,
+"tokens": 4762
+},
+"pyparsing:T3:n22|certzs": {
+"calls": 1,
+"tokens": 777
+},
+"pyparsing:T3:n37|certv0h": {
+"calls": 11,
+"tokens": 9372
+},
+"pyparsing:T3:n37|certzs": {
+"calls": 1,
+"tokens": 564
+},
+"pyparsing:T4:18|certv0h": {
+"calls": 7,
+"tokens": 3884
+},
+"pyparsing:T4:18|certzs": {
+"calls": 1,
+"tokens": 479
+},
+"pyparsing:T4:22|certv0h": {
+"calls": 7,
+"tokens": 3870
+},
+"pyparsing:T4:22|certzs": {
+"calls": 1,
+"tokens": 477
+},
+"pyparsing:T5:24|certv0h": {
+"calls": 1,
+"tokens": 3174
+},
+"pyparsing:T5:24|certzs": {
+"calls": 1,
+"tokens": 615
+},
+"pyparsing:T6:n36|certv0h": {
+"calls": 7,
+"tokens": 5190
+},
+"pyparsing:T6:n36|certzs": {
+"calls": 1,
+"tokens": 1379
+},
+"pyparsing:T7:n13|certv0h": {
+"calls": 7,
+"tokens": 8937
+},
+"pyparsing:T7:n13|certzs": {
+"calls": 1,
+"tokens": 1456
+},
+"rich:B:chop_cells:ebc873c0|certzs": {
+"calls": 1,
+"tokens": 1789
+},
+"rich:B:escape:7d64506b|certzs": {
+"calls": 1,
+"tokens": 1744
+},
+"rich:B:escape:n-c4cb02c0|certzs": {
+"calls": 1,
+"tokens": 1493
+},
+"rich:B:pick_unit_and_suffix:n-aa19c674|certzs": {
+"calls": 1,
+"tokens": 1119
+},
+"rich:T1:n29|certv0h": {
+"calls": 2,
+"tokens": 3049
+},
+"rich:T1:n29|certzs": {
+"calls": 1,
+"tokens": 641
+},
+"rich:T1:n31|certv0h": {
+"calls": 7,
+"tokens": 3537
+},
+"rich:T1:n31|certzs": {
+"calls": 1,
+"tokens": 683
+},
+"rich:T2:7|certv0h": {
+"calls": 12,
+"tokens": 4468
+},
+"rich:T2:7|certzs": {
+"calls": 1,
+"tokens": 917
+},
+"rich:T2:n20|certv0h": {
+"calls": 3,
+"tokens": 2450
+},
+"rich:T2:n20|certzs": {
+"calls": 1,
+"tokens": 939
+},
+"rich:T2:n5|certv0h": {
+"calls": 4,
+"tokens": 3739
+},
+"rich:T2:n5|certzs": {
+"calls": 1,
+"tokens": 1722
+},
+"rich:T3:n39|certv0h": {
+"calls": 7,
+"tokens": 3868
+},
+"rich:T3:n39|certzs": {
+"calls": 1,
+"tokens": 748
+},
+"rich:T4:n2|certv0h": {
+"calls": 7,
+"tokens": 2880
+},
+"rich:T4:n2|certzs": {
+"calls": 1,
+"tokens": 494
+},
+"rich:T5:n3|certv0h": {
+"calls": 7,
+"tokens": 3246
+},
+"rich:T5:n3|certzs": {
+"calls": 1,
+"tokens": 761
+},
+"rich:T6:34|certv0h": {
+"calls": 13,
+"tokens": 8372
+},
+"rich:T6:34|certzs": {
+"calls": 1,
+"tokens": 1954
+},
+"rich:T7:37|certv0h": {
+"calls": 9,
+"tokens": 9371
+},
+"rich:T7:37|certzs": {
+"calls": 1,
+"tokens": 1370
+},
+"rich:T7:41|certv0h": {
+"calls": 7,
+"tokens": 2772
+},
+"rich:T7:41|certzs": {
+"calls": 1,
+"tokens": 605
+},
+"rich:T7:n21|certv0h": {
+"calls": 4,
+"tokens": 2603
+},
+"rich:T7:n21|certzs": {
+"calls": 1,
+"tokens": 958
+},
+"scrapy:T1:n1|certv0h": {
+"calls": 7,
+"tokens": 3182
+},
+"scrapy:T1:n1|certzs": {
+"calls": 1,
+"tokens": 701
+},
+"scrapy:T1:n4|certv0h": {
+"calls": 7,
+"tokens": 3028
+},
+"scrapy:T1:n4|certzs": {
+"calls": 1,
+"tokens": 734
+},
+"scrapy:T2:11|certv0h": {
+"calls": 7,
+"tokens": 4409
+},
+"scrapy:T2:11|certzs": {
+"calls": 1,
+"tokens": 1297
+},
+"scrapy:T2:n19|certv0h": {
+"calls": 4,
+"tokens": 3534
+},
+"scrapy:T2:n19|certzs": {
+"calls": 1,
+"tokens": 1511
+},
+"scrapy:T3:12|certv0h": {
+"calls": 10,
+"tokens": 5859
+},
+"scrapy:T3:12|certzs": {
+"calls": 1,
+"tokens": 931
+},
+"scrapy:T3:14|certv0h": {
+"calls": 4,
+"tokens": 2479
+},
+"scrapy:T3:14|certzs": {
+"calls": 1,
+"tokens": 1008
+},
+"scrapy:T3:n10|certv0h": {
+"calls": 7,
+"tokens": 3237
+},
+"scrapy:T3:n10|certzs": {
+"calls": 1,
+"tokens": 952
+},
+"scrapy:T3:n16|certv0h": {
+"calls": 7,
+"tokens": 4239
+},
+"scrapy:T3:n16|certzs": {
+"calls": 1,
+"tokens": 967
+},
+"scrapy:T3:n7|certv0h": {
+"calls": 4,
+"tokens": 2485
+},
+"scrapy:T3:n7|certzs": {
+"calls": 1,
+"tokens": 1016
+},
+"scrapy:T4:n3|certv0h": {
+"calls": 12,
+"tokens": 7090
+},
+"scrapy:T4:n3|certzs": {
+"calls": 1,
+"tokens": 527
+},
+"scrapy:T5:n2|certv0h": {
+"calls": 7,
+"tokens": 5203
+},
+"scrapy:T5:n2|certzs": {
+"calls": 1,
+"tokens": 537
+},
+"scrapy:T6:34|certv0h": {
+"calls": 10,
+"tokens": 8459
+},
+"scrapy:T6:34|certzs": {
+"calls": 1,
+"tokens": 986
+},
+"scrapy:T7:37|certv0h": {
+"calls": 7,
+"tokens": 5911
+},
+"scrapy:T7:37|certzs": {
+"calls": 1,
+"tokens": 1241
+},
+"scrapy:T7:n9|certv0h": {
+"calls": 7,
+"tokens": 2544
+},
+"scrapy:T7:n9|certzs": {
+"calls": 1,
+"tokens": 575
+},
+"typer:T2:7|certv0h": {
+"calls": 7,
+"tokens": 6427
+},
+"typer:T2:7|certzs": {
+"calls": 1,
+"tokens": 1500
+},
+"typer:T2:8|certv0h": {
+"calls": 7,
+"tokens": 5733
+},
+"typer:T2:8|certzs": {
+"calls": 1,
+"tokens": 1309
+},
+"typer:T2:n20|certv0h": {
+"calls": 4,
+"tokens": 3957
+},
+"typer:T2:n20|certzs": {
+"calls": 1,
+"tokens": 880
+},
+"typer:T2:n37|certv0h": {
+"calls": 7,
+"tokens": 6093
+},
+"typer:T2:n37|certzs": {
+"calls": 1,
+"tokens": 879
+},
+"typer:T2:n6|certv0h": {
+"calls": 7,
+"tokens": 5733
+},
+"typer:T2:n6|certzs": {
+"calls": 1,
+"tokens": 1309
+},
+"typer:T3:17|certv0h": {
+"calls": 7,
+"tokens": 5116
+},
+"typer:T3:17|certzs": {
+"calls": 1,
+"tokens": 591
+},
+"typer:T3:n9|certv0h": {
+"calls": 7,
+"tokens": 5332
+},
+"typer:T3:n9|certzs": {
+"calls": 1,
+"tokens": 1025
+},
+"typer:T4:19|certv0h": {
+"calls": 4,
+"tokens": 3101
+},
+"typer:T4:19|certzs": {
+"calls": 1,
+"tokens": 511
+},
+"typer:T5:n1|certv0h": {
+"calls": 10,
+"tokens": 6125
+},
+"typer:T5:n1|certzs": {
+"calls": 1,
+"tokens": 538
+},
+"typer:T5:n15|certv0h": {
+"calls": 4,
+"tokens": 1741
+},
+"typer:T5:n15|certzs": {
+"calls": 1,
+"tokens": 724
+},
+"typer:T5:n26|certv0h": {
+"calls": 4,
+"tokens": 1942
+},
+"typer:T5:n26|certzs": {
+"calls": 1,
+"tokens": 879
+},
+"typer:T5:n29|certv0h": {
+"calls": 12,
+"tokens": 11653
+},
+"typer:T5:n29|certzs": {
+"calls": 1,
+"tokens": 1869
+},
+"typer:T5:n38|certv0h": {
+"calls": 13,
+"tokens": 4181
+},
+"typer:T5:n38|certzs": {
+"calls": 1,
+"tokens": 727
+},
+"typer:T6:32|certv0h": {
+"calls": 7,
+"tokens": 6835
+},
+"typer:T6:32|certzs": {
+"calls": 1,
+"tokens": 2563
+},
+"typer:T6:n2|certv0h": {
+"calls": 7,
+"tokens": 4318
+},
+"typer:T6:n2|certzs": {
+"calls": 1,
+"tokens": 1308
+},
+"typer:T6:n22|certv0h": {
+"calls": 7,
+"tokens": 6495
+},
+"typer:T6:n22|certzs": {
+"calls": 1,
+"tokens": 2326
+},
+"werkzeug:B:iter_multi_items:194e020b|certzs": {
+"calls": 1,
+"tokens": 1000
+},
+"werkzeug:B:unquote_etag:3c2bb591|certzs": {
+"calls": 1,
+"tokens": 1037
+},
+"werkzeug:B:url_unparse:n-7473d0cb|certzs": {
+"calls": 1,
+"tokens": 1652
+},
+"werkzeug:T1:n12|certv0h": {
+"calls": 7,
+"tokens": 4300
+},
+"werkzeug:T1:n12|certzs": {
+"calls": 1,
+"tokens": 565
+},
+"werkzeug:T1:n32|certv0h": {
+"calls": 7,
+"tokens": 3666
+},
+"werkzeug:T1:n32|certzs": {
+"calls": 1,
+"tokens": 692
+},
+"werkzeug:T2:n11|certv0h": {
+"calls": 7,
+"tokens": 3966
+},
+"werkzeug:T2:n11|certzs": {
+"calls": 1,
+"tokens": 764
+},
+"werkzeug:T2:n16|certv0h": {
+"calls": 6,
+"tokens": 4440
+},
+"werkzeug:T2:n16|certzs": {
+"calls": 1,
+"tokens": 2032
+},
+"werkzeug:T2:n18|certv0h": {
+"calls": 4,
+"tokens": 3838
+},
+"werkzeug:T2:n18|certzs": {
+"calls": 1,
+"tokens": 1593
+},
+"werkzeug:T2:n38|certv0h": {
+"calls": 11,
+"tokens": 5276
+},
+"werkzeug:T2:n38|certzs": {
+"calls": 1,
+"tokens": 1500
+},
+"werkzeug:T3:17|certv0h": {
+"calls": 7,
+"tokens": 4763
+},
+"werkzeug:T3:17|certzs": {
+"calls": 1,
+"tokens": 641
+},
+"werkzeug:T4:21|certv0h": {
+"calls": 7,
+"tokens": 3765
+},
+"werkzeug:T4:21|certzs": {
+"calls": 1,
+"tokens": 487
+},
+"werkzeug:T5:24|certv0h": {
+"calls": 13,
+"tokens": 4442
+},
+"werkzeug:T5:24|certzs": {
+"calls": 1,
+"tokens": 939
+},
+"werkzeug:T5:28|certv0h": {
+"calls": 7,
+"tokens": 3439
+},
+"werkzeug:T5:28|certzs": {
+"calls": 1,
+"tokens": 473
+},
+"werkzeug:T7:n14|certv0h": {
+"calls": 13,
+"tokens": 5375
+},
+"werkzeug:T7:n14|certzs": {
+"calls": 1,
+"tokens": 634
+},
+"werkzeug:T7:n36|certv0h": {
+"calls": 7,
+"tokens": 3624
+},
+"werkzeug:T7:n36|certzs": {
+"calls": 1,
+"tokens": 736
+},
+"werkzeug:T7:n7|certv0h": {
+"calls": 1,
+"tokens": 1240
+},
+"werkzeug:T7:n7|certzs": {
+"calls": 1,
+"tokens": 613
+}
+},
+"mismatch": []
+}

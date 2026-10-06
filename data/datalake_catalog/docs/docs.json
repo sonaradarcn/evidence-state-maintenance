@@ -1,0 +1,244 @@
+[
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_yellow.txt",
+  "sha256": "9ccaa8eccffd6e04794ab5cc80ab7d12ad1bc0f6958c89603db5828099a268c8",
+  "size": 2157,
+  "arrival": "2019-08-08T09:55:54Z",
+  "source": "wayback:20190808095554",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_yellow.txt",
+  "sha256": "dac9f1dc28115d9880300c7594b660a59aa0f2c46654546d00659477b361baf9",
+  "size": 2399,
+  "arrival": "2022-07-07T15:04:54Z",
+  "source": "wayback:20220707150454",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_yellow.txt",
+  "sha256": "f49a4c664cb21343166ed8f7e28ffc0a9e5b0cd97817b3e6086abab44ef7aa1b",
+  "size": 2506,
+  "arrival": "2025-04-02T07:59:38Z",
+  "source": "wayback:20250402075938",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_green.txt",
+  "sha256": "fb1e2dd92ed939a37f2f64caac70d87f7e5dd4b1c03bf84ee7dc1fc788820779",
+  "size": 2429,
+  "arrival": "2019-08-08T09:55:55Z",
+  "source": "wayback:20190808095555",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_green.txt",
+  "sha256": "45f27b7a41f89d67746ad97e5222b6458fe626ae12667a33bcde923c211510ea",
+  "size": 2627,
+  "arrival": "2025-05-21T02:59:55Z",
+  "source": "wayback:20250521025955",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_fhv.txt",
+  "sha256": "6727bd67dac6cfa24b8836d50ddc6799c0dddeedb4e10b579a1cc5489ce98450",
+  "size": 1510,
+  "arrival": "2019-08-08T09:55:57Z",
+  "source": "wayback:20190808095557",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_fhv.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_fhv.txt",
+  "sha256": "8d7e9b44340b2adf413ad34b4c61debacef1fdcd863218cd659ae9eb909df6de",
+  "size": 1818,
+  "arrival": "2025-05-21T02:59:55Z",
+  "source": "wayback:20250521025955",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_fhv.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_hvfhs.txt",
+  "sha256": "a8c15dc3ce9010d0d6390fd0a4ddad2a1f0dca6b0272cc49d3ac29ff6fe8df52",
+  "size": 2230,
+  "arrival": "2019-10-04T10:13:52Z",
+  "source": "wayback:20191004101352",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_hvfhs.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_hvfhs.txt",
+  "sha256": "400322d4af99887e3de974152d907d8513e5c725b753279e1fbc1e296e941872",
+  "size": 2890,
+  "arrival": "2022-12-06T17:25:52Z",
+  "source": "wayback:20221206172552",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_hvfhs.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "docs/data_dictionary_trip_records_hvfhs.txt",
+  "sha256": "994db7c022da9c2c41eba0f08570840196482669486acb7ab21ef66fec842f4b",
+  "size": 2917,
+  "arrival": "2025-05-16T18:55:15Z",
+  "source": "wayback:20250516185515",
+  "url": "https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_hvfhs.pdf",
+  "real": true
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "misc/taxi_zone_lookup.csv",
+  "sha256": "598bfdd5170dcd8b9cfb5ec7f8dc283552e1b79cf0bcf3b7a0463fec1bfef115",
+  "size": 12322,
+  "arrival": "2018-01-01T00:00:00Z",
+  "source": "wayback:20200904194253 (s3 nyc-tlc misc/taxi+_zone_lookup.csv)",
+  "url": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv",
+  "real": true,
+  "note": "earliest available version; present before the lake window starts"
+ },
+ {
+  "lake": "tlc",
+  "logical_path": "misc/taxi_zone_lookup.csv",
+  "sha256": "1a99e105092230f8620f301edcca7f80d3080642ff404d28ed957d3fa222c8ed",
+  "size": 12331,
+  "arrival": "2024-02-22T21:33:00Z",
+  "source": "origin:last-modified",
+  "url": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv",
+  "real": true
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "5344d9dba1d1072410e6e8591d92647b7d2b2638e768c5b397e4d831daf911b8",
+  "size": 6929,
+  "arrival": "2016-04-23T16:58:39Z",
+  "source": "wayback:20160423165839",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "adf9e2703a6c09138e23c5e820f9ca76d189ba46b321b16ff75b74ec3277646d",
+  "size": 7184,
+  "arrival": "2017-06-30T07:36:37Z",
+  "source": "wayback:20170630073637",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "3225a79e60762cfaf321f832e6446d4c7ddc5a8c3658ec85f9baf02e96919e9a",
+  "size": 7758,
+  "arrival": "2018-02-02T09:43:12Z",
+  "source": "wayback:20180202094312",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "60b0d55514167695b38363c3b1dbd1fcca69b4eb2c1a8526b6d2d9cda8b17174",
+  "size": 10438,
+  "arrival": "2019-01-23T17:41:49Z",
+  "source": "wayback:20190123174149",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "5f93760dcc5560a1e92d47e47fcbedbedc71bd440df2b709dd4f06ae989149c0",
+  "size": 6928,
+  "arrival": "2020-01-04T16:53:44Z",
+  "source": "wayback:20200104165344",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "6ba8543712517d34fc1e405a68b7bc2258b4285b8c87e3920ea97fca4f272a38",
+  "size": 6928,
+  "arrival": "2021-01-03T07:12:50Z",
+  "source": "wayback:20210103071250",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "e4c0371c113f59e656ce01033828cb8db23f04f437a11de635ea8edc3370c995",
+  "size": 6758,
+  "arrival": "2022-01-12T02:36:48Z",
+  "source": "wayback:20220112023648",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "5cbaf05808d53b7b3c5a10d760abf084a645bbe31e7650e57fbd9023432f0916",
+  "size": 3805,
+  "arrival": "2023-01-30T00:12:03Z",
+  "source": "wayback:20230130001203",
+  "url": "https://www.backblaze.com/b2/hard-drive-test-data.html",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "2ca7c79f993f5f2fd42c912d02e0e0cecb8a497f06babf946dd7f5dffa7563f6",
+  "size": 14387,
+  "arrival": "2024-01-07T05:41:35Z",
+  "source": "wayback:20240107054135",
+  "url": "https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "4b02492ac43f662e135a201c5a7849783b41544a66fad34984d7068b4dbb6233",
+  "size": 11385,
+  "arrival": "2025-01-07T18:10:21Z",
+  "source": "wayback:20250107181021",
+  "url": "https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ },
+ {
+  "lake": "bb",
+  "logical_path": "docs/hard-drive-test-data.txt",
+  "sha256": "96e615532e942b25273afb8dbcb367775bd33106fcd499291963e2014380c604",
+  "size": 15330,
+  "arrival": "2026-01-01T13:43:21Z",
+  "source": "wayback:20260101134321",
+  "url": "https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data",
+  "real": true,
+  "note": "visible text of the Backblaze 'Hard Drive Data and Stats' page"
+ }
+]

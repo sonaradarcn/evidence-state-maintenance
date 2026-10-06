@@ -1,0 +1,3 @@
+python -B -m esm.scripts.run_sim --kind dlsyn_tlc --policies DETECT-anchor-hier --schedules every --facts esm_data_datalake\dlsyn_tlc\sub_SYN.json --workers 2 --q27 11596
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair --schedules every20 --facts esm_data_datalake\dl_tlc\sub_S.json --workers 2 --q27 11596
+python -B -m esm.scripts.run_sim --kind dl_tlc --policies ESM-norepair --schedules bursty --facts esm_data_datalake\dl_tlc\sub_S.json --workers 2 --q27 11596

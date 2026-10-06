@@ -1,0 +1,6 @@
+# H150: certificates, shared-grid real-cost baselines (every50), every-commit real TTL / CERT-ZS / LLMDIFF, ablations
+python -B -W ignore -m esm.scripts.heldout_certs --facts esm_data_heldout\sub_H150.json --kinds certzs,certv0h --workers 4 --q27 11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies TTL100,TTL200,CERT-ZS,LLMDIFF,CERT-v0 --schedules every --facts esm_data_heldout\sub_H150.json --workers 3 --q27 11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies ESM-norepair-noanchor,ESM-norepair-trunc,ESM-norepair-unsurefresh,ESM,ESM-verify --schedules every --facts esm_data_heldout\sub_H150.json --workers 5 --q27 11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies CERT-v0 --schedules every --facts esm_data_heldout\sub_H150.json --workers 5 --q27 11595,11596,11595,11596
+python -B -W ignore -m esm.scripts.run_sim --kind heldout --policies DETECT-p7a,ESM-norepair-n2 --schedules every --facts esm_data_heldout\sub_H150.json --workers 5 --q27 11595,11596,11595,11596
