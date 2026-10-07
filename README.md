@@ -3,7 +3,8 @@
 Code, benchmarks and result records for
 
 > **Maintaining Agent-Derived Knowledge under Environment Drift: An Evidence-State Approach for Persistent LLM Agents**
-> [Authors to be added]. Submitted to *Expert Systems with Applications*.
+> Junfei Yi, Yuxiang Wang, Chengyu Ma (Department of Computer Science, The University of Manchester).
+> Submitted to *Expert Systems with Applications*.
 
 ESM keeps facts that an LLM agent derived from a changing environment valid: it replays the recorded tool calls
 behind a fact in a drift-robust form, reuses the fact while this evidence state is unchanged, and otherwise lets an
@@ -76,12 +77,11 @@ itself is the bottleneck, and on facts so cheap to derive that an agent without 
 ## Citation
 
 ```bibtex
-@article{esm2026,
-  title   = {Maintaining Agent-Derived Knowledge under Environment Drift: An Evidence-State Approach for Persistent LLM Agents},
-  author  = {Authors to be added},
-  journal = {Expert Systems with Applications},
-  note    = {Submitted},
-  year    = {2026}
+@misc{yi2026esm,
+  title  = {Maintaining Agent-Derived Knowledge under Environment Drift: An Evidence-State Approach for Persistent LLM Agents},
+  author = {Yi, Junfei and Wang, Yuxiang and Ma, Chengyu},
+  note   = {Manuscript submitted for publication},
+  year   = {2026}
 }
 ```
 
