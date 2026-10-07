@@ -12,6 +12,13 @@ serves a wrong answer on 5.8 % of reads, against 21.5 % for blind reuse.
 
 ![ESM overview](docs/overview.png)
 
+A fact is derived once and stored with its anchored queries and evidence state. At each later read the queries are
+replayed without an LLM; only a changed state reaches the LLM judge, and its verdict is memoised.
+
+![The steps in detail](docs/mechanism_detail.png)
+
+The steps in detail: anchoring, replay and gate, focused delta and judge, actions and memoisation.
+
 ## Contents
 
 ```
