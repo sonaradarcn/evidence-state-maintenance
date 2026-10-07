@@ -86,4 +86,3 @@ itself is the bottleneck, and on facts so cheap to derive that an agent without 
 ## License and acknowledgements
 
 Code and documentation: MIT (`LICENSE`). Derived data keeps the terms of its sources (`DATA_LICENSES.md`).
-Parts of the code and documentation were written with the help of LLM coding assistants and reviewed by the authors.
