@@ -75,7 +75,7 @@ itself is the bottleneck, and on facts so cheap to derive that an agent without 
 ## Citation
 
 ```bibtex
-@misc{yi2026esm,
+@misc{esm,
   title  = {Maintaining Agent-Derived Knowledge under Environment Drift: An Evidence-State Approach for Persistent LLM Agents},
   author = {Junfei Yi and Yuxiang Wang and Chengyu Ma},
   note   = {Manuscript submitted for publication},
