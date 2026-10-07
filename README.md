@@ -79,7 +79,7 @@ itself is the bottleneck, and on facts so cheap to derive that an agent without 
 ```bibtex
 @misc{yi2026esm,
   title  = {Maintaining Agent-Derived Knowledge under Environment Drift: An Evidence-State Approach for Persistent LLM Agents},
-  author = {Yi, Junfei and Wang, Yuxiang and Ma, Chengyu},
+  author = {Junfei Yi and Yuxiang Wang and Chengyu Ma},
   note   = {Manuscript submitted for publication},
   year   = {2026}
 }
